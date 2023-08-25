@@ -29,7 +29,7 @@ git --version
 CRIAR UM NOVO REPOSITÓRIO:
 git init
 
-DEIXAR UM ARQUIVO EM ESPERA PARA COMMIT:
+DEIXAR UM ARQUIVO EM PREPARO PARA COMMIT (é necessário antes do commit):
 git add 'nome do arquivo'
 
 DAR COMMIT EM UM ARQUIVO:
