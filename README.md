@@ -6,9 +6,9 @@ Aqui vou adicionar algumas notas e dicas, quem quiser utilizar como um manual ou
 SUMÁRIO
 1. Dicas
 2. Git Bash
-   2.1 Códigos
+   2.1. Códigos
 
-1.
+1. Dicas
 -Aconselho a utilizar apenas o VSCode ao invés do GitBash;
 
 -Vídeos para auxilio no GitHub: SOBRE GITBASH - https://www.youtube.com/watch?v=UBAX-13g8OM ;
@@ -25,9 +25,7 @@ SUMÁRIO
 
 
 2. GitBash
-2.1
-
-2.1
+2.1. Códigos
 ENTRAR NO VISUAL CODE:
 .code(espaço)
 
