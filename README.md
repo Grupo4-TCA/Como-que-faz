@@ -9,6 +9,9 @@ SUMÁRIO
    2.1 Definições
    2.2 Códigos
 
+1.
+Para copiar e colar no Git Bash pode ser '(insert)' ou '(ctrl), (shift), (V)';
+
 2.
 2.1
 Git bash é instalado assim que se instala o Git na máquina, nele contém uma área de códigos (como um terminal). Após add qualquer código é necessário dar um 'Enter' e não é necessário o famoso ';'.
