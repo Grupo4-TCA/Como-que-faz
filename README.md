@@ -10,6 +10,7 @@ SUMÁRIO
    2.2 Códigos
 
 1.
+Vídeo para auxilio: https://www.youtube.com/watch?v=UBAX-13g8OM
 Para copiar e colar no Git Bash pode ser '(insert)' ou '(ctrl), (shift), (V)';
 
 2.
