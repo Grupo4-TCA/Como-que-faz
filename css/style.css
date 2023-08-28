@@ -8,6 +8,7 @@
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
     font-size:25px;
+    position: fixed;
 }
     .col-8{
     width: 937px;
@@ -80,6 +81,32 @@ font-size: 25px;
 transform: translate(46px, 19px);
 }
   
-.headerfav div.textfav{
+.headerfav .textfav{
 transform: translate(102px, -20px);
+}
+.imagem-bem-estar{
+margin: 30px 0px 0px 30px;
+background-image: url(../imagens/bem-estar.jpeg);
+width: 252px;
+height: 256px;
+border-radius: 10px;
+box-sizing: border-box;
+
+    &:hover .bem-estar{
+    width: 252px;
+    height: 256px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.415);
+}
+}
+.bem-estar{
+font-size: 25px;
+font-family: "Heavitas", sans-serif;
+text-align:center;
+color:white;
+opacity:0;
+transition: opacity .2s fade;
+padding-top: 103px
 }
