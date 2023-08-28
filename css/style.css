@@ -78,10 +78,28 @@ font-size: 25px;
  
 } 
 .headerfav img.fav{
-transform: translate(46px, 19px);
+transform: translate(46px, 15px);
 }
   
 .headerfav .textfav{
+transform: translate(102px, -20px);
+}
+.headerajustes{
+    width: 937px;
+    height: 72px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 8px;
+    background-color: #ececec;
+    box-sizing: border-box;
+    font-family: "Heavitas", sans-serif;
+    color: #9e5fef;
+    line-height: normal;
+    font-size: 25px;    
+} 
+.headerajustes img.ajustes{
+transform: translate(46px, 15px);
+}      
+.headerajustes .textajustes{
 transform: translate(102px, -20px);
 }
 .imagem-bem-estar{
@@ -108,5 +126,5 @@ text-align:center;
 color:white;
 opacity:0;
 transition: opacity .2s fade;
-padding-top: 103px
+padding-top: 105px;
 }
