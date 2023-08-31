@@ -103,12 +103,13 @@ transform: translate(46px, 15px);
 transform: translate(102px, -20px);
 }
 .imagem-bem-estar{
-margin: 30px 0px 0px 30px;
+margin: -50px 0px 0px 30px;
 background-image: url(../imagens/bem-estar.jpeg);
 width: 252px;
 height: 256px;
 border-radius: 10px;
 box-sizing: border-box;
+display: inline-block;
 
     &:hover .bem-estar{
     width: 252px;
@@ -128,3 +129,30 @@ opacity:0;
 transition: opacity .2s fade;
 padding-top: 105px;
 }
+.imagem-peixe{
+    margin: 30px 0px 0px 30px;
+    background-image: url(../imagens/peixe.jpeg);
+    width: 500px;
+    height: 277px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+        &:hover .post-peixe{
+        width: 500px;
+        height: 277px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.415);
+    }
+    }
+    .post-peixe{
+    font-size: 25px;
+    font-family: "Heavitas", sans-serif;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s fade;
+    padding: 120px;
+    }
