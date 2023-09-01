@@ -182,3 +182,85 @@ padding-top: 100px;
     transition: opacity .2s fade;
     padding: 100px;
 }
+.perfil-cima{
+    width: 937px;
+    height: 474px;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+img.fundo-foto-perfil{
+    transform: translate(37px, -68px);
+}
+img.foto-perfil{
+    transform: translate(-94px, -69px);
+}
+h1.User1234{
+    font-family: "Heavitas", sans-serif;
+    color: #cb218c;
+    font-size: 22px;
+    transform: translate(57px,-62px);
+}
+h2.Nome1234{
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+    transform: translate(57px,-67px);
+}
+h5.dicas-caseiras{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    transform: translate(57px,-64px);
+}
+h5.blog{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    transform: translate(57px,-60px);
+}
+.vis-seguidores{
+    width: 166px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 8px;
+    transform: translate(46px,-60px);
+}
+.vis-seguindo{
+    width: 166px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(46px,-60px);
+    margin-top: 8px;
+}
+button.editar-perfil{
+    width: 144px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #4d16bb;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    transform: translate(490px,-29px);
+}
