@@ -1,4 +1,4 @@
-function opcao(evt, cityName) {
+function opcao(evt, nomeopcao) {
     // Declare all variables
     var i, tabcontent, tablinks;
   
@@ -15,6 +15,6 @@ function opcao(evt, cityName) {
     }
   
     // Show the current tab, and add an "active" class to the link that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(nomeopcao).style.display = "block";
     evt.currentTarget.className += " active";
   }
