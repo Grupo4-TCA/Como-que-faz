@@ -3,50 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/testestyle.css">
+    <script type="text/javascript" src="./js/script.js"></script>
     <title>Conta</title>
 </head>
 <body>
-    <div class="row">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active" id="list-perfil-list" data-bs-toggle="list" href="#list-perfil" role="tab" aria-controls="list-perfil">Perfil</a>
-            <a class="list-group-item list-group-item-action" id="list-notificacoes-list" data-bs-toggle="list" href="#list-notificacoes" role="tab" aria-controls="list-notificacoes">Notificações</a>
-            <a class="list-group-item list-group-item-action" id="list-favoritos-list" data-bs-toggle="list" href="#list-favoritos" role="tab" aria-controls="list-favoritos">Favoritos</a>
-            <a class="list-group-item list-group-item-action" id="list-ajustes-list" data-bs-toggle="list" href="#list-ajustes" role="tab" aria-controls="list-ajustes">Ajustes</a>
-            <a class="list-group-item list-group-item-action" id="list-sair-list" data-bs-toggle="list" href="#list-sair" role="tab" aria-controls="list-sair">Sair da conta</a>
+    <div class="tab">
+        <button class="tablinks active" onclick="opcao(event, 'Perfil')">Perfil</button>
+        <button class="tablinks" onclick="opcao(event, 'Notificações')">Notificações</button>
+        <button class="tablinks" onclick="opcao(event, 'Favoritos')">Favoritos</button>
+        <button class="tablinks" onclick="opcao(event, 'Ajustes')">Ajustes</button>
+        <button class="tablinks" onclick="opcao(event, 'Sair da conta')">Sair da conta</button>
+      </div>
+      
+    <div class="tab-content">  
+      <div id="Perfil" class="tabcontent active">
+        <div class="perfil-cima">
+            <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
+            <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
+            <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil">Editar Perfil</button>
+            <h1 class="User1234">@User1234</h1>
+            <h2 class="Nome1234">Nome1234</h2>
+            <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
+            <h5 class="blog"><span style="color: #4d16bb;">Blog</span>
+                            UserDicas/blog.com.br<br>
+                            <span style="color: #4d16bb;">Site</span>
+                            UserDicas.com.br<br>
+                            <span style="color: #cb218c;">...mais</span></h5>
+            <div class="vis-seguidores">100 seguidores</div>
+            <div class="vis-seguindo">200 seguindo</div>
           </div>
-        </div>
-
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-perfil" role="tabpanel" aria-labelledby="list-perfil-list">
-                <div class="perfil-cima">
-                  <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
-                  <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
-                  <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil">Editar Perfil</button>
-                  <h1 class="User1234">@User1234</h1>
-                  <h2 class="Nome1234">Nome1234</h2>
-                  <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
-                  <h5 class="blog"><span style="color: #4d16bb;">Blog</span>
-                                  UserDicas/blog.com.br<br>
-                                  <span style="color: #4d16bb;">Site</span>
-                                  UserDicas.com.br<br>
-                                  <span style="color: #cb218c;">...mais</span></h5>
-                  <div class="vis-seguidores">100 seguidores</div>
-                  <div class="vis-seguindo">200 seguindo</div>
-                </div>
-                <div class="list-group list-group-horizontal">
-                  <div class="list-group-item-perfil active" id="list-postagens-list" data-bs-toggle="list">Postagens</div>
-                  <div class="list-group-item-perfil" id="list-rascunhos-list" data-bs-toggle="list">Rascunhos</div>
-                  <div class="list-group-item-perfil" id="list-interações-list" data-bs-toggle="list">Interações</div>
-                  </div>
-            </div>
-
-            <div class="tab-pane fade" id="list-notificacoes" role="tabpanel" aria-labelledby="list-notificacoes-list">...</div>
-
-            <div class="tab-pane fade" id="list-favoritos" role="tabpanel" aria-labelledby="list-favoritos-list">
-                <div class="headerfav"><img class="fav" src="./imagens/favoritos.svg" alt="favoritos imagem"> <div class="textfav">Favoritos</div></div>
+      </div>
+      
+      <div id="Notificações" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      
+      <div id="Favoritos" class="tabcontent">
+        <div class="headerfav"><img class="fav" src="./imagens/favoritos.svg" alt="favoritos imagem"> <div class="textfav">Favoritos</div></div>
                 <div class="imagem-bioderma">
                     <div class="post-bioderma"><img class="estrelafav" src="./imagens/estrela-fav.svg" alt="avaliação">4.3</div>
                 </div>
@@ -55,17 +50,17 @@
                 </div>
                 <div class="imagem-moça-limpando">
                     <div class="post-moça-limpando"><img class="estrelafav" src="./imagens/estrela-fav.svg" alt="avaliação">1.5</div>
-                </div>
-            </div>
-
-            <div class="tab-pane fade" id="list-ajustes" role="tabpanel" aria-labelledby="list-ajustes-list">
-                <div class="headerajustes"><img class="ajustes" src="./imagens/ajustes.svg" alt="ajustes imagem"> <div class="textajustes">Ajustes</div></div>
-            </div>
-
-            <div class="tab-pane fade" id="list-sair" role="tabpanel" aria-labelledby="list-sair-list">...</div>
-
-          </div>
         </div>
       </div>
+      
+      <div id="Ajustes" class="tabcontent">
+        <div class="headerajustes"><img class="ajustes" src="./imagens/ajustes.svg" alt="ajustes imagem"> <div class="textajustes">Ajustes</div></div>
+      </div>
+      
+      <div id="Sair da conta" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+    </div>
 </body>
 </html>

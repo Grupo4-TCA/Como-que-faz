@@ -1,35 +1,24 @@
-.row{
+* {box-sizing: border-box}
 
-    .col-4{
+.tab {
+    float: left;
     transform: translate(267px, 295px);
     width: 284px;
     height: 450px;
     padding: 2px 2px 2px 2px;
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    font-size:25px;
     position: fixed;
-}
-    .col-8{
-    width: 937px;
-    height: 1784px;
-    transform: translate(644px, 261px);
-    padding: 2px 2px 2px 2px;
-    border-radius: 14px;
-    background-color: #f9f9f9;
-    box-sizing: border-box;
-}
-}
-.list-group{
-width: 284px;
-height: 450px;
-padding-top: 2px;
-box-sizing: border-box;
-
-    .list-group-item{
-    border-style: none;
-}
-    .list-group-item-action{
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
     width: 300px;
     height: 67px;
     padding: 17px 17px 17px 17px;
@@ -39,14 +28,18 @@ box-sizing: border-box;
     text-align: left;
     line-height: normal;
     margin-bottom: 28px;
-
-}
-    .list-group-item-action:hover {
-    z-index: 1;
+    border-radius: 5px;
+    font-size:25px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
     color: grey;
-    text-decoration: none;
-}
-    .active{
+    background-color: rgba(24, 24, 24, 0.185);
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
     width: 300px;
     height: 67px;
     padding: 17px 17px 17px 17px;
@@ -58,10 +51,106 @@ box-sizing: border-box;
     text-align: left;
     line-height: normal;
     color: white;
-        &:hover{
-        color: white;
-}  
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    width: 937px;
+    height: 1784px;
+    transform: translate(644px, 261px);
+    padding: 2px 2px 2px 2px;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+  .perfil-cima{
+    width: 937px;
+    height: 474px;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
 }
+img.fundo-foto-perfil{
+    transform: translate(37px, -68px);
+}
+img.foto-perfil{
+    transform: translate(-94px, -78px);
+}
+h1.User1234{
+    font-family: "Heavitas", sans-serif;
+    color: #cb218c;
+    font-size: 22px;
+    transform: translate(57px,-89px);
+    font-weight: 500;
+}
+h2.Nome1234{
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+    transform: translate(57px,-100px);
+}
+h5.dicas-caseiras{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    transform: translate(57px,-110px);
+    font-weight: 500;
+}
+h5.blog{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    transform: translate(57px,-120px);
+    font-weight: 500;
+}
+.vis-seguidores{
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 8px;
+    transform: translate(46px,-140px);
+    font-weight: 700;
+}
+.vis-seguindo{
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(46px,-140px);
+    margin-top: 8px;
+    font-weight: 700;
+}
+button.editar-perfil{
+    width: 144px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #4d16bb;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    transform: translate(490px,-100px);
 }
 .headerfav{
 width: 937px;
@@ -82,7 +171,7 @@ transform: translate(46px, 15px);
 }
   
 .headerfav .textfav{
-transform: translate(102px, -20px);
+transform: translate(102px, -26px);
 }
 .headerajustes{
     width: 937px;
@@ -100,7 +189,7 @@ transform: translate(102px, -20px);
 transform: translate(46px, 15px);
 }      
 .headerajustes .textajustes{
-transform: translate(102px, -20px);
+transform: translate(102px, -26px);
 }
 .imagem-bioderma{
 margin: 30px 0px 0px 30px;
@@ -181,104 +270,4 @@ padding-top: 100px;
     opacity:0;
     transition: opacity .2s fade;
     padding: 100px;
-}
-.perfil-cima{
-    width: 937px;
-    height: 474px;
-    border-radius: 14px;
-    background-color: #f9f9f9;
-    box-sizing: border-box;
-}
-img.fundo-foto-perfil{
-    transform: translate(37px, -68px);
-}
-img.foto-perfil{
-    transform: translate(-94px, -69px);
-}
-h1.User1234{
-    font-family: "Heavitas", sans-serif;
-    color: #cb218c;
-    font-size: 22px;
-    transform: translate(57px,-62px);
-}
-h2.Nome1234{
-    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    font-size: 20px;
-    transform: translate(57px,-67px);
-}
-h5.dicas-caseiras{
-    font-family: "Fira Sans", sans-serif;
-    font-size: 15px;
-    transform: translate(57px,-64px);
-}
-h5.blog{
-    font-family: "Fira Sans", sans-serif;
-    font-size: 15px;
-    transform: translate(57px,-60px);
-}
-.vis-seguidores{
-    width: 166px;
-    height: 36px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 12px;
-    background-color: #ffd662;
-    box-sizing: border-box;
-    font-family: "Fira Sans", sans-serif;
-    color: #4d16bb;
-    text-align: center;
-    font-size: 18px;
-    display: inline-block;
-    margin-right: 15px;
-    margin-top: 8px;
-    transform: translate(46px,-60px);
-}
-.vis-seguindo{
-    width: 166px;
-    height: 36px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 12px;
-    background-color: #ffd662;
-    box-sizing: border-box;
-    font-family: "Fira Sans", sans-serif;
-    color: #4d16bb;
-    text-align: center;
-    font-size: 18px;
-    display: inline-block;
-    transform: translate(46px,-60px);
-    margin-top: 8px;
-}
-button.editar-perfil{
-    width: 144px;
-    height: 36px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 12px;
-    border-style: none;
-    background-color: #4d16bb;
-    box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    text-align: center;
-    line-height: normal;
-    transform: translate(490px,-29px);
-}
-div.list-group-horizontal{
-    width: 309px;
-    height: 46px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 2px;
-    background-color: #e0e0e0;
-    color:  #9e5fef;
-    box-sizing: border-box;
-    list-style: none;
-    .active{
-        width: 309px;
-        height: 46px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 2px;
-        background-color: #9e5fef;
-        box-sizing: border-box;
-    }
 }
