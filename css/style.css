@@ -271,3 +271,47 @@ padding-top: 100px;
     transition: opacity .2s fade;
     padding: 100px;
 }
+.tab-perfil {
+    overflow: hidden;
+    width: 927px;
+    height: 47px;
+    background-color: #ffffff;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab-perfil button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab-perfil button:hover {
+    color: grey;
+    background-color: rgba(24, 24, 24, 0.185);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab-perfil button.active {
+    width: 309px;
+    height: 47px;
+    padding: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+  }
+  
+  /* Style the tab content */
+  .tabcontent-perfil {
+    display: none;
+    padding: 6px 12px;
+    width: 309px;
+  height: 47px;
+  padding: 2px 2px 2px 2px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+    border-top: none;
+  }

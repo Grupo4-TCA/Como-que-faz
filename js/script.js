@@ -18,3 +18,24 @@ function opcao(evt, nomeopcao) {
     document.getElementById(nomeopcao).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  function opiniao(evt, opiniaoperfil) {
+    // Declare all variables
+    var i, tabcontentperfil, tablinksperfil;
+  
+    // Get all elements with class="tabcontent" and hide them
+    tabcontentperfil = document.getElementsByClassName("tabcontent-perfil");
+    for (i = 0; i < tabcontentperfil.length; i++) {
+      tabcontentperfil[i].style.display = "none";
+    }
+  
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinksperfil = document.getElementsByClassName("tablinks-perfil");
+    for (i = 0; i < tablinksperfil.length; i++) {
+      tablinksperfil[i].className = tablinksperfil[i].className.replace(" active", "");
+    }
+  
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(opiniaoperfil).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
