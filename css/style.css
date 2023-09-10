@@ -1,5 +1,6 @@
 * {box-sizing: border-box}
 
+/*Opções de Conta*/
 .tab {
     float: left;
     transform: translate(267px, 295px);
@@ -11,7 +12,6 @@
     position: fixed;
   }
   
-  /* Style the buttons that are used to open the tab content */
   .tab button {
     display: block;
     background-color: inherit;
@@ -32,13 +32,11 @@
     font-size:25px;
   }
   
-  /* Change background color of buttons on hover */
   .tab button:hover {
     color: grey;
     background-color: rgba(24, 24, 24, 0.185);
   }
   
-  /* Create an active/current "tab button" class */
   .tab button.active {
     width: 300px;
     height: 67px;
@@ -53,7 +51,6 @@
     color: white;
   }
   
-  /* Style the tab content */
   .tabcontent {
     float: left;
     width: 937px;
@@ -64,94 +61,9 @@
     background-color: #f9f9f9;
     box-sizing: border-box;
   }
-  .perfil-cima{
-    width: 937px;
-    height: 474px;
-    border-radius: 14px;
-    background-color: #f9f9f9;
-    box-sizing: border-box;
-}
-img.fundo-foto-perfil{
-    transform: translate(37px, -68px);
-}
-img.foto-perfil{
-    transform: translate(-94px, -78px);
-}
-h1.User1234{
-    font-family: "Heavitas", sans-serif;
-    color: #cb218c;
-    font-size: 22px;
-    transform: translate(57px,-89px);
-    font-weight: 500;
-}
-h2.Nome1234{
-    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
-    font-weight: 700;
-    color: #333333;
-    font-size: 20px;
-    transform: translate(57px,-100px);
-}
-h5.dicas-caseiras{
-    font-family: "Fira Sans", sans-serif;
-    font-size: 15px;
-    transform: translate(57px,-110px);
-    font-weight: 500;
-}
-h5.blog{
-    font-family: "Fira Sans", sans-serif;
-    font-size: 15px;
-    transform: translate(57px,-120px);
-    font-weight: 500;
-}
-.vis-seguidores{
-    width: 166px;
-    height: 36px;
-    padding: 6px 2px 2px 2px;
-    border-radius: 12px;
-    background-color: #ffd662;
-    box-sizing: border-box;
-    font-family: "Fira Sans", sans-serif;
-    color: #4d16bb;
-    text-align: center;
-    font-size: 18px;
-    display: inline-block;
-    margin-right: 15px;
-    margin-top: 8px;
-    transform: translate(46px,-140px);
-    font-weight: 700;
-}
-.vis-seguindo{
-    width: 166px;
-    height: 36px;
-    padding: 6px 2px 2px 2px;
-    border-radius: 12px;
-    background-color: #ffd662;
-    box-sizing: border-box;
-    font-family: "Fira Sans", sans-serif;
-    color: #4d16bb;
-    text-align: center;
-    font-size: 18px;
-    display: inline-block;
-    transform: translate(46px,-140px);
-    margin-top: 8px;
-    font-weight: 700;
-}
-button.editar-perfil{
-    width: 144px;
-    height: 36px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 12px;
-    border-style: none;
-    background-color: #4d16bb;
-    box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-    line-height: normal;
-    transform: translate(490px,-100px);
-}
+  /* Fim de opções de Conta*/
+
+/*Favoritos*/
 .headerfav{
 width: 937px;
 height: 72px;
@@ -163,32 +75,12 @@ font-family: "Heavitas", sans-serif;
 color: #9e5fef;
 line-height: normal;
 font-size: 25px;
-    
- 
 } 
 .headerfav img.fav{
 transform: translate(46px, 15px);
 }
   
 .headerfav .textfav{
-transform: translate(102px, -26px);
-}
-.headerajustes{
-    width: 937px;
-    height: 72px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 8px;
-    background-color: #ececec;
-    box-sizing: border-box;
-    font-family: "Heavitas", sans-serif;
-    color: #9e5fef;
-    line-height: normal;
-    font-size: 25px;    
-} 
-.headerajustes img.ajustes{
-transform: translate(46px, 15px);
-}      
-.headerajustes .textajustes{
 transform: translate(102px, -26px);
 }
 .imagem-bioderma{
@@ -271,6 +163,125 @@ padding-top: 100px;
     transition: opacity .2s fade;
     padding: 100px;
 }
+/*Fim favoritos*/
+
+/*Ajustes*/
+.headerajustes{
+    width: 937px;
+    height: 72px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 8px;
+    background-color: #ececec;
+    box-sizing: border-box;
+    font-family: "Heavitas", sans-serif;
+    color: #9e5fef;
+    line-height: normal;
+    font-size: 25px;    
+} 
+.headerajustes img.ajustes{
+transform: translate(46px, 15px);
+}      
+.headerajustes .textajustes{
+transform: translate(102px, -26px);
+}
+/*Fim Ajustes*/
+
+
+  /*Perfil*/
+  /*perfil parte de cima*/
+  .perfil-cima{
+    width: 937px;
+    height: 474px;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+img.fundo-foto-perfil{
+    transform: translate(37px, -68px);
+}
+img.foto-perfil{
+    transform: translate(-94px, -78px);
+}
+h1.User1234{
+    font-family: "Heavitas", sans-serif;
+    color: #cb218c;
+    font-size: 22px;
+    transform: translate(57px,-89px);
+    font-weight: 500;
+}
+h2.Nome1234{
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+    transform: translate(57px,-105px);
+}
+h5.dicas-caseiras{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    transform: translate(57px,-110px);
+    font-weight: 400;
+}
+h5.blog{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    transform: translate(57px,-120px);
+    font-weight: 400;
+}
+.vis-seguidores{
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 8px;
+    transform: translate(46px,-140px);
+    font-weight: 700;
+}
+.vis-seguindo{
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(46px,-140px);
+    margin-top: 8px;
+    font-weight: 700;
+}
+button.editar-perfil{
+    width: 144px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #4d16bb;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    transform: translate(490px,-100px);
+}
+
+/*perfil parte de baixo*/
+.perfil-baixo{
+    padding-top: 15px;
+}
 .tab-perfil {
     overflow: hidden;
     width: 927px;
@@ -278,8 +289,116 @@ padding-top: 100px;
     background-color: #ffffff;
   }
   
-  /* Style the buttons that are used to open the tab content */
   .tab-perfil button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 309px;
+  height: 47px;
+  padding: 2px 2px 2px 2px;
+    transition: 0.3s;
+    font-family: "Heavitas", sans-serif;
+    background-color: #e0e0e0;
+    color: #9e5fef;
+    font-size: 21px;
+  }
+  
+  .tab-perfil button:hover {
+    background-color: rgba(24, 24, 24, 0.185);
+  }
+  
+  .tab-perfil button.active {
+    width: 309px;
+    height: 46px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 2px;
+    background-color: #9e5fef;
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  .tabcontent-perfil {
+    display: none;
+    width: 309px;
+  height: 47px;
+  padding: 2px 2px 2px 2px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+    border-top: none;
+  }
+
+/*Rascunhos*/
+  .rascunhos-esqueleto{  
+    width: 926px;
+    height: 586px;
+    padding: 2px 2px 2px 2px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  .pontilhado-em-volta{
+    width: 853px;
+    height: 360px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+    border: 6px dashed #bababa;
+    background-color: rgba(242, 242, 242, 0);
+    box-sizing: border-box;
+    transform: translate(36.5px, 25px);
+  }
+  img.gato-sem-rascunhos{
+    width: 272px;
+    height: 272px;
+    opacity: 0.59;
+    box-sizing: border-box;
+    transform: translate(327px, -300px);
+  }
+  h2.sem-rascunhos{
+    width: 355px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #8c8c8c;
+  text-align: center;
+  line-height: normal;
+  transform: translate(285.5px, -365px);
+  }
+  h2.Comece-por-aqui{
+    width: 191px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #9e5fef;
+    text-align: left;
+    line-height: normal;
+    transform: translate(377.5px, -390px);
+  }
+
+  /*Postagens*/
+  .postagens-esqueleto{
+    width: 926px;
+    height: 988px;
+    padding: 2px 2px 2px 2px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  
+/*Fim de perfil*/
+
+/*opções de filtro*/
+
+  .tab-filtro {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .tab-filtro button {
     background-color: inherit;
     float: left;
     border: none;
@@ -289,29 +408,20 @@ padding-top: 100px;
     transition: 0.3s;
   }
   
-  /* Change background color of buttons on hover */
-  .tab-perfil button:hover {
-    color: grey;
-    background-color: rgba(24, 24, 24, 0.185);
+  .tab-filtro button:hover {
+    background-color: #ddd;
   }
   
-  /* Create an active/current tablink class */
-  .tab-perfil button.active {
-    width: 309px;
-    height: 47px;
-    padding: 2px 2px 2px 2px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
+  .tab-filtro button.active {
+    background-color: #ccc;
   }
   
-  /* Style the tab content */
-  .tabcontent-perfil {
+  .tabcontent-filtro {
     display: none;
     padding: 6px 12px;
-    width: 309px;
-  height: 47px;
-  padding: 2px 2px 2px 2px;
-  background-color: rgba(255, 255, 255, 0);
-  box-sizing: border-box;
+    border: 1px solid #ccc;
     border-top: none;
   }
+}
+  
+  /* Fim de opções de filtro */

@@ -20,22 +20,35 @@ function opcao(evt, nomeopcao) {
   }
 
   function opiniao(evt, opiniaoperfil) {
-    // Declare all variables
     var i, tabcontentperfil, tablinksperfil;
   
-    // Get all elements with class="tabcontent" and hide them
     tabcontentperfil = document.getElementsByClassName("tabcontent-perfil");
     for (i = 0; i < tabcontentperfil.length; i++) {
       tabcontentperfil[i].style.display = "none";
     }
   
-    // Get all elements with class="tablinks" and remove the class "active"
     tablinksperfil = document.getElementsByClassName("tablinks-perfil");
     for (i = 0; i < tablinksperfil.length; i++) {
       tablinksperfil[i].className = tablinksperfil[i].className.replace(" active", "");
     }
   
-    // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(opiniaoperfil).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  function piniquicao(evt, postagensopcao) {
+    var i, tabcontentfiltro, tablinksfiltro;
+  
+    tabcontentfiltro = document.getElementsByClassName("tabcontent-filtro");
+    for (i = 0; i < tabcontentfiltro.length; i++) {
+      tabcontentfiltro[i].style.display = "none";
+    }
+  
+    tablinksfiltro = document.getElementsByClassName("tablinks-filtro");
+    for (i = 0; i < tablinksfiltro.length; i++) {
+      tablinksfiltro[i].className = tablinksfiltro[i].className.replace(" active", "");
+    }
+  
+    document.getElementById(postagensopcao).style.display = "block";
     evt.currentTarget.className += " active";
   }
