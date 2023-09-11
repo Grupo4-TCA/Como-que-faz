@@ -10,20 +10,20 @@
 <body>
     <div class="tab">
         <button class="tablinks active" onclick="opcao(event, 'Perfil')">Perfil</button>
-        <button class="tablinks" onclick="opcao(event, 'Notificações')">Notificações</button>
+        <button class="tablinks" onclick="opcao(event, 'Notificacoes')">Notificações</button>
         <button class="tablinks" onclick="opcao(event, 'Favoritos')">Favoritos</button>
         <button class="tablinks" onclick="opcao(event, 'Ajustes')">Ajustes</button>
-        <button class="tablinks" onclick="opcao(event, 'Sair da conta')">Sair da conta</button>
+        <button class="tablinks" onclick="opcao(event, 'Sairdaconta')">Sair da conta</button>
       </div>
       
     <div class="tab-content">  
-      <div id="Perfil" class="tabcontent">
+      <div id="Perfil" class="tabcontent active">
         <div class="perfil-cima">
             <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
             <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
             <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil">Editar Perfil</button>
-            <h1 class="User1234">@User1234</h1>
-            <h2 class="Nome1234">Nome1234</h2>
+            <h1 class="User1234">Sofizinha</h1>
+            <h2 class="Nome1234">Sofia Albuquerque Lima</h2>
             <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
             <h5 class="blog"><span style="color: #4d16bb;">Blog</span>
                             UserDicas/blog.com.br<br>
@@ -42,13 +42,12 @@
           </div>
         
           <div id="Postagens" class="tabcontent-perfil">
-          <div class="postagens-esqueleto"></div>
+          <div class="postagens-esqueleto">
             <div class="tab-filtro">
-              <button class="tablinks-filtro" onclick="piniquicao(event, 'Recentes')">Recentes</button>
-              <button class="tablinks-filtro" onclick="piniquicao(event, 'Em alta')">Em alta</button>
-              <button class="tablinks-filtro" onclick="piniquicao(event, '+Rápidas')">+Rápidas</button>
+              <button class="tablinks-filtro" onclick="openTab( 'Recentes')">Recentes</button>
+              <button class="tablinks-filtro" onclick="openTab( 'Em alta')">Em alta</button>
+              <button class="tablinks-filtro" onclick="openTab( '+Rápidas')">+Rápidas</button>
               </div>
-          </div>
           <div id="Recentes" class="tabcontent-filtro">
             <h3>London</h3>
             <p>London is the capital city of England.</p>
@@ -63,7 +62,10 @@
             <h3>Tokyo</h3>
             <p>Tokyo is the capital of Japan.</p>
           </div>
+
           </div>
+          </div>
+        </div>
         
           <div id="Rascunhos" class="tabcontent-perfil">
             <div class="rascunhos-esqueleto">
@@ -81,7 +83,7 @@
             </div>
       </div>
       
-      <div id="Notificações" class="tabcontent">
+      <div id="Notificacoes" class="tabcontent">
 
         <div class="feed-not">
         <img src="imagens/notificações-icon.png" alt="">
@@ -119,7 +121,7 @@
         <div class="headerajustes"><img class="ajustes" src="./imagens/ajustes.svg" alt="ajustes imagem"> <div class="textajustes">Ajustes</div></div>
       </div>
       
-      <div id="Sair da conta" class="tabcontent">
+      <div id="Sairdaconta" class="tabcontent">
         <div class="popupsair"><img class="logosair" src="./imagens/logo completa.png" alt="logo">
         <h1 class="sairdaconta">Sair da conta?</h1>
         <p class="sair">Isso se aplicará apenas a esta conta, e você continuará conectado às suas outras contas.</p>

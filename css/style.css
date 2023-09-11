@@ -424,6 +424,7 @@ button.editar-perfil{
   /* Fim de opções de filtro */
 
   /*Sair da conta*/
+
   img.logosair{
     width: 203px;
     height: 121px;
@@ -498,14 +499,16 @@ button.editar-perfil{
     border: 4px solid;
     border-color: #4d16bb;
     background-color:#ffffff;
-    transform: translate(140px,-1140px );
     box-sizing: border-box;
-    box-align: center ;
+    position: relative;
+    
   }
+
+  
   .estampasair{
    background-image: url(../imagens/estampagato.png);
    width: 1920px;
-   height: 1080px;
-   box-sizing: border-box;
+   height: 1000px;
+    position: absolute;
   }
   /*Fim sair de conta*/
