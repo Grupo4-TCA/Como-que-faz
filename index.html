@@ -17,7 +17,7 @@
       </div>
       
     <div class="tab-content">  
-      <div id="Perfil" class="tabcontent active">
+      <div id="Perfil" class="tabcontent">
         <div class="perfil-cima">
             <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
             <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
@@ -36,7 +36,7 @@
         
         <div class="perfil-baixo">
         <div class="tab-perfil">
-          <button class="tablinks-perfil" onclick="opiniao(event, 'Postagens')">Postagens</button>
+          <button class="tablinks-perfil active" onclick="opiniao(event, 'Postagens')">Postagens</button>
           <button class="tablinks-perfil" onclick="opiniao(event, 'Rascunhos')">Rascunhos</button>
           <button class="tablinks-perfil" onclick="opiniao(event, 'Interações')">Interações</button>
           </div>
@@ -44,7 +44,7 @@
           <div id="Postagens" class="tabcontent-perfil">
           <div class="postagens-esqueleto"></div>
             <div class="tab-filtro">
-              <button class="tablinks-filtro" onclick="piniquicao(event, 'Recentes')">Mais recentes</button>
+              <button class="tablinks-filtro" onclick="piniquicao(event, 'Recentes')">Recentes</button>
               <button class="tablinks-filtro" onclick="piniquicao(event, 'Em alta')">Em alta</button>
               <button class="tablinks-filtro" onclick="piniquicao(event, '+Rápidas')">+Rápidas</button>
               </div>
@@ -91,14 +91,16 @@
           <input type="radio" name="filtro" id="mais-recente"> <label for="mais-recente"></label>
           <input type="radio" name="filtro" id="marcacoes"> <label for="marcacoes"></label>
           <input type="radio" name="filtro" id="respostas"> <label for="respostas"></label>
-          <input type="radio" name="filtro" id="comentarios"> <label for="comentarios"></label>        
-      </div>
-
+          <input type="radio" name="filtro" id="comentarios"> <label for="comentarios"></label>
       <article class="post-not">
         <h1><span>@B3u_Zuera</span>Públicou novo conteúdo</h1>
         <h1>Reifz o bolo de banana, espero que gostem amores</h1>
 
-      </article>
+      </article>        
+      </div>
+      </div>
+      </div>
+
       
       <div id="Favoritos" class="tabcontent">
         <div class="headerfav"><img class="fav" src="./imagens/favoritos.svg" alt="favoritos imagem"> <div class="textfav">Favoritos</div></div>
@@ -117,15 +119,15 @@
         <div class="headerajustes"><img class="ajustes" src="./imagens/ajustes.svg" alt="ajustes imagem"> <div class="textajustes">Ajustes</div></div>
       </div>
       
-      <div id="Sairdaconta" class="tabcontent">
+      <div id="Sair da conta" class="tabcontent">
         <div class="popupsair"><img class="logosair" src="./imagens/logo completa.png" alt="logo">
         <h1 class="sairdaconta">Sair da conta?</h1>
         <p class="sair">Isso se aplicará apenas a esta conta, e você continuará conectado às suas outras contas.</p>
-        <button class="sair">Sair</button>
-        <br></br>
+        <button class="sair">Sair</button><br>
         <button class="cancelarsair">Cancelar</button>
       </div>
       </div>
+
     </div>
 </body>
 </html>
