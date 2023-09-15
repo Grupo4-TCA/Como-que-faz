@@ -512,4 +512,50 @@ button.editar-perfil{
     position: absolute;
   }
   /*Fim sair de conta*/
-  /*teste ricardo 11/09*/
+ 
+  /*inicio categorias*/
+  .logoscatego{
+    width: 1920px;
+    height: 124px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    align-items: center;
+   
+}
+
+.user img {
+  width: 71px;
+  height: 71px;
+}
+
+.logo img {
+    width: 94px;
+    height: 94px;
+}
+
+.search img {
+  width: 62px;
+  height: 64px;
+}
+.topcs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1920px;
+  height: 61px;
+  background-color: #cb1154
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.culinaria {
+  margin-right: -370px;
+}
+
+.bem-estar {
+  margin-left: -370px;
+}
