@@ -512,15 +512,9 @@ button.editar-perfil{
     position: absolute;
   }
   /*Fim sair de conta*/
-<<<<<<< HEAD
- 
-  /*inicio categorias*/
-  .logoscatego{
-=======
   
    /*inicio categorias*/
    .logoscatego{
->>>>>>> c33268ba1365ed18090f442d7cfa205a9c076b6c
     width: 1920px;
     height: 124px;
     display: flex;
@@ -553,15 +547,28 @@ button.editar-perfil{
   background-color: #cb1154
 }
 
-a {
+a.topcs {
   text-decoration: none;
-  color: white;
-}
-
-.culinaria {
-  margin-right: -370px;
-}
-
-.bem-estar {
+  color:white;
   margin-left: -370px;
+}
+
+a.topcs1 {
+  text-decoration: none;
+  color:white;
+ 
+}
+
+a.topcs2 {
+  text-decoration: none;
+  color:white;
+  margin-left: -370px;
+
+}
+
+a.mapcategoria{
+  text-align: center;
+  width: 146px;
+  height: 26px;
+  
 }
