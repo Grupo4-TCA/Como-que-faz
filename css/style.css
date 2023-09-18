@@ -512,9 +512,15 @@ button.editar-perfil{
     position: absolute;
   }
   /*Fim sair de conta*/
+<<<<<<< HEAD
  
   /*inicio categorias*/
   .logoscatego{
+=======
+  
+   /*inicio categorias*/
+   .logoscatego{
+>>>>>>> c33268ba1365ed18090f442d7cfa205a9c076b6c
     width: 1920px;
     height: 124px;
     display: flex;
