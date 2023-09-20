@@ -116,4 +116,7 @@
         line-height: normal;
         transform: translate(177px,-205px);
     }
+    .por{
+        transform: translate(200px, -200px);
+    }
 }
