@@ -37,15 +37,11 @@ document.getElementsByClassName("tablinks")[0].classList.add("active");
 
   //botao de filtro
   function selecionarFiltro(botao) {
-    // Obtém todos os botões de filtro
     let botoes = document.querySelectorAll(".botao-filtro");
 
-    // Remove a classe "active" de todos os botões de filtro
     for (let i = 0; i < botoes.length; i++) {
         botoes[i].classList.remove("active");
     }
-
-    // Define o botão clicado como ativo
     botao.classList.add("active");
 }
 

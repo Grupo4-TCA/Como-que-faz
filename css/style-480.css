@@ -2,4 +2,118 @@
     .conteudo-dispositivo.desktop{
         display: none;
     }
+    .gato-esticado{
+        transform: translate(-30px,-10px);
+        width: 410px;
+        height: 80px;
+    }
+    .imagem-perfil-mob{
+        width: 90px;
+        height: 90px;
+        transform: translate(30px, -55px);
+    }
+    h1.User1234{
+        font-family: "Heavitas", sans-serif;
+        color: #cb218c;
+        font-size: 16px;
+        transform: translate(140px,-120px);
+        font-weight: 500;
+    }
+    h2.Nome1234{
+        font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+        font-weight: 600;
+        color: #333333;
+        font-size: 15px;
+        transform: translate(140px,-135px);
+    }
+    .segui-mob{
+        font-family:  "Fira Sans", sans-serif;
+        color: #333333;
+        text-align: center;
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .segui{
+        margin-bottom: -18px;
+    }
+    .primeiro-segui{
+        transform: translate(-150px, -124px);
+    }
+    .segundo-segui{
+        transform: translate(-39px, -172px);
+    }
+    .terceiro-segui{
+        transform: translate(64px, -222px);
+    }
+    button.editar-perfil{
+        width: 340px;
+        height: 30px;
+        padding: 2px 2px 2px 2px;
+        border-radius: 10px;
+        border-style: none;
+        background-color: #4d16bb;
+        box-sizing: border-box;
+        font-family: "Heavitas", sans-serif;
+        color: #ffffff;
+        text-align: center;
+        line-height: normal;
+        transform: translate(20px, -220px);
+        font-size: 12px;
+    }
+    .perfil-baixo{
+        width: 410px;
+        height: 1000px;
+        padding: 2px 2px 2px 2px;
+        background-color: #e8e8e8;
+        box-sizing: border-box;
+        transform: translate(-10px, -190px);
+    }
+    .post-perfil{
+        width: 360px;
+        height: 200px;
+        transform: translate(20px,0px);
+        padding: 2px 2px 2px 2px;
+        border-radius: 9px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+    }
+    img.pudim-vegano{
+        height: 200px;
+        margin: -2px;
+    }
+    .dots{
+        width: 25px;
+        height: 25px;
+        transform: translate(180px, -165px);
+    }
+    h3.culi{
+        box-sizing: border-box;
+        font-family: "Fira Sans", sans-serif;
+        color: #cb1154;
+        text-align: center;
+        line-height: normal;
+        font-style: bold;
+        font-size: 15px;
+        font-weight: 500;
+        transform: translate(75px, -185px);
+    }
+    h2.pudim{
+        box-sizing: border-box;
+        font-family: "Heavitas", sans-serif;
+        color: #484848;
+        text-align: center;
+        line-height: normal;
+        font-size: 18px;
+        font-weight: 500;
+        transform: translate(75px,-195px);
+    }
+    h4.itens{
+        font-size: 12px;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: #4d16bb;
+        text-align: left;
+        line-height: normal;
+        transform: translate(177px,-205px);
+    }
 }
