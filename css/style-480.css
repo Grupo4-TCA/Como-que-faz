@@ -4,7 +4,7 @@
     }
     .gato-esticado{
         transform: translate(-30px,-10px);
-        width: 410px;
+        width: 450px;
         height: 80px;
     }
     .imagem-perfil-mob{
@@ -16,7 +16,7 @@
         font-family: "Heavitas", sans-serif;
         color: #cb218c;
         font-size: 16px;
-        transform: translate(140px,-120px);
+        transform: translate(140px,-115px);
         font-weight: 500;
     }
     h2.Nome1234{
@@ -24,7 +24,7 @@
         font-weight: 600;
         color: #333333;
         font-size: 15px;
-        transform: translate(140px,-135px);
+        transform: translate(140px,-130px);
     }
     .segui-mob{
         font-family:  "Fira Sans", sans-serif;
@@ -105,7 +105,7 @@
         line-height: normal;
         font-size: 18px;
         font-weight: 500;
-        transform: translate(75px,-195px);
+        transform: translate(75px,-197px);
     }
     h4.itens{
         font-size: 12px;
