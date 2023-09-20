@@ -35,31 +35,25 @@ document.getElementsByClassName("tablinks")[0].classList.add("active");
     evt.currentTarget.className += " active";
   }
 
-  
-  //funcao da tabela entro de perfil
-  function openTab(tabName) {
-    var i;
-    var tabcontent = document.getElementsByClassName("tabcontent-filtro");
-    var tablinks = document.getElementsByClassName("tablinks-filtro");
-  
-    // Esconda todos os conteúdos das abas
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
+  //botao de filtro
+  function selecionarFiltro(botao) {
+    // Obtém todos os botões de filtro
+    let botoes = document.querySelectorAll(".botao-filtro");
+
+    // Remove a classe "active" de todos os botões de filtro
+    for (let i = 0; i < botoes.length; i++) {
+        botoes[i].classList.remove("active");
     }
-  
-    // Remova a classe "active" de todos os botões das abas
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].classList.remove("active");
+
+    // Define o botão clicado como ativo
+    botao.classList.add("active");
+}
+
+  //icon-heart-interações
+  function mudarcor(e){
+    if(e.className == "azul"){
+    e.className = "vermelho";
+    }else{
+    e.className = "azul";
     }
-  
-    // Exiba o conteúdo da aba selecionada
-    document.getElementById(tabName).style.display = "block";
-  
-    // Adicione a classe "active" ao botão da aba selecionada
-    event.currentTarget.classList.add("active");
-  }
-  
-  // Exiba a primeira aba como ativa por padrão
-  document.getElementById("Recentes").style.display = "block";
-  document.getElementsByClassName("tablinks-filtro")[0].classList.add("active");
-  
+    }

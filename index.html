@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-480.css">
     <script type="text/javascript" src="./js/script.js"></script>
-    <title>Conta</title>
 </head>
 <body>
+
+  <section class="dispositivo-desktop">
     <div class="tab">
         <button class="tablinks active" onclick="opcao(event, 'Perfil')">Perfil</button>
         <button class="tablinks" onclick="opcao(event, 'Notificacoes')">Notificações</button>
@@ -25,11 +27,12 @@
             <h1 class="User1234">Sofizinha</h1>
             <h2 class="Nome1234">Sofia Albuquerque Lima</h2>
             <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
-            <h5 class="blog"><span style="color: #4d16bb;">Blog</span>
-                            UserDicas/blog.com.br<br>
-                            <span style="color: #4d16bb;">Site</span>
-                            UserDicas.com.br<br>
-                            <span style="color: #cb218c;">...mais</span></h5>
+            <div class="descricao-pf"><img class="icon-link" src="./imagens/icon-de-link.svg" alt="icone de link">
+                            <span class="site" style="color: #cb218c; font-weight: bold; text-decoration: underline;">Site</span> | https://userdicas.com.br<br>
+                            
+            </div>
+            <img class="tiktok-rosa" src="./imagens/tiktok-rosa.png" alt="tiktok">
+            <img class="twitter-rosa" src="./imagens/twitter-rosa.svg" alt="twitter">
             <div class="vis-seguidores">100 seguidores</div>
             <div class="vis-seguindo">200 seguindo</div>
         </div>
@@ -43,26 +46,20 @@
         
           <div id="Postagens" class="tabcontent-perfil">
           <div class="postagens-esqueleto">
-            <div class="tab-filtro">
-              <button class="tablinks-filtro" onclick="openTab( 'Recentes')">Recentes</button>
-              <button class="tablinks-filtro" onclick="openTab( 'Em alta')">Em alta</button>
-              <button class="tablinks-filtro" onclick="openTab( '+Rápidas')">+Rápidas</button>
-              </div>
-          <div id="Recentes" class="tabcontent-filtro">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
+            <div class="filtro">
+            <button class="botao-filtro active" onclick="selecionarFiltro(this)">Todos</button>
+            <button class="botao-filtro" onclick="selecionarFiltro(this)">Recentes</button>
+            <button class="botao-filtro" onclick="selecionarFiltro(this)">Em alta</button>
+            <button class="botao-filtro" onclick="selecionarFiltro(this)">+Rápidas</button>
+            </div>
+            <div class="imagem-bioderma">
+              <div class="post-bioderma"><img class="estrelafav" src="./imagens/estrela-fav.svg" alt="avaliação">4.3</div>
           </div>
-          
-          <div id="Em alta" class="tabcontent-filtro">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p>
+          <div class="imagem-peixe">
+              <div class="post-peixe"><img class="estrelafav" src="./imagens/estrela-fav.svg" alt="avaliação">5.0</div>
           </div>
-          
-          <div id="+Rápidas" class="tabcontent-filtro">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
-
+          <div class="imagem-moça-limpando">
+              <div class="post-moça-limpando"><img class="estrelafav" src="./imagens/estrela-fav.svg" alt="avaliação">1.5</div>
           </div>
           </div>
         </div>
@@ -74,13 +71,27 @@
           <h2 class="sem-rascunhos">Sem rascunhos por enquanto...</h2>
           <h2 class="Comece-por-aqui">Comece por aqui</h2>
             </div>
-          
-        
-          <div id="Interações" class="tabcontent-perfil">
-          <h3>Tokyo</h3>
-          <p>Tokyo is the capital of Japan.</p>
           </div>
+
+          <div id="Interações" class="tabcontent-perfil">
+          <div class="interacoes-esqueleto">
+            <div class="filtro">
+              <button class="botao-filtro active" onclick="selecionarFiltro(this)">Todos</button>
+              <button class="botao-filtro" onclick="selecionarFiltro(this)">Recentes</button>
+              <button class="botao-filtro" onclick="selecionarFiltro(this)">Em alta</button>
+              <button class="botao-filtro" onclick="selecionarFiltro(this)">+Rápidas</button>
+              </div>
+            <div class="comentario-interacoes">
+              
+              <div class="heart-icon">
+                <img class="azul" onclick="mudarcor(this)">
+                </div>
+              
             </div>
+          </div>
+          </div>
+            
+        </div>
       </div>
       
       <div id="Notificacoes" class="tabcontent">
@@ -114,7 +125,7 @@
                 </div>
                 <div class="imagem-moça-limpando">
                     <div class="post-moça-limpando"><img class="estrelafav" src="./imagens/estrela-fav.svg" alt="avaliação">1.5</div>
-        </div>
+                </div>
       </div>
       
       <div id="Ajustes" class="tabcontent">
@@ -131,5 +142,10 @@
       </div>
 
     </div>
+  </section>
+  
+  <section class="dispositivo-mobile">
+
+  </section>
 </body>
 </html>

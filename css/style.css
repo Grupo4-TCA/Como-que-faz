@@ -1,4 +1,6 @@
+@media only screen and (min-width: 721px) {
 * {box-sizing: border-box}
+
 /*Opções de Conta*/
 .tab {
     float: left;
@@ -217,14 +219,26 @@ h2.Nome1234{
 h5.dicas-caseiras{
     font-family: "Fira Sans", sans-serif;
     font-size: 15px;
-    transform: translate(57px,-110px);
-    font-weight: 400;
-}
-h5.blog{
-    font-family: "Fira Sans", sans-serif;
-    font-size: 15px;
     transform: translate(57px,-120px);
     font-weight: 400;
+}
+.descricao-pf{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  transform: translate(60px, -130px);
+}
+img.tiktok-rosa{
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    transform: translate(60px,-120px);
+}
+img.twitter-rosa{
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  transform: translate(70px,-120px);
 }
 .vis-seguidores{
     width: 166px;
@@ -240,7 +254,7 @@ h5.blog{
     display: inline-block;
     margin-right: 15px;
     margin-top: 8px;
-    transform: translate(46px,-140px);
+    transform: translate(0px,-75px);
     font-weight: 700;
 }
 .vis-seguindo{
@@ -255,7 +269,7 @@ h5.blog{
     text-align: center;
     font-size: 18px;
     display: inline-block;
-    transform: translate(46px,-140px);
+    transform: translate(0px,-75px);
     margin-top: 8px;
     font-weight: 700;
 }
@@ -281,6 +295,7 @@ button.editar-perfil{
     padding-top: 15px;
 }
 .tab-perfil {
+  display: flex;
     overflow: hidden;
     width: 927px;
     height: 47px;
@@ -289,18 +304,20 @@ button.editar-perfil{
 
   .tab-perfil button {
     background-color: inherit;
-    float: left;
+    flex-grow: 1;
     border: none;
     outline: none;
     cursor: pointer;
     width: 309px;
-  height: 47px;
-  padding: 2px 2px 2px 2px;
+    height: 47px;
+    padding: 2px 2px 2px 2px;
     transition: 0.3s;
     font-family: "Heavitas", sans-serif;
     background-color: #e0e0e0;
     color: #9e5fef;
     font-size: 21px;
+    border-radius: 2px;
+    box-sizing: border-box;
   }
 
   .tab-perfil button:hover {
@@ -308,20 +325,15 @@ button.editar-perfil{
   }
 
   .tab-perfil button.active {
-    width: 309px;
-    height: 46px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 2px;
     background-color: #9e5fef;
-    box-sizing: border-box;
     color: white;
   }
 
   .tabcontent-perfil {
-    display: none;
+    display: contents;
     width: 309px;
   height: 47px;
-  padding: 2px 2px 2px 2px;
+  padding: 2px 0px 0px 2px;
   background-color: rgba(255, 255, 255, 0);
   box-sizing: border-box;
     border-top: none;
@@ -377,61 +389,82 @@ button.editar-perfil{
     line-height: normal;
     transform: translate(377.5px, -390px);
   }
+  /*Fim de rascunhos*/
 
   /*Postagens*/
   .postagens-esqueleto{
     width: 926px;
     height: 988px;
-    padding: 2px 2px 2px 2px;
+    padding: 2px 20px 2px 0px;
     background-color: #f2f2f2;
     box-sizing: border-box;
 
-/*Fim de perfil*/
-
-/*opções de filtro*/
-
-  .tab-filtro {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-
-  .tab-filtro button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  }
-
-  .tab-filtro button:hover {
-    background-color: #ddd;
-  }
-
-  .tab-filtro button.active {
-    background-color: #ccc;
-  }
-
-  .tabcontent-filtro {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
 }
-  /* Fim de opções de filtro */
+.filtro{
+  margin-left: 33px;
+}
+button.botao-filtro{
+  margin: 24px 10px 0px ;
+    width: 139px;
+    height: 29px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
+    background-color: rgba(158, 95, 239, 0.13);
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #9e5fef;
+    text-align: center;
+    line-height: normal;
+    border-style: none;
+      &:hover{
+        box-sizing: border-box;
+        opacity: 1;
+        background-color: #9d5fef3f;
+      }
+  }
+.botao-filtro.active{
+        background-color: #9e5fef;
+        box-sizing: border-box;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+      }
+  /*Fim postagens*/
+
+  /*Interações*/
+  .interacoes-esqueleto{  
+    width: 926px;
+    height: 586px;
+    padding: 2px 2px 2px 2px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  .heart-icon {
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out;
+}
+img.azul{
+  content: url(https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u17.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
+}
+img.vermelho{
+content:url( https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u18.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
+}
+.comentario-interacoes{
+  width: 835px;
+  height: 207px;
+  background-color: #ffffff;
+}
+
+  /*Fim de interações*/
 
   /*Sair da conta*/
-
   img.logosair{
     width: 203px;
     height: 121px;
     box-sizing: border-box;
     transform: translate(100px, 0px);
   }
-  
   h1.sairdaconta{
     width: 337px;
     height: 35px;
@@ -444,7 +477,6 @@ button.editar-perfil{
     line-height: normal;
     transform: translate(28px, 0px);
   }
-  
   p.sair{
     width: 337px;
     height: 81px;
@@ -457,7 +489,6 @@ button.editar-perfil{
     line-height: 27px;
     transform: translate(27px, 0px);
   }
-  
   button.sair{
     width: 338px;
     height: 61px;
@@ -472,7 +503,6 @@ button.editar-perfil{
     text-align: center;
     line-height: normal;
     transform: translate(27px, 0px);
-  
   }
   
   button.cancelarsair{
@@ -490,7 +520,6 @@ button.editar-perfil{
     line-height: normal;
     transform: translate(27px, 0px);
   }
-  
   .popupsair{
     width: 391px;
     height: 504px;
@@ -501,10 +530,8 @@ button.editar-perfil{
     background-color:#ffffff;
     box-sizing: border-box;
     position: relative;
-    
   }
 
-  
   .estampasair{
    background-image: url(../imagens/estampagato.png);
    width: 1920px;
@@ -512,3 +539,5 @@ button.editar-perfil{
     position: absolute;
   }
   /*Fim sair de conta*/
+
+}
