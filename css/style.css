@@ -1,6 +1,10 @@
 @media only screen and (min-width: 721px) {
 * {box-sizing: border-box}
 
+.conteudo-dispositivo.mobile{
+  display: none;
+}
+
 /*Opções de Conta*/
 .tab {
     float: left;
