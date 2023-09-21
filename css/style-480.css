@@ -62,7 +62,7 @@
     }
     .perfil-baixo{
         width: 410px;
-        height: 1000px;
+        height: 720px;
         padding: 2px 2px 2px 2px;
         background-color: #e8e8e8;
         box-sizing: border-box;
@@ -209,8 +209,17 @@
     transform: translate(102px, -26px);
     }
     img.filtro-icon{
-    transform: translate(320px, -50px);
+    transform: translate(370px, -56px);
     width: 35px;
     height: 35px;
+    }
+    
+    .filtro-fundo{
+        width: 410px;
+        height: 1000px;
+        padding: 2px 2px 2px 2px;
+        background-color: #e8e8e8;
+        box-sizing: border-box;
+        transform: translate(21px, -40px);
     }
 }
