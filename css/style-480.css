@@ -1,225 +1,154 @@
 @media only screen and (max-width: 480px) {
-    .conteudo-dispositivo.desktop{
-        display: none;
-    }
-    .gato-esticado{
-        transform: translate(-30px,-10px);
-        width: 450px;
-        height: 80px;
-    }
-    .imagem-perfil-mob{
-        width: 90px;
-        height: 90px;
-        transform: translate(30px, -55px);
-    }
-    h1.User1234{
-        font-family: "Heavitas", sans-serif;
-        color: #cb218c;
-        font-size: 16px;
-        transform: translate(140px,-115px);
-        font-weight: 500;
-    }
-    h2.Nome1234{
-        font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
-        font-weight: 600;
-        color: #333333;
-        font-size: 15px;
-        transform: translate(140px,-130px);
-    }
-    .segui-mob{
-        font-family:  "Fira Sans", sans-serif;
-        color: #333333;
-        text-align: center;
-        font-weight: 300;
-        font-size: 13px;
-    }
-    .segui{
-        margin-bottom: -18px;
-    }
-    .primeiro-segui{
-        transform: translate(-150px, -124px);
-    }
-    .segundo-segui{
-        transform: translate(-39px, -172px);
-    }
-    .terceiro-segui{
-        transform: translate(64px, -222px);
-    }
-    button.editar-perfil{
-        width: 340px;
-        height: 30px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 10px;
-        border-style: none;
-        background-color: #4d16bb;
-        box-sizing: border-box;
-        font-family: "Heavitas", sans-serif;
-        color: #ffffff;
-        text-align: center;
-        line-height: normal;
-        transform: translate(20px, -220px);
-        font-size: 12px;
-    }
-    .perfil-baixo{
-        width: 410px;
-        height: 720px;
-        padding: 2px 2px 2px 2px;
-        background-color: #e8e8e8;
-        box-sizing: border-box;
-        transform: translate(-10px, -190px);
-    }
-    .post-perfil{
-        width: 360px;
-        height: 210px;
-        transform: translate(20px,0px);
-        padding: 2px 2px 2px 2px;
-        border-radius: 9px;
-        background-color: #ffffff;
-        box-sizing: border-box;
-        margin-top: 20px;
-    }
-    img.pudim-vegano{
-        height: 210px;
-        margin: -2px;
-    }
-    .dots{
-        width: 25px;
-        height: 25px;
-        transform: translate(170px, -165px);
-    }
-    h3.culi{
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #484848;
-        text-align: center;
-        line-height: normal;
-        font-style: bold;
-        font-size: 15px;
-        font-weight: 500;
-        transform: translate(75px, -195px);
-    }
-    h2.pudim{
-        box-sizing: border-box;
-        font-family: "Heavitas", sans-serif;
-        color: #cb1154;
-        text-align: center;
-        line-height: normal;
-        font-size: 18px;
-        font-weight: 500;
-        transform: translate(75px,-208px);
-    }
-    h4.itens{
-        font-size: 12px;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 500;
-        color: #484848;
-        text-align: left;
-        line-height: normal;
-        transform: translate(177px,-210px);
-    }
-    .por{
-        transform: translate(210px, -210px);
-        box-sizing: border-box;
-  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-  font-weight: 700;
-  color: #333333;
-  text-align: left;
-  line-height: normal;
-    }
-    img.save-vazado{
-        width: 20px;
-        height: 25px;
-        transform: translate(183px, -200px);
-    }
-    img.estrela-vazada{
-        width: 27px;
-        height: 25px;
-        transform: translate(215px, -200px);
-    }
-    img.compartilhar-vazada{
-        width: 27px;
-        height: 25px;
-        transform: translate(245px, -200px);
-    }
-    h2.limpa-piscina{
-        box-sizing: border-box;
-        font-family: "Heavitas", sans-serif;
-        color: #027de1;
-        text-align: center;
-        line-height: normal;
-        font-size: 18px;
-        font-weight: 500;
-        transform: translate(75px,-208px);
-    }
-    h4.itens-piscina{
-        font-size: 12px;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 500;
-        color: #484848;
-        text-align: left;
-        line-height: normal;
-        transform: translate(177px,-220px);
-    }
-    .por-piscina{
-        transform: translate(210px, -225px);
-        box-sizing: border-box;
-  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-  font-weight: 700;
-  color: #333333;
-  text-align: left;
-  line-height: normal;
-    }
-    img.save-vazado-piscina{
-        width: 20px;
-        height: 25px;
-        transform: translate(183px, -220px);
-    }
-    img.estrela-vazada-piscina{
-        width: 27px;
-        height: 25px;
-        transform: translate(215px, -220px);
-    }
-    img.compartilhar-vazada-piscina{
-        width: 27px;
-        height: 25px;
-        transform: translate(245px, -220px);
-    }
-    h2.pudim-bem{
-        box-sizing: border-box;
-        font-family: "Heavitas", sans-serif;
-        color: #00cd83;
-        text-align: center;
-        line-height: normal;
-        font-size: 18px;
-        font-weight: 500;
-        transform: translate(75px,-208px);
-    }
-    .headerfav{
-        box-sizing: border-box;
-        font-family: "Heavitas", sans-serif;
-        color: #9e5fef;
-        line-height: normal;
-        font-size: 20px;
-        } 
+.conteudo-dispositivo.desktop{
+    display: none;
+}
+.gato-esticado{
+    transform: translate(-30px,-10px);
+    width: 450px;
+    height: 80px;
+}
+.imagem-perfil-mob{
+    width: 90px;
+    height: 90px;
+    transform: translate(30px, -55px);
+}
+h1.User1234{
+    font-family: "Heavitas", sans-serif;
+    color: #cb218c;
+    font-size: 16px;
+    transform: translate(140px,-115px);
+    font-weight: 500;
+}
+h2.Nome1234{
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 600;
+    color: #333333;
+    font-size: 15px;
+    transform: translate(140px,-130px);
+}
+.segui-mob{
+    font-family:  "Fira Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+}
+.segui{
+    margin-bottom: -18px;
+}
+.primeiro-segui{
+    transform: translate(-150px, -124px);
+}
+
+.segundo-segui{
+    transform: translate(-39px, -172px);
+}
+
+.terceiro-segui{
+    transform: translate(64px, -222px);
+}
+
+button.editar-perfil{
+    width: 340px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #4d16bb;
+    box-sizing: border-box;
+    font-family: "Heavitas", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    transform: translate(20px, -220px);
+    font-size: 12px;
+}
+
+.perfil-baixo{
+    width: 410px;
+    height: 720px;
+    padding: 2px 2px 2px 2px;
+    background-color: #e8e8e8;
+    box-sizing: border-box;
+    transform: translate(-10px, -190px);
+}
+
+.headerfav{
+    box-sizing: border-box;
+    font-family: "Heavitas", sans-serif;
+    color: #9e5fef;
+    line-height: normal;
+    font-size: 20px;
+} 
+
 .headerfav img.fav{
-    transform: translate(46px, 15px);
-    }
-      
-    .headerfav .textfav{
-    transform: translate(102px, -26px);
-    }
-    img.filtro-icon{
-    transform: translate(370px, -56px);
-    width: 35px;
-    height: 35px;
-    }
-    
-    .filtro-fundo{
-        width: 410px;
-        height: 1000px;
-        padding: 2px 2px 2px 2px;
-        background-color: #e8e8e8;
-        box-sizing: border-box;
-        transform: translate(21px, -402px);
-    }
+transform: translate(60px, 15px);
+}
+
+.headerfav .textfav{
+transform: translate(110px, -26px);
+}
+
+img.filtro-icon{
+transform: translate(450px, -56px);
+width: 35px;
+height: 35px;
+}
+
+#post{
+position: relative;
+}
+
+#dispensa{
+position: absolute;
+}
+
+#sombra{
+top: 88px;
+width: 176px;
+height: 85px;
+opacity: 0.4;
+padding: 2px 2px 2px 2px;
+border-radius: 5px;
+background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
+box-sizing: border-box;
+position: absolute;
+}
+
+#descri-post{
+position: absolute;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-weight: 700;
+font-size: 16px;
+color: #ffffff;
+left: 8px;
+top: 116px;
+}
+
+#post-baixo{
+height: 40px;
+width: 176px;
+display: flex;
+position: absolute;
+top: 50%;
+padding: 10px 10px 10px 10px;
+align-content: center;
+}
+
+#icon-post{
+width: 18px;
+height: 18px;
+margin-right: 4px;
+}
+
+#descri-icon{
+margin: 0;
+margin-right: 9px;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-weight: 700;
+font-size: 15px;
+color: #333333;
+text-align: left;
+line-height: normal;
+}
 }
