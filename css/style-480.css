@@ -579,23 +579,22 @@ img.logosair{
     color: #9e5fef;
     text-align: right;
     line-height: normal;
-    transform: translate(-5px, 0px);
+    transform: translate(-7px, 0px);
     
     }
     p.sair{
-    width: 237px;
-    height: 111px;
+    width: 180px;
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     color: #626262;
-    text-align: left;
+    text-align: justify;
     line-height: 27px;
-    transform: translate(-1px, 0px);
+    transform: translate(25px, 10px);
     }
     button.sair{
-    width: 238px;
+    width: 200px;
     height: 51px;
     padding: 2px 2px 2px 2px;
     border-radius: 22px;
@@ -607,12 +606,12 @@ img.logosair{
     color: #ffffff;
     text-align: center;
     line-height: normal;
-    transform: translate(-1px, -15px);
+    transform: translate(15px, 20px);
     
     }
     
     button.cancelarsair{
-    width: 238px;
+    width: 200px;
     height: 51px;
     padding: 2px 2px 2px 2px;
     border-radius: 22px;
@@ -624,7 +623,7 @@ img.logosair{
     color: #4d16bb;
     text-align: center;
     line-height: normal;
-    transform: translate(-1px, -25px);
+    transform: translate(15px, 20px);
     
     }
     .popupsair{
