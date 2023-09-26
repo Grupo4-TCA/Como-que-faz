@@ -1,4 +1,194 @@
 @media only screen and (max-width: 480px) {
+* {
+font-family: heavitas;
+padding: 0;
+margin: 0;
+}
+/*header*/
+.logos {
+display: flex;
+justify-content: center;
+height: 70px;
+}
+
+.logo {
+margin-top: 5px;
+margin-right: 50px;
+margin-left: 50px;
+}
+.logo img {
+max-width: 60px;
+}
+.search {
+margin-top: 22px;
+margin-left: 10px;
+margin-right: 25px;
+}
+.search img {
+max-width: 30px;
+}
+.login {
+margin-top: 8px;
+margin-left: 10px;
+position: relative;
+display: inline-block;
+}
+.login img {
+max-width: 55px;
+}
+.topcs {
+background-color: #5417bd;
+background-image: linear-gradient(to right, #5417bd, #9c21cb);
+display: flex;
+justify-content: center;
+justify-content: space-between;
+height: 38px;
+}
+a {
+text-decoration: none;
+color: white;
+margin-top: 9px;
+font-size: 14px;
+}
+.culinaria {
+margin-left: 18px;
+}
+.bem-estar {
+margin-right: 18px;
+}
+/*header fim*/
+
+/* Header Logado */
+.user {
+position: relative;
+display: inline-block;
+}
+
+.user img {
+max-width: 55px;
+margin-top: 8px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.user-menu {
+display: none;
+position: absolute;
+top: 0;
+left: -15px;
+background-color: #fff;
+border: 1px solid #ccc;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+height: 480px;
+}
+
+.user:hover .user-menu {
+display: block;
+border-top: none;
+}
+
+.user-menu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+width: 280px;
+}
+
+.user-menu li {
+padding: 10px;
+text-align: left;
+margin-left: 30px;
+display: flex; 
+align-items: center; 
+}
+
+.user-menu img {
+max-width: 24px; 
+margin-right: 10px; 
+}
+
+.user-menu a {
+text-decoration: none;
+color: #cb218c;
+display: block;
+font-size: 14px; 
+}
+
+.user-menu a:hover {
+background-color: #f0f0f0;
+}
+.ajustes {
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.bem-vindo {
+border-bottom: #4D16BB;
+border-bottom-style: double;
+display: flex;
+height: 100px;
+}
+.bem-vindo img {
+max-width: 45px;
+margin-top: 32px;
+margin-left: 30px;
+}
+.bem-vindo span {
+font-size: 14px;
+font-family: sans-serif;
+font-weight: bold;
+top: -10px;
+}
+.colnm2 {
+margin-top: 35px;
+}
+.nome {
+color: #cb218c;
+font-size: 15px;
+}
+/*header logado fim*/
+
+/*footer*/
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D1C2FA;
+    list-style-type: none;
+    margin-left: 20px;
+    line-height: 27px;
+    font-size: 14px;
+}
+li img {
+    max-width: 25px;
+    margin-right: 5px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5417bd;
+    background-image: linear-gradient(to right, #5417bd, #9c21cb);
+}
+span {
+    color: white;
+    margin-left: 12px;
+    font-size: 14px;
+}
+.logo2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.logo2 img {
+    max-width: 190px;
+}
+.redes {
+    display: flex;
+    justify-content: center;
+}
+.redes img {
+    max-width: 30px;
+    margin-right: 12px;
+}
+/*footer fim*/
 .conteudo-dispositivo.desktop{
     display: none;
 }
@@ -52,36 +242,36 @@ h2.Nome1234{
 }
 
 button.editar-perfil{
-    width: 340px;
-    height: 30px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #4d16bb;
-    box-sizing: border-box;
-    font-family: "Heavitas", sans-serif;
-    color: #ffffff;
-    text-align: center;
-    line-height: normal;
-    transform: translate(20px, -220px);
-    font-size: 12px;
+width: 340px;
+height: 30px;
+padding: 2px 2px 2px 2px;
+border-radius: 10px;
+border-style: none;
+background-color: #4d16bb;
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #ffffff;
+text-align: center;
+line-height: normal;
+transform: translate(20px, -220px);
+font-size: 12px;
 }
 
 .perfil-baixo{
-    width: 410px;
-    height: 720px;
-    padding: 2px 2px 2px 2px;
-    background-color: #e8e8e8;
-    box-sizing: border-box;
-    transform: translate(-10px, -190px);
+width: 410px;
+height: 720px;
+padding: 2px 2px 2px 2px;
+background-color: #e8e8e8;
+box-sizing: border-box;
+transform: translate(-10px, -190px);
 }
 
 .headerfav{
-    box-sizing: border-box;
-    font-family: "Heavitas", sans-serif;
-    color: #9e5fef;
-    line-height: normal;
-    font-size: 20px;
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #9e5fef;
+line-height: normal;
+font-size: 20px;
 } 
 
 .headerfav img.fav{
@@ -338,5 +528,159 @@ margin-top: 279px;
 margin-left: 190px;
 margin-top: 420px;
 }
+
+/*inicio sair*/
+img.logosair{
+    width: 194px;
+    height: 97px;
+    box-sizing: border-box;
+    transform: translate(15px, 0px);
+    
+    }
+    h1.sairdaconta{
+    width: 237px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #9e5fef;
+    text-align: right;
+    line-height: normal;
+    transform: translate(-5px, 0px);
+    
+    }
+    p.sair{
+    width: 237px;
+    height: 111px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #626262;
+    text-align: left;
+    line-height: 27px;
+    transform: translate(-1px, 0px);
+    }
+    button.sair{
+    width: 238px;
+    height: 51px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 22px;
+    background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
+    border: none;
+    cursor: pointer;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    transform: translate(-1px, -15px);
+    
+    }
+    
+    button.cancelarsair{
+    width: 238px;
+    height: 51px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 22px;
+    border: 3px solid #4d16bb;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #4d16bb;
+    text-align: center;
+    line-height: normal;
+    transform: translate(-1px, -25px);
+    
+    }
+    .popupsair{
+    width: 250px;
+    height: 404px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 30px;
+    border: 4px solid;
+    border-color: #4d16bb;
+    background-color:#ffffff;
+    box-sizing: border-box;
+    transform: translate(30px, -800px);
+    position: absolute;
+    }
+    
+    .estampasair{
+    background-image: url(../imagens/estampagato.png);
+    width: 480px;
+    height: 873px;
+    position: relative;
+    }
+    /*final sair*/
+    
+    /*inicio perguntar*/
+    button.cancelarpergunta{
+    width: 170px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background-color: #efefef;
+    color: #4d16bb;
+    text-align: center;
+    line-height: normal;
+    font-size: 20px;
+    border: none;
+    }
+    
+    button.publicarpergunta{
+    width: 170px;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background-color: #ffd662;
+    color: #4d16bb;
+    text-align: center;
+    line-height: normal;
+    font-size: 20px;
+    border: none;
+    }
+    
+    select.filtropergunta{
+    width: 200px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
+    border: none;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: #4d16bb;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 15px;
+    }
+    
+    form.pergunta input{
+    border-top: 100px;
+    border-left: 0;
+    border-right: 0;
+    width: 300px;
+    height: 30px;
+    }
+    
+    form.pergunta{
+    margin-left:50px;
+    margin-top: 15px;
+    
+    }
+    form.pergunta.active{
+    border: none;
+    }
+    form.pergunta input.sub{
+    margin-top: 30px;
+    border: 0;
+    }
 
 }
