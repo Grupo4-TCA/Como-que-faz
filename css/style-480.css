@@ -149,96 +149,105 @@ font-size: 15px;
 
 /*footer*/
 li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #D1C2FA;
-    list-style-type: none;
-    margin-left: 20px;
-    line-height: 27px;
-    font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+color: #D1C2FA;
+list-style-type: none;
+margin-left: 20px;
+line-height: 27px;
+font-size: 14px;
 }
 li img {
-    max-width: 25px;
-    margin-right: 5px;
+max-width: 25px;
+margin-right: 5px;
 }
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #5417bd;
-    background-image: linear-gradient(to right, #5417bd, #9c21cb);
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: #5417bd;
+background-image: linear-gradient(to right, #5417bd, #9c21cb);
 }
 span {
-    color: white;
-    margin-left: 12px;
-    font-size: 14px;
+color: white;
+margin-left: 12px;
+font-size: 14px;
 }
 .logo2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+display: flex;
+justify-content: center;
+margin-top: 15px;
 }
 .logo2 img {
-    max-width: 190px;
+max-width: 190px;
 }
 .redes {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 .redes img {
-    max-width: 30px;
-    margin-right: 12px;
+max-width: 30px;
+margin-right: 12px;
 }
 /*footer fim*/
+
 .conteudo-dispositivo.desktop{
-    display: none;
+display: none;
 }
+
 .conteudo-dispositivo.mobile{
-    display: block;
+display: block;
 }
+
 .gato-esticado{
-    margin: -8px -8px 8px -8px;
-    width: 606px;
-    height: 80px;
+margin: -8px -8px 8px -8px;
+width: 610px;
+height: 80px;
 }
+
 .imagem-perfil-mob{
-    width: 90px;
-    height: 90px;
-    transform: translate(30px, -55px);
+width: 120px;
+height: 120px;
+transform: translate(60px, -50px);
 }
+
 h1.User1234{
-    font-family: "Heavitas", sans-serif;
-    color: #cb218c;
-    font-size: 16px;
-    transform: translate(140px,-115px);
-    font-weight: 500;
+font-family: "Heavitas", sans-serif;
+color: #cb218c;
+font-size: 16px;
+transform: translate(70px,-46px);
+font-weight: 500;
 }
+
 h2.Nome1234{
-    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
-    font-weight: 600;
-    color: #333333;
-    font-size: 15px;
-    transform: translate(140px,-130px);
+font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+font-weight: 600;
+color: #333333;
+font-size: 15px;
+transform: translate(70px,-48px);
 }
+
 .segui-mob{
-    font-family:  "Fira Sans", sans-serif;
-    color: #333333;
-    text-align: center;
-    font-weight: 300;
-    font-size: 13px;
-}
-.segui{
-    margin-bottom: -18px;
-}
-.primeiro-segui{
-    transform: translate(-150px, -124px);
+font-family:  "Fira Sans", sans-serif;
+color: #333333;
+text-align: center;
+font-size: 16px;
+width: 200px;
+position: absolute;
+display: flex;
+transform: translate(220px, -166px);
 }
 
-.segundo-segui{
-    transform: translate(-39px, -172px);
+#vis-seguindo{
+font-weight: 500;
+font-size: 13px;
 }
 
-.terceiro-segui{
-    transform: translate(64px, -222px);
+#inf-perfil{
+margin-right: 36px;
+}
+
+#segui{
+margin-bottom: -3px;
 }
 
 button.editar-perfil{
@@ -253,8 +262,30 @@ font-family: "Heavitas", sans-serif;
 color: #ffffff;
 text-align: center;
 line-height: normal;
-transform: translate(20px, -220px);
+transform: translate(142.6px, -118px);
 font-size: 12px;
+}
+
+#descrição-perfil{
+transform: translate(70px, -40px);
+}
+
+h5.dicas-caseiras{
+font-family: "Fira Sans", sans-serif;
+font-size: 15px;
+font-weight: 400;
+}
+
+.descricao-pf{
+font-size: 15px;
+font-weight: 400;
+font-family: "Fira Sans", sans-serif;
+}
+
+#icon-link{
+width: 14px;
+height: 16px;
+transform: translate(0px, 3px);
 }
 
 .perfil-baixo{
@@ -290,7 +321,7 @@ height: 35px;
 
 /*post*/
 #pinterest-style{
-margin-left: 12px;
+margin-left: 22px;
 margin-top: -35px;
 }
 
@@ -528,6 +559,7 @@ margin-top: 279px;
 margin-left: 190px;
 margin-top: 420px;
 }
+/*fim post*/
 
 /*inicio sair*/
 img.logosair{
