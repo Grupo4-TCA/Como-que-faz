@@ -194,27 +194,27 @@ margin-right: 12px;
 display: none;
 }
 
-.conteudo-dispositivo.mobile{
+#conteudo-dispositivo.mobile{
 display: block;
+width: 100vw;
 }
 
 .gato-esticado{
-margin: -8px -8px 8px -8px;
-width: 610px;
+width: 100%;
 height: 80px;
 }
 
 .imagem-perfil-mob{
-width: 120px;
-height: 120px;
-transform: translate(60px, -50px);
+width: 90px;
+height: 90px;
+transform: translate(30px, -50px);
 }
 
 h1.User1234{
 font-family: "Heavitas", sans-serif;
 color: #cb218c;
 font-size: 16px;
-transform: translate(70px,-46px);
+transform: translate(40px,-46px);
 font-weight: 500;
 }
 
@@ -223,7 +223,7 @@ font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
 font-weight: 600;
 color: #333333;
 font-size: 15px;
-transform: translate(70px,-48px);
+transform: translate(40px,-48px);
 }
 
 .segui-mob{
@@ -564,9 +564,9 @@ margin-top: 420px;
 /*inicio sair*/
 img.logosair{
     width: 194px;
-    height: 97px;
+    height: 100px;
     box-sizing: border-box;
-    transform: translate(15px, 0px);
+    transform: translate(50px, 0px);
     
     }
     h1.sairdaconta{
@@ -579,7 +579,7 @@ img.logosair{
     color: #9e5fef;
     text-align: right;
     line-height: normal;
-    transform: translate(-7px, 0px);
+    transform: translate(20px, 0px);
     
     }
     p.sair{
@@ -591,7 +591,7 @@ img.logosair{
     color: #626262;
     text-align: justify;
     line-height: 27px;
-    transform: translate(25px, 10px);
+    transform: translate(50px, 30px);
     }
     button.sair{
     width: 200px;
@@ -606,7 +606,7 @@ img.logosair{
     color: #ffffff;
     text-align: center;
     line-height: normal;
-    transform: translate(15px, 20px);
+    transform: translate(40px, 70px);
     
     }
     
@@ -623,25 +623,25 @@ img.logosair{
     color: #4d16bb;
     text-align: center;
     line-height: normal;
-    transform: translate(15px, 20px);
+    transform: translate(40px, 70px);
     
     }
     .popupsair{
-    width: 250px;
-    height: 404px;
+    width: 300px;
+    height: 480px;
     padding: 2px 2px 2px 2px;
     border-radius: 30px;
     border: 4px solid;
     border-color: #4d16bb;
     background-color:#ffffff;
     box-sizing: border-box;
-    transform: translate(30px, -800px);
+    transform: translate(30%, -700px);
     position: absolute;
     }
     
     .estampasair{
     background-image: url(../imagens/estampagato.png);
-    width: 480px;
+    width: 100%;
     height: 873px;
     position: relative;
     }
