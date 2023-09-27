@@ -1,9 +1,16 @@
 @media only screen and (min-width: 721px) {
-* {box-sizing: border-box
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
 }
 
 .conteudo-dispositivo.mobile{
   display: none;
+}
+.conteudo-dispositivo.desktop{
+display: block;
+width: 100vw;
 }
 
 /*Opções de Conta*/

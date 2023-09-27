@@ -1,0 +1,68 @@
+@media only screen and (max-width: 480px) {
+* {
+font-family: 'Heavitas';
+padding: 0;
+margin: 0;
+}
+
+#conteudo-dispositivo.mobile{
+display: block;
+width: 100vw;
+}
+
+#menu-post{
+width: 100vw;
+height: 74px;
+background-color: #ffffff;;
+box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.08);
+}
+
+#logo-mob-post{
+width: 49px;
+height: 48px;
+box-sizing: border-box;
+margin-top: 2.8%;
+margin-left: 26%;
+}
+
+#perfil-foto-menu-post{
+width: 44px;
+height: 44px;
+margin-left: 11%;
+}
+
+#criar-post-cancela{
+position: absolute;
+display: flex;
+width: 249px;
+margin-left: 8%;
+margin-top: 5%;
+height: 24px;
+background-color: #ffffff;
+font-size: 18px;
+}
+
+#cancela-criar-post{
+color: #4d16bb;
+width: 11px;
+height: 24px;
+background-color: rgba(255, 255, 255, 0);
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #4d16bb;
+text-align: right;
+line-height: normal;
+}
+
+#titulo-criar-post{
+height: 24px;
+background-color: rgba(255, 255, 255, 0);
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #4d16bb;
+text-align: left;
+line-height: normal;
+margin-left: 40%;
+width: 300px;
+}
+}

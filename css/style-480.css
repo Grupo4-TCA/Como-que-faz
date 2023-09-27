@@ -194,7 +194,7 @@ margin-right: 12px;
 display: none;
 }
 
-#conteudo-dispositivo.mobile{
+.conteudo-dispositivo.mobile{
 display: block;
 width: 100vw;
 }
