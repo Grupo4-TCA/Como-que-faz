@@ -7,7 +7,7 @@ margin: 0;
 /*header*/
 .logos {
 display: flex;
-justify-content: center;
+justify-content: space-around;
 height: 70px;
 }
 
@@ -51,10 +51,10 @@ margin-top: 9px;
 font-size: 14px;
 }
 .culinaria {
-margin-left: 18px;
+margin-left: 22px;
 }
 .bem-estar {
-margin-right: 18px;
+margin-right: 22px;
 }
 /*header fim*/
 
@@ -79,7 +79,7 @@ left: -15px;
 background-color: #fff;
 border: 1px solid #ccc;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-height: 480px;
+height: 520px;
 }
 
 .user:hover .user-menu {
@@ -137,11 +137,12 @@ font-size: 14px;
 font-family: sans-serif;
 font-weight: bold;
 top: -10px;
+color: #000000;
 }
 .colnm2 {
 margin-top: 35px;
 }
-.nome {
+.nome span {
 color: #cb218c;
 font-size: 15px;
 }
@@ -166,6 +167,7 @@ bottom: 0;
 width: 100%;
 background-color: #5417bd;
 background-image: linear-gradient(to right, #5417bd, #9c21cb);
+height: 390px;
 }
 span {
 color: white;
