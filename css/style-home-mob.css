@@ -1,0 +1,158 @@
+@media only screen and (max-width: 480px) {
+    * {
+      margin: 0;
+      padding: 0;
+  }
+   .conteudo-dispositivo.mobile{
+    display: block;
+   }
+   .conteudo-dispositivo.desktop{
+    display: none;
+   }
+  
+  .slider{
+    margin: 0 auto;
+    width: 100%;
+    height: 556px;
+    overflow: hidden;
+  }
+  
+  .slides{
+    width: 1920%;
+    height: 556px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 25%;
+    position: relative;
+    transition: 1s;
+  }
+  
+  .slide img{
+   height: 556px;
+    width: 1920px;
+  }
+  
+  .manual-navigation{
+    position: absolute;
+    width: 1920px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .manual-btn{
+    border: 2px solid #cb218c;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background-color: #cb218c;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -25%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -50%;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    
+  }
+  
+  .navigation-auto{
+    position: absolute;
+    width: 1920px;
+    margin-top: 516px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  
+  .navigation-auto div:not(:Last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #cb218c;
+    border-color: #cb218c;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #cb218c;
+    border-color: #cb218c;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #cb218c;
+    border-color: #cb218c;
+  }
+  
+  
+  h1.cachos{
+   color: #ffffff;
+   text-align: left;
+   line-height: 67px;
+   transform: translate(170px, 284px);
+   background: none;
+  
+  }
+  .cachos{
+    background-image: url(../imagens/cabelo.png);
+   height: 556px;
+   width: 1920px;
+  }
+  
+  .comida{
+    background-image: url(../imagens/comida.png);
+    height: 556px;
+    width: 1920px;
+  }
+  
+  h1.comida{
+   color: #ffffff;
+   text-align: left;
+   line-height: 67px;
+   transform: translate(170px, 284px);
+   background: none;
+  }
+  
+  .limpar{
+    background-image: url(../imagens/limpando.png);
+    height: 556px;
+    width: 1920px;
+  }
+  
+  h1.limpar{
+    color: #ffffff;
+    text-align: left;
+    line-height: 67px;
+    transform: translate(170px, 284px);
+    background: none;
+  }
+}
