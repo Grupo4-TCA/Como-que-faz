@@ -5,6 +5,7 @@
   }
    .conteudo-dispositivo.mobile{
     display: block;
+    width: 100vw;
    }
    .conteudo-dispositivo.desktop{
     display: none;
