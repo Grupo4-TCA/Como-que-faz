@@ -589,16 +589,14 @@ img.logosair{
     
     }
     h1.sairdaconta{
-    width: 237px;
-    height: 25px;
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
-    color: #9e5fef;
+    font-weight: 800;
+    color: #4d16bb;
     text-align: right;
     line-height: normal;
-    transform: translate(10px, 0px);
+    transform: translate(-15px, 0px);
     
     }
     p.sair{
@@ -710,11 +708,12 @@ img.logosair{
     background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
     box-sizing: border-box;
     font-weight: 700;
-    color: #ffd662;
+    color: whitesmoke;
     margin-top: 30px;
     margin-left: 40px;
     font-size: 20px;
     }
+  
     
     form.pergunta input{
     border-top: 100px;
