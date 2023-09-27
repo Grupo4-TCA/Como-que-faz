@@ -1,4 +1,5 @@
-* {
+@media only screen and (min-width: 721px) {
+  * {
     margin: 0;
     padding: 0;
 }
@@ -17,7 +18,6 @@
 
 }
 
-/*oiii, é a sofi ;3*/
 
 .logo img {
     width: 94px;
@@ -198,4 +198,5 @@ h1.limpar{
   line-height: 67px;
   transform: translate(170px, 284px);
   background: none;
+}
 }
