@@ -582,8 +582,8 @@ margin-top: 420px;
 
 /*inicio sair*/
 img.logosair{
-    width: 194px;
-    height: 100px;
+    width: 203px;
+    height: 121px;
     box-sizing: border-box;
     transform: translate(50px, 0px);
     
@@ -598,7 +598,7 @@ img.logosair{
     color: #9e5fef;
     text-align: right;
     line-height: normal;
-    transform: translate(20px, 0px);
+    transform: translate(10px, 0px);
     
     }
     p.sair{
@@ -673,13 +673,15 @@ img.logosair{
     margin-left: 20px;
     margin-top: 20px;
     padding: 2px 2px 2px 2px;
-    border-radius: 5px;
-    background-color: #efefef;
+    border: 3px solid #4d16bb;
+    border-radius: 22px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
     color: #4d16bb;
     text-align: center;
     line-height: normal;
-    font-size: 20px;
-    border: none;
     }
     
     button.publicarpergunta{
@@ -688,13 +690,15 @@ img.logosair{
     margin-left: 60px;
     margin-top: 20px;
     padding: 2px 2px 2px 2px;
-    border-radius: 5px;
-    background-color: #ffd662;
-    color: #4d16bb;
+    border-radius: 22px;
+    background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
+    border: none;
+    cursor: pointer;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
     text-align: center;
     line-height: normal;
-    font-size: 20px;
-    border: none;
     }
     
     select.filtropergunta{
@@ -703,13 +707,13 @@ img.logosair{
     padding: 2px 2px 2px 2px;
     border-radius: 7px;
     border: none;
-    background-color: #ffd662;
+    background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
     box-sizing: border-box;
     font-weight: 700;
-    color: #4d16bb;
+    color: #ffd662;
     margin-top: 30px;
     margin-left: 40px;
-    font-size: 15px;
+    font-size: 20px;
     }
     
     form.pergunta input{
