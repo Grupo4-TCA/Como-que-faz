@@ -7,7 +7,7 @@ margin: 0;
 /*header*/
 .logos {
 display: flex;
-justify-content: center;
+justify-content: space-around;
 height: 70px;
 }
 
@@ -15,33 +15,37 @@ height: 70px;
 margin-top: 5px;
 margin-right: 50px;
 margin-left: 50px;
+
 }
 .logo img {
-max-width: 60px;
+max-width: 50px;
+margin-top: 5px;
+align-self: center;
 }
 .search {
 margin-top: 22px;
-margin-left: 10px;
-margin-right: 25px;
+margin-right: 13px;
 }
 .search img {
-max-width: 30px;
+max-width: 26px;
 }
 .login {
-margin-top: 8px;
-margin-left: 10px;
+margin-top: 9px;
+margin-left: 18px;
+margin-right: -7px;
 position: relative;
 display: inline-block;
 }
 .login img {
-max-width: 55px;
+max-width: 34px;
+margin-top: 10px;    
 }
 .topcs {
 background-color: #5417bd;
-background-image: linear-gradient(to right, #5417bd, #9c21cb);
+background-image: linear-gradient(to right, #5417bd, #9d21cb);
 display: flex;
 justify-content: center;
-justify-content: space-between;
+justify-content: space-around;
 height: 38px;
 }
 a {
@@ -51,10 +55,22 @@ margin-top: 9px;
 font-size: 14px;
 }
 .culinaria {
-margin-left: 18px;
+margin-left: 13.14px;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-weight: 700;
+margin-top: 12px;
 }
 .bem-estar {
-margin-right: 18px;
+margin-right: 8.59px;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+margin-top: 12px;
+font-weight: 700;
+}
+.limpeza{
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 700;
 }
 /*header fim*/
 
@@ -79,7 +95,7 @@ left: -15px;
 background-color: #fff;
 border: 1px solid #ccc;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-height: 480px;
+height: 520px;
 }
 
 .user:hover .user-menu {
@@ -137,11 +153,12 @@ font-size: 14px;
 font-family: sans-serif;
 font-weight: bold;
 top: -10px;
+color: #000000;
 }
 .colnm2 {
 margin-top: 35px;
 }
-.nome {
+.nome span {
 color: #cb218c;
 font-size: 15px;
 }
@@ -166,6 +183,7 @@ bottom: 0;
 width: 100%;
 background-color: #5417bd;
 background-image: linear-gradient(to right, #5417bd, #9c21cb);
+height: 390px;
 }
 span {
 color: white;
