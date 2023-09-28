@@ -76,26 +76,27 @@ font-weight: 700;
 
 /* Header Logado */
 .user {
-position: relative;
-display: inline-block;
+    margin-top: 9px;
+    margin-left: 18px;
+    margin-right: -7px;
+    position: relative;
+    display: inline-block;
 }
 
 .user img {
-max-width: 55px;
-margin-top: 8px;
-margin-left: 10px;
-cursor: pointer;
+    max-width: 34px;
+    margin-top: 10px;
 }
 
 .user-menu {
 display: none;
 position: absolute;
 top: 0;
-left: -15px;
+margin-left: -60px;
 background-color: #fff;
 border: 1px solid #ccc;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-height: 520px;
+height: 800px;
 }
 
 .user:hover .user-menu {
@@ -107,13 +108,13 @@ border-top: none;
 list-style: none;
 padding: 0;
 margin: 0;
-width: 280px;
+width: 97vw;
 }
 
 .user-menu li {
 padding: 10px;
 text-align: left;
-margin-left: 30px;
+margin-left: 50px;
 display: flex; 
 align-items: center; 
 }
@@ -134,8 +135,10 @@ font-size: 14px;
 background-color: #f0f0f0;
 }
 .ajustes {
-margin-top: 20px;
+margin-top: 50%;
 margin-bottom: 15px;
+display: inline-block;
+justify-content: space-evenly;
 }
 .bem-vindo {
 border-bottom: #4D16BB;
@@ -146,11 +149,11 @@ height: 100px;
 .bem-vindo img {
 max-width: 45px;
 margin-top: 32px;
-margin-left: 30px;
+margin-left: 50px;
 }
 .bem-vindo span {
 font-size: 14px;
-font-family: sans-serif;
+font-family: Fira Sans;
 font-weight: bold;
 top: -10px;
 color: #000000;
@@ -165,17 +168,83 @@ font-size: 15px;
 /*header logado fim*/
 
 /*footer*/
-li {
-font-family: Arial, Helvetica, sans-serif;
+
+.text-email{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 1%;
+    text-align: center;
+    height: 30px;
+    width: 56%;
+    border: 0px;
+    border-radius: 30px;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+}
+.submit-email{
+    margin-right: 2%;
+    height: 34px;   
+    width: 35%;
+    background-color: #FFD662;
+    color: #4D16BB;
+    font-size: 75%;
+    border: 0px;
+    border-radius: 30px;
+}
+.mensagem-news{
+    color: white;
+    font-family: "Heavitas", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5%;
+}
+.Linha-Footer-1{
+    height: 3px;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid;
+    border-color: #FFD662;
+    background: #FFD662;  
+    margin-top: 5%;  
+}
+.Linha-Footer-2{
+    height: 1px;
+    width: 58%;
+    justify-content: space-around;
+    text-align: center;
+    border: 0.5px solid;
+    border-color: white;
+    background: white;
+    align: center; 
+	margin: 0 auto 0 0;
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-bottom: 5%;
+}
+.contato-footer{
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 color: #D1C2FA;
 list-style-type: none;
-margin-left: 20px;
 line-height: 27px;
-font-size: 14px;
+font-size: 100%;
+margin-top: 2%;
 }
-li img {
-max-width: 25px;
-margin-right: 5px;
+.sobre-footer{
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    color: #D1C2FA;
+    list-style-type: none;
+    line-height: 27px;
+    margin-left: 10%;
+    font-size: 100%;
+    margin-top: 2%;
+    }
+.img-contato-footer {
+max-width: 6%;
+margin-left: 10%;
+margin-right: 4%;
+}.titulos-footer{
+    margin-left: 10%;
 }
 footer {
 position: fixed;
@@ -183,7 +252,7 @@ bottom: 0;
 width: 100%;
 background-color: #5417bd;
 background-image: linear-gradient(to right, #5417bd, #9c21cb);
-height: 390px;
+height: 600px;
 }
 span {
 color: white;
@@ -200,7 +269,10 @@ max-width: 190px;
 }
 .redes {
 display: flex;
-justify-content: center;
+justify-content: space-between;
+margin-bottom: 5%;
+margin-left: 20%;
+margin-right: 20%;
 }
 .redes img {
 max-width: 30px;
@@ -237,7 +309,7 @@ font-weight: 500;
 }
 
 h2.Nome1234{
-font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 font-weight: 600;
 color: #333333;
 font-size: 15px;
