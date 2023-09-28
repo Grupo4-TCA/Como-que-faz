@@ -3,18 +3,25 @@
       margin: 0;
       padding: 0;
   }
+   .conteudo-dispositivo.mobile{
+    display: block;
+    width: 100vw;
+   }
+   
+   .conteudo-dispositivo.desktop{
+    display: none;
+   }
   
-  
-  .slider{
+   .slider{
     margin: 0 auto;
-    width: 1920px;
-    height: 556px;
+    width: 100%;
+    height: 35%;
     overflow: hidden;
   }
   
   .slides{
-    width: 1920%;
-    height: 556px;
+    width: 100%;
+    height: 35%;
     display: flex;
   }
   
@@ -29,14 +36,14 @@
   }
   
   .slide img{
-   height: 556px;
-    width: 1920px;
+    width: 100%;
+    height: 35%;
   }
   
   .manual-navigation{
     position: absolute;
-    width: 1920px;
-    margin-top: -40px;
+    width: 100%;
+    margin-top: -10px;
     display: flex;
     justify-content: center;
   
@@ -51,7 +58,7 @@
   }
   
   .manual-btn:not(:last-child){
-    margin-right: 40px;
+    margin-right: 10px;
   }
   
   .manual-btn:hover{
@@ -63,11 +70,11 @@
   }
   
   #radio2:checked ~ .first{
-    margin-left: -25%;
+    margin-left: -15%;
   }
   
   #radio3:checked ~ .first{
-    margin-left: -50%;
+    margin-left: -30%;
   }
   
   .navigation-auto div{
@@ -81,8 +88,8 @@
   
   .navigation-auto{
     position: absolute;
-    width: 1920px;
-    margin-top: 516px;
+    width: 100%;
+    height: 35%;
     display: flex;
     justify-content: center;
   
@@ -90,7 +97,7 @@
   
   
   .navigation-auto div:not(:Last-child){
-    margin-right: 40px;
+    margin-right: 10px;
   }
   
   #radio1:checked ~ .navigation-auto .auto-btn1{
@@ -108,46 +115,4 @@
     border-color: #cb218c;
   }
   
-  
-  h1.cachos{
-   color: #ffffff;
-   text-align: left;
-   line-height: 67px;
-   transform: translate(170px, 284px);
-   background: none;
-  
-  }
-  .cachos{
-    background-image: url(../imagens/cabelo.png);
-   height: 556px;
-   width: 1920px;
-  }
-  
-  .comida{
-    background-image: url(../imagens/comida.png);
-    height: 556px;
-    width: 1920px;
-  }
-  
-  h1.comida{
-   color: #ffffff;
-   text-align: left;
-   line-height: 67px;
-   transform: translate(170px, 284px);
-   background: none;
-  }
-  
-  .limpar{
-    background-image: url(../imagens/limpando.png);
-    height: 556px;
-    width: 1920px;
-  }
-  
-  h1.limpar{
-    color: #ffffff;
-    text-align: left;
-    line-height: 67px;
-    transform: translate(170px, 284px);
-    background: none;
-  }
-  }
+}

@@ -4,6 +4,7 @@ font-family: heavitas;
 padding: 0;
 margin: 0;
 }
+
 /*header*/
 .logos {
 display: flex;
@@ -223,16 +224,16 @@ height: 80px;
 }
 
 .imagem-perfil-mob{
-width: 90px;
-height: 90px;
-transform: translate(30px, -50px);
+width: 100px;
+height: 100px;
+transform: translate(30px, -40px);
 }
 
 h1.User1234{
 font-family: "Heavitas", sans-serif;
 color: #cb218c;
 font-size: 16px;
-transform: translate(40px,-46px);
+transform: translate(36px,-35px);
 font-weight: 500;
 }
 
@@ -241,7 +242,7 @@ font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
 font-weight: 600;
 color: #333333;
 font-size: 15px;
-transform: translate(40px,-48px);
+transform: translate(0px,-38px);
 }
 
 .segui-mob{
@@ -252,7 +253,7 @@ font-size: 16px;
 width: 200px;
 position: absolute;
 display: flex;
-transform: translate(220px, -166px);
+transform: translate(190px, -150px);
 }
 
 #vis-seguindo{
@@ -269,7 +270,7 @@ margin-bottom: -3px;
 }
 
 button.editar-perfil{
-width: 340px;
+width: 60%;
 height: 30px;
 padding: 2px 2px 2px 2px;
 border-radius: 10px;
@@ -280,12 +281,12 @@ font-family: "Heavitas", sans-serif;
 color: #ffffff;
 text-align: center;
 line-height: normal;
-transform: translate(142.6px, -118px);
+transform: translate(43%, -340%);
 font-size: 12px;
 }
 
 #descrição-perfil{
-transform: translate(70px, -40px);
+transform: translate(38px, -40px);
 }
 
 h5.dicas-caseiras{
@@ -340,8 +341,8 @@ height: 35px;
 
 /*post*/
 #pinterest-style{
-margin-left: 22px;
-margin-top: -35px;
+margin-left: 8%;
+margin-top: -8%;
 }
 
 #icon-post{
@@ -468,8 +469,8 @@ font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 font-weight: 700;
 font-size: 16px;
 color: #ffffff;
-left: 8px;
-top: 116px;
+left: -6%;
+top: 127px;
 width: 150px;
 }
 
@@ -479,7 +480,7 @@ font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 font-weight: 700;
 font-size: 16px;
 color: #ffffff;
-left: 8px;
+left: -7%;
 top: 255px;
 width: 150px;
 }
@@ -623,7 +624,7 @@ img.logosair{
     color: #ffffff;
     text-align: center;
     line-height: normal;
-    transform: translate(40px, 70px);
+    transform: translate(40px, 50px);
     
     }
     
@@ -640,7 +641,7 @@ img.logosair{
     color: #4d16bb;
     text-align: center;
     line-height: normal;
-    transform: translate(40px, 70px);
+    transform: translate(40px, 50px);
     
     }
     .popupsair{
@@ -705,7 +706,7 @@ img.logosair{
     padding: 2px 2px 2px 2px;
     border-radius: 7px;
     border: none;
-    background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
+    background-color: #4d16bb;
     box-sizing: border-box;
     font-weight: 700;
     color: whitesmoke;
@@ -714,7 +715,7 @@ img.logosair{
     font-size: 20px;
     }
   
-    
+  
     form.pergunta input{
     border-top: 100px;
     border-left: 0;
@@ -728,7 +729,7 @@ img.logosair{
     margin-top: 15px;
     
     }
-    form.pergunta.active{
+    form.pergunta:onclick{
     border: none;
     }
     form.pergunta input.sub{

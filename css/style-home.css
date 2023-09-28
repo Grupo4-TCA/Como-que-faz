@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.conteudo-dispositivo.mobile{
+  display: none;
+}
+
 .logos{
     display: flex;
     justify-content: space-around;
@@ -200,3 +204,4 @@ h1.limpar{
   background: none;
 }
 }
+/**/
