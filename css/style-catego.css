@@ -79,7 +79,31 @@
     }
     a.mapculinaria{
         text-align: center;
-        width: 146px;
-        height: 26px;
-        
+        width: 54px;
+        height: 19px;
+        color:black;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        margin-left: 40px;
+      }
+      .mapcu{
+        margin-top: 30px;
+      }
+      img.imgcu{
+        width: 74px;
+        height: 74px;
+        margin-left:30px;
+      }
+      h1.titulocu{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        color: #cb1154;
+        font-weight: 900;
+        transform: translate(110px, -80px);
+      }
+      p.pcu{
+        text-align: left;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        width: 200px;
+        font-size: 12px;
+        transform: translate(110px, -80px);
       }
