@@ -1,6 +1,11 @@
-* {
+@media only screen and (min-width: 721px) {
+  * {
     margin: 0;
     padding: 0;
+}
+
+.conteudo-dispositivo.mobile{
+  display: none;
 }
 
 .logos{
@@ -17,7 +22,6 @@
 
 }
 
-/*oiii, é a sofi ;3*/
 
 .logo img {
     width: 94px;
@@ -199,3 +203,5 @@ h1.limpar{
   transform: translate(170px, 284px);
   background: none;
 }
+}
+/**/

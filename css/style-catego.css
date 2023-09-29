@@ -1,0 +1,129 @@
+@media only screen and (max-width: 480px) {
+    * {
+      margin: 0;
+      padding: 0;
+  }
+  .conteudo.mobile{
+    display: block;
+    width: 100vw;
+   }
+   
+   .conteudo.desktop{
+    display: none;
+   }
+   .logos {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    }
+    
+    .logo {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    }
+    .logo img {
+    max-width: 50px;
+    margin-top: 5px;
+    align-self: center;
+    }
+    .search {
+    margin-top: 22px;
+    margin-right: 13px;
+    }
+    .search img {
+    max-width: 26px;
+    }
+    .login {
+    margin-top: 9px;
+    margin-left: 18px;
+    margin-right: -7px;
+    position: relative;
+    display: inline-block;
+    }
+    .login img {
+    max-width: 34px;
+    margin-top: 10px;    
+    }
+    .topcs {
+    background-color:  #cb1154;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 38px;
+    }
+    a {
+    text-decoration: none;
+    color: white;
+    margin-top: 9px;
+    font-size: 14px;
+    }
+    .culinaria {
+    margin-left: 13.14px;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 12px;
+    }
+    .bem-estar {
+    margin-right: 8.59px;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    margin-top: 12px;
+    font-weight: 700;
+    }
+    .limpeza{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        text-align: center;
+        margin-top: 12px;
+        font-weight: 700;
+    }
+    a.mapculinaria{
+        text-align: center;
+        width: 54px;
+        height: 19px;
+        color:black;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        margin-left: 40px;
+      }
+      .mapcu{
+        margin-top: 30px;
+      }
+      img.imgcu{
+        width: 74px;
+        height: 74px;
+        margin-left:30px;
+      }
+      h1.titulocu{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        color: #cb1154;
+        font-weight: 900;
+        transform: translate(110px, -80px);
+      }
+      p.pcu{
+        text-align: left;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        width: 200px;
+        font-size: 12px;
+        transform: translate(110px, -80px);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    }

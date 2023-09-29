@@ -1,0 +1,152 @@
+@media only screen and (max-width: 480px) {
+
+    .titulo-categoria{
+        line-height: center;
+        width: 40%;
+        height: 3%;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px;
+        background-color: #cb1154;
+        box-sizing: border-box;
+        margin-left: 10%;
+        display: flex;
+        margin-top: 5%;
+    }
+    .icon-culinaria{
+        width: 20%;
+        margin-left: 2%;
+    }
+    .titulo-culinaria{
+        margin-left: 11%;
+        font-size: 80%;
+        position: absolute;
+        color: white;
+        font-family: Heavitas;
+        font-weight: 400;
+        margin-top: 2.3%;
+    }
+    .titulos-post{
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .titulo-user {
+        font-size: 15px;
+        font-family: "Fira Sans", sans-serif;
+        display: inline;
+        color: #333333;
+    }
+    .titulo-principal{
+        font-size: 22px;
+        font-family: Heavitas;
+        color: #333333;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+    .info-post{
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: space-between;
+        display: flex;
+    }
+    .tempo{
+        display: inline;
+    }
+    .tempo-post{
+        height: 26px;
+    }
+    .avaliacao{
+        display: inline;
+    }
+    .avalia-post{
+        height: 26px;
+    }
+    .porcoe{
+        display: inline;
+        align-content: right;
+    }
+    .porcao-post{
+        height: 26px;
+    }
+    .texto-info{
+        display: inline;
+        font-size: 26px;
+        font-family: "Fira Sans", sans-serif;
+        color: #333333;
+    }
+    .descricao-post{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 14px;
+    }
+    .descricao{
+        font-family: "Fira Sans", sans-serif;
+        text-align: justify;
+        color: #333333;
+        margin-top: 3%;
+    }
+    .hashtags{
+        margin-top: 3%;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        padding: 4% 5% 4% 5%;
+        color: #cb1154;
+        background-color: #f2f2f2;
+        border-radius: 0 0 15px 0;
+    }
+    .hashtags-texto{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+    }
+    .Itens-necessários{
+        background-color: #cb2154;
+        margin: 5% 10% 0 10%;
+        border-radius: 5px 5px 5px 5px;
+        padding: 5% 5% 5% 5%;
+    }
+    .itens-titulo{
+        color: white;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    .lista-itens{
+        margin-top: 5%;
+        font-family: "Fira Sans", sans-serif;
+        margin-left: 5%;
+    }
+    .item-1{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 400;
+        color: white;
+    }
+    .item-1:hover{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+    .item-1:hover .info-item{
+        visibility: visible;
+        
+    }
+    .info-item{
+        visibility: hidden;
+        background-color: #a20f45;
+        margin-left: -5%;
+        text-align: left;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+        height: 80px;
+        display: flex;
+    }
+    .icon-colher{
+        width: 13%;
+        margin-top: 3%;
+        margin-left: 3% ;
+    }
+    .titulo-colher{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        display: inline-flex;
+        height: 0;
+    }
+    }
