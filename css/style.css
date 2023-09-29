@@ -748,8 +748,8 @@ div.headernot{
     display: flex;
     height: 35vh;
     width: 35vh;
-    margin-top: 55px;
-    margin-left: 140px;
+    margin-top: 50px;
+    margin-left: 110px;
     object-fit: contain;
     gap: 15px; 
     
@@ -762,7 +762,7 @@ div.headernot{
     text-align: center;
     object-fit: contain;
     margin-left: 138px;
-    margin-top: 20px;
+    margin-top: 10px;
     gap: 10px;
     align-items: center;
   }
