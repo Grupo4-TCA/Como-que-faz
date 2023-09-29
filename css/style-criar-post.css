@@ -34,18 +34,16 @@ margin-left: 11%;
 #criar-post-cancela{
 position: absolute;
 display: flex;
-width: 249px;
+width: 330px;
 margin-left: 8%;
 margin-top: 5%;
 height: 24px;
 background-color: #ffffff;
-font-size: 18px;
 }
 
 #cancela-criar-post{
 color: #4d16bb;
-width: 11px;
-height: 24px;
+font-size: 26px;
 background-color: rgba(255, 255, 255, 0);
 box-sizing: border-box;
 font-family: "Heavitas", sans-serif;
@@ -62,7 +60,163 @@ font-family: "Heavitas", sans-serif;
 color: #4d16bb;
 text-align: left;
 line-height: normal;
-margin-left: 40%;
+margin-left: 35%;
 width: 300px;
+font-size: 26px;
 }
+
+#criar-post-etapas{
+margin-top: 16%;
+}
+
+.linha-baixo{
+width: 100%;
+height: 15px;
+padding: 2px 2px 2px 2px;
+background-color: #d7d7d7;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+
+}
+
+#progresso{
+width: 100%;
+height: 15px;
+padding: 2px 2px 2px 2px;
+background-image: linear-gradient(89.9984726943774deg, #4d16bb 0%, #9d21cb 48.6110592628467%, #ffa462 99.2062434669349%);
+background-color: #d7d7d7;
+box-sizing: border-box;
+position: absolute;
+}
+
+/* Estilos para a lista de tarefas */
+.lista-tarefas {
+display: flex;
+width: 480px;
+height: 34px;
+background-color: #ffffff;
+margin-top: 20px;
+}
+
+/* Estilos para as tarefas */
+.tarefa {
+font-size: 25px;
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0);
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+text-align: left;
+line-height: normal;
+border: none;
+visibility: hidden;
+}
+
+#conteudoTarefa1{
+left: 0;
+transform: translateX(0%);
+}
+
+#conteudoTarefa2{
+left: 0;
+transform: translateX(0%);
+}
+
+#conteudoTarefa3{
+left: 0;
+transform: translateX(100%);
+}
+
+#detalhes{
+background-color: rgba(255, 255, 255, 0);
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #4d16bb;
+text-align: left;
+line-height: normal;
+font-size: 30px;
+margin-top: -5%;
+margin-left: 7%;
+}
+
+#elementos{
+background-color: rgba(255, 255, 255, 0);
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #921FC9;
+text-align: left;
+line-height: normal;
+font-size: 30px;
+margin-top: -5%;
+margin-left: 7%;
+}
+
+#midias{
+background-color: rgba(255, 255, 255, 0);
+box-sizing: border-box;
+font-family: "Heavitas", sans-serif;
+color: #CB218C;
+text-align: left;
+line-height: normal;
+font-size: 30px;
+margin-top: -5%;
+margin-left: 7%;
+}
+
+/* Estilos para o conteúdo das tarefas */
+.conteudo {
+width: 100%;
+height: 400px;
+position: absolute;
+transition: transform 0.5s ease-in-out;
+}
+
+#botoes-criar-post{
+margin-left: -0.8%;
+width: 50%;
+height: 130px;
+padding: 2px 2px 2px 2px;
+border-top: 1px solid #d7d7d7;
+background-color: #ffffff;
+position: fixed;
+box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
+transform: translate(0%, 390%);
+
+}
+
+/* Estilos para os botões */
+#btnAvancar {
+font-size: 14px;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-weight: 700;
+cursor: pointer;
+width: 159px;
+height: 38px;
+padding: 2px 2px 2px 2px;
+border-radius: 3px;
+background-image: linear-gradient(89.99098801485042deg, #4d16bb 0%, #9d21cb 99.20266782940685%);
+box-sizing: border-box;
+color: #ffffff;
+text-align: center;
+line-height: normal;
+border: none;
+transform: translate(190%, 1180%);
+}
+
+#btnVoltar{
+width: 101px;
+height: 38px;
+padding: 2px 2px 2px 2px;
+border-radius: 5px;
+border: 1px solid #4d16bb;
+background-color: #ffffff;
+box-sizing: border-box;
+font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-weight: 700;
+color: #4d16bb;
+text-align: center;
+line-height: normal;
+transform: translate(20%, 1180%);
+}
+
 }
