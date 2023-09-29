@@ -194,6 +194,7 @@ font-size: 15px;
 }
 .Newsletter{
   padding: 5% 0 0 0 ;
+  background-color: #4D16BB;
 }
 .mensagem-news{
     color: white;
@@ -232,6 +233,8 @@ list-style-type: none;
 line-height: 27px;
 font-size: 100%;
 margin-top: 2%;
+margin-bottom: 3%;
+display: flex;
 }
 .sobre-footer{
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
@@ -246,6 +249,7 @@ margin-top: 2%;
 max-width: 6%;
 margin-left: 10%;
 margin-right: 4%;
+margin-top: 1%;
 }.titulos-footer{
     margin-left: 10%;
 }
