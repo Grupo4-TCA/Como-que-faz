@@ -192,12 +192,14 @@ font-size: 15px;
     border: 0px;
     border-radius: 30px;
 }
+.Newsletter{
+  padding: 5% 0 0 0 ;
+}
 .mensagem-news{
     color: white;
     font-family: "Heavitas", sans-serif;
     font-size: 16px;
     text-align: center;
-    margin-top: 5%;
 }
 .Linha-Footer-1{
     height: 3px;
