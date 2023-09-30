@@ -222,7 +222,7 @@ font-size: 15px;
     border-color: white;
     background: white;
     align: center; 
-	margin: 0 auto 0 0;
+	  margin: 0 auto 0 0;
     margin-left: 21%;
     margin-right: 21%;
     margin-bottom: 5%;
@@ -243,6 +243,7 @@ display: flex;
     list-style-type: none;
     line-height: 27px;
     margin-left: 10%;
+    margin-right: 10%;
     font-size: 100%;
     margin-top: 2%;
     }
@@ -254,13 +255,15 @@ margin-top: 1%;
 }.titulos-footer{
     margin-left: 10%;
 }
-footer {
-position: fixed;
+.footer {
+display: block;
 bottom: 0;
+margin-top: 0%;
 width: 100%;
 background-color: #5417bd;
 background-image: linear-gradient(to right, #5417bd, #9c21cb);
-height: 600px;
+height: 500px;
+padding-top: 5%
 }
 span {
 color: white;
@@ -269,8 +272,7 @@ font-size: 14px;
 }
 .logo2 {
 display: flex;
-justify-content: center;
-margin-top: 15px;
+justify-content: center;  
 }
 .logo2 img {
 max-width: 190px;
@@ -285,6 +287,56 @@ margin-right: 20%;
 .redes img {
 max-width: 30px;
 margin-right: 12px;
+}
+.Veja-Mais{
+  font-size: 19px;
+  padding-top: 5%;
+}
+.limpeza-culinaria{
+  display: flex;
+}
+.titulo-veja-mais{
+  font-size: 19px;
+  text-align: center;
+  color: #9e5fef;
+  font-weight: 600;
+  font-family: Heavitas;
+  margin-bottom: 5%;
+  
+}
+.veja-culinaria{
+  width: 30%;
+  background-color: #cb1154;
+  margin-left: 10%;
+  margin-right: 3%;
+  padding: 25% 3% 2% 5%;
+  border-radius: 5px;
+  background-image: url(https://media.discordapp.net/attachments/716562949384306739/1157748286569062581/culinaria.png?ex=6519bc9d&is=65186b1d&hm=f6da702f32323401c3844dbef83ee6d0d4873e243871d849e620c8b9c016f7ef&=&width=205&height=180);
+}
+.veja-limpeza{
+  width: 30%;
+  background-color: #027de1;
+  padding: 25% 3% 2% 5%;
+  border-radius: 5px;
+  align-items: right;
+  margin-right: 10%;
+  background-image: url(https://media.discordapp.net/attachments/716562949384306739/1157747777003073666/culinaria.png?ex=6519bc23&is=65186aa3&hm=c49fe9b6dae5f9b75d454f091bb1634a713817667e9bcadc6d226033e077e045&=&width=205&height=180)
+}
+.veja-bem-estar{
+  width: 71%;
+  background-color: #00cd83;
+  padding: 25% 3% 2% 5%;
+  border-radius: 5px;
+  align-items: right;
+  margin: 3% 10% 5% 10%;
+  background-image: url(https://media.discordapp.net/attachments/716562949384306739/1157748626089590956/culinaria.png?ex=6519bcee&is=65186b6e&hm=4ea2a7bf434b32e3187e4a537b850c44ae2f4e1006cd95148f757f9c8308d51f&=&width=427&height=180)
+}
+.texto-veja-mais{
+  font-size: 17px;
+  text-align: right;
+  color: white;
+  font-weight: 500;
+  font-family: Heavitas;
 }
 /*footer fim*/
 
