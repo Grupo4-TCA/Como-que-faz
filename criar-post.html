@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-criar-post.css">
+    <script src="./js/script-criar-post.js"></script>
     <title>ComoQueFaz?</title>
 </head>
 <body>
 
     <section id="conteudo-dispositivo mobile">
+        
     <div id="menu-post">
         <img id="perfil-foto-menu-post" src="./imagens/foto-perfil.svg" alt="perfil">
         <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
@@ -16,9 +18,40 @@
 
     <div id="criar-post-cancela">
         <div id="cancela-criar-post">X</div>
-        <div id="titulo-criar-post">criar postagem</div>
-        
+        <div id="titulo-criar-post">criar postagem</div>  
     </div>
+    
+    <div id="criar-post-etapas">
+        <div class="linha-baixo">
+        <div class="linha-progresso" id="progresso"></div>
+        </div>
+    
+        <div class="lista-tarefas">
+            <button class="tarefa ativo" id="detalhes">Detalhes</button>
+            <button class="tarefa" id="elementos">Elementos</button>
+            <button class="tarefa" id="midias">Mídias</button>
+        </div>
+    
+        <div id="agrupamento-conteudo">
+        <div class="conteudo conteudo1" id="conteudoTarefa1">
+            <h2 id="detalhes">Detalhes</h2>
+        </div>
+    
+        <div class="conteudo conteudo2" id="conteudoTarefa2">
+            <h2 id="elementos">Elementos</h2>
+        </div>
+    
+        <div class="conteudo conteudo3" id="conteudoTarefa3">
+            <h3 id="midias">Mídias</h3>
+        </div>
+        </div>
+    
+        <div id="botoes-criar-post">
+        <button id="btnVoltar" class="Voltar">VOLTAR</button>
+        <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
+        </div>
+    </div>
+
     </section>
 </body>
 </html>
