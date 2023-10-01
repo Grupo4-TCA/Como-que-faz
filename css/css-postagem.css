@@ -589,4 +589,34 @@
         font-weight: 400;
         text-align: center;
       }
+      .Carrossel img{
+        width: 100%;
+        border-radius: 5px;
+      }
+      .Carrossel{
+        margin-top: 5%;
+        display: block;
+        overflow: hidden;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      .previa{
+        display: flex;
+        margin-top: 2%;
+      }
+      .previa .imagem{
+        width: 120px;
+        border-radius: 5px;
+        transition: 0.2s;
+        margin-bottom: 5%;
+        margin-right: 2%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        opacity: 0.9;
+      }
+      .previa .imagem:hover{
+        filter: brightness(70%);
+        opacity: 1;
+      }
 }

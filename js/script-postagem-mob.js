@@ -78,3 +78,7 @@ function visibility9() {
     x.style.display = "none";
   }
 }
+
+function switchImage(source){
+  document.querySelector(".imagemprincipal").src = source;
+}
