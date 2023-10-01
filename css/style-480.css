@@ -69,18 +69,18 @@ font-size: 14px;
 }
 .culinaria {
 margin-left: 13.14px;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans;
 font-weight: 700;
 margin-top: 12px;
 }
 .bem-estar {
 margin-right: 8.59px;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 margin-top: 12px;
 font-weight: 700;
 }
 .limpeza{
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     text-align: center;
     margin-top: 12px;
     font-weight: 700;
@@ -191,7 +191,7 @@ font-size: 15px;
     width: 56%;
     border: 0px;
     border-radius: 30px;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 700;
 }
 .submit-email{
@@ -240,7 +240,7 @@ font-size: 15px;
     margin-bottom: 5%;
 }
 .contato-footer{
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 color: #D1C2FA;
 list-style-type: none;
 line-height: 27px;
@@ -250,7 +250,7 @@ margin-bottom: 3%;
 display: flex;
 }
 .sobre-footer{
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     color: #D1C2FA;
     list-style-type: none;
     line-height: 27px;
@@ -381,7 +381,7 @@ font-weight: 500;
 }
 
 h2.Nome1234{
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 font-weight: 600;
 color: #333333;
 font-size: 15px;
@@ -389,7 +389,7 @@ transform: translate(0px,-38px);
 }
 
 .segui-mob{
-font-family:  "Fira Sans", sans-serif;
+font-family: Fira Sans;
 color: #333333;
 text-align: center;
 font-size: 16px;
@@ -433,7 +433,7 @@ transform: translate(38px, -40px);
 }
 
 h5.dicas-caseiras{
-font-family: "Fira Sans", sans-serif;
+font-family: Fira Sans;
 font-size: 15px;
 font-weight: 400;
 }
@@ -441,7 +441,7 @@ font-weight: 400;
 .descricao-pf{
 font-size: 15px;
 font-weight: 400;
-font-family: "Fira Sans", sans-serif;
+font-family: Fira Sans;
 }
 
 #icon-link{
@@ -497,7 +497,7 @@ margin-right: 4px;
 #descri-icon{
 margin: 0;
 margin-right: 9px;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 font-weight: 700;
 font-size: 15px;
 color: #333333;
@@ -608,7 +608,7 @@ position: relative;
 
 #descri-post{
 position: absolute;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 font-weight: 700;
 font-size: 16px;
 color: #ffffff;
@@ -619,7 +619,7 @@ width: 150px;
 
 #descri-post-a{
 position: absolute;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 font-weight: 700;
 font-size: 16px;
 color: #ffffff;
@@ -630,7 +630,7 @@ width: 150px;
 
 #descri-post-b{
 position: absolute;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+font-family: Fira Sans Bold;
 font-weight: 700;
 font-size: 16px;
 color: #ffffff;
@@ -735,7 +735,7 @@ img.logosair{
     h1.sairdaconta{
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 800;
     color: #4d16bb;
     text-align: right;
@@ -747,7 +747,7 @@ img.logosair{
     width: 180px;
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 700;
     color: #626262;
     text-align: justify;
@@ -762,7 +762,7 @@ img.logosair{
     background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
     border: none;
     cursor: pointer;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
@@ -779,7 +779,7 @@ img.logosair{
     border: 3px solid #4d16bb;
     background-color: #f5f5f5;
     box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 700;
     color: #4d16bb;
     text-align: center;
@@ -819,7 +819,7 @@ img.logosair{
     border-radius: 22px;
     background-color: #f5f5f5;
     box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 700;
     color: #4d16bb;
     text-align: center;
@@ -836,7 +836,7 @@ img.logosair{
     background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
     border: none;
     cursor: pointer;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans Bold;
     font-weight: 700;
     color: #ffffff;
     text-align: center;
@@ -962,7 +962,7 @@ img.logosair{
       }
     
       .notificacao p{
-        font-family: "Fira Sans ", "Fira Sans", sans-serif;
+        font-family: Fira Sans;
         font-weight: 700;
         align-self: center;
         color: #333333;
@@ -1000,7 +1000,7 @@ img.logosair{
     }
     
     div.filtro-not{
-      font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+      font-family: Fira Sans Bold;
       font-size: small;
       color: #9e5fef;
       margin-top: 30px;

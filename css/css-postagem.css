@@ -32,7 +32,7 @@
     }
     .titulo-user {
         font-size: 15px;
-        font-family: "Fira Sans", sans-serif;
+        font-family: Fira Sans;
         display: inline;
         color: #333333;
     }
@@ -72,7 +72,7 @@
     .texto-info{
         display: inline;
         font-size: 26px;
-        font-family: "Fira Sans", sans-serif;
+        font-family: Fira Sans;
         color: #333333;
     }
     .descricao-post{
@@ -81,7 +81,7 @@
         font-size: 14px;
     }
     .descricao{
-        font-family: "Fira Sans", sans-serif;
+        font-family: Fira Sans;
         text-align: justify;
         color: #333333;
         margin-top: 3%;
@@ -89,7 +89,7 @@
     }
     .hashtags{
         margin-top: 5%;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 700;
         padding: 4% 5% 4% 5%;
         color: #cb1154;
@@ -97,7 +97,7 @@
         border-radius: 0 0 15px 0;
     }
     .hashtags-texto{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 700;
     }
     .Itens-necessários{
@@ -113,11 +113,11 @@
     }
     .lista-itens{
         margin-top: 5%;
-        font-family: "Fira Sans", sans-serif;
+        font-family: Fira Sans;
         margin-left: 5%;
     }
     .item-1{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -146,7 +146,7 @@
         margin-right: 3%;
     }
     .titulo-colher{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         height: 0;
         font-size: 13px;
         text-decoration: none;
@@ -155,21 +155,21 @@
         display: none;
     }
     .info-texto{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-size: 12px;
         text-decoration: none;
     }
     .lista-info-1{
         margin-top: 10%;
         margin-left: 10%;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif
+        font-family: Fira Sans Bold;
     }
     .lista-info-2{
         margin-left: 10%;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif
+        font-family: Fira Sans Bold;
     }
     .item-2{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -203,7 +203,7 @@
         display: none;
     }
     .item-3{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -227,7 +227,7 @@
         display: none;
     }
     .item-4{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -251,7 +251,7 @@
         display: none;
     }
     .item-5{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -275,7 +275,7 @@
         display: none;
     }
     .item-6{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -299,7 +299,7 @@
         display: none;
     }
     .item-7{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -324,7 +324,7 @@
         display: none;
     }
     .item-8{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -348,7 +348,7 @@
         display: none;
     }
     .item-9{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Fira Sans Bold;
         font-weight: 500;
         color: white;
         background: none;
@@ -400,7 +400,7 @@
         font-weight: 400;
     }
     .p-modo{
-        font-family: "Fira Sans", sans-serif;
+        font-family: Fira Sans;
         font-weight: 400;
         color: #333333;
         font-size: 15px;
