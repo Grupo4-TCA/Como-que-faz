@@ -85,6 +85,7 @@
         text-align: justify;
         color: #333333;
         margin-top: 3%;
+        line-height: 100%;
     }
     .hashtags{
         margin-top: 3%;
@@ -117,36 +118,318 @@
     }
     .item-1{
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        text-align: left;
     }
-    .item-1:hover{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 600;
-        color: white;
-    }
-    .item-1:hover .info-item{
-        visibility: visible;
-        
+    .item-1:active{
+        transition: 1s;
     }
     .info-item{
-        visibility: hidden;
         background-color: #a20f45;
-        margin-left: -5%;
+        margin-left: -10%;
+        margin-top: -10%;
         text-align: left;
-        width: 100%;
+        width: 109%;
         border-radius: 0 0 10px 10px;
-        height: 80px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
         display: flex;
     }
     .icon-colher{
-        width: 13%;
-        margin-top: 3%;
-        margin-left: 3% ;
+        width: 50px;
+        height: 50px;
+        display: block; 
+        margin-right: 3%;
     }
     .titulo-colher{
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        display: inline-flex;
         height: 0;
+        font-size: 13px;
+        text-decoration: none;
     }
+    .myDIV{
+        display: none;
     }
+    .info-texto{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    .lista-info-1{
+        margin-top: 10%;
+        margin-left: 10%;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif
+    }
+    .lista-info-2{
+        margin-left: 10%;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif
+    }
+    .item-2{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .myDIV2{
+        display: none;
+    }
+    .icon-xicara-cha{
+        width: 50px;
+        height: 50px;
+        display: block; 
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .info-item2{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .myDIV3{
+        display: none;
+    }
+    .item-3{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item3{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .myDIV4{
+        display: none;
+    }
+    .item-4{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item4{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .myDIV5{
+        display: none;
+    }
+    .item-5{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item5{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .myDIV6{
+        display: none;
+    }
+    .item-6{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item6{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .myDIV7{
+        display: none;
+    }
+    .item-7{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item7{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+
+    .myDIV8{
+        display: none;
+    }
+    .item-8{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item8{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .myDIV9{
+        display: none;
+    }
+    .item-9{
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 500;
+        color: white;
+        background: none;
+        border: none;
+        text-decoration: none;
+        margin-top: 4%;
+        text-align: left;
+    }
+    .info-item9{
+    background-color: #a20f45;
+        margin-left: -10%;
+        margin-top: -10%;
+        text-align: left;
+        width: 109%;
+        border-radius: 0 0 10px 10px;
+        height: 50px;
+        padding: 14% 3% 5% 2%;
+        display: flex;
+    }
+    .Modo-Preparo{
+        border-left: 5px solid #cb1154;
+        margin: 10% 10% 10% 10%;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+    .modo-titulo{
+        color: #333333;
+        font-weight: 400;
+        font-size: 22px;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .lista-modo{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .modos{
+       background-image: linear-gradient(89.99311970570312deg, #ffffff 0%, #e9e9e9 95.48561645502186%); 
+       display: flex;
+       padding: 3% 3% 3% 0%;
+       margin-bottom: 3%;
+    }
+    .t-modo{
+        color: #333333;
+        font-size: 20px;
+        text-align: left;
+        display: grid;
+        align-items: center;
+        font-weight: 400;
+    }
+    .p-modo{
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 400;
+        color: #333333;
+        font-size: 15px;
+        margin-left: 5%;
+    }
+    .gostou{
+        font-size: 26px;
+        color: white;
+        font-weight: 400;
+    }
+    .estrelas{
+        padding: 3% 10% 3% 10%;
+        width: 100%;
+        background-color: #cb1154;
+        display: flex;
+    }
+    .p-aval{
+        font-size: 13px;
+        color: white;
+        font-weight: 400;
+        text-align: left;
+        margin-left: -131px;
+        margin-top: 30px;
+        margin-bottom: 1%;
+    }
+    .avalia-estrelas{
+        position: absolute;
+        margin-top: 3%;
+        margin-left: 55%;
+        align-items: center;
+    }
+}
