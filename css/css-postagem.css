@@ -72,7 +72,7 @@
     .texto-info{
         display: inline;
         font-size: 26px;
-        font-family: Fira Sans;
+        font-family: Fira Sans Bold;
         color: #333333;
     }
     .descricao-post{
@@ -412,7 +412,7 @@
         font-weight: 400;
     }
     .estrelas{
-        padding: 3% 10% 3% 10%;
+        padding: 4% 10% 3% 10%;
         width: 80%;
         background-color: #cb1154;
         display: flex;
