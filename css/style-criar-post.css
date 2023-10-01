@@ -1,4 +1,18 @@
 @media only screen and (max-width: 480px) {
+    
+@font-face{
+    font-family: Heavitas;
+    src: url("../fonts/Heavitas.ttf");
+  }
+  @font-face{
+    font-family: Fira Sans Bold;
+    src: url("../fonts/fira-sans.bold.ttf");
+  }
+  @font-face{
+    font-family: Fira Sans;
+    src: url("../fonts/fira-sans.regular.ttf");
+  }
+  
 * {
 font-family: 'Heavitas';
 padding: 0;
@@ -11,39 +25,41 @@ width: 100vw;
 }
 
 #menu-post{
-width: 100vw;
-height: 74px;
+width: 100%;
+height: 19.73%;
 background-color: #ffffff;;
 box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.08);
 }
 
 #logo-mob-post{
-width: 49px;
-height: 48px;
+width: 12.8%;
+height: 13.06%;
 box-sizing: border-box;
-margin-top: 2.8%;
-margin-left: 26%;
+margin-top: 2.4%;
+margin-bottom: 2.4%;
+margin-left: 21.6%;
 }
 
 #perfil-foto-menu-post{
-width: 44px;
-height: 44px;
-margin-left: 11%;
+width: 11.73%;
+height: 11.73%;
+margin-left: 10.13%;
+margin-bottom: 3%;
 }
 
 #criar-post-cancela{
 position: absolute;
 display: flex;
-width: 330px;
-margin-left: 8%;
-margin-top: 5%;
-height: 24px;
+width: 66.4%;
+height: 6.4%;
+margin-left: 6.4%;
+margin-top: 5.06%;
 background-color: #ffffff;
 }
 
 #cancela-criar-post{
 color: #4d16bb;
-font-size: 26px;
+font-size: 130%;
 background-color: rgba(255, 255, 255, 0);
 box-sizing: border-box;
 font-family: "Heavitas", sans-serif;
@@ -53,16 +69,12 @@ line-height: normal;
 }
 
 #titulo-criar-post{
-height: 24px;
+width: 45.86%;
 background-color: rgba(255, 255, 255, 0);
-box-sizing: border-box;
 font-family: "Heavitas", sans-serif;
 color: #4d16bb;
-text-align: left;
-line-height: normal;
-margin-left: 35%;
-width: 300px;
-font-size: 26px;
+margin-left: 16.5%;
+font-size: 130%;
 }
 
 #criar-post-etapas{
