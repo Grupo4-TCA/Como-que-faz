@@ -72,7 +72,7 @@
     .texto-info{
         display: inline;
         font-size: 26px;
-        font-family: Fira Sans Bold;
+        font-family: Fira Sans;
         color: #333333;
     }
     .descricao-post{
@@ -390,6 +390,7 @@
        display: flex;
        padding: 3% 3% 3% 0%;
        margin-bottom: 3%;
+       border-radius: 0 0 5px 0;
     }
     .t-modo{
         color: #333333;
@@ -463,4 +464,129 @@
     .avalia-estrelas input:checked ~ label:after{
         opacity: 1;
     }
+    .comentarios{
+        margin: 5% 10% 5% 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .comem-titulo{
+        font-family: Fira Sans;
+        font-size: 23px;
+        color: #333333;
+    }
+    .filtro{
+        padding: 3% 5% 3% 5%;
+        background-color: #F2F2F2;
+        border-radius: 5px 5px 5px 5px;
+        display: flex;
+    }
+    .p-filtro{
+        font-family: Fira Sans Bold;
+        font-size: 15px;
+        color: #4D16BB;
+    }
+    .comentar{
+        margin: 5% 10% 5% 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .inserir-comentario{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #4D16BB;
+        margin-left: 5%;
+        width: 100%;
+        height: 25px; 
+        font-family: Fira Sans Bold;
+    }
+    .botao-comentar{
+        background-color: #FFD662;
+        color: #4D16BB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px;
+        padding: 2% 3% 2% 3%;
+        margin-left: 60%;
+        margin-right: 10%;
+        width: 30%;
+    }
+    .botoes-comentar{
+        height: 50px;
+        margin-top: -30px;
+        align-items: right;
+    }
+    input.inserir-comentario::placeholder {
+        opacity: 0.5;
+        color: #333333;
+        font-family: Fira Sans Bold;
+      }
+      .estrelas-taylor{
+        content: '\f005';
+        font-family: fontAwesome;
+        margin-left: 5%;
+        width: 100px;
+        color: #9e5fef;
+      }
+      .comentario{
+        margin: 5% 0% 5% 10%;
+        display: flex;
+        justify-content: space-between !important;
+      }
+      .comentario h1{
+        font-family: Fira Sans Bold;
+        font-size: 17px;
+        margin-right: 10%;
+        text-align: left;
+        color: #9e5fef;
+      }
+      .tres-pontinhos-comentario{
+        width: 3px;
+        height: 13px;
+        margin-right: 10%;
+      }
+      .texto-comentario-taylor{
+        color: #333333;
+        font-family: Fira Sans;
+      }
+      .foto-de-perfil-taylorfan{
+        width: 43px;
+        height: 43px;
+      }
+      .texto-coment-taylor{
+        text-align: left;
+        margin-left: 24%;
+        margin-top: -10%;
+        margin-right: 10%;
+        font-family: Fira Sans;
+        font-size: 15px;
+      }
+      .responder-coment{
+        font-size: 16px;
+        font-family: Fira Sans Bold;
+        color: #4d16bb;
+        margin-left: 35%;
+        margin-top: 2%;
+      }
+      .mostrar-mais{
+        height: 50px;
+      }
+      .mostrar-mais h1{
+        background-color: #FFD662;
+        color: #4D16BB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px;
+        padding: 2% 3% 2% 3%;
+        margin-left: 10%;
+        margin-top: 7%;
+        width: 30%;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+      }
 }

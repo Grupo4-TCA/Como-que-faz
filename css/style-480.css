@@ -194,6 +194,11 @@ font-size: 15px;
     font-family: Fira Sans Bold;
     font-weight: 700;
 }
+.text-email::placeholder{
+    opacity: 0.5;
+    color: #333333;
+    font-family: Fira Sans Bold;
+}
 .submit-email{
     margin-right: 2%;
     height: 34px;   
@@ -240,7 +245,7 @@ font-size: 15px;
     margin-bottom: 5%;
 }
 .contato-footer{
-font-family: Fira Sans Bold;
+font-family: Fira Sans;
 color: #D1C2FA;
 list-style-type: none;
 line-height: 27px;
@@ -250,7 +255,7 @@ margin-bottom: 3%;
 display: flex;
 }
 .sobre-footer{
-    font-family: Fira Sans Bold;
+    font-family: Fira Sans;
     color: #D1C2FA;
     list-style-type: none;
     line-height: 27px;
