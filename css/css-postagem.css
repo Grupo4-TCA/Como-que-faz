@@ -428,8 +428,39 @@
     }
     .avalia-estrelas{
         position: absolute;
-        margin-top: 3%;
-        margin-left: 55%;
+        margin-top: 3.5%;
+        margin-left: 43%;
+        transform:  rotateY(180deg);
         align-items: center;
+    }
+    .avalia-estrelas input{
+        display: none;
+    }
+    .avalia-estrelas label{
+        width: 10px;
+        background: none;
+    }
+    .avalia-estrelas label:before{
+        content: '\f005';
+        font-family: fontAwesome;
+        position: relative;
+        font-size: 27px;
+        color: #711136;
+    }
+    .avalia-estrelas label:after{
+        content: '\f005';
+        font-family: fontAwesome;
+        position: absolute;
+        font-size: 27px;
+        color: #ffd662;
+        margin-left: -25px;
+        opacity: 0;
+        transition: 0.5s;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .avalia-estrelas label:hover:after,
+    .avalia-estrelas label:hover ~ label:after,
+    .avalia-estrelas input:checked ~ label:after{
+        opacity: 1;
     }
 }
