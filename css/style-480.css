@@ -863,7 +863,6 @@ img.logosair{
     font-size: 20px;
     }
   
-  
     form.pergunta input{
     border-top: 100px;
     border-left: 0;
@@ -875,15 +874,17 @@ img.logosair{
     form.pergunta{
     margin-left:50px;
     margin-top: 15px;
-    
     }
+
     form.pergunta:onclick{
     border: none;
     }
+
     form.pergunta input.sub{
     margin-top: 30px;
     border: 0;
     }
+    
     .footerpergunta{
       margin-top: 500px;
     }

@@ -244,4 +244,40 @@ position: relative;
   margin-left: 6.4%;
 }
 
+#texto-titulo-da-postagem{
+  width: 87.2%;
+  height: 35px;
+  padding: 2px 2px 2px 2px;
+  margin-left: 6.4%;
+  font-size: 110%;
+  border: 0;
+  border-bottom: 1px solid #d7d7d7;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  padding-left: 1%;
+  color: #999999;
+  text-align: left;
+}
+
+#detalhes-segunda-parte{
+  margin-top: 3.2%;
+  border-top: 1px solid #909090;
+  padding-top: 6.66%;
+}
+
+#categorias-de-detalhes{
+  width: 89.33%;
+  height: 10.66vw;
+  margin-left: 5.33%;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  font-size: 130%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
 }
