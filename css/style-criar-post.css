@@ -1,5 +1,6 @@
 @media only screen and (max-width: 480px) {
-    
+
+
 @font-face{
     font-family: Heavitas;
     src: url("../fonts/Heavitas.ttf");
@@ -186,6 +187,7 @@ position: fixed;
 box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
 bottom: 100vh; 
 z-index: 99;
+margin-top: 80%;
 }
 
 /* Estilos para os botões */
@@ -232,4 +234,14 @@ position: relative;
     margin-top: 5.06%;
     padding-top: 4.26%;
 }
+
+#titulo-da-postagem{
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-align: left;
+  font-size: 140%;
+  margin-left: 6.4%;
+}
+
 }
