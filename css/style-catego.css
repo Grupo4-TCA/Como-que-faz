@@ -107,19 +107,7 @@
         font-size: 12px;
         transform: translate(110px, -80px);
       }
-      button.fcutodas:visited{
-        width: 99px;
-        height: 35px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 5px;
-        background-color: #cb1154;
-        box-sizing: border-box;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 700;
-        color: #ffffff;
-        text-align: center;
-        line-height: normal;
-      }
+  
 
       button.fcutodas{
         width: 140px;
@@ -133,13 +121,24 @@
         text-align: center;
         line-height: normal;
         border: none;
-        overscroll-behavior-inline: auto;
+        &:active{
+          background-color: #cb1154;
+          box-sizing: border-box;
+          font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+          font-weight: 700;
+          color: #ffffff;
+        }
       }
+      button.fcutodas.select{
+        background-color: #cb1154;
+        box-sizing: border-box;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+      }
+    
       .filtrocu{
         display: inline-flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        scroll-snap-align: end;
       }
 
 
