@@ -133,11 +133,13 @@
         text-align: center;
         line-height: normal;
         border: none;
+        overscroll-behavior-inline: auto;
       }
       .filtrocu{
         display: inline-flex;
-    
-      
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-snap-align: end;
       }
 
 
