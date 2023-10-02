@@ -183,7 +183,6 @@ height: 6.6%;
 padding: 2px;
 border-top: 1px solid #d7d7d7;
 background-color: #ffffff;
-position: fixed; 
 box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
 bottom: 100vh; 
 z-index: 99;
@@ -278,6 +277,17 @@ position: relative;
   font-size: 130%;
   border: 1px solid;
   border-radius: 5px;
+}
+
+#tempo-resultado-detalhes{
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  color: #333333;
+  font-size: 140%;
+  margin-left: 6.4%;
 }
 
 }
