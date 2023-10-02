@@ -11,10 +11,6 @@
 
     <section id="conteudo-dispositivo mobile">
         
-        <div id="botoes-criar-post">
-        <button id="btnVoltar" class="Voltar">VOLTAR</button>
-        <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
-        </div>
     <div id="menu-post">
         <img id="perfil-foto-menu-post" src="./imagens/foto-perfil.svg" alt="perfil">
         <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
@@ -39,6 +35,29 @@
         <div id="agrupamento-conteudo">
         <div class="conteudo conteudo1" id="conteudoTarefa1">
             <h2 id="detalhes">Detalhes</h2>
+
+            <div id="detalhes-primeira-parte">
+            <h3 id="titulo-da-postagem">Título da postagem</h3>
+            <input type="text" id="texto-titulo-da-postagem" placeholder="Escreva um título para a sua postagem">
+            </div>
+
+            <div id="detalhes-segunda-parte">
+            <select id="categorias-de-detalhes">
+                <option value="culinaria"> <img src="./imagens/culinária-icon-categoria.png" alt="opção culinária">CULINÁRIA</option>
+                <option value="limpeza"> <img src="./imagens/limpando.png" alt="opção limpeza">LIMPEZA</option>
+                <option value="bem-estar"> <img src="./imagens/bem-estar-icon-categoria.png" alt="opção bem-estar">BEM-ESTAR</option>
+            </select>
+            <h3>Tempo & Resultado</h3>
+            <div id="tempo-detalhes">
+                <img src="./imagens/tempo.svg" alt="tempo de execução">
+                <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
+                <input type="number" id="minutos-tempo-detalhes" placeholder="00">MINUTOS
+
+                <h3 id="titulo-descricao-detalhes">Descrição</h3>
+                <input type="text" id="descricao-destalhes">
+            </div>
+            </div>
+
         </div>
     
         <div class="conteudo conteudo2" id="conteudoTarefa2">
@@ -50,6 +69,10 @@
         </div>
         </div>
     
+        <div id="botoes-criar-post">
+        <button id="btnVoltar" class="Voltar">VOLTAR</button>
+        <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
+        </div>
     </div>
 
     </section>
