@@ -110,7 +110,7 @@
   
 
       button.fcutodas{
-        width: 140px;
+        min-width: 140px;
         height: 35px;
         padding: 2px 2px 2px 2px;
         border-radius: 5px;
@@ -129,7 +129,8 @@
           color: #ffffff;
         }
       }
-      button.fcutodas.select{
+  
+      button.fcutodas.active::after{
         background-color: #cb1154;
         box-sizing: border-box;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
@@ -138,8 +139,26 @@
       }
     
       .filtrocu{
-        display: inline-flex;
-      }
+        display: flex;
+        gap: 10px;
+        overflow:scroll;
+        width: 100%;
+        margin-left: 50px;
+        
+        }
+        .fcutodas{
+          width: 140px;
+          height: 35px;
+          padding: 2px 2px 2px 2px;
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          box-sizing: border-box;
+          font-family: "Fira Sans", sans-serif;
+          color: #333333;
+          text-align: center;
+          line-height: normal;
+          border: none;
+        }
 
 
 
