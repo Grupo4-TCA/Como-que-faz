@@ -111,7 +111,7 @@
       }
   
 
-      button.fcutodas{
+    /*.fcutodas{
         min-width: 140px;
         height: 35px;
         padding: 2px 2px 2px 2px;
@@ -124,7 +124,7 @@
         line-height: normal;
         border: none;
       
-        }
+        }*/
       }
   
       .filtrocu{
@@ -134,9 +134,8 @@
         height: 100%;
         margin-left: 50px;
         margin-top: -50px;
-        
         }
-        .filtrocu button{
+      /* .filtrocu button{
           width: 140px;
           height: 35px;
           padding: 2px 2px 2px 2px;
@@ -149,7 +148,7 @@
           line-height: normal;
           border: none;
           cursor: pointer;
-        }
+        }*/
         .clicado{
           background-color: #cb1154;
           box-sizing: border-box;
