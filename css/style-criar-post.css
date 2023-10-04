@@ -281,8 +281,7 @@ position: relative;
     border: 1px solid;
     font-family: "Fira Sans", sans-serif;
     font-size: 130%;
-    &:focus,
-    &::after{
+    &:focus{
         &::-webkit-input-placeholder{color:#cb218c;};
         input#dialogoselect::-moz-placeholder{color: #cb218c;};
         border: 2px #CB218C solid;
@@ -310,7 +309,7 @@ input#dialogoselect::-moz-placeholder{
     padding-top: 3.2%;
     padding-left: 12%;
     width: 74.2vw;
-    height: 27vw;
+    height: 24vw;
     border-radius: 5px;
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
@@ -329,7 +328,6 @@ input#dialogoselect::-moz-placeholder{
     position: absolute;
     margin-left: -10%;
     margin-top: -2.3%;
-    margin-bottom: 1.33vw;
 }
 
 .item-select-detalhes{
@@ -344,7 +342,7 @@ input#dialogoselect::-moz-placeholder{
 #item-select-detalhes-1{
     margin-bottom: 5.86%;
     &::after,
-    &:active{
+    &:focus{
         background-color: #cb2154;
     }
 }
@@ -403,6 +401,9 @@ input#dialogoselect::-moz-placeholder{
 #descricao-detalhes-titulo-texto{
     margin-top: 18.92vw;
     margin-left: 6.4vw; 
+    &::selected{
+      background-color: red;
+    }
 }
 
 #titulo-descricao-detalhes{
