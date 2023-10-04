@@ -111,7 +111,7 @@
       }
   
 
-    /*.fcutodas{
+    .fcutodas{
         min-width: 140px;
         height: 35px;
         padding: 2px 2px 2px 2px;
@@ -123,34 +123,31 @@
         text-align: center;
         line-height: normal;
         border: none;
-      
-        }*/
+        gap: 100px;
+        }
       }
   
-      .filtroli{
+      .filtrocu{
         display: flex;
         gap: 10px;
         overflow:scroll;
         height: 100%;
         margin-left: 50px;
         margin-top: -50px;
+        min-width: 140px;
+        height: 35px;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-family: "Fira Sans", sans-serif;
+        color: #333333;
+        text-align: center;
+        line-height: normal;
+        border: none;
         }
-      /* .filtrocu button{
-          width: 140px;
-          height: 35px;
-          padding: 2px 2px 2px 2px;
-          border-radius: 5px;
-          background-color: #f2f2f2;
-          box-sizing: border-box;
-          font-family: "Fira Sans", sans-serif;
-          color: #333333;
-          text-align: center;
-          line-height: normal;
-          border: none;
-          cursor: pointer;
-        }*/
+      
         .clicado{
-          background-color: #cb1154;
+          background-color: #027de1;
           box-sizing: border-box;
           font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
           font-weight: 700;
