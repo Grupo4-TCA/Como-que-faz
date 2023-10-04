@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-480.css">
+    <script src="./js/script-menu-lateral.js"></script>
     <title>ComoQueFaz?</title>
 </head>
 <header>
     <nav class="logos">
         <div class="user">
-            <img src="imagens/icon_sofizinha.png" alt="usuário logado">
-            <div class="user-menu">
+            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+            <div class="user-menu" id="user-menu" style="display: none;">
+                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
                 <ul>
                     <div class="bem-vindo">
                         <div class="colnm1">
@@ -45,9 +47,9 @@
         </div>
     </nav>
     <nav class="topcs">
-        <a class="culinaria" href="/">CULINÁRIA</a>
-        <a class= "limpeza" href="/">LIMPEZA</a>
-        <a class= "bem-estar" href="/">BEM- ESTAR</a>
+        <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/categoria-culinaria">CULINÁRIA</a>
+        <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/categoria-limpeza">LIMPEZA</a>
+        <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/categoria-bem-estar">BEM- ESTAR</a>
     </nav>
 </header>
 <body>

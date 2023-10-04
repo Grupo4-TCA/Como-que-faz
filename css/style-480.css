@@ -101,8 +101,13 @@ font-weight: 700;
     margin-top: 10px;
 }
 
+.abrir-menu{
+  padding: 0 0 0 0;
+  border: none;
+  background: none;
+}
+
 .user-menu {
-display: none;
 position: absolute;
 top: 0;
 margin-left: -60px;
@@ -112,9 +117,13 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 height: 800px;
 }
 
-.user:hover .user-menu {
-display: block;
-border-top: none;
+.fechar-menu{
+  width: 50px;
+  height: 800px;
+  margin-left: 100%;
+  background: none;
+  border: none;
+  position: absolute;
 }
 
 .user-menu ul {
@@ -146,6 +155,9 @@ font-size: 14px;
 
 .user-menu a:hover {
 background-color: #f0f0f0;
+
+transition: 1s;
+
 }
 .ajustes {
 margin-top: 50%;
