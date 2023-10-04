@@ -1,8 +1,7 @@
 const fcutodasElList = document.querySelectorAll('.filtrocu button');
 
 fcutodasElList.forEach(Option =>{
-    Option.setAttribute("class","")
-    console.log (Option)
+ getComputedStyle(fcutodasElList)
 Option.addEventListener('click', () =>{
 Option.classList.add('clicado');
 });
