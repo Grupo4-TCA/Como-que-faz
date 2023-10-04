@@ -67,3 +67,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Inicialmente, definir a largura da linha de progresso e mostrar o conteúdo da Tarefa 1
     handleItemClick({ target: itens[currentIndex] });
 });
+
+function category(c){
+    var item= document.getElementById('item-select-detalhes-'+c).innerHTML;
+    document.getElementById('dialogoselect').value=item;
+}
+
+function dropdown(p){
+    var e=document.getElementsByClassName('dropDown')[0];
+    var d=['block','none'];
+    e.style.display=d[p];
+}

@@ -11,10 +11,6 @@
 
     <section id="conteudo-dispositivo mobile">
         
-        <div id="botoes-criar-post">
-        <button id="btnVoltar" class="Voltar">VOLTAR</button>
-        <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
-        </div>
     <div id="menu-post">
         <img id="perfil-foto-menu-post" src="./imagens/foto-perfil.svg" alt="perfil">
         <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
@@ -39,19 +35,60 @@
         <div id="agrupamento-conteudo">
         <div class="conteudo conteudo1" id="conteudoTarefa1">
             <h2 id="detalhes">Detalhes</h2>
+
+            <div id="detalhes-primeira-parte">
+            <h3 id="titulo-da-postagem">Título da postagem</h3>
+            <input type="text" id="texto-titulo-da-postagem" placeholder="Escreva um título para a sua postagem...">
+            </div>
+
+            <div id="detalhes-segunda-parte">
+
+                <div class="guarda-select">
+                    <input id="dialogoselect" type="text" name="categoria" onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"/>
+                    <div class="dropDown">
+                        <div class="listDropDown">
+                            <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(1)" src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
+                            <div class="item-select-detalhes" id="item-select-detalhes-1" onmousedown="category(1)">CULINÁRIA</div>
+                            <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(2)" src="./imagens/limpeza-icon-categoria.png" alt="limpeza">
+                            <div class="item-select-detalhes" id="item-select-detalhes-2" onmousedown="category(2)">LIMPEZA</div>
+                            <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(3)" src="./imagens/bem-estar-icon-categoria.png" alt="bem-estar">
+                            <div class="item-select-detalhes" id="item-select-detalhes-3" onmousedown="category(3)">BEM-ESTAR</div>
+                        </div>
+                    </div>
+                </div>
+
+            <h3 id="tempo-resultado-detalhes">Tempo & Resultado</h3>
+            <div id="tempo-detalhes">
+                <img id="imagem-tempo-detalhes" src="./imagens/tempo.svg" alt="tempo de execução">
+                <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
+                <input type="number" id="horas-tempo-detalhes" placeholder="00">MINUTOS
+            </div>
+
+                <div id="descricao-detalhes-titulo-texto">
+                <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
+                <input type="text" id="descricao-detalhes">
+            </div>
+            </div>
+
         </div>
     
         <div class="conteudo conteudo2" id="conteudoTarefa2">
             <h2 id="elementos">Elementos</h2>
+            
+
         </div>
     
         <div class="conteudo conteudo3" id="conteudoTarefa3">
             <h3 id="midias">Mídias</h3>
         </div>
-        </div>
-    
     </div>
 
+    <div id="botoes-criar-post">
+        <button id="btnVoltar" class="Voltar">VOLTAR</button>
+        <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
+    </div>
+
+        </div>
     </section>
 </body>
 </html>
