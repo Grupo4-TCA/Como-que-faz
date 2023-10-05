@@ -250,7 +250,7 @@ position: relative;
   height: 9.33%;
   padding: 2px 2px 2px 2px;
   margin-left: 6.4%;
-  margin-top: 1.33%;
+  margin-top: 1.55%;
   font-size: 110%;
   border: 0;
   border-bottom: 1px solid #d7d7d7;
@@ -258,7 +258,8 @@ position: relative;
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
   padding-left: 1%;
-  color: #999999;
+  padding-bottom: 2%;
+  color: #333333;
   text-align: left;
     &:focus{
         
@@ -339,12 +340,23 @@ input#dialogoselect::-moz-placeholder{
     cursor: pointer;
 }
 
+.dialogoselect.categoria-culinaria{
+  background-color: #cb2154;
+  color: #ffff;
+}
+
+.dialogoselect.categoria-limpeza{
+  background-color: #027de1;
+  color: #ffff;
+}
+
+.dialogoselect.categoria-bemestar{
+  background-color: #00cd83;
+  color: #ffff;
+}
+
 #item-select-detalhes-1{
     margin-bottom: 5.86%;
-    &::after,
-    &:focus{
-        background-color: #cb2154;
-    }
 }
 
 #item-select-detalhes-2{
@@ -363,7 +375,17 @@ input#dialogoselect::-moz-placeholder{
   margin-top: 8%;
 }
 
+#imagem-tempo-detalhes{
+    width: 9.06vw;
+    height: 9.06vw;
+    margin-top: -2%;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    fill: #909090;
+}
+
 #tempo-detalhes{
+  appearance: none;
     margin-top: 5.6%;
     margin-left: 6.4%;
     display: flex;
@@ -372,15 +394,6 @@ input#dialogoselect::-moz-placeholder{
     font-weight: 700;
     color: #333333;
     text-align: left;
-}
-
-#imagem-tempo-detalhes{
-    width: 9.06vw;
-    height: 9.06vw;
-    margin-top: -2%;
-    padding: 2px 2px 2px 2px;
-    box-sizing: border-box;
-    fill: #909090;
 }
 
 #horas-tempo-detalhes{

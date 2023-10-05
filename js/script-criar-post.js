@@ -67,14 +67,35 @@ document.addEventListener("DOMContentLoaded", function () {
     // Inicialmente, definir a largura da linha de progresso e mostrar o conteúdo da Tarefa 1
     handleItemClick({ target: itens[currentIndex] });
 });
+function category(categoryId) {
+    // Obtenha uma referência ao elemento de entrada
+    var inputElement = document.querySelector('.dialogoselect');
+    var itemElement = document.getElementById('item-select-detalhes-' + categoryId);
 
-function category(c){
-    var item= document.getElementById('item-select-detalhes-'+c).innerHTML;
-    document.getElementById('dialogoselect').value=item;
+    // Remova a classe existente (se houver)
+    inputElement.classList.remove('categoria-culinaria', 'categoria-limpeza', 'categoria-bemestar');
+  
+    // Adicione a classe com base no categoryId
+    switch (categoryId) {
+      case 1:
+        inputElement.classList.add('categoria-culinaria');
+        break;
+      case 2:
+        inputElement.classList.add('categoria-limpeza');
+        break;
+      case 3:
+        inputElement.classList.add('categoria-bemestar');
+        break;
+    }
+
+    // Atualize o valor do input com base no item selecionado
+    inputElement.value = itemElement.innerText;
 }
 
-function dropdown(p){
-    var e=document.getElementsByClassName('dropDown')[0];
-    var d=['block','none'];
-    e.style.display=d[p];
+function dropdown(action) {
+    var dropdownElement = document.getElementsByClassName('dropDown')[0];
+    var displayValues = ['block', 'none'];
+    dropdownElement.style.display = displayValues[action];
 }
+
+  
