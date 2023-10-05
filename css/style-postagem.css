@@ -19,11 +19,10 @@
     .titulo-culinaria{
         margin-left: 11%;
         font-size: 80%;
-        position: absolute;
         color: white;
         font-family: Heavitas;
         font-weight: 400;
-        margin-top: 2.3%;
+        margin-top: 6%;
     }
     .titulos-post{
         margin-left: 10%;
@@ -509,9 +508,8 @@
         border-bottom: none;
         border-radius: 5px;
         padding: 2% 3% 2% 3%;
-        margin-left: 60%;
-        margin-right: 10%;
-        width: 30%;
+        margin-left: 55%;
+        width: 35%;
     }
     .botoes-comentar{
         height: 50px;
@@ -539,6 +537,7 @@
         font-family: Fira Sans Bold;
         font-size: 17px;
         margin-right: 10%;
+        margin-left: -1%;
         text-align: left;
         color: #9e5fef;
       }
@@ -584,7 +583,7 @@
         padding: 2% 3% 2% 3%;
         margin-left: 10%;
         margin-top: 7%;
-        width: 30%;
+        width: 40%;
         font-size: 13px;
         font-weight: 400;
         text-align: center;
@@ -610,7 +609,6 @@
         transition: 0.2s;
         margin-bottom: 5%;
         margin-right: 2%;
-        display: flex;
         align-items: center;
         overflow: hidden;
         opacity: 0.9;
@@ -618,5 +616,15 @@
       .previa .imagem:hover{
         filter: brightness(70%);
         opacity: 1;
+      }
+      .heart-icon {
+        cursor: pointer;
+        transition: fill 0.3s ease-in-out;
+    }
+    img.azul{
+        content: url(https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u17.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
+      }
+      img.vermelho{
+      content:url( https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u18.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
       }
 }

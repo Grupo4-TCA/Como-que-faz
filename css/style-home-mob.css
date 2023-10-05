@@ -3,117 +3,85 @@
       margin: 0;
       padding: 0;
   }
-   .conteudo-dispositivo.mobile{
-    display: block;
-    width: 100vw;
-   }
-   
    .conteudo-dispositivo.desktop{
     display: none;
    }
-  
-   .slider{
+  .slider{
     margin: 0 auto;
-    width: 480px;
-    height: 100%;
+    width: 100%;
+    height: 460px;
     overflow: hidden;
   }
-  
   .slides{
-    width: 480px;
-    height: 100%;
+    width: 300%;
+    height: 460px;
     display: flex;
   }
-  
   .slides input{
     display: none;
   }
-  
   .slide{
-    width: 100%;
+    width: 33.33%;
     position: relative;
-    transition: 1s;
   }
-  
   .slide img{
-    width: 300%;
-    height: 100%;
+    width: 100%;
   }
-  
   .manual-navigation{
     position: absolute;
-    width: 480px;
-    margin-top: -16.7%;
+    width: 100%;
+    margin-top: -40px;
     display: flex;
     justify-content: center;
-  
   }
-  
   .manual-btn{
+    border: 2px solid white;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 3%;
+  }
+  .manual-btn:hover{
+    background: #cb218c;
+    border: 2px solid #cb218c;
+  }
+  #radio1:checked ~ .primeiro{
+    margin-left: 0;
+  }
+  #radio2:checked ~ .primeiro{
+    margin-left: -33.33%;
+  }
+  #radio3:checked ~ .primeiro{
+    margin-left: -66.66%;
+  }
+  .navigation-auto div{
     border: 2px solid #cb218c;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
   }
-  
-  .manual-btn:not(:last-child){
-    margin-right: 10px;
-  }
-  
-  .manual-btn:hover{
-    background-color: #cb218c;
-  }
-  
-  #radio1:checked ~ .first{
-    margin-left: 0;
-  }
-  
-  #radio2:checked ~ .first{
-    margin-left: -15%;
-  }
-  
-  #radio3:checked ~ .first{
-    margin-left: -30%;
-  }
-  
-  .navigation-auto div{
-    border: 2px solid #fff;
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-    
-  }
-  
   .navigation-auto{
     position: absolute;
-    margin-left: 43.8%;
-    margin-top: 115.5%;
+    width: 100%;
+    margin-top: 420px;
     display: flex;
     justify-content: center;
-  
   }
-  
-  .navigation-auto div:not(:Last-child){
-    margin-right: 10px;
+  .navigation-auto div:not(:last-child){
+    margin-right: 3%;
   }
-  
   #radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: #cb218c;
-    border-color: #cb218c;
+    background: #cb218c;
   }
-  
   #radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: #cb218c;
-    border-color: #cb218c;
+    background: #cb218c;
   }
-  
   #radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: #cb218c;
-    border-color: #cb218c;
+    background: #cb218c;
   }
-  
 }

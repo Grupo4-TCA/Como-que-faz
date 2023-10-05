@@ -82,3 +82,12 @@ function visibility9() {
 function switchImage(source){
   document.querySelector(".imagemprincipal").src = source;
 }
+
+ //icon-heart-interações
+ function mudarcor(e){
+  if(e.className == "azul"){
+  e.className = "vermelho";
+  }else{
+  e.className = "azul";
+  }
+  }
