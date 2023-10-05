@@ -1,16 +1,8 @@
 @media only screen and (max-width: 480px) {
 
-@font-face{
-    font-family: Heavitas;
-    src: url("../fonts/Heavitas.ttf");
-  }
   @font-face{
     font-family: Fira Sans Bold;
     src: url("../fonts/fira-sans.bold.ttf");
-  }
-  @font-face{
-    font-family: Fira Sans;
-    src: url("../fonts/fira-sans.regular.ttf");
   }
 
 img.logosair{
