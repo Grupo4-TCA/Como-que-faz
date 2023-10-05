@@ -501,7 +501,7 @@ height: 35px;
 
 /*post*/
 #pinterest-style{
-margin-left: 8%;
+margin-left: 15%;
 margin-top: -8%;
 }
 
@@ -623,7 +623,7 @@ position: relative;
 position: relative;
 }
 
-#descri-post{
+#descri-postm{
 position: absolute;
 font-family: Fira Sans Bold;
 font-weight: 700;
@@ -710,6 +710,7 @@ margin-left: 190px;
 
 #b{
 margin-left: 380px;
+margin-top: 400px;
 }
 
 #c{
@@ -722,7 +723,7 @@ padding-top: 65px;
 }
 
 #e{
-margin-top: 145px;
+margin-top: 210px;
 }
 
 #f{
@@ -737,7 +738,7 @@ margin-top: 279px;
 
 #h{
 margin-left: 190px;
-margin-top: 420px;
+margin-top: 480px;
 }
 /*fim post*/
 
