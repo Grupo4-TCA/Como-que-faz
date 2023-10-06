@@ -111,6 +111,8 @@ function adicionarMensagem() {
       const messageDiv = document.createElement('div');
       messageDiv.id = 'div-etiqueta-subcategoria';
       messageDiv.textContent = inputValue;
+      messageDiv.style.paddingLeft='1%';
+      messageDiv.style.paddingRight='1%';
   
       // Adicionar a div à lista de mensagens
       messageList.appendChild(messageDiv);

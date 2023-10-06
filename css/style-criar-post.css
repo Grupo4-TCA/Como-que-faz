@@ -513,9 +513,8 @@ color: #333333;
 }
 
 #div-etiqueta-subcategoria{
-  width: 20%;
-  height: 18px;
-  padding: 2px 2px 2px 2px;
+  width: relative;
+  height: 4.8%;
   border-radius: 6px;
   background-color: #ffffff;
   box-sizing: border-box;
