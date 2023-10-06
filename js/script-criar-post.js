@@ -98,4 +98,25 @@ function dropdown(action) {
     dropdownElement.style.display = displayValues[action];
 }
 
+function adicionarMensagem() {
+    const inputText = document.getElementById('inputText');
+    const messageList = document.getElementById('messageList');
+  
+    // Obter o valor do input
+    const inputValue = inputText.value.trim();
+  
+    // Verificar se o valor não está vazio
+    if (inputValue !== '') {
+      // Criar um novo elemento de div para exibir a mensagem
+      const messageDiv = document.createElement('div');
+      messageDiv.id = 'div-etiqueta-subcategoria';
+      messageDiv.textContent = inputValue;
+  
+      // Adicionar a div à lista de mensagens
+      messageList.appendChild(messageDiv);
+  
+      // Limpar o valor do input
+      inputText.value = '';
+    }
+  }
   
