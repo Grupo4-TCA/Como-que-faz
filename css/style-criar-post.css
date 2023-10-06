@@ -508,7 +508,7 @@ color: #333333;
   padding: 10px;
   margin-top: 10px;
   background-color: #cb218c;
-  position: absolute;
+  position: inherit;
   display: flex;
 }
 
@@ -523,6 +523,7 @@ color: #333333;
   color: #cb218c;
   text-align: center;
   line-height: normal;
+  margin: 0px 1% 1% 1%;
 }
   
 }

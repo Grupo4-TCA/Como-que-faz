@@ -121,4 +121,5 @@ function adicionarMensagem() {
       inputText.value = '';
     }
   }
+
   
