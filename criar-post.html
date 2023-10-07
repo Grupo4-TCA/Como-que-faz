@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-criar-post.css">
+    <link rel="stylesheet" href="./css/style-480.css">
     <script src="./js/script-criar-post.js"></script>
+    <script src="./js/script-menu-lateral.js"></script>
     <title>ComoQueFaz?</title>
 </head>
 <body>
@@ -12,9 +14,35 @@
     <section id="conteudo-dispositivo mobile">
         
     <div id="menu-post">
-        <img id="perfil-foto-menu-post" src="./imagens/foto-perfil.svg" alt="perfil">
-        <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
+        <div class="user">
+            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+            <div class="user-menu" id="user-menu" style="display: none;">
+                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
+                <ul>
+                    <div class="bem-vindo">
+                        <div class="colnm1">
+                            <img class="perfil-foto-menu-post" src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
+                        </div>
+                        <div class="colnm2">
+                            <span>Seja bem-vindo(a)!</span>
+                            <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
+                        </div>
+                    </div>
+                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
+                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a></li>
+                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
+                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
+                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
+                   <div class="ajustes">
+                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
+                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
+                   </div>
+                </ul>
+            </div>
+        </div><img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
     </div>
+
+    
 
     <div id="criar-post-cancela">
         <div id="cancela-criar-post">X</div>
@@ -72,6 +100,13 @@
 
             <div id="subcategoria-detalhes-total">
                 <h3 id="titulo-subcategoria-detalhes">SUBCATEGORIAS</h3>
+                <div class="input-container">
+                    <input type="text" id="inputText" placeholder="Digite uma mensagem">
+                    <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()" alt="">
+                </div>
+                <div id="messageList" class="message-list">
+                    <!-- Mensagens serão adicionadas aqui -->
+                </div>
             </div>
             </div>
 

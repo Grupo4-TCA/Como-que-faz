@@ -26,10 +26,11 @@ height: 100vh;
 }
 
 #menu-post{
-width: 100%;
+width: 100vw;
 height: 19.73%;
 background-color: #ffffff;;
 box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.08);
+z-index: 999;
 }
 
 #logo-mob-post{
@@ -41,11 +42,11 @@ margin-bottom: 2.4%;
 margin-left: 21.6%;
 }
 
-#perfil-foto-menu-post{
-width: 11.73%;
-height: 11.73%;
-margin-left: 10.13%;
-margin-bottom: 3%;
+.perfil-foto-menu-post{
+width: 11.73vw;
+height: 11.73vw;
+margin-left: 10.13vw;
+margin-bottom: 3vw;
 }
 
 #criar-post-cancela{
@@ -178,7 +179,7 @@ transition: transform 0.5s ease-in-out;
 
 #botoes-criar-post {
 appearance: none;
-top: 100vh;
+bottom: 10vh;
 position: fixed;
 width: 100vw;
 height: 16vw;
@@ -271,7 +272,7 @@ input#dialogoselect::-moz-placeholder{color: #cb218c;};
 }
 
 #detalhes-segunda-parte{
-margin-top: 3.2%;
+margin-top: 5%;
 border-top: 1px solid #909090;
 padding-top: 6.66%;
 }
@@ -293,10 +294,10 @@ font-family: "Fira Sans", sans-serif;
 font-size: 130%;
 &:focus{
   background-image: url(../imagens/seta-select.svg);
+  background-position-x: 96%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
-  background-position: right;
-  padding-right: -100px;
-&::-webkit-input-placeholder{color:#cb218c;};
+&::-webkit-input-placeholder{color:#cb218c; padding-right: -10%};
 input#dialogoselect::-moz-placeholder{color: #cb218c;};
 border: 2px #CB218C solid;
 border-bottom: 0;
@@ -470,5 +471,59 @@ color: #333333;
   margin-top: 4.53vw;
   margin-left: 6.4vw; 
   }
+  
+.input-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10%;
+}
+
+#inputText {
+  width: 87.2vw;
+  height: 8.26vw;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  border: 1px solid #909090;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  &:focus{
+      outline: 0;
+      border: 1px solid #cb218c;
+
+  }
+}
+
+#icon {
+  position: absolute;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.message-list {
+  border: 1px solid #ccc;
+  width: 87.2vw;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #cb218c;
+  position: inherit;
+  display: flex;
+}
+
+#div-etiqueta-subcategoria{
+  width: relative;
+  height: 4.8%;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #cb218c;
+  text-align: center;
+  line-height: normal;
+  margin: 0px 1% 1% 1%;
+}
   
 }
