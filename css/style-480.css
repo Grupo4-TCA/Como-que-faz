@@ -22,6 +22,7 @@ margin: 0;
 display: flex;
 justify-content: space-around;
 height: 70px;
+box-shadow: 1px 5px 5px rgb(173, 173, 173);
 }
 
 .logo {
@@ -745,13 +746,13 @@ margin-top: 480px;
     
     /*inicio perguntar*/
     button.cancelarpergunta{
-    width: 170px;
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 34%;
+    height: 10.1vw;;
+    margin-left: 5%;
+    margin-top: 5%;
     padding: 2px 2px 2px 2px;
-    border: 3px solid #4d16bb;
-    border-radius: 22px;
+    border: 2px solid #4d16bb;
+    border-radius: 5px;
     background-color: #f5f5f5;
     box-sizing: border-box;
     font-family: Fira Sans Bold;
@@ -760,14 +761,18 @@ margin-top: 480px;
     text-align: center;
     line-height: normal;
     }
+    .botoes-cancelar-publicar{
+      justify-content: space-between;
+      display: flex;
+    }
     
     button.publicarpergunta{
-    width: 170px;
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 42%;
+    height: 10.1vw;
+    margin-right: 5%;
+    margin-top: 5%;
     padding: 2px 2px 2px 2px;
-    border-radius: 22px;
+    border-radius: 5px;
     background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
     border: none;
     cursor: pointer;
@@ -779,31 +784,35 @@ margin-top: 480px;
     }
     
     select.filtropergunta{
-    width: 200px;
-    height: 30px;
+    font-family: Fira Sans Bold;
+    width: 60%;
+    height: 35px;
     padding: 2px 2px 2px 2px;
     border-radius: 7px;
     border: none;
-    background-color: #4d16bb;
+    background-color: #CB218C;
     box-sizing: border-box;
     font-weight: 700;
     color: whitesmoke;
     margin-top: 30px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-left: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    border-color: white;
     }
   
     form.pergunta input{
     border-top: 100px;
     border-left: 0;
     border-right: 0;
-    width: 300px;
+    width: 95%;
     height: 30px;
+    font-family: Fira Sans Bold;
     }
     
     form.pergunta{
-    margin-left:50px;
-    margin-top: 15px;
+    margin-left:5%;
+    margin-top: 8%;
     }
 
     form.pergunta:onclick{
@@ -812,12 +821,14 @@ margin-top: 480px;
 
     form.pergunta input.sub{
     margin-top: 30px;
-    border: 0;
+    border: 2px solid #767676;
+    border-radius: 5px;
     }
     
     .footerpergunta{
       margin-top: 500px;
     }
+    
 
     /*Notificações Mobile*/
     .topi img {
