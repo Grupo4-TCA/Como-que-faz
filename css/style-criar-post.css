@@ -492,8 +492,7 @@ margin-bottom: 3vw;
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
   &:focus{
-      outline: none;
-      border: 2px solid #cb218c;
+      outline: 2px solid #cb218c;
 
   }
 }
