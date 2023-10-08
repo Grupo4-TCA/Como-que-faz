@@ -99,7 +99,7 @@ function dropdown(action) {
 }
 
 function adicionarMensagem() {
-    const inputText = document.getElementById('inputText');
+    const inputText = document.getElementById('input-text-subcategoria');
     const messageList = document.getElementById('messageList');
   
     // Obter o valor do input
