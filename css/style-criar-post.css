@@ -455,7 +455,7 @@ font-family: "Fira Sans", sans-serif;
 color: #000000;
 text-align: left;
 &:focus{
-  outline: 0;
+  outline: none;
   border: 2px #CB218C solid;
   color: #000;
 &::-webkit-input-placeholder{color:#cb218c;};
@@ -492,7 +492,7 @@ margin-bottom: 3vw;
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
   &:focus{
-      outline: 0;
+      outline: none;
       border: 2px solid #cb218c;
 
   }
