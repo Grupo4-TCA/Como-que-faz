@@ -22,6 +22,7 @@ margin: 0;
 display: flex;
 justify-content: space-around;
 height: 70px;
+box-shadow: 1px 5px 5px rgb(173, 173, 173);
 }
 
 .logo {
@@ -379,21 +380,28 @@ width: 100vw;
 }
 
 .gato-esticado{
-width: 100%;
+margin-top: 2%;
+margin-left: 1%;
+margin-right: 1%;
+width: 98%;
 height: 80px;
 }
 
 .imagem-perfil-mob{
-width: 100px;
-height: 100px;
-transform: translate(30px, -40px);
+width: 90px;
+height: 90px;
+margin-left: 7%;
+margin-top: -10%;
+border: 4px solid white;
+border-radius: 100px;
 }
 
 h1.User1234{
 font-family: "Heavitas", sans-serif;
 color: #cb218c;
 font-size: 16px;
-transform: translate(36px,-35px);
+margin-top: -1%;
+margin-left: 7%;
 font-weight: 500;
 }
 
@@ -402,51 +410,131 @@ font-family: Fira Sans Bold;
 font-weight: 600;
 color: #333333;
 font-size: 15px;
-transform: translate(0px,-38px);
+margin-left: 7%;
+margin-top: -1%;
 }
 
 .segui-mob{
-font-family: Fira Sans;
+margin-top: 5%;
+font-family: Fira Sans Bold;
 color: #333333;
-text-align: center;
 font-size: 16px;
-width: 200px;
-position: absolute;
 display: flex;
-transform: translate(190px, -150px);
+justify-content: space-between;
+margin-left: 7%;
+margin-right: 15%;
+}
+.redes-sociais-perfil{
+  margin-top: 4%;
+  display: flex;
+}
+.rede{
+  width: 24px;
+  margin-right: 5%;
+}
+
+.postagens-rascunhos-interacoes{
+  margin-top: 5%;
+  margin-left: -8%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0%;
+  background-color: #e0e0e0;
+}
+
+.postagens-escolha1{
+  font-size: 12px;
+  margin-top: 8%;
+  color: #9e5fef;
+  font-weight: 400;
+  text-align: center;
+}
+.postagens-escolha2{
+  font-size: 12px;
+  margin-top: 8%;
+  color: #9e5fef;
+  font-weight: 400;
+  text-align: center;
+}
+.postagens-escolha3{
+  font-size: 12px;
+  margin-top: 8%;
+  color: #9e5fef;
+  font-weight: 400;
+  text-align: center;
+}
+.postagens-escolha-1{
+  background-color: #e0e0e0;
+  width: 33.33%;
+}
+.postagens-escolha-2{
+  background-color: #e0e0e0;
+  width: 33.33%;
+}
+.postagens-escolha-3{
+  background-color: #e0e0e0;
+  width: 33.33%;
+}
+
+.postagens-escolha-1:hover{ 
+  background-color: #9e5fef;
+  color: white;
+}
+.postagens-escolha-1:hover .postagens-escolha1{
+  color: white;
+}
+.postagens-escolha-2:hover{ 
+  background-color: #9e5fef;
+  color: white;
+}
+.postagens-escolha-2:hover .postagens-escolha2{
+  color: white;
+}
+.postagens-escolha-3:hover{ 
+  background-color: #9e5fef;
+  color: white;
+}
+.postagens-escolha-3:hover .postagens-escolha3{
+  color: white;
 }
 
 #vis-seguindo{
 font-weight: 500;
 font-size: 13px;
-}
-
-#inf-perfil{
-margin-right: 36px;
+font-family: Fira Sans Bold;
 }
 
 #segui{
 margin-bottom: -3px;
+text-align: center;
+}
+.foto-editar{
+  justify-content: space-between; 
+  display: flex;
 }
 
 button.editar-perfil{
-width: 60%;
+width: 150px;
 height: 30px;
-padding: 2px 2px 2px 2px;
+margin-top: 2%;
+margin-right: 7%;
+margin-bottom: 7%;
+padding: 2% 0 2px 30px;
 border-radius: 10px;
 border-style: none;
 background-color: #4d16bb;
-box-sizing: border-box;
 font-family: "Heavitas", sans-serif;
 color: #ffffff;
 text-align: center;
 line-height: normal;
-transform: translate(43%, -340%);
 font-size: 12px;
+display: flex;
 }
 
 #descrição-perfil{
-transform: translate(38px, -40px);
+margin-top: 3%;
+margin-left: 7%;
 }
 
 h5.dicas-caseiras{
@@ -480,29 +568,33 @@ transform: translate(-10px, -190px);
 box-sizing: border-box;
 font-family: "Heavitas", sans-serif;
 color: #9e5fef;
-line-height: normal;
 font-size: 20px;
-width: 100%;
-} 
-
-.headerfav img.fav{
-transform: translate(60px, 15px);
+display: flex;
+justify-content: space-between;
+margin-left: 7%;
+margin-right: 7%;
+margin-top: 5%;
+}
+.textfav{
+  font-size: 25px;
+  margin-top: 1%;
+  width: 70%;
+  font-weight: 400;
+}
+.filtro-icon{
+  height: 30px;
+  margin-top: 1%;
+}
+.fav{
+  height: 10%;
 }
 
-.headerfav .textfav{
-transform: translate(110px, -26px);
-}
-
-img.filtro-icon{
-transform: translate(475px, -55px);
-width: 35px;
-height: 35px;
-}
 
 /*post*/
 #pinterest-style{
 margin-left: 15%;
 margin-top: -8%;
+display: none;
 }
 
 #icon-post{
@@ -745,13 +837,13 @@ margin-top: 480px;
     
     /*inicio perguntar*/
     button.cancelarpergunta{
-    width: 170px;
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 34%;
+    height: 10.1vw;;
+    margin-left: 5%;
+    margin-top: 5%;
     padding: 2px 2px 2px 2px;
-    border: 3px solid #4d16bb;
-    border-radius: 22px;
+    border: 2px solid #4d16bb;
+    border-radius: 5px;
     background-color: #f5f5f5;
     box-sizing: border-box;
     font-family: Fira Sans Bold;
@@ -760,14 +852,18 @@ margin-top: 480px;
     text-align: center;
     line-height: normal;
     }
+    .botoes-cancelar-publicar{
+      justify-content: space-between;
+      display: flex;
+    }
     
     button.publicarpergunta{
-    width: 170px;
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 42%;
+    height: 10.1vw;
+    margin-right: 5%;
+    margin-top: 5%;
     padding: 2px 2px 2px 2px;
-    border-radius: 22px;
+    border-radius: 5px;
     background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
     border: none;
     cursor: pointer;
@@ -779,31 +875,35 @@ margin-top: 480px;
     }
     
     select.filtropergunta{
-    width: 200px;
-    height: 30px;
+    font-family: Fira Sans Bold;
+    width: 60%;
+    height: 35px;
     padding: 2px 2px 2px 2px;
     border-radius: 7px;
     border: none;
-    background-color: #4d16bb;
+    background-color: #CB218C;
     box-sizing: border-box;
     font-weight: 700;
     color: whitesmoke;
     margin-top: 30px;
-    margin-left: 40px;
-    font-size: 20px;
+    margin-left: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    border-color: white;
     }
   
     form.pergunta input{
     border-top: 100px;
     border-left: 0;
     border-right: 0;
-    width: 300px;
+    width: 95%;
     height: 30px;
+    font-family: Fira Sans Bold;
     }
     
     form.pergunta{
-    margin-left:50px;
-    margin-top: 15px;
+    margin-left:5%;
+    margin-top: 8%;
     }
 
     form.pergunta:onclick{
@@ -812,12 +912,14 @@ margin-top: 480px;
 
     form.pergunta input.sub{
     margin-top: 30px;
-    border: 0;
+    border: 2px solid #767676;
+    border-radius: 5px;
     }
     
     .footerpergunta{
       margin-top: 500px;
     }
+    
 
     /*Notificações Mobile*/
     .topi img {
