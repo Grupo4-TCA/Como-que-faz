@@ -4,15 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-480.css">
+    <script src="./js/script-menu-lateral.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
-    <title>ComoQueFaz?</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+    <title>Como que Faz | Meus Favoritos</title>
 </head>
+<header>
+  <nav class="logos">
+      <div class="user">
+          <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+          <div class="user-menu" id="user-menu" style="display: none;">
+              <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
+              <ul>
+                  <div class="bem-vindo">
+                      <div class="colnm1">
+                          <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
+                      </div>
+                      <div class="colnm2">
+                          <span>Seja bem-vindo(a)!</span>
+                          <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
+                      </div>
+                  </div>
+                  <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
+                  <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a></li>
+                  <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
+                  <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
+                  <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
+                 <div class="ajustes">
+                  <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
+                  <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
+                 </div>
+              </ul>
+          </div>
+      </div>
+      <div class= "logo">
+          <a href="header_logado-mobile.html">
+              <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
+          </a>
+      </div>
+      <div class= "search">
+          <a href="/">
+              <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
+          </a>
+      </div>
+  </nav>
+  <nav class="topcs">
+      <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/categoria-culinaria">CULINÁRIA</a>
+      <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/categoria-limpeza">LIMPEZA</a>
+      <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/categoria-bemestar">BEM- ESTAR</a>
+  </nav>
+</header>
 <body>
   
   <section id="conteudo-dispositivo mobile">
 
-    <div class="headerfav"><img class="fav" src="./imagens/favoritos.svg" alt="favoritos imagem"> <div class="textfav">Favoritos</div>
-    <img class="filtro-icon" src="./imagens/filtro-icon.svg" alt=""></div>
+  <div class="headerfav">
+    <img class="fav" src="./imagens/favoritos.svg" alt="favoritos imagem"> 
+    <h1 class="textfav">Favoritos</h1>
+    <img class="filtro-icon" src="./imagens/filtro-icon.svg" alt="">
+  </div>
 
 <div id="pinterest-style">
 
@@ -161,7 +211,7 @@
         <h3 id="descri-icon">~</h3>
       </div>
   </div>
-</div>
+
 </section>
 
 </body>
