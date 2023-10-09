@@ -25,14 +25,14 @@
     position: relative;
     transition: 0.3s;
   }
-  .slide img{
+  .imagens-slide{
     width: 100%;
   }
   .manual-navigation{
     position: absolute;
     width: 100%;
-    margin-top: -40px;
     display: flex;
+    margin-top: -40px;
     justify-content: center;
   }
   .manual-btn{
@@ -73,6 +73,32 @@
   .navigation-auto div:not(:last-child){
     margin-right: 5%;
   }
-  
-  
+  .icon-culinaria-banner1{
+    height: 70px;
+    background: none;
+    display: flex;
+  }
+  .imagem-categoria{
+    height: 10%;
+    max-width: 50px;
+    min-width: 30px;
+    margin-top: 25px;
+    margin-left: -93%;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 375px) {
+.manual-navigation{
+  margin-top: -50px;
+}
+}
+@media only screen and (max-width: 350px) {
+.manual-navigation{
+  margin-top: -70px;
+}
+}
+@media only screen and (max-width: 335px) { 
+.manual-navigation{
+  margin-top: -90px;
+}
 }
