@@ -200,7 +200,7 @@ transition: transform 0.5s ease-in-out;
 position: fixed;
 width: 100vw;
 height: 16vw;
-margin-top: 84vw;
+margin-top: 100vw;
 padding: 2px;
 border-top: 1px solid #d7d7d7;
 background-color: #ffffff;
@@ -272,7 +272,7 @@ height: 9.33%;
 padding: 2px 2px 2px 2px;
 margin-left: 6.4%;
 margin-top: 1.55%;
-font-size: 110%;
+font-size: 100%;
 border: 0;
 border-bottom: 1px solid #d7d7d7;
 background-color: #ffffff;
@@ -561,8 +561,17 @@ margin-bottom: 3vw;
 }
 
 #ingredientes-elementos{
-  border-left: 5px solid #cb218c;
   margin-left: 8vw;
+}
+
+#linha-rosa-ingredientes{
+  width: 1.06vw;
+  height: 49.06vw;
+  padding: 2px 2px 2px 2px;
+  margin-left: 6.4vw;
+  background-color: #cb218c;
+  box-sizing: border-box;
+  position: absolute;
 }
 
 #titulo-ingredientes-elementos{
@@ -574,26 +583,82 @@ margin-bottom: 3vw;
   display: inline-block;
 }
 
-#numero-do-elemento{
-  width: 6vw;
-  margin-left: 2vw;
-  padding-left: 3vw;
-  padding-bottom: 1vw;
+#numero-do-ingrediente{
+  max-width: 7vw;
+  margin-top: 11vw;
+  margin-left: -3vw;
+  padding-left: 1.4vw;
   border: 0;
-  border-bottom: 1px solid #909090;
+  background-color: white;
   outline: none;
   font-family: "Fira Sans", sans-serif;
-  font-size: 80%;
+  font-size: 130%;
+  font-weight: 700;
+  color: #000;
   &::-webkit-input-placeholder{color:#909090;};
   input#dialogoselect::-moz-placeholder{color: #909090;};
 }
 
 #nome-do-ingrediente{
   font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 94%;
   color: #333333;
   text-align: left;
-  margin-top: 10vw;
+  margin-top: 4.26vw;
+  margin-left: 5vw;
+}
+
+#input-nome-do-ingrediente{
+width: 82%;
+height: 9.33%;
+padding: 2px 2px 2px 2px;
+margin-left: 6.4%;
+margin-top: 3vw;
+font-size: 110%;
+border: 0;
+border-bottom: 1px solid #d7d7d7;
+background-color: #ffffff;
+box-sizing: border-box;
+font-family: "Arial", sans-serif;
+padding-left: 1%;
+padding-bottom: 2%;
+color: #333333;
+text-align: left;
+&::-webkit-input-placeholder{color:#adadad;};
+input#dialogoselect::-moz-placeholder{color: #adadad;};
+&:focus{
+  outline: 0;
+  border-bottom: 2px #CB218C solid;
+&::-webkit-input-placeholder{color:#cb218c;};
+input#dialogoselect::-moz-placeholder{color: #cb218c;};
+}
+}
+
+#input-quantidade-do-ingrediente{
+width: 11.5vw;
+height: 9.33%;
+padding: 2px 2px 2px 2vw;
+margin-left: 6.4%;
+margin-top: 3vw;
+font-size: 110%;
+border: 0;
+border-bottom: 1px solid #d7d7d7;
+background-color: #ffffff;
+box-sizing: border-box;
+font-family: "Arial", sans-serif;
+padding-left: 3vw;
+padding-bottom: 2%;
+color: #333333;
+text-align: left;
+&::-webkit-input-placeholder{color:#adadad;};
+input#dialogoselect::-moz-placeholder{color: #adadad;};
+&:focus{
+  outline: 0;
+  border-bottom: 2px #CB218C solid;
+&::-webkit-input-placeholder{color:#cb218c;};
+input#dialogoselect::-moz-placeholder{color: #cb218c;};
+}
 }
 
 }
