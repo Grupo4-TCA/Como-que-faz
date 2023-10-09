@@ -578,8 +578,8 @@ margin-top: 5%;
 .textfav{
   font-size: 25px;
   margin-top: 1%;
-  width: 70%;
   font-weight: 400;
+  width: 85%;
 }
 .filtro-icon{
   height: 30px;
@@ -928,31 +928,36 @@ margin-top: 480px;
         margin-top: 10px;
       }
     
-      .mega-noiteficacao {
-    
-        padding-left: 30px;
-        margin-top: 20px;
+        .mega-noiteficacao {
+        margin-top: 5%;
       }
     
     
       .just-notification svg {
         color: #9e5fef;
         rotate: -90deg;
+        margin-left: 7%;
       }
     
       .just-notification {
         display: flex;
-        align-items: top;
+        justify-content: space-between;
+        margin-left: 7%;
       }
     
-      h2 {
+      h2.notificacoes {
         font-family: heavitas;
-        font-style: normal;
         font-weight: 400;
         color: #9e5fef;
-        margin-bottom: 10px;
-        margin-left: 35px;
+        margin-top: 2%;
         font-size: 25px;
+        margin-top: 1%;
+        width: 85%;
+        font-weight: 400;
+      }
+
+      .img-noti{
+        height: 10%;
       }
     
       .sinim {
@@ -962,58 +967,76 @@ margin-top: 480px;
       }
     
       .notificacao {
+        padding: 3% 4% 4% 3%;
+        margin-left: 7%;
         display: flex;
-        background-color: grey;
+        background-color: rgb(197, 197, 197);
         max-width: 90%;
-        margin-top: 30px;
-        width: 900px;
-        height: 100px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 15px;
-        background-color: #eaeaea;
+        margin-top: 3%;
+        width: 85%;
+        height: 100%;
+        border-radius: 5px;
+        background-color: #ededed;
         box-sizing: border-box;
-        
-        
+        justify-content: space-between;
+      }
+      .icon-notifica{
+        height: 50px;
+        margin-top: 3%;
+        border-radius: 100px;
       }
     
-      .notificacao img:nth-of-type(1){
+      .notificacao img.imagem-post:nth-of-type(1){
         padding: 15px;
         object-fit: contain;
         border-radius: 50px;
-        
-    
       }
     
-      .notificacao img:nth-of-type(2){
+      .notificacao img.imagem-post:nth-of-type(2){
         object-fit: contain;
-        border-radius: 8px;
+        border-radius: 4px;
         height: 50px;
-        align-self: center;
-        
-        
+        align-self: center;        
       }
     
       .notificacao p.nick{
         font-family: "Heavitas Bold", "Heavitas", sans-serif;
         color:  #4d16bb;
-        align-self: center;
-        font-size: 12px;
-        margin-right: 5px;
-        margin-left: -10px;
+        font-size: 15px;
+        margin-top: 4%;
+      }
+      .icon-comentario{
+        height: 40px;
+        margin-top: 3%;
       }
     
       .notificacao p{
-        font-family: Fira Sans;
-        font-weight: 700;
         align-self: center;
         color: #333333;
-        font-size: 12px;
-        margin-right: 25px;
       }
+      .notificacao p.tipo-noti{
+        font-family: Fira Sans Bold;
+        font-size: 14px;
+        width: 90%;
+      }
+      .comentario{
+        margin-top: 2%;
+        font-family: Fira Sans;
+        font-size: 12px;
+      }
+      .texto-notifica{
+        display: inline;
+        margin-left: 3%;
+        margin-right: 2%;
+        width: 60%;
+        }
     
       
     .radio-container {
       position: relative;
+      font-weight: 400;
+      margin-top: 5%;
+      font-family: Fira Sans Bold;
       display: inline-block;
       padding-left: 5px; /* Espaçamento à esquerda para o retângulo */
       margin-right: 5px; /* Espaçamento entre os elementos */
@@ -1042,11 +1065,28 @@ margin-top: 480px;
     
     div.filtro-not{
       font-family: Fira Sans Bold;
+      margin-left: 5%;
       font-size: small;
       color: #9e5fef;
-      margin-top: 30px;
-      margin-left: 20px;
+      margin-top: 3%;
+      margin-right: 7%;
       font-weight: 600;
+      margin-bottom: 10%;
+    }
+    .vejamais-notificacoes{
+      background-color: #FFD662;
+      width: 30%;
+      margin-top: 8%;
+      margin: 8% 35% 10% 32%;
+      margin-bottom: 10%;
+      padding: 2% 3% 2% 3%;
+      border-radius: 5px;
+    }
+    .vejamais-notificacoes h2{
+      font-size: 15px;
+      font-family: Fira Sans Bold;
+      text-align: center;
+      color: #4D16BB;
     }
 /*Fim - Notificações Mobile*/    
 }
