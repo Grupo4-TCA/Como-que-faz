@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-480.css">
     <link rel="stylesheet" href="css/style-pergunta-mob.css">
-    <script src="./js/script-menu-lateral.js"></script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200;1,300;1,400;1,500;1,600;1,700&family=Young+Serif&display=swap" rel="stylesheet">
 
 </head>
 <header>
     <nav class="logos">
         <div class="user">
-            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
-            <div class="user-menu" id="user-menu" style="display: none;">
-                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
+            <img src="imagens/icon_sofizinha.png" alt="usuário logado">
+            <div class="user-menu">
                 <ul>
                     <div class="bem-vindo">
                         <div class="colnm1">
@@ -24,7 +24,9 @@
                         </div>
                         <div class="colnm2">
                             <span>Seja bem-vindo(a)!</span>
-                            <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
+                            <div class="nome">
+                                <p><span>Sofia Albuquerque Lima</span></p>
+                            </div>
                         </div>
                     </div>
                     <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
@@ -32,28 +34,28 @@
                     <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
                     <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
                     <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
-                   <div class="ajustes">
-                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
-                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
-                   </div>
+                    <div class="ajustes">
+                        <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
+                        <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
+                    </div>
                 </ul>
             </div>
         </div>
-        <div class= "logo">
+        <div class="logo">
             <a href="header_logado-mobile.html">
                 <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
             </a>
         </div>
-        <div class= "search">
+        <div class="search">
             <a href="/">
                 <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
             </a>
         </div>
     </nav>
     <nav class="topcs">
-        <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/categoria-culinaria">CULINÁRIA</a>
-        <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/categoria-limpeza">LIMPEZA</a>
-        <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/categoria-bemestar">BEM- ESTAR</a>
+        <a class="culinaria" href="/">CULINARIA</a>
+        <a class="limpeza" href="/">LIMPEZA</a>
+        <a class="bem-estar" href="/">BEM ESTAR</a>
     </nav>
 </header>
 
@@ -63,13 +65,13 @@
         <section class="head-perg">
 
             <div class="cabecaculinaria">
-                <div class="titulo-categoria">
-                    <img src="./imagens/culinária-icon-categoria.png"alt="icon-categoria" class="icon-culinaria">
-                    <h1 class="titulo-culinaria" >CULINÁRIA</h1>
+                <div class="culinaria2">
+                    <img class="cul-icon" src="imagens/GARFINHO.png" alt="">
+                    <h1> Culinaria</h1>
                 </div>
                 <img class="perg-pontinho1" src="" alt="">
                 <h3><span class="nick2">NandãoDoAçaí</span> | Nanda da Silva</h3>
-                <p class="postajem">Gente, eu comi um bolo de pão de mel em uma festa... queria fazer também </p>
+                <p>Gente, eu comi um bolo de pão de mel em uma festa... queria fazer também </p>
             </div>
             <div class="judas">
                 <button class="ajuda">Ajudas</button>
@@ -92,14 +94,18 @@
 
 
             <div class="comentar">
-                <img src="./imagens/imagem-foto-de-perfil-fofa.png" alt="foto-de-perfil">
-                <input class="inserir-comentario" type="text" name="inserir-comentario" id="inserir-comentario" placeholder="Digite seu comentário...">
-                <label for="inserir-comentario"></label>
+
+                <img src="imagens/icon_sofizinha.png" alt="">
+
+                <div class="fazer-comentario">
+                    <input type="text" placeholder="Digite seu comentario">
+
+                    <button> Cancelar</button>
+                    <input type="submit" value="Comentar">
+                </div>
+
             </div>
-        </div>
-        <div class="botoes-comentar">
-        <input class="botao-comentar" type="submit" value="COMENTAR">
-        </div>
+
 
             <div class="comentario">
 
