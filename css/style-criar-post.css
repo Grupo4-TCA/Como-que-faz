@@ -579,8 +579,9 @@ margin-bottom: 3vw;
   font-weight: 700;
   color: #cb218c;
   text-align: left;
-  margin-left: 6vw;
+  margin-left: 5vw;
   display: inline-block;
+  font-size: 130%;
 }
 
 #numero-do-ingrediente{
@@ -602,7 +603,7 @@ margin-bottom: 3vw;
 #nome-do-ingrediente{
   font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
   font-weight: 500;
-  font-size: 94%;
+  font-size: 80%;
   color: #333333;
   text-align: left;
   margin-top: 4.26vw;
@@ -610,12 +611,12 @@ margin-bottom: 3vw;
 }
 
 #input-nome-do-ingrediente{
-width: 82%;
-height: 9.33%;
+width: 78%;
+height: 9%;
 padding: 2px 2px 2px 2px;
-margin-left: 6.4%;
+margin-left: 5vw;
 margin-top: 3vw;
-font-size: 110%;
+font-size: 90%;
 border: 0;
 border-bottom: 1px solid #d7d7d7;
 background-color: #ffffff;
@@ -630,8 +631,6 @@ input#dialogoselect::-moz-placeholder{color: #adadad;};
 &:focus{
   outline: 0;
   border-bottom: 2px #CB218C solid;
-&::-webkit-input-placeholder{color:#cb218c;};
-input#dialogoselect::-moz-placeholder{color: #cb218c;};
 }
 }
 
@@ -641,10 +640,9 @@ position: absolute;
 }
 
 #input-quantidade-do-ingrediente{
-width: 11.5vw;
-height: 9.33%;
-padding: 2px 2px 2px 2vw;
-margin-left: 6.4%;
+width: 20vw;
+padding-left: 6.6vw;
+margin-left: 5vw;
 margin-top: 3vw;
 font-size: 110%;
 border: 0;
@@ -652,8 +650,7 @@ border-bottom: 1px solid #d7d7d7;
 background-color: #ffffff;
 box-sizing: border-box;
 font-family: "Arial", sans-serif;
-padding-left: 3vw;
-padding-bottom: 2%;
+padding-bottom: 2vw;
 color: #333333;
 text-align: left;
 &::-webkit-input-placeholder{color:#adadad;};
@@ -661,15 +658,14 @@ input#dialogoselect::-moz-placeholder{color: #adadad;};
 &:focus{
   outline: 0;
   border-bottom: 2px #CB218C solid;
-&::-webkit-input-placeholder{color:#cb218c;};
-input#dialogoselect::-moz-placeholder{color: #cb218c;};
 }
 }
 
 #medidas-elementos{
   margin-left: 4vw;
-  width: 47.46vw;
-  height: 9.86vw;
+  margin-top: 2vw;
+  width: 46vw;
+  height: 9vw;
   padding: 2px 2px 2px 2vw;
   border-radius: 5px;
   border: 1px solid #d7d7d7;
@@ -677,15 +673,12 @@ input#dialogoselect::-moz-placeholder{color: #cb218c;};
   box-sizing: border-box;
   outline: none;
   color: #333333;
-  font-size: 110%;
+  font-size: 90%;
   font-family: "Arial", sans-serif;
   &::-webkit-input-placeholder{color:#adadad;};
   input#dialogoselect::-moz-placeholder{color: #adadad;};
   &:focus{
     outline: none;
-    border-bottom: 2px #CB218C solid;
-  &::-webkit-input-placeholder{color:#cb218c;};
-  input#dialogoselect::-moz-placeholder{color: #cb218c;};
   }
 }
 
