@@ -22,24 +22,43 @@ margin: 0;
 #conteudo-dispositivo.mobile{
 display: block;
 width: 100vw;
-height: 100vh;
+}
+
+#tudonessapaginamobile{
+  max-height: 100vh;
 }
 
 #menu-post{
 width: 100vw;
-height: 19.73%;
+height: 18.7vw;
+display: flex;
+padding: 0px 0px 0px 0px;
+justify-content: space-around;
 background-color: #ffffff;;
 box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.08);
 z-index: 999;
 }
 
+#gambiarra-pra-space-around{
+  width: 6.93vw;
+  height: 6.93vw;
+}
+
+.perfil-post-foto{
+  margin-left: -5vw;
+  padding-right: 5vw;
+}
+
+.user-menu{
+  z-index: 98;
+}
+
 #logo-mob-post{
-width: 12.8%;
-height: 13.06%;
+width: 13.335vw;
+height: 13.335vw;
 box-sizing: border-box;
 margin-top: 2.4%;
 margin-bottom: 2.4%;
-margin-left: 21.6%;
 }
 
 .perfil-foto-menu-post{
@@ -178,21 +197,21 @@ transition: transform 0.5s ease-in-out;
 }
 
 #botoes-criar-post {
-appearance: none;
-bottom: 10vh;
 position: fixed;
 width: 100vw;
 height: 16vw;
+margin-top: 84vw;
 padding: 2px;
 border-top: 1px solid #d7d7d7;
 background-color: #ffffff;
 box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
+z-index: 97;
 }
 
 
 /* Estilos para os botões */
 #btnAvancar {
-font-size: 110%;
+font-size: 100%;
 font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 font-weight: 700;
 cursor: pointer;
@@ -207,11 +226,12 @@ line-height: normal;
 border: none;
 cursor: pointer;
 z-index: 100;
-position: absolute;
+position: relative;
+margin-left: 51.2vw;
 }
 
 #btnVoltar{
-width: 42%;
+width: 30vw;
 height: 10.10vw;
 padding: 2px 2px 2px 2px;
 border-radius: 5px;
@@ -220,13 +240,14 @@ background-color: #ffffff;
 box-sizing: border-box;
 font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 font-weight: 700;
-font-size: 110%;
+font-size: 100%;
 color: #4d16bb;
 text-align: center;
 line-height: normal;
 cursor: pointer; 
 z-index: 100;
-position: relative;
+position: absolute;
+margin-left: 6.4vw;
 }
 
 #detalhes-primeira-parte{
@@ -532,5 +553,47 @@ margin-bottom: 3vw;
   margin: 0px 1% 0px 1%;
   padding: 0px 1% 1% 1%;
 }
-  
+
+#esqueleto-elementos{
+  border-top: 1px solid #909090;
+  margin-top: 5.06%;
+  padding-top: 4.26%;
+}
+
+#ingredientes-elementos{
+  border-left: 5px solid #cb218c;
+  margin-left: 8vw;
+}
+
+#titulo-ingredientes-elementos{
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #cb218c;
+  text-align: left;
+  margin-left: 6vw;
+  display: inline-block;
+}
+
+#numero-do-elemento{
+  width: 6vw;
+  margin-left: 2vw;
+  padding-left: 3vw;
+  padding-bottom: 1vw;
+  border: 0;
+  border-bottom: 1px solid #909090;
+  outline: none;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 80%;
+  &::-webkit-input-placeholder{color:#909090;};
+  input#dialogoselect::-moz-placeholder{color: #909090;};
+}
+
+#nome-do-ingrediente{
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-align: left;
+  margin-top: 10vw;
+}
+
 }

@@ -121,5 +121,3 @@ function adicionarMensagem() {
       inputText.value = '';
     }
   }
-
-  
