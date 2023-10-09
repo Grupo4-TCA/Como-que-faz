@@ -86,6 +86,35 @@
     margin-left: -93%;
     position: absolute;
   }
+  .texto-slide{
+    font-size: 30px;
+    height: 10%;
+    max-width: 90%;
+    font-weight: 400;
+    min-width: 30px;
+    margin-top: -205px;
+    margin-left: 7%;
+    position: absolute;
+    color: white;
+  }
+  .itens-necessarios{
+    font-family: Fira Sans Bold;
+    font-size: 17px;
+    height: 10%;
+    width: 83%;
+    font-weight: 400;
+    margin-top: -165px;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: absolute;
+    color: white;
+    border-left: white solid;
+    height: 60px;
+    padding-left: 2%;
+  }
+  .textos-carrossel{
+    display: inline;
+  }
 }
 @media only screen and (max-width: 375px) {
 .manual-navigation{
