@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="./css/style-480.css">
     <script src="./js/script-criar-post.js"></script>
     <script src="./js/script-menu-lateral.js"></script>
-    <title>ComoQueFaz?</title>
+    <title>Como que Faz | Criar Postagem</title>
 </head>
 <body>
-
     <section id="conteudo-dispositivo mobile">
+    <div id="tudonessapaginamobile">
+        
         
     <div id="menu-post">
         <div class="user">
-            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img class="perfil-post-foto" src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
             <div class="user-menu" id="user-menu" style="display: none;">
                 <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
                 <ul>
@@ -39,10 +40,10 @@
                    </div>
                 </ul>
             </div>
-        </div><img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
+        </div>
+        <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
+        <span id="gambiarra-pra-space-around"></span>
     </div>
-
-    
 
     <div id="criar-post-cancela">
         <div id="cancela-criar-post">X</div>
@@ -105,7 +106,6 @@
                     <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()" alt="">
                 </div>
                 <div id="messageList" class="message-list">
-                    <!-- Mensagens serão adicionadas aqui -->
                 </div>
             </div>
             </div>
@@ -114,6 +114,17 @@
     
         <div class="conteudo conteudo2" id="conteudoTarefa2">
             <h2 id="elementos">Elementos</h2>
+
+            <div id="esqueleto-elementos">
+
+                <div id="ingredientes-elementos">
+                    <h2 id="titulo-ingredientes-elementos">INGREDIENTE
+                    <input type="text" id="numero-do-elemento" placeholder="0"></h2>
+                    
+                    <h4 id="nome-do-ingrediente">Nome do ingrediente</h4>
+                </div>
+
+            </div>
             
         </div>
     
@@ -122,12 +133,15 @@
         </div>
     </div>
 
-    <div id="botoes-criar-post">
-        <button id="btnVoltar" class="Voltar">VOLTAR</button>
-        <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
-    </div>
-
         </div>
+        
+        <div id="botoes-criar-post">
+            <button id="btnVoltar" class="Voltar">VOLTAR</button>
+            <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
+        </div>
+
+    </div>
     </section>
+
 </body>
 </html>
