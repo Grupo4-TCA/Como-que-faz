@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
         event.target.classList.add("ativo");
 
         // Define a largura da linha de progresso para corresponder ao botão atual
-        const itemWidth = 480 / itens.length; // Divide a largura igualmente
+        const itemWidth = 100 / itens.length; 
         const progressoWidth = itemWidth * (currentIndex + 1);
-        progresso.style.width = progressoWidth + "px";
+        progresso.style.width = progressoWidth + "%";
 
         // Altera o nome do botão "Avançar" para "Criar Post" na Tarefa 3
         if (currentIndex === 2) {
@@ -99,7 +99,7 @@ function dropdown(action) {
 }
 
 function adicionarMensagem() {
-    const inputText = document.getElementById('inputText');
+    const inputText = document.getElementById('input-text-subcategoria');
     const messageList = document.getElementById('messageList');
   
     // Obter o valor do input
