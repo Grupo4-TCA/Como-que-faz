@@ -1,7 +1,7 @@
 @media only screen and (max-width: 480px) {
 
     .titulo-categoria{
-        line-height: center;
+        line-height: normal;
         width: 40%;
         height: 3%;
         padding: 2px 2px 2px 2px;
@@ -508,13 +508,23 @@
         border-bottom: none;
         border-radius: 5px;
         padding: 2% 3% 2% 3%;
-        margin-left: 55%;
+        margin-left: 3%;
         width: 35%;
     }
     .botoes-comentar{
-        height: 50px;
+        height: 35px;
         margin-top: -30px;
         align-items: right;
+        display: flex;
+        margin-bottom: 10%;
+    }
+    .cancelar{
+        font-size: 15px;
+        margin-top: 2%;
+        margin-left: 39%;
+        color: #333333;
+        height: 20px;
+        font-family: Fira Sans Bold;
     }
     input.inserir-comentario::placeholder {
         opacity: 0.5;
@@ -557,33 +567,32 @@
       .texto-coment-taylor{
         text-align: left;
         margin-left: 24%;
-        margin-top: -10%;
+        margin-top: -9%;
         margin-right: 10%;
         font-family: Fira Sans;
         font-size: 15px;
       }
       .responder-coment{
+        margin-top: 1%;
         font-size: 16px;
         font-family: Fira Sans Bold;
         color: #4d16bb;
         margin-left: 35%;
-        margin-top: 2%;
       }
       .mostrar-mais{
         height: 50px;
       }
       .mostrar-mais h1{
-        background-color: #FFD662;
-        color: #4D16BB;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
+        background-color: #f2f2f2;
+        color: #4d16bb;
+        border: #4d16bb solid 1px;
         border-radius: 5px;
         padding: 2% 3% 2% 3%;
+        height: 15px;
         margin-left: 10%;
+        margin-right: 10%;
         margin-top: 7%;
-        width: 40%;
+        width: 73%;
         font-size: 13px;
         font-weight: 400;
         text-align: center;
