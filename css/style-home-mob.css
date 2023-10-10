@@ -86,48 +86,240 @@
     margin-left: -93%;
     position: absolute;
   }
-  .texto-slide{
+  .texto-slide1{
     font-size: 30px;
     height: 10%;
     max-width: 90%;
     font-weight: 400;
     min-width: 30px;
-    margin-top: -205px;
+    margin-top: -280px;
     margin-left: 7%;
     position: absolute;
     color: white;
   }
+  .texto-slide2{
+    font-size: 30px;
+    height: 10%;
+    max-width: 90%;
+    font-weight: 400;
+    min-width: 30px;
+    margin-top: -305px;
+    margin-left: 7%;
+    position: absolute;
+    color: white;
+    line-height: 30px;
+  }
+  .texto-slide3{
+    font-size: 30px;
+    height: 10%;
+    max-width: 90%;
+    font-weight: 400;
+    min-width: 30px;
+    margin-top: -285px;
+    margin-left: 7%;
+    position: absolute;
+    color: white;
+    line-height: 30px;
+  }
   .itens-necessarios{
     font-family: Fira Sans Bold;
     font-size: 17px;
-    height: 10%;
     width: 83%;
     font-weight: 400;
-    margin-top: -165px;
+    margin-top: -240px;
     margin-left: 7%;
     margin-right: 7%;
     position: absolute;
     color: white;
     border-left: white solid;
-    height: 60px;
+    height: 45px;
+    padding-left: 2%;
+  }
+  .itens-necessarios3{
+    font-family: Fira Sans Bold;
+    font-size: 17px;
+    width: 83%;
+    font-weight: 400;
+    margin-top: -215px;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: absolute;
+    color: white;
+    border-left: white solid;
+    height: 23px;
     padding-left: 2%;
   }
   .textos-carrossel{
     display: inline;
+  }
+  .recente-emalta-rapidas{
+    display: flex;
+    margin-top: 7%;
+    justify-content: center;
+    margin-bottom: 7%;
+  }
+  .Recente{
+    padding: 2% 3% 2% 4%;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 100px 0 0 100px;
+    color: #9e5fef;
+    font-size: 17px;
+  }
+  .EmAlta{
+    padding: 2% 3% 2% 3%;
+    border: none;
+    background-color: #f0f0f0;
+    color: #9e5fef;
+    font-size: 17px;
+  }
+  .Rapidas{
+    padding: 2% 4% 2% 3%;
+    border-radius: 0 100px 100px 0;
+    border: none;
+    background-color: #f0f0f0;
+    color: #9e5fef;
+    font-size: 17px;
+  }
+  .Recente:hover{
+    background-color: #cb218c;
+    color: white;
+  }
+  .EmAlta:hover{
+    background-color: #cb218c;
+    color: white;
+  }
+.EmAlta.active {
+    background-color: #cb218c;
+    color: white;
+}
+  .Rapidas:hover{
+    background-color: #cb218c;
+    color: white;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .texto-slide1{
+    margin-top: -255px;
+  }
+  .texto-slide2{
+    margin-top: -280px;
+  }
+  .texto-slide3{
+    margin-top: -280px;
+  }
+  .itens-necessarios{
+    margin-top: -215px;
+    height: 45px;
+  }
+  .itens-necessarios3{
+    margin-top: -215px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .texto-slide1{
+    margin-top: -230px;
+  }
+  .texto-slide2{
+    margin-top: -260px;
+  }
+  .texto-slide3{
+    margin-top: -250px;
+  }
+  .itens-necessarios{
+    margin-top: -190px;
+    height: 60px;
+  }
+  .itens-necessarios3{
+    margin-top: -177px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .texto-slide1{
+    margin-top: -195px;
+  }
+  .texto-slide2{
+    margin-top: -220px;
+  }
+  .texto-slide3{
+    margin-top: -205px;
+  }
+  .itens-necessarios{
+    margin-top: -155px;
+    height: 60px;
+  }
+  .itens-necessarios3{
+    margin-top: -140px;
+    height: 45px;
   }
 }
 @media only screen and (max-width: 375px) {
 .manual-navigation{
   margin-top: -50px;
 }
+.texto-slide1{
+  margin-top: -175px;
+}
+.texto-slide2{
+  margin-top: -200px;
+}
+.texto-slide3{
+  margin-top: -185px;
+}
+.itens-necessarios{
+  margin-top: -135px;
+  height: 60px;
+}
+.itens-necessarios3{
+  margin-top: -120px;
+  height: 45px;
+}
 }
 @media only screen and (max-width: 350px) {
 .manual-navigation{
   margin-top: -70px;
 }
+.texto-slide1{
+  margin-top: -165px;
+}
+.texto-slide2{
+  margin-top: -195px;
+}
+.texto-slide3{
+  margin-top: -175px;
+}
+.itens-necessarios{
+  margin-top: -125px;
+  height: 60px;
+}
+.itens-necessarios3{
+  margin-top: -105px;
+  height: 45px;
+}
 }
 @media only screen and (max-width: 335px) { 
 .manual-navigation{
-  margin-top: -90px;
+  margin-top: -95px;
+}
+.texto-slide1{
+  font-size: 28px;
+  margin-top: -150px;
+}
+.texto-slide2{
+  margin-top: -175px;
+}
+.texto-slide3{
+  margin-top: -165px;
+}
+.itens-necessarios{
+  margin-top: -110px;
+  font-size: 15px;
+}
+.itens-necessarios3{
+  margin-top: -95px;
+  height: 45px;
 }
 }
+
