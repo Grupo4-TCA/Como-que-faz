@@ -14,13 +14,11 @@ limpar = () => {
 }
 
 let timeoutId;
-const minhaDiv =
-document.getElementById('longpress');
-minhaDiv.addEventListener('mousedown', ()
-=> {
-timeoutId = setTimeout(() =>
-minhaDiv.style.display = 'block'
-}, 1000); 
-minhaDiv.addEventListener('mouseup', () => {
-    clearTimeout(timeoutId);
+const minhaDiv = document.getElementById('longpress');
+   minhaDiv.addEventListener('mousedown', ()=> {
+   setTimeout(() =>{
+    minhaDiv.style.display = 'block';
+}, 1000); });
+  minhaDiv.addEventListener('mouseup', () => {
+    minhaDiv.style.display = 'none'
 });
