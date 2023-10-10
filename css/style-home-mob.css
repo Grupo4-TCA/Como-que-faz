@@ -154,9 +154,8 @@
   }
   .recente-emalta-rapidas{
     display: flex;
-    margin-top: 7%;
     justify-content: center;
-    margin-bottom: 7%;
+    margin: 7% 3% 7% 3%;
   }
   .Recente{
     padding: 2% 3% 2% 3%;
@@ -314,6 +313,15 @@
   margin-top: -120px;
   height: 45px;
 }
+.Recente{
+  font-size: 15px;
+}
+.EmAlta{
+  font-size: 15px;
+}
+.Rapidas{
+  font-size: 15px;
+}
 }
 @media only screen and (max-width: 350px) {
 .manual-navigation{
@@ -335,6 +343,9 @@
 .itens-necessarios3{
   margin-top: -105px;
   height: 45px;
+}
+.recente-emalta-rapidas{
+  margin-top: -8%;
 }
 }
 @media only screen and (max-width: 335px) { 
@@ -358,6 +369,9 @@
 .itens-necessarios3{
   margin-top: -95px;
   height: 45px;
+}
+.recente-emalta-rapidas{
+  margin-top: -6%;
 }
 }
 
