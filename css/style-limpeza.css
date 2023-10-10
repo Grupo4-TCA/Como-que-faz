@@ -379,6 +379,20 @@ background-color: #8c8c8c;
 box-sizing: border-box;
 position: absolute;
 }
+#longpress{
+opacity: 0.5;
+border-radius: 5px;
+background-color: #027de1;
+box-sizing: border-box;
+position: absolute;
+font-family: Fira Sans Bold;
+font-weight: 700;
+font-size: 16px;
+color: #ffffff;
+width: 175px;
+height: 175px;
+}
+
 /*fim basepost*/
 .text-email{
   margin-top: 2%;
@@ -554,3 +568,4 @@ color: white;
 font-weight: 500;
 font-family: Heavitas;
 }
+
