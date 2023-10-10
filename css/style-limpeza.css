@@ -384,7 +384,7 @@ opacity: 0.5;
 border-radius: 5px;
 background-color: #027de1;
 box-sizing: border-box;
-position: fixed;
+position: absolute;
 font-family: Fira Sans Bold;
 font-weight: 700;
 font-size: 16px;
