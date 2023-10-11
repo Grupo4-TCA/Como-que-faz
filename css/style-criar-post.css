@@ -311,7 +311,7 @@ width: 85vw;
 height: 10.66vw;
 outline: none;
 border-radius: 5px;
-border: 1px solid;
+border: 1px solid #979797;
 font-family: "Fira Sans", sans-serif;
 font-size: 130%;
 &:focus{
@@ -606,7 +606,7 @@ font-weight: 500;
 font-size: 80%;
 color: #333333;
 text-align: left;
-margin-top: 4.26vw;
+margin-top: 3vw;
 margin-left: 5vw;
 }
 
@@ -616,7 +616,8 @@ height: 9%;
 padding: 2px 2px 2px 2px;
 margin-left: 5vw;
 margin-top: 3vw;
-font-size: 90%;
+margin-bottom: 2vw;
+font-size: 110%;
 border: 0;
 border-bottom: 1px solid #d7d7d7;
 background-color: #ffffff;
@@ -664,9 +665,9 @@ border-bottom: 2px #CB218C solid;
 #medidas-elementos{
 margin-left: 4vw;
 margin-top: 2vw;
-width: 46vw;
+padding-left: 2vw;
+width: 50vw;
 height: 9vw;
-padding: 2px 2px 2px 2vw;
 border-radius: 5px;
 border: 1px solid #d7d7d7;
 background-color: #ffffff;
@@ -685,22 +686,23 @@ outline: none;
 .dropDown-medidas{
 width: 46vw;
 height: 40vw;
+margin-left: 4vw;
 padding-left: 3vw;
 padding-top: 3vw;
 background-color: #f2f2f2;
 font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
 font-weight: 700;
-font-size: 90%;
-border-top: 0;
-border: 2px #cb218c solid;
+border: 2px #CB218C solid;
+border-top: none;
 border-radius: 5px;
 border-top-left-radius: 0;
 border-top-right-radius: 0;
 overflow: auto;
+display: none;
 }
 
 ::-webkit-scrollbar{
-  background-color: #1d1d1d;
+  background-color: #f2f2f2;
   width: 3vw;
 }
 
@@ -709,17 +711,51 @@ overflow: auto;
 }
 
 .item-medidas{
+  width: 42vw;
   height: 4vw;
-  width: 46vw;
-  margin-bottom: 6vw;
+  margin-bottom: 7vw;
   box-sizing: border-box;
   transition: .5s;
   font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
   font-weight: 700;
   color: #333333;
   text-align: left;
-  font-size: 120%;
+}
 
+#esqueleto-midias{
+  border-top: 1px solid #909090;
+  margin-top: 5.06%;
+  padding-top: 4.26%;
+}
+
+#adicione-midias{
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #333333;
+  text-align: left;
+  width: 68.53vw;
+  height: 12.8vw;
+  font-size: 122%;
+  margin-left: 11.46vw;
+}
+
+#retangulo-adicionar-midia{
+  width: 77.06vw;
+  height: 34.4vw;
+  margin-left: 11.46vw;
+  margin-top: 2vw;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  border: 2px dashed #cb218c;
+  background-color: rgba(203, 33, 140, 0.03);
+  box-sizing: border-box;
+}
+
+#mais-adicionar-midia{
+  width: 6.13vw;
+  height: 6.13vw;
+  margin-left: 35.5vw;
+  margin-top: 13.6vw;
 }
 
 }

@@ -123,45 +123,50 @@
 
                 <div id="ingredientes-elementos">
                     <h2 id="titulo-ingredientes-elementos">INGREDIENTES</h2>
-                    
-                    <h4 id="nome-do-ingrediente">Nome do ingrediente</h4>
-                    <input type="text" id="input-nome-do-ingrediente" placeholder="FARINHA DE TRIGO">
+                    <button id="clonar-div">Adicionar Conteúdo</button>
 
-                    <div id="coiso-pra-deixar-certo">
+                    <div id="conteudo-de-ingrediente">
+                        <h4 id="nome-do-ingrediente">Nome do ingrediente</h4>
+                        <input type="text" id="input-nome-do-ingrediente" placeholder="FARINHA DE TRIGO">
 
-                    <div id="quantidade-elementos">
-                    <h4 id="nome-do-ingrediente">Quantidade/Peso</h4>
-                    <input type="text" id="input-quantidade-do-ingrediente" placeholder="01">
-                    </div>
+                        <div id="coiso-pra-deixar-certo">
+                            <div id="quantidade-elementos">
+                            <h4 id="nome-do-ingrediente">Quantidade/Peso</h4>
+                            <input type="text" id="input-quantidade-do-ingrediente" placeholder="01">
+                            </div>
 
-                    <div id="guardar-medidas-elementos">
-                        <h4 id="nome-do-ingrediente">Medida</h4>
-                        <input type="text" id="medidas-elementos" placeholder="Xícara">
-                        <div class="dropDown-medidas">
-                            <div class="listDropDown-medidas">
-                                <div class="item-medidas" id="item3-medidas">Xícara</div>
-                                <div class="item-medidas" id="item4-medidas">Colher de sopa</div>
-                                <div class="item-medidas" id="item5-medidas">Colher de chá</div>
-                                <div class="item-medidas" id="item6-medidas">Colher de café</div>
-                                <div class="item-medidas" id="item6-medidas">Colher de sobremesa</div>
-                                <div class="item-medidas" id="item6-medidas">Copo americano</div>
-                                <div class="item-medidas" id="item6-medidas">Gramas (gr)</div>
-                                <div class="item-medidas" id="item6-medidas">Mililitros (ml)</div>
+                            <div id="guardar-medidas-elementos">
+                                <h4 id="nome-do-ingrediente">Medida</h4>
+                                <input type="text" id="medidas-elementos" placeholder="Xícara" onfocus="dropdownmedidas(0)" onblur="dropdownmedidas(1)">
+
+                                <div class="dropDown-medidas">
+                                    <div class="listDropDown-medidas">
+                                        <div class="item-medidas" id="itemedidas-1" onmousedown="medidas(1)">Xícara</div>
+                                        <div class="item-medidas" id="itemedidas-2" onmousedown="medidas(2)">Colher de sopa</div>
+                                        <div class="item-medidas" id="itemedidas-3" onmousedown="medidas(3)">Colher de chá</div>
+                                        <div class="item-medidas" id="itemedidas-4" onmousedown="medidas(4)">Colher de café</div>
+                                        <div class="item-medidas" id="itemedidas-5" onmousedown="medidas(5)">Colher de sobremesa</div>
+                                        <div class="item-medidas" id="itemedidas-6" onmousedown="medidas(6)">Copo americano</div>
+                                        <div class="item-medidas" id="itemedidas-7" onmousedown="medidas(7)">Gramas (gr)</div>
+                                        <div class="item-medidas" id="itemedidas-8" onmousedown="medidas(8)">Mililitros (ml)</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
-
-                </div>
-
             </div>
-            
         </div>
     
         <div class="conteudo conteudo3" id="conteudoTarefa3">
             <h3 id="midias">Mídias</h3>
+
+            <div id="esqueleto-midias">
+                <h1 id="adicione-midias">ADICIONE IMAGENS E VÍDEOS À SUA POSTAGEM!</h1>
+                <div id="retangulo-adicionar-midia"><img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia"></div>
+            </div>
         </div>
+
     </div>
 
         </div>
