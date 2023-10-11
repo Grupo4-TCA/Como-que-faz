@@ -13,12 +13,21 @@ limpar = () => {
     })    
 }
 
-let timeoutId;
-const minhaDiv = document.getElementById('longpress');
-   minhaDiv.addEventListener('mousedown', ()=> {
-   setTimeout(() =>{
-    minhaDiv.style.display = 'block';
-}, 1000); });
-  minhaDiv.addEventListener('mouseup', () => {
-    minhaDiv.style.display = 'none'
+const post = document.getElementById('post');
+const longpres = document.getElementById('longpress');
+
+post.addEventListener('mousedown', function() {
+    pressTimer = setTimeout(function() {
+        longpress.style.display = 'block';
+    }, 1000);
+});
+
+post.addEventListener('mouseup', function() {
+    clearTimeout(pressTimer);
+    longpress.style.display = 'none';
+});
+
+post.addEventListener('mouseout', function() {
+    clearTimeout(pressTimer);
+    longpress.style.display = 'none';
 });
