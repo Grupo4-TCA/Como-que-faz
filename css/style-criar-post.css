@@ -758,4 +758,26 @@ display: none;
   margin-top: 13.6vw;
 }
 
+.thumbnail{
+  max-width: 77.06vw;
+  height: 26.66vw;
+  margin-bottom: 2vw;
+  margin-left: 11.46vw;   
+  margin-top: 3vw;
+  position: relative; 
+}
+
+.close-button{
+  width: 6vw;
+  height: 6vw;
+  margin-left: -6vw;
+  padding-top: 4vw;
+  text-align: center;
+  position: absolute;
+  color: #979797;
+  border-radius: 50%;
+  font-size: 110%;
+  font-family: 'Heavitas', sans-serif;
+}
+
 }

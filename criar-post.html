@@ -160,11 +160,17 @@
     
         <div class="conteudo conteudo3" id="conteudoTarefa3">
             <h3 id="midias">Mídias</h3>
-
+                        
+            <input type="file" id="files" accept="image/*" multiple style="display: none;">
             <div id="esqueleto-midias">
                 <h1 id="adicione-midias">ADICIONE IMAGENS E VÍDEOS À SUA POSTAGEM!</h1>
-                <div id="retangulo-adicionar-midia"><img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia"></div>
+                <div id="retangulo-adicionar-midia">
+                    <img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia">
+                </div>
+                <div class="midia-adicionada-retangulo" id="midia-adicionada-retangulo"></div>
             </div>
+            <div id="result"></div>
+   
         </div>
 
     </div>
