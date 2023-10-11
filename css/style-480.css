@@ -295,11 +295,6 @@ background-image: linear-gradient(to right, #5417bd, #9c21cb);
 height: 500px;
 padding-top: 5%
 }
-span {
-color: white;
-margin-left: 12px;
-font-size: 14px;
-}
 .logo2 {
 display: flex;
 justify-content: center;  
