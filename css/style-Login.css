@@ -399,6 +399,8 @@ input {
 	border-radius: 25px;
 	text-align: center;
 	padding: 15px;
+	height: 100%;
+	margin: 5% 8% 8% 8%;
 }
 
 .login-mob span {
