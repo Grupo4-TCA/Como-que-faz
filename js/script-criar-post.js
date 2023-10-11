@@ -121,3 +121,23 @@ function adicionarMensagem() {
       inputText.value = '';
     }
   }
+  
+  function medidas(c) {
+    var itemedidas = document.getElementById('itemedidas-' + c).innerHTML;
+    document.getElementById('medidas-elementos').value = itemedidas;
+}
+
+function dropdownmedidas(p) {
+    var e = document.getElementsByClassName('dropDown-medidas')[0];
+    var d = ['block', 'none'];
+
+    e.style.display = d[p];
+}
+
+(function () {
+    document.getElementById("clonar-div").addEventListener("click", function () {
+        const conteudoOriginal = document.getElementById("conteudo-de-ingrediente");
+        const conteudoClonado = conteudoOriginal.cloneNode(true);
+        conteudoOriginal.parentNode.appendChild(conteudoClonado);
+    });
+})();
