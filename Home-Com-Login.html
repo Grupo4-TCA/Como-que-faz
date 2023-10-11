@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-home.css">
+    <script src="./js/script-Home-SemLogin.js"></script>
+    <link rel="stylesheet" href="./css/style-home-mob.css">
+    <link rel="stylesheet" href="./css/style-480.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+    <script src="./js/script-menu-lateral.js"></script>
+    <title>Como que Faz | Página Inicial</title>
+</head>
+<header>
+    <nav class="logos">
+        <div class="user">
+            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+            <div class="user-menu" id="user-menu" style="display: none;">
+                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
+                <ul>
+                    <div class="bem-vindo">
+                        <div class="colnm1">
+                            <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
+                        </div>
+                        <div class="colnm2">
+                            <span>Seja bem-vindo(a)!</span>
+                            <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
+                        </div>
+                    </div>
+                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
+                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a></li>
+                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
+                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
+                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
+                   <div class="ajustes">
+                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
+                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
+                   </div>
+                </ul>
+            </div>
+        </div>
+        <div class= "logo">
+            <a href="header_logado-mobile.html">
+                <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
+            </a>
+        </div>
+        <div class= "search">
+            <a href="/">
+                <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
+            </a>
+        </div>
+    </nav>
+    <nav class="topcs">
+        <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/categoria-culinaria">CULINÁRIA</a>
+        <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/categoria-limpeza">LIMPEZA</a>
+        <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/categoria-bemestar">BEM- ESTAR</a>
+    </nav>
+</header>
+<body>
+    
+    <section class="conteudo-dispositivo mobile">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide primeiro">
+                    <img class="imagens-slide" src="imagens/imagem-slide1.png" alt="imagem-culinaria">
+                    <img class="imagem-categoria" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria">
+                    <div class="textos-carrossel">
+                    <h1 class="texto-slide1">ARROZ DE FORNO</h1>
+                    <div class="itens-necessarios">óleo - arroz - água - presunto  - queijo  - ervilha  - cenoura - salsa - queijo parmesão - bacon</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img class="imagens-slide" src="imagens/imagem-slide2.png" alt="imagem-limpeza">
+                    <img class="imagem-categoria" src="imagens/icon-limpeza-branco.png" alt="icon-culinaria">
+                    <div class="textos-carrossel">
+                    <h1 class="texto-slide2">COMO LIMPAR SEU FOGÃO</h1>
+                    <div class="itens-necessarios">vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja - Papel toalha</div>
+                </div>
+                </div>
+                <div class="slide">
+                    <img class="imagens-slide" src="imagens/imagem-slide3.png" alt="imagem-bem-estar">
+                    <img class="imagem-categoria" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria">
+                    <div class="textos-carrossel">
+                    <h1 class="texto-slide3">COMO DEFINIR SEUS CACHOS</h1>
+                    <div class="itens-necessarios3">creme para pentear - mascara hidratante - manual</div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn manual-btn1"></label>
+            <label for="radio2" class="manual-btn manual-btn2"></label>
+            <label for="radio3" class="manual-btn manual-btn3"></label>
+        </div>
+
+        <div class="recente-emalta-rapidas">
+            <button class="Recente" onclick="VisiRecente()">+RECENTE</button>
+            
+            <button class="EmAlta" onclick="VisiEmAlta()">EM ALTA</button>
+
+            <button class="Rapidas" onclick="VisiRapidas()">+RÁPIDAS</button>
+        </div>
+        
+        <div class="conteudo-recente-emalta-rapidas">
+            <div class="Conteudo-Recente" id="Conteudo-Recente" style="display: none;">
+                <h1>oiee</h1>
+            </div>
+
+            <div class="Conteudo-EmAlta" id="Conteudo-EmAlta">
+                <h1>oxi</h1>
+            </div>
+
+            <div class="Conteudo-Rapidas" id="Conteudo-Rapidas" style="display: none;">
+                <h1>naoo</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="conteudo-dispositivo desktop">
+    <header>
+        <nav class="logos">
+            <div class= "user">
+                <a href="/">
+                    <img src="imagens/user_icon.png" alt="Ícone de Usuário">
+                </a>
+            </div>
+            <div class= "logo">
+                <a href="index.html">
+                    <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
+                </a>
+            </div>
+            <div class= "search">
+                <a href="/">
+                    <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
+                </a>
+            </div>
+        </nav>
+        <nav class="topcs">
+            <a class="culinaria" href="/">CULINARIA</a>
+            <a class= "limpeza" href="/">LIMPEZA</a>
+            <a class= "bem-estar" href="/">BEM ESTAR</a>
+        </nav>
+    </header>
+        <div class="slider">
+            <div class="slides">
+
+
+                <input type="radio" name="radio-btn" id="radio1"> 
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+                <div class="slide first">
+                    <div class="cachos">
+                        <h1 class="cachos">COMO DEFINIR SEUS CACHOS</h1>
+                    </div>
+                    
+                </div>
+                <div class="slide">
+                   <div class="comida">
+                    <h1 class="comida">ARROZ DE FORNO</h1>
+                   </div>
+                </div>
+                <div class="slide">
+                   <div class="limpar">
+                    <h1 class="limpar">COMO LIMPAR SEU FOGÃO</h1>
+                   </div>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>    
+                    <div class="auto-btn2"></div> 
+                    <div class="auto-btn3"></div> 
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+    </div>
+</section>
+</body>
+<footer>
+    
+</footer>
+</html>

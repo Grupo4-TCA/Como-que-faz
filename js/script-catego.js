@@ -12,3 +12,13 @@ limpar = () => {
         Option.classList.remove('clicado');
     })    
 }
+
+let timeoutId;
+const minhaDiv = document.getElementById('longpress');
+   minhaDiv.addEventListener('mousedown', ()=> {
+   setTimeout(() =>{
+    minhaDiv.style.display = 'block';
+}, 1000); });
+  minhaDiv.addEventListener('mouseup', () => {
+    minhaDiv.style.display = 'none'
+});
