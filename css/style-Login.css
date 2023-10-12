@@ -465,7 +465,7 @@ input:focus::placeholder {
 }
 
 .lembrar-senha-mob input {
-	width: 10%;
+	width: 15px;
 	border-radius: 10px;
 }
 
@@ -820,6 +820,7 @@ input:focus::placeholder {
 .tabcontent {
 	display: none;
 	padding: 6px 12px;
+	background-image: url(/imagens/fundogatos.png);
 }
 
 /* NEWSLETTER */
