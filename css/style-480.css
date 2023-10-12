@@ -23,6 +23,7 @@ display: flex;
 justify-content: space-around;
 height: 70px;
 box-shadow: 1px 5px 5px rgb(173, 173, 173);
+background-color: white;
 }
 
 .logo {
