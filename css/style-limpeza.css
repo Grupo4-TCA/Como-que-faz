@@ -1,401 +1,438 @@
 @media only screen and (max-width: 480px) {
-* {
-  font-family: Heavitas;
-  margin: 0;
-  padding: 0;
-}
-.conteudo.mobile{
-display: block;
-width: 100vw;
+  * {
+    font-family: Heavitas;
+    margin: 0;
+    padding: 0;
+  }
+
+  .conteudo.mobile {
+    display: block;
+    width: 100vw;
+  }
+
+  .conteudo.desktop {
+    display: none;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+  }
+
+  .logo {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+
+  .logo img {
+    max-width: 50px;
+    margin-top: 5px;
+    align-self: center;
+  }
+
+  .search {
+    margin-top: 22px;
+    margin-right: 13px;
+  }
+
+  .search img {
+    max-width: 26px;
+  }
+
+  .login {
+    margin-top: 9px;
+    margin-left: 18px;
+    margin-right: -7px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .login img {
+    max-width: 34px;
+    margin-top: 10px;
+  }
+
+  .topcs {
+    background-color: #027de1;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    height: 38px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin-top: 9px;
+    font-size: 14px;
+  }
+
+  .culinaria {
+    margin-left: 13.14px;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 12px;
+  }
+
+  .bem-estar {
+    margin-right: 8.59px;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  .limpeza {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  a.maplimpeza {
+    text-align: center;
+    width: 54px;
+    height: 19px;
+    color: black;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 10%;
+  }
+
+  .mapli {
+    margin-top: 5%;
+  }
+
+  img.imgli {
+    width: 84px;
+    height: 84px;
+    margin-left: 7%;
+    transform: translate(0, 13px);
+  }
+
+  h1.tituloli {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    color: #027de1;
+    max-width: 10vw;
+    font-size: 35px;
+    font-weight: 800;
+    transform: translate(130px, -70px);
+  }
+
+  p.pli {
+    text-align: left;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    width: 60%;
+    font-size: 12px;
+    transform: translate(130px, -70px);
+  }
+
+
+  .fcutodas {
+    min-width: 30%;
+    height: 35px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
+  }
 }
 
-.conteudo.desktop{
-display: none;
-}
-.logos {
-display: flex;
-justify-content: space-around;
-height: 70px;
+.filtrocu {
+  display: flex;
+  gap: 10px;
+  overflow: scroll;
+  height: 100%;
+  margin-left: 50px;
+  margin-top: -50px;
+  min-width: 140px;
+
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  border: none;
 }
 
-.logo {
-margin-top: 5px;
-margin-right: 50px;
-margin-left: 50px;
-
-}
-.logo img {
-max-width: 50px;
-margin-top: 5px;
-align-self: center;
-}
-.search {
-margin-top: 22px;
-margin-right: 13px;
-}
-.search img {
-max-width: 26px;
-}
-.login {
-margin-top: 9px;
-margin-left: 18px;
-margin-right: -7px;
-position: relative;
-display: inline-block;
-}
-.login img {
-max-width: 34px;
-margin-top: 10px;    
-}
-.topcs {
-background-color:  #027de1;
-display: flex;
-justify-content: center;
-justify-content: space-around;
-height: 38px;
-}
-a {
-text-decoration: none;
-color: white;
-margin-top: 9px;
-font-size: 14px;
-}
-.culinaria {
-margin-left: 13.14px;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-font-weight: 700;
-margin-top: 12px;
-}
-.bem-estar {
-margin-right: 8.59px;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-margin-top: 12px;
-font-weight: 700;
-}
-.limpeza{
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-text-align: center;
-margin-top: 12px;
-font-weight: 700;
-}
-a.maplimpeza{
-text-align: center;
-width: 54px;
-height: 19px;
-color:black;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-font-weight: 700;
-margin-left: 10%;
-}
-.mapli{
-margin-top: 5%;
-}
-img.imgli{
-width: 84px;
-height: 84px;
-margin-left: 7%;
-transform: translate(0, 13px);
-}
-h1.tituloli{
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-color: #027de1;
-max-width: 10vw;
-font-size: 35px;
-font-weight: 800;
-transform: translate(130px, -70px);
-}
-p.pli{
-text-align: left;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-width: 60%;
-font-size: 12px;
-transform: translate(130px, -70px);
+.clicado {
+  background-color: #027de1;
+  box-sizing: border-box;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
 }
 
-
-.fcutodas{
-min-width: 30%;
-height: 35px;
-padding: 2px 6px 2px 6px;
-border-radius: 5px;
-background-color: #f2f2f2;
-box-sizing: border-box;
-font-family: "Fira Sans", sans-serif;
-color: #333333;
-text-align: center;
-line-height: normal;
-border: none;
-gap: 100px;
-}
-}
-
-.filtrocu{
-display: flex;
-gap: 10px;
-overflow:scroll;
-height: 100%;
-margin-left: 50px;
-margin-top: -50px;
-min-width: 140px;
-
-padding: 2px 2px 2px 2px;
-border-radius: 5px;
-box-sizing: border-box;
-font-family: "Fira Sans", sans-serif;
-color: #333333;
-text-align: center;
-line-height: normal;
-border: none;
-}
-
-.clicado{
-background-color: #027de1;
-box-sizing: border-box;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-font-weight: 700;
-color: #ffffff;
-}
 /*basepost*/
-#pinterest-style{
-margin-left: 12%;
-margin-top: 8%;
+#pinterest-style {
+  margin-left: 12%;
+  margin-top: 8%;
 }
 
-#icon-post{
-width: 18px;
-height: 18px;
-margin-right: 4px;
+#icon-post {
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
 }
 
-#descri-icon{
-margin: 0;
-margin-right: 9px;
-font-family: Fira Sans Bold;
-font-weight: 700;
-font-size: 15px;
-color: #333333;
-line-height: normal;
+#descri-icon {
+  margin: 0;
+  margin-right: 9px;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 15px;
+  color: #333333;
+  line-height: normal;
 }
 
-#post-baixo{
-height: 40px;
-width: 176px;
-display: flex;
-position: absolute;
-transform: translate(3px, 169px);
-padding: 10px 10px 10px 10px;
-align-content: center;
+#post-baixo {
+  height: 40px;
+  width: 176px;
+  display: flex;
+  position: absolute;
+  transform: translate(3px, 169px);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
 }
 
-#post-baixo-a{
-height: 40px;
-width: 176px;
-display: flex;
-position: absolute;
-transform: translate(3px, 308px);
-padding: 10px 10px 10px 10px;
-align-content: center;
-}
-#post-baixo-c{
-height: 40px;
-width: 176px;
-display: flex;
-position: absolute;
-transform: translate(3px, 169px);
-padding: 10px 10px 10px 10px;
-align-content: center;
-}
-#post-baixo-e{
-height: 40px;
-width: 176px;
-display: flex;
-position: absolute;
-transform: translate(3px, 308px);
-padding: 10px 10px 10px 10px;
-align-content: center;
-}
-#post-baixo-f{
-height: 40px;
-width: 176px;
-display: flex;
-position: absolute;
-transform: translate(3px, 234px);
-padding: 10px 10px 10px 10px;
-align-content: center;
-}
-#post-baixo-h{
-height: 40px;
-width: 176px;
-display: flex;
-position: absolute;
-transform: translate(3px, 169px);
-padding: 10px 10px 10px 10px;
-align-content: center;
-}
-#post{
-position: absolute;
+#post-baixo-a {
+  height: 40px;
+  width: 176px;
+  display: flex;
+  position: absolute;
+  transform: translate(3px, 308px);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
 }
 
-#post-a{
-position: relative;
+#post-baixo-c {
+  height: 40px;
+  width: 176px;
+  display: flex;
+  position: absolute;
+  transform: translate(3px, 169px);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
 }
 
-#post-b{
-position: relative;
+#post-baixo-e {
+  height: 40px;
+  width: 176px;
+  display: flex;
+  position: absolute;
+  transform: translate(3px, 308px);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
 }
 
-#descri-post{
-position: absolute;
-font-family: Fira Sans Bold;
-font-weight: 700;
-font-size: 16px;
-color: #ffffff;
-left: 8px;
-top: 120px;
-width: 150px;
+#post-baixo-f {
+  height: 40px;
+  width: 176px;
+  display: flex;
+  position: absolute;
+  transform: translate(3px, 234px);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
 }
 
-#descri-post-a{
-position: absolute;
-font-family: Fira Sans Bold;
-font-weight: 700;
-font-size: 16px;
-color: #ffffff;
-left: 8px;
-top: 255px;
-width: 150px;
+#post-baixo-h {
+  height: 40px;
+  width: 176px;
+  display: flex;
+  position: absolute;
+  transform: translate(3px, 169px);
+  padding: 10px 10px 10px 10px;
+  align-content: center;
 }
 
-#descri-post-b{
-position: absolute;
-font-family: Fira Sans Bold;
-font-weight: 700;
-font-size: 16px;
-color: #ffffff;
-left: 8px;
-top: 180px;
-width: 150px;
+#post {
+  position: absolute;
 }
 
-#dispensa{
-position: absolute;
+#post-a {
+  position: relative;
 }
 
-#bolin{
-position: absolute;
+#post-b {
+  position: relative;
 }
 
-#cachos{
-position: absolute;
+#descri-post {
+  position: absolute;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  left: 8px;
+  top: 120px;
+  width: 150px;
 }
 
-#sombra{
-top: 88px;
-width: 176px;
-height: 85px;
-opacity: 0.4;
-padding: 2px 2px 2px 2px;
-border-radius: 5px;
-background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
-box-sizing: border-box;
-position: absolute;
+#descri-post-a {
+  position: absolute;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  left: 8px;
+  top: 255px;
+  width: 150px;
 }
 
-#sombra-a{
-top: 227px;
-width: 176px;
-height: 85px;
-opacity: 0.4;
-padding: 2px 2px 2px 2px;
-border-radius: 5px;
-background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
-box-sizing: border-box;
-position: absolute;
+#descri-post-b {
+  position: absolute;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  left: 8px;
+  top: 180px;
+  width: 150px;
 }
 
-#sombra-b{
-top: 151px;
-width: 176px;
-height: 85px;
-opacity: 0.4;
-padding: 2px 2px 2px 2px;
-border-radius: 5px;
-background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
-box-sizing: border-box;
-position: absolute;
+#dispensa {
+  position: absolute;
 }
 
-#a{
-margin-left: 200px;
-
-}
-#c{
-padding-top: 130px;
-}
-#e{
-margin-top: 210px;
+#bolin {
+  position: absolute;
 }
 
-#f{
-margin-left: 200px;
-margin-top: 200px;
-}
-#m{
-margin-left: 200px;
-margin-top: 710px;
-}
-#h{
-margin-left: 200px;
-margin-top: 490px;
-}
-#k{
-margin-top: 490px;
-}
-#q{
-margin-top: 700px;
+#cachos {
+  position: absolute;
 }
 
-#post-perg{
-position: absolute;
+#sombra {
+  top: 88px;
+  width: 176px;
+  height: 85px;
+  opacity: 0.4;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
+  box-sizing: border-box;
+  position: absolute;
+}
+
+#sombra-a {
+  top: 227px;
+  width: 176px;
+  height: 85px;
+  opacity: 0.4;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
+  box-sizing: border-box;
+  position: absolute;
+}
+
+#sombra-b {
+  top: 151px;
+  width: 176px;
+  height: 85px;
+  opacity: 0.4;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
+  box-sizing: border-box;
+  position: absolute;
+}
+
+#a {
+  margin-left: 200px;
 
 }
-#text-pergunta{
-position: absolute;
-font-family: Fira Sans Bold;
-font-weight: 700;
-font-size: 16px;
-color: black;
-left: 20px;
-top: 100px;
-width: 150px;
+
+#c {
+  padding-top: 130px;
 }
-#fundoperg{
-top: 88px;
-width: 176px;
-height: 85px;
-opacity: 0.4;
-padding: 2px 2px 2px 2px;
-border-radius: 5px;
-background-color: #8c8c8c;
-box-sizing: border-box;
-position: absolute;
+
+#e {
+  margin-top: 210px;
 }
-#longpress{
-opacity: 0.5;
-border-radius: 5px;
-background-color: #027de1;
-box-sizing: border-box;
-position: absolute;
-font-family: Fira Sans Bold;
-font-weight: 700;
-font-size: 16px;
-color: #ffffff;
-width: 175px;
-height: 175px;
+
+#f {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+#m {
+  margin-left: 200px;
+  margin-top: 710px;
+}
+
+#h {
+  margin-left: 200px;
+  margin-top: 490px;
+}
+
+#k {
+  margin-top: 490px;
+}
+
+#q {
+  margin-top: 700px;
+}
+#n{
+  cursor:pointer;
+}
+
+#post-perg {
+  position: absolute;
+
+}
+
+#text-pergunta {
+  position: absolute;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  left: 20px;
+  top: 100px;
+  width: 150px;
+}
+
+#fundoperg {
+  top: 88px;
+  width: 176px;
+  height: 85px;
+  opacity: 0.4;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-color: #8c8c8c;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+#longpress {
+  opacity: 0.5;
+  border-radius: 5px;
+  background-color: #027de1;
+  box-sizing: border-box;
+  position: absolute;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  width: 175px;
+  height: 175px;
+  display: none;
+  pointer-events: none;
 }
 
 /*fim basepost*/
-.text-email{
+.text-email {
   margin-top: 2%;
   margin-left: 3%;
   margin-right: 1%;
@@ -407,14 +444,16 @@ height: 175px;
   font-family: Fira Sans Bold;
   font-weight: 700;
 }
-.text-email::placeholder{
+
+.text-email::placeholder {
   opacity: 0.5;
   color: #333333;
   font-family: Fira Sans Bold;
 }
-.submit-email{
+
+.submit-email {
   margin-right: 2%;
-  height: 34px;   
+  height: 34px;
   width: 35%;
   background-color: #FFD662;
   color: #4D16BB;
@@ -422,28 +461,32 @@ height: 175px;
   border: 0px;
   border-radius: 30px;
 }
-.Newsletter{
-padding: 5% 0 0 0 ;
-background-color: #4D16BB;
+
+.Newsletter {
+  padding: 5% 0 0 0;
+  background-color: #4D16BB;
 }
-.mensagem-news{
+
+.mensagem-news {
   color: white;
   font-family: "Heavitas", sans-serif;
   font-size: 16px;
-  text-align: center;    
+  text-align: center;
   font-weight: 400;
 }
-.Linha-Footer-1{
+
+.Linha-Footer-1 {
   height: 3px;
   width: 100%;
   justify-content: space-around;
   text-align: center;
   border: 1px solid;
   border-color: #FFD662;
-  background: #FFD662;  
-  margin-top: 5%;  
+  background: #FFD662;
+  margin-top: 5%;
 }
-.Linha-Footer-2{
+
+.Linha-Footer-2 {
   height: 1px;
   width: 58%;
   justify-content: space-around;
@@ -451,23 +494,25 @@ background-color: #4D16BB;
   border: 0.5px solid;
   border-color: white;
   background: white;
-  align: center; 
+  align: center;
   margin: 0 auto 0 0;
   margin-left: 21%;
   margin-right: 21%;
   margin-bottom: 5%;
 }
-.contato-footer{
-font-family: Fira Sans;
-color: #D1C2FA;
-list-style-type: none;
-line-height: 27px;
-font-size: 100%;
-margin-top: 2%;
-margin-bottom: 3%;
-display: flex;
+
+.contato-footer {
+  font-family: Fira Sans;
+  color: #D1C2FA;
+  list-style-type: none;
+  line-height: 27px;
+  font-size: 100%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: flex;
 }
-.sobre-footer{
+
+.sobre-footer {
   font-family: Fira Sans;
   color: #D1C2FA;
   list-style-type: none;
@@ -476,97 +521,112 @@ display: flex;
   margin-right: 10%;
   font-size: 100%;
   margin-top: 2%;
-  }
+}
+
 .img-contato-footer {
-max-width: 6%;
-margin-left: 10%;
-margin-right: 4%;
-margin-top: 1%;
-}.titulos-footer{
+  max-width: 6%;
+  margin-left: 10%;
+  margin-right: 4%;
+  margin-top: 1%;
+}
+
+.titulos-footer {
   margin-left: 10%;
 }
+
 .footer {
-display: block;
-bottom: 0;
-margin-top: 0%;
-width: 100%;
-background-color: #5417bd;
-background-image: linear-gradient(to right, #5417bd, #9c21cb);
-height: 500px;
-padding-top: 80%;
+  display: block;
+  bottom: 0;
+  margin-top: 0%;
+  width: 100%;
+  background-color: #5417bd;
+  background-image: linear-gradient(to right, #5417bd, #9c21cb);
+  height: 500px;
+  padding-top: 80%;
 
 }
+
 span {
-color: white;
-margin-left: 12px;
-font-size: 14px;
+  color: white;
+  margin-left: 12px;
+  font-size: 14px;
 }
+
 .logo2 {
-display: flex;
-justify-content: center;  
+  display: flex;
+  justify-content: center;
 }
+
 .logo2 img {
-max-width: 190px;
+  max-width: 190px;
 }
+
 .redes {
-display: flex;
-justify-content: space-between;
-margin-bottom: 5%;
-margin-left: 20%;
-margin-right: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
+
 .redes img {
-max-width: 30px;
-margin-right: 12px;
-}
-.Veja-Mais{
-font-size: 19px;
-padding-top: 70%;
-}
-.limpeza-culinaria{
-display: flex;
-}
-.titulo-veja-mais{
-font-size: 19px;
-text-align: center;
-color: #9e5fef;
-font-weight: 600;
-font-family: Heavitas;
-margin-bottom: 5%;
-
-}
-.veja-culinaria{
-width: 30%;
-background-color: #cb1154;
-margin-left: 10%;
-margin-right: 3%;
-padding: 25% 3% 2% 5%;
-border-radius: 5px;
-background-image: url(../imagens/fundo-vejamais-culinaria.png);
-}
-.veja-limpeza{
-width: 30%;
-background-color: #027de1;
-padding: 25% 3% 2% 5%;
-border-radius: 5px;
-align-items: right;
-margin-right: 10%;
-background-image: url(../imagens/fundo-vejamais-limpeza.png)
-}
-.veja-bem-estar{
-width: 71%;
-background-color: #00cd83;
-padding: 25% 3% 2% 5%;
-border-radius: 5px;
-align-items: right;
-margin: 3% 10% 5% 10%;
-background-image: url(../imagens/fundo-vejamais-bemestar.png)
-}
-.texto-veja-mais{
-font-size: 17px;
-text-align: right;
-color: white;
-font-weight: 500;
-font-family: Heavitas;
+  max-width: 30px;
+  margin-right: 12px;
 }
 
+.Veja-Mais {
+  font-size: 19px;
+  padding-top: 70%;
+}
+
+.limpeza-culinaria {
+  display: flex;
+}
+
+.titulo-veja-mais {
+  font-size: 19px;
+  text-align: center;
+  color: #9e5fef;
+  font-weight: 600;
+  font-family: Heavitas;
+  margin-bottom: 5%;
+
+}
+
+.veja-culinaria {
+  width: 30%;
+  background-color: #cb1154;
+  margin-left: 10%;
+  margin-right: 3%;
+  padding: 25% 3% 2% 5%;
+  border-radius: 5px;
+  background-image: url(../imagens/fundo-vejamais-culinaria.png);
+}
+
+.veja-limpeza {
+  width: 30%;
+  background-color: #027de1;
+  padding: 25% 3% 2% 5%;
+  border-radius: 5px;
+  align-items: right;
+  margin-right: 10%;
+  background-image: url(../imagens/fundo-vejamais-limpeza.png)
+}
+
+.veja-bem-estar {
+  width: 71%;
+  background-color: #00cd83;
+  padding: 25% 3% 2% 5%;
+  border-radius: 5px;
+  align-items: right;
+  margin: 3% 10% 5% 10%;
+  background-image: url(../imagens/fundo-vejamais-bemestar.png)
+}
+
+.texto-veja-mais {
+  font-size: 17px;
+  text-align: right;
+  color: white;
+  font-weight: 500;
+  font-family: Heavitas;
+}

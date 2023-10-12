@@ -73,7 +73,7 @@
             <div id="detalhes-segunda-parte">
 
                 <div class="guarda-select">
-                    <input class="dialogoselect" id="dialogoselect" type="text" name="categoria" onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"/>
+                    <input class="dialogoselect" id="dialogoselect" type="text" name="categoria" onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem" readonly="readonly"/>
                     <div class="dropDown" id="dropdown">
                         <div class="listDropDown">
                             <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(1)" src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
@@ -137,7 +137,7 @@
 
                             <div id="guardar-medidas-elementos">
                                 <h4 id="nome-do-ingrediente">Medida</h4>
-                                <input type="text" id="medidas-elementos" placeholder="Xícara" onfocus="dropdownmedidas(0)" onblur="dropdownmedidas(1)">
+                                <input type="text" id="medidas-elementos" placeholder="Xícara" onfocus="dropdownmedidas(0)" onblur="dropdownmedidas(1)" readonly="disabled">
 
                                 <div class="dropDown-medidas">
                                     <div class="listDropDown-medidas">
@@ -160,11 +160,17 @@
     
         <div class="conteudo conteudo3" id="conteudoTarefa3">
             <h3 id="midias">Mídias</h3>
-
+                        
+            <input type="file" id="files" accept="image/*" multiple style="display: none;">
             <div id="esqueleto-midias">
                 <h1 id="adicione-midias">ADICIONE IMAGENS E VÍDEOS À SUA POSTAGEM!</h1>
-                <div id="retangulo-adicionar-midia"><img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia"></div>
+                <div id="retangulo-adicionar-midia">
+                    <img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia">
+                </div>
+                <div class="midia-adicionada-retangulo" id="midia-adicionada-retangulo"></div>
             </div>
+            <div id="result"></div>
+   
         </div>
 
     </div>
