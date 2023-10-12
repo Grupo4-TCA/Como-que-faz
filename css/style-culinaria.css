@@ -84,35 +84,36 @@
         color:black;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
-        margin-left: 40px;
+        margin-left: 7%;
       }
       .mapcu{
-        margin-top: 30px;
+        margin-top: 5%;
       }
       img.imgcu{
         width: 84px;
         height: 84px;
-        margin-left:70px;
+        margin-left: 4%;
         transform: translate(0, 13px);
       }
       h1.titulocu{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Heavitas;
         color: #cb1154;
+        max-width: 150px;
         font-size: 35px;
-        font-weight: 800;
-        transform: translate(150px, -80px);
+        font-weight: 400;
+        transform: translate(110px, -70px);
       }
       p.pcu{
         text-align: left;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        width: 200px;
+        width: 65%;
         font-size: 12px;
-        transform: translate(155px, -80px);
+        transform: translate(110px, -70px);
       }
   
 
     .fcutodas{
-        min-width: 140px;
+        min-width: 35%;
         height: 35px;
         padding: 2px 2px 2px 2px;
         border-radius: 5px;
@@ -133,10 +134,9 @@
         gap: 10px;
         overflow:scroll;
         height: 100%;
-        margin-left: 50px;
+        margin-left: 7%;
         margin-top: -50px;
         min-width: 140px;
-        height: 35px;
         padding: 2px 2px 2px 2px;
         border-radius: 5px;
         box-sizing: border-box;
@@ -145,6 +145,7 @@
         text-align: center;
         line-height: normal;
         border: none;
+        width: 85%;
         }
         .clicado{
           background-color: #cb1154;
