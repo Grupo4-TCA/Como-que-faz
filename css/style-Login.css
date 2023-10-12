@@ -116,8 +116,6 @@
 		font-size: 15px;
 		max-width: 100%;
 		font-weight: 400;
-	}
-	.login-submit {
 		width: 100%;
 		outline: none;
 		border-radius: 10px;
@@ -140,9 +138,83 @@
 	body{
         background-image: url(../imagens/fundogatos.png);
 	}
-}
-
-
+	.cadastro-mob{
+		background-color: white;
+		border: 3.5px solid #9e5fef;
+		border-radius: 25px;
+		text-align: center;
+		padding: 10% 8% 7% 8%;
+		height: 490px;
+		margin: 5% 7% 8% 7%;
+	}
+	.texto1-cadastro{
+		font-family: Fira Sans Bold;
+	}
+	.texto2-cadastro{
+		font-size: 27px;
+		color: #5417bd;
+		margin-bottom: 5%;
+	}
+	.caixa-mob2 input {
+		width: 100%;
+		max-width: 300px;
+		outline: none;
+		border-radius: 10px;
+		border: 1px solid #9e5fef;
+		padding: 4.5%;
+		margin-bottom: 5%;
+		font-family: Fira Sans;
+		font-weight: bold;
+	}
+	.caixa-mob2 input::placeholder {
+		font-family: heavitas;
+		font-weight: 400;
+		color: #9e5fef;
+	}
+	.lembrar-termos-mob label{
+		color: #5e5e5e;
+		font-size: 14px;
+		font-family: Fira Sans Bold;
+	}
+	.lembrar-termos-mob{
+		margin-bottom: 5%;
+		text-align: left;
+	}
+	.cadastro-submit-mob {
+		background-color: #FFD662;
+		border: none;
+		height: 45px;
+		color: #4D16BB;
+		font-family: heavitas;
+		font-size: 15px;
+		max-width: 100%;
+		font-weight: 400;
+		width: 100%;
+		outline: none;
+		border-radius: 10px;
+		padding: 4.5%;
+		margin-bottom: 10px;
+		font-weight: 400;
+		font-family: Heavitas;
+	}
+	.tablinks-cadastro{
+		background-color: white;
+		border: none;
+		height: 45px;
+		color: #4D16BB;
+		border: #4D16BB solid 1px;
+		font-family: heavitas;
+		font-size: 15px;
+		max-width: 100%;
+		font-weight: 400;
+		width: 100%;
+		outline: none;
+		border-radius: 10px;
+		padding: 4.5%;
+		margin-bottom: 10px;
+		font-weight: 400;
+		font-family: Heavitas;
+	}
 
 @media only screen and (min-width: 480px){
 	.wrapper {
@@ -240,7 +312,12 @@
 		border: 1px solid #5417bd;
 		border-radius: 10px;
 	}
+	.tabcontent {
+		display: none;
+		padding: 6px 12px;
+	}
 }
+
 @media only screen and (min-width: 600px) {
 
 	/* TABLETS: */
@@ -373,10 +450,6 @@
 		background-color: #ddd;
 	}
 	
-	.tabcontent {
-		display: none;
-		padding: 6px 12px;
-	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -723,7 +796,6 @@
 	}
 
 }
-
 
 @media only screen and (min-width: 768px) {
 	.newsletter-mob {
