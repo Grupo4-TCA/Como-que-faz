@@ -16,7 +16,18 @@ margin: 0;
   font-family: Fira Sans;
   src: url("../fonts/fira-sans.regular.ttf");
 }
-
+.mapli {
+  margin-top: 5%;
+}
+a.maplimpeza {
+  text-align: center;
+  width: 54px;
+  height: 19px;
+  color: black;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  margin-left: 7%;
+}
 /*header*/
 .logos {
 display: flex;

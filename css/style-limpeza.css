@@ -98,7 +98,7 @@
     color: black;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
-    margin-left: 10%;
+    margin-left: 7%;
   }
 
   .mapli {
@@ -108,30 +108,30 @@
   img.imgli {
     width: 84px;
     height: 84px;
-    margin-left: 7%;
+    margin-left: 4%;
     transform: translate(0, 13px);
   }
 
   h1.tituloli {
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Heavitas;
     color: #027de1;
-    max-width: 10vw;
+    max-width: 150px;
     font-size: 35px;
-    font-weight: 800;
-    transform: translate(130px, -70px);
+    font-weight: 400;
+    transform: translate(110px, -70px);
   }
 
   p.pli {
     text-align: left;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    width: 60%;
+    width: 65%;
     font-size: 12px;
-    transform: translate(130px, -70px);
+    transform: translate(110px, -70px);
   }
 
 
   .fcutodas {
-    min-width: 30%;
+    min-width: 35%;
     height: 35px;
     padding: 2px 6px 2px 6px;
     border-radius: 5px;
@@ -151,10 +151,8 @@
   gap: 10px;
   overflow: scroll;
   height: 100%;
-  margin-left: 50px;
+  margin-left: 7%;
   margin-top: -50px;
-  min-width: 140px;
-
   padding: 2px 2px 2px 2px;
   border-radius: 5px;
   box-sizing: border-box;
@@ -163,6 +161,7 @@
   text-align: center;
   line-height: normal;
   border: none;
+  width: 85%;
 }
 
 .clicado {
@@ -177,6 +176,7 @@
 #pinterest-style {
   margin-left: 12%;
   margin-top: 8%;
+  display: none;
 }
 
 #icon-post {

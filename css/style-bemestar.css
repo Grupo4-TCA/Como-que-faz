@@ -84,15 +84,15 @@
         color:black;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
-        margin-left: 40px;
+        margin-left: 7%;
       }
       .mapbe{
-        margin-top: 30px;
+        margin-top: 5%;
       }
       img.imgbe{
         width: 84px;
         height: 84px;
-        margin-left:70px;
+        margin-left: 4%;
         transform: translate(0, 13px);
       }
       h1.titulobe{
