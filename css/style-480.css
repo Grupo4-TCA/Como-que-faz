@@ -196,7 +196,6 @@ font-size: 15px;
 /*footer*/
 
 .text-email{
-    margin-top: 2%;
     margin-left: 3%;
     margin-right: 1%;
     text-align: center;
@@ -219,8 +218,15 @@ font-size: 15px;
     background-color: #FFD662;
     color: #4D16BB;
     font-size: 75%;
+    padding: 2% 5% 2% 5%;
     border: 0px;
     border-radius: 30px;
+}
+.cadastrese-newsletter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  padding: 0 4% 0 4%;
 }
 .Newsletter{
   padding: 5% 0 0 0 ;
@@ -284,6 +290,7 @@ margin-right: 4%;
 margin-top: 1%;
 }.titulos-footer{
     margin-left: 10%;
+    color: white;
 }
 .footer {
 display: block;
