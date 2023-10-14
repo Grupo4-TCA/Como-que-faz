@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,181 +10,205 @@
     <script src="./js/script-menu-lateral.js"></script>
     <title>Como que Faz | Criar Postagem</title>
 </head>
+
 <body>
     <section id="conteudo-dispositivo mobile">
-    <div id="tudonessapaginamobile">
-        
-        
-    <div id="menu-post">
-        <div class="user">
-            <button class="abrir-menu" onclick="AbrirMenuLateral()"><img class="perfil-post-foto" src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
-            <div class="user-menu" id="user-menu" style="display: none;">
-                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
-                <ul>
-                    <div class="bem-vindo">
-                        <div class="colnm1">
-                            <img class="perfil-foto-menu-post" src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
-                        </div>
-                        <div class="colnm2">
-                            <span>Seja bem-vindo(a)!</span>
-                            <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
-                        </div>
+        <div id="tudonessapaginamobile">
+
+            <div id="menu-post">
+                <div class="user">
+                    <button class="abrir-menu" onclick="AbrirMenuLateral()"><img class="perfil-post-foto"
+                            src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+                    <div class="user-menu" id="user-menu" style="display: none;">
+                        <button class="fechar-menu" onclick="FecharMenuLateral()">
+                            <div class="fechar"></div>
+                        </button>
+                        <ul>
+                            <div class="bem-vindo">
+                                <div class="colnm1">
+                                    <img class="perfil-foto-menu-post" src="imagens/icon_sofizinha.png"
+                                        alt="Perfil de Usuário" id="iconeSofizinha">
+                                </div>
+                                <div class="colnm2">
+                                    <span>Seja bem-vindo(a)!</span>
+                                    <div class="nome">
+                                        <p><span>Sofia Albuquerque Lima</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
+                            <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a>
+                            </li>
+                            <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
+                            <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
+                            <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
+                            <div class="ajustes">
+                                <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
+                                <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
+                            </div>
+                        </ul>
                     </div>
-                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
-                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a></li>
-                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
-                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
-                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
-                   <div class="ajustes">
-                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
-                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
-                   </div>
-                </ul>
-            </div>
-        </div>
-        <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
-        <span id="gambiarra-pra-space-around"></span>
-    </div>
-
-    <div id="criar-post-cancela">
-        <div id="cancela-criar-post">X</div>
-        <div id="titulo-criar-post">criar postagem</div>  
-    </div>
-    
-    <div id="criar-post-etapas">
-        <div class="linha-baixo">
-        <div class="linha-progresso" id="progresso"></div>
-        </div>
-    
-        <div class="lista-tarefas">
-            <button class="tarefa ativo" id="detalhes">Detalhes</button>
-            <button class="tarefa" id="elementos">Elementos</button>
-            <button class="tarefa" id="midias">Mídias</button>
-        </div>
-    
-        <div id="agrupamento-conteudo">
-        <div class="conteudo conteudo1" id="conteudoTarefa1">
-            <h2 id="detalhes">Detalhes</h2>
-
-            <div id="detalhes-primeira-parte">
-            <h3 id="titulo-da-postagem">Título da postagem</h3>
-            <input type="text" id="texto-titulo-da-postagem" placeholder="Escreva um título para a sua postagem...">
+                </div>
+                <img id="logo-mob-post" src="./imagens/ComoQueFaz_logo.png" alt="voltar para página inicial">
+                <span id="gambiarra-pra-space-around"></span>
             </div>
 
-            <div id="detalhes-segunda-parte">
+            <div id="criar-post-cancela">
+                <div id="cancela-criar-post">X</div>
+                <div id="titulo-criar-post">criar postagem</div>
+            </div>
 
-                <div class="guarda-select">
-                    <input class="dialogoselect" id="dialogoselect" type="text" name="categoria" onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem" readonly="readonly"/>
-                    <div class="dropDown" id="dropdown">
-                        <div class="listDropDown">
-                            <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(1)" src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
-                            <div class="item-select-detalhes" id="item-select-detalhes-1" onmousedown="category(1)">CULINÁRIA</div>
-                            <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(2)" src="./imagens/limpeza-icon-categoria.png" alt="limpeza">
-                            <div class="item-select-detalhes" id="item-select-detalhes-2" onmousedown="category(2)">LIMPEZA</div>
-                            <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(3)" src="./imagens/bem-estar-icon-categoria.png" alt="bem-estar">
-                            <div class="item-select-detalhes" id="item-select-detalhes-3" onmousedown="category(3)">BEM-ESTAR</div>
+            <div id="criar-post-etapas">
+                <div class="linha-baixo">
+                    <div class="linha-progresso" id="progresso"></div>
+                </div>
+
+                <div class="lista-tarefas">
+                    <button class="tarefa ativo" id="detalhes">Detalhes</button>
+                    <button class="tarefa" id="elementos">Elementos</button>
+                    <button class="tarefa" id="midias">Mídias</button>
+                </div>
+
+                <div id="agrupamento-conteudo">
+                    <div class="conteudo conteudo1" id="conteudoTarefa1">
+                        <h2 id="detalhes">Detalhes</h2>
+
+                        <div id="detalhes-primeira-parte">
+                            <h3 id="titulo-da-postagem">Título da postagem</h3>
+                            <input type="text" id="texto-titulo-da-postagem"
+                                placeholder="Escreva um título para a sua postagem...">
                         </div>
-                    </div>
-                    <img id="icon-seta-select" src="./imagens/seta-select.svg" alt="selecione uma categoria">
-                </div>
 
-            <h3 id="tempo-resultado-detalhes">Tempo & Resultado</h3>
-            <div id="tempo-detalhes">
-                <img id="imagem-tempo-detalhes" src="./imagens/tempo.svg" alt="tempo de execução">
-                <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
-                <input type="number" id="horas-tempo-detalhes" placeholder="00">MINUTOS
-            </div>
+                        <div id="detalhes-segunda-parte">
 
-            <div id="descricao-detalhes-total">
-                <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
-                <input type="text" id="descricao-detalhes">
-            </div>
-
-            <div id="subcategoria-detalhes-total">
-                <h3 id="titulo-subcategoria-detalhes">SUBCATEGORIAS</h3>
-                <div class="input-container">
-                    <input type="text" id="input-text-subcategoria">
-                    <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()" alt="">
-                </div>
-                <div id="messageList" class="message-list">
-                </div>
-            </div>
-            </div>
-
-        </div>
-    
-        <div class="conteudo conteudo2" id="conteudoTarefa2">
-            <h2 id="elementos">Elementos</h2>
-
-            <div id="esqueleto-elementos">
-                
-                <div id="linha-rosa-ingredientes">
-                    <input type="text" id="numero-do-ingrediente" placeholder="0">
-                </div>
-
-                <div id="ingredientes-elementos">
-                    <h2 id="titulo-ingredientes-elementos">INGREDIENTES</h2>
-                    <button id="clonar-div">Adicionar Conteúdo</button>
-
-                    <div id="conteudo-de-ingrediente">
-                        <h4 id="nome-do-ingrediente">Nome do ingrediente</h4>
-                        <input type="text" id="input-nome-do-ingrediente" placeholder="FARINHA DE TRIGO">
-
-                        <div id="coiso-pra-deixar-certo">
-                            <div id="quantidade-elementos">
-                            <h4 id="nome-do-ingrediente">Quantidade/Peso</h4>
-                            <input type="text" id="input-quantidade-do-ingrediente" placeholder="01">
+                            <div class="guarda-select">
+                                <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
+                                    onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"
+                                    readonly="readonly" />
+                                <div class="dropDown" id="dropdown">
+                                    <div class="listDropDown">
+                                        <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(1)"
+                                            src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
+                                        <div class="item-select-detalhes" id="item-select-detalhes-1"
+                                            onmousedown="category(1)">CULINÁRIA</div>
+                                        <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(2)"
+                                            src="./imagens/limpeza-icon-categoria.png" alt="limpeza">
+                                        <div class="item-select-detalhes" id="item-select-detalhes-2"
+                                            onmousedown="category(2)">LIMPEZA</div>
+                                        <img class="item-select-detalhes" id="icon-dropdown" onmousedown="category(3)"
+                                            src="./imagens/bem-estar-icon-categoria.png" alt="bem-estar">
+                                        <div class="item-select-detalhes" id="item-select-detalhes-3"
+                                            onmousedown="category(3)">BEM-ESTAR</div>
+                                    </div>
+                                </div>
+                                <img id="icon-seta-select" src="./imagens/seta-select.svg"
+                                    alt="selecione uma categoria">
                             </div>
 
-                            <div id="guardar-medidas-elementos">
-                                <h4 id="nome-do-ingrediente">Medida</h4>
-                                <input type="text" id="medidas-elementos" placeholder="Xícara" onfocus="dropdownmedidas(0)" onblur="dropdownmedidas(1)" readonly="disabled">
+                            <h3 id="tempo-resultado-detalhes">Tempo & Resultado</h3>
+                            <div id="tempo-detalhes">
+                                <img id="imagem-tempo-detalhes" src="./imagens/tempo.svg" alt="tempo de execução">
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">MINUTOS
+                            </div>
 
-                                <div class="dropDown-medidas">
-                                    <div class="listDropDown-medidas">
-                                        <div class="item-medidas" id="itemedidas-1" onmousedown="medidas(1)">Xícara</div>
-                                        <div class="item-medidas" id="itemedidas-2" onmousedown="medidas(2)">Colher de sopa</div>
-                                        <div class="item-medidas" id="itemedidas-3" onmousedown="medidas(3)">Colher de chá</div>
-                                        <div class="item-medidas" id="itemedidas-4" onmousedown="medidas(4)">Colher de café</div>
-                                        <div class="item-medidas" id="itemedidas-5" onmousedown="medidas(5)">Colher de sobremesa</div>
-                                        <div class="item-medidas" id="itemedidas-6" onmousedown="medidas(6)">Copo americano</div>
-                                        <div class="item-medidas" id="itemedidas-7" onmousedown="medidas(7)">Gramas (gr)</div>
-                                        <div class="item-medidas" id="itemedidas-8" onmousedown="medidas(8)">Mililitros (ml)</div>
-                                    </div>
+                            <div id="descricao-detalhes-total">
+                                <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
+                                <input type="text" id="descricao-detalhes">
+                            </div>
+
+                            <div id="subcategoria-detalhes-total">
+                                <h3 id="titulo-subcategoria-detalhes">SUBCATEGORIAS</h3>
+                                <div class="input-container">
+                                    <input type="text" id="input-text-subcategoria">
+                                    <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()"
+                                        alt="">
+                                </div>
+                                <div id="messageList" class="message-list">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="conteudo conteudo2" id="conteudoTarefa2">
+                        <h2 id="elementos">Elementos</h2>
+
+                        <div id="esqueleto-elementos">
+
+                            <div id="linha-rosa-ingredientes">
+                                <input type="text" id="numero-do-ingrediente" placeholder="0">
+                            </div>
+
+                            <div id="ingredientes-elementos">
+                                <h2 id="titulo-ingredientes-elementos">INGREDIENTES</h2>
+                                <button id="clonar-div">Adicionar Conteúdo</button>
+
+                                <div id="conteudo-de-ingrediente">
+                                    <h4 id="nome-do-ingrediente">Nome do ingrediente</h4>
+                                    <input type="text" id="input-nome-do-ingrediente" placeholder="FARINHA DE TRIGO">
+
+                                    <div id="coiso-pra-deixar-certo">
+                                        <div id="quantidade-elementos">
+                                            <h4 id="nome-do-ingrediente">Quantidade/Peso</h4>
+                                            <input type="text" id="input-quantidade-do-ingrediente" placeholder="01">
+                                        </div>
+
+                                        <div id="guardar-medidas-elementos">
+                                            <h4 id="nome-do-ingrediente">Medida</h4>
+                                            <input type="text" id="medidas-elementos" placeholder="Xícara"
+                                                onfocus="dropdownmedidas(0)" onblur="dropdownmedidas(1)"
+                                                readonly="disabled">
+
+                                            <div class="dropDown-medidas">
+                                                <div class="listDropDown-medidas">
+                                                    <div class="item-medidas" id="itemedidas-1"
+                                                        onmousedown="medidas(1)">Xícara</div>
+                                                    <div class="item-medidas" id="itemedidas-2"
+                                                        onmousedown="medidas(2)">Colher de sopa</div>
+                                                    <div class="item-medidas" id="itemedidas-3"
+                                                        onmousedown="medidas(3)">Colher de chá</div>
+                                                    <div class="item-medidas" id="itemedidas-4"
+                                                        onmousedown="medidas(4)">Colher de café</div>
+                                                    <div class="item-medidas" id="itemedidas-5"
+                                                        onmousedown="medidas(5)">Colher de sobremesa</div>
+                                                    <div class="item-medidas" id="itemedidas-6"
+                                                        onmousedown="medidas(6)">Copo americano</div>
+                                                    <div class="item-medidas" id="itemedidas-7"
+                                                        onmousedown="medidas(7)">Gramas (gr)</div>
+                                                    <div class="item-medidas" id="itemedidas-8"
+                                                        onmousedown="medidas(8)">Mililitros (ml)</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="conteudo conteudo3" id="conteudoTarefa3">
+                        <h3 id="midias">Mídias</h3>
+
+                        <input type="file" id="files" accept="image/*" multiple style="display: none;">
+                        <div id="esqueleto-midias">
+                            <h1 id="adicione-midias">ADICIONE IMAGENS E VÍDEOS À SUA POSTAGEM!</h1>
+                            <div id="retangulo-adicionar-midia">
+                                <img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia">
+                            </div>
+                            <div class="midia-adicionada-retangulo" id="midia-adicionada-retangulo"></div>
+                        </div>
+                        <div id="result"></div>
+
+                    </div>
                 </div>
             </div>
         </div>
-    
-        <div class="conteudo conteudo3" id="conteudoTarefa3">
-            <h3 id="midias">Mídias</h3>
-                        
-            <input type="file" id="files" accept="image/*" multiple style="display: none;">
-            <div id="esqueleto-midias">
-                <h1 id="adicione-midias">ADICIONE IMAGENS E VÍDEOS À SUA POSTAGEM!</h1>
-                <div id="retangulo-adicionar-midia">
-                    <img src="./imagens/mais-rosa.svg" alt="adicionar mídia" id="mais-adicionar-midia">
-                </div>
-                <div class="midia-adicionada-retangulo" id="midia-adicionada-retangulo"></div>
-            </div>
-            <div id="result"></div>
-   
-        </div>
-
-    </div>
-
-        </div>
-        
         <div id="botoes-criar-post">
             <button id="btnVoltar" class="Voltar">VOLTAR</button>
             <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
         </div>
-
-    </div>
     </section>
 
 </body>
+
 </html>
