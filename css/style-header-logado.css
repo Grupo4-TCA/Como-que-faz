@@ -1,0 +1,196 @@
+@media only screen and (max-width: 480px) {
+        * {
+        font-family: Heavitas;
+        padding: 0;
+        margin: 0;
+        }
+        @font-face{
+        font-family: Heavitas;
+        src: url("../fonts/Heavitas.ttf");
+        }
+        @font-face{
+        font-family: Fira Sans Bold;
+        src: url("../fonts/fira-sans.bold.ttf");
+        }
+        @font-face{
+        font-family: Fira Sans;
+        src: url("../fonts/fira-sans.regular.ttf");
+        }
+        
+    /* Header Logado */
+    .user {
+        margin-top: 9px;
+        margin-left: 18px;
+        margin-right: -7px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .abrir-menu img {
+        max-width: 34px;
+        margin-top: 10px;
+    }
+
+    .abrir-menu{
+    padding: 0 0 0 0;
+    border: none;
+    background: none;
+    max-width: 34px;
+    }
+
+    .user-menu {
+    position: absolute;
+    top: -10px;
+    margin-left: -60px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 700px;
+    }
+
+    .fechar-menu{
+    width: 50px;
+    height: 800px;
+    margin-left: 100%;
+    background: none;
+    border: none;
+    position: absolute;
+    }
+
+    .user-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 97vw;
+    }
+
+    .user-menu li {
+    padding: 10px;
+    text-align: left;
+    margin-left: 50px;
+    display: flex; 
+    margin-top: 2%;
+    align-items: center; 
+    }
+
+    .user-menu img {
+    max-width: 24px; 
+    margin-right: 10px; 
+    }
+
+    .user-menu a {
+    text-decoration: none;
+    color: #cb218c;
+    display: block;
+    font-size: 14px; 
+    }
+
+    .user-menu a:hover {
+    background-color: #f0f0f0;
+
+    transition: 1s;
+
+    }
+    .ajustes {
+    margin-top: 30%;
+    margin-bottom: 15px;
+    display: inline-block;
+    justify-content: space-evenly;
+    }
+    .bem-vindo {
+    border-bottom: #4D16BB;
+    border-bottom-style: double;
+    display: flex;
+    height: 100px;
+    }
+    .bem-vindo img {
+    max-width: 45px;
+    margin-top: 32px;
+    margin-left: 50px;
+    }
+    .bem-vindo span {
+    font-size: 14px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    top: -10px;
+    color: #000000;
+    }
+    .colnm2 {
+    margin-top: 35px;
+    }
+    .nome span {
+    color: #cb218c;
+    font-size: 15px;
+    }
+    .logos {
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        box-shadow: 1px 5px 5px rgb(173, 173, 173);
+        background-color: white;
+        }
+        
+        .logo {
+        margin-top: 5px;
+        margin-right: 50px;
+        margin-left: 50px;
+        
+        }
+        .logo img {
+        max-width: 50px;
+        margin-top: 5px;
+        align-self: center;
+        }
+        .search {
+        margin-top: 22px;
+        margin-right: 13px;
+        }
+        .search img {
+        max-width: 26px;
+        }
+        .login {
+        margin-top: 9px;
+        margin-left: 18px;
+        margin-right: -7px;
+        position: relative;
+        display: inline-block;
+        }
+        .login img {
+        max-width: 34px;
+        margin-top: 10px;    
+        }
+        .topcs {
+        background-color: #5417bd;
+        background-image: linear-gradient(to right, #5417bd, #9d21cb);
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        height: 38px;
+        }
+        .topcs a {
+        text-decoration: none;
+        color: white;
+        margin-top: 9px;
+        font-size: 14px;
+        }
+        .culinaria {
+        margin-left: 13.14px;
+        font-family: Fira Sans Bold;
+        font-weight: 700;
+        margin-top: 12px;
+        }
+        .bem-estar {
+        margin-right: 8.59px;
+        font-family: Fira Sans Bold;
+        margin-top: 12px;
+        font-weight: 700;
+        }
+        .limpeza{
+            font-family: Fira Sans Bold;
+            text-align: center;
+            margin-top: 12px;
+            font-weight: 700;
+        }    
+    /*header logado fim*/
+
+}
