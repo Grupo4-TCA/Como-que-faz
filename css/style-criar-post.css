@@ -267,7 +267,7 @@
   #detalhes-primeira-parte {
     border-top: 1px solid #909090;
     margin-top: 5vw;
-    padding-top: 4.26%;
+    padding-top: 4.26vw;
     width: 100vw;
   }
 
@@ -277,14 +277,14 @@
     color: #333333;
     text-align: left;
     font-size: 140%;
-    margin-left: 6.4vw;
+    margin-left: 7vw;
   }
 
   #texto-titulo-da-postagem {
     width: 82vw;
     height: 9.33vw;
     padding: 2px 2px 2px 2px;
-    margin-left: 6.4vw;
+    margin-left: 7vw;
     margin-top: 1.55vw;
     font-size: 100%;
     border: 0;
@@ -328,9 +328,9 @@
   }
 
   #detalhes-segunda-parte {
-    margin-top: 5%;
+    margin-top: 5vw;
     border-top: 1px solid #909090;
-    padding-top: 6.66%;
+    padding-top: 6.66vw;
     width: 100vw;
   }
 
@@ -341,8 +341,8 @@
 
 
   #dialogoselect {
-    margin-left: 5.33%;
-    padding-left: 1.06%;
+    margin-left: 7vw;
+    padding-left: 1.06vw;
     width: 85vw;
     height: 10.66vw;
     outline: none;
@@ -386,11 +386,11 @@
 
   .dropDown {
     box-sizing: border-box;
-    width: 88.3vw;
-    height: 31vw;
-    margin-left: 5.33%;
-    padding-top: 3.2%;
-    padding-left: 12%;
+    width: 87vw;
+    height: 36vw;
+    margin-left: 7vw;
+    padding-top: 3.2vw;
+    padding-left: 12vw;
     border-radius: 5px;
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
@@ -407,27 +407,26 @@
     width: 8vw;
     height: 8vw;
     position: absolute;
-    margin-left: -10%;
-    margin-top: -2.3%;
+    margin-left: -8vw;
   }
 
-  .item-select-detalhes.icon {
+  .iconitem-select-detalhes {
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
     font-size: 100%;
     color: #333333;
     cursor: pointer;
-    margin-left: 5vw;
   }
 
-  .item-select-detalhes.texto{
+  .item-select-detalhes{
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
     font-size: 100%;
     color: #333333;
     cursor: pointer;
-    padding-bottom: 3vw;
-    margin-left: -5vw;
+    position: relative;
+    padding-top: 2vw;
+    margin-left: 2vw;
   }
 
   .dialogoselect.categoria-culinaria {
@@ -476,8 +475,8 @@
 
   #tempo-detalhes {
     appearance: none;
-    margin-top: 5.6%;
-    margin-left: 6.4%;
+    margin-top: 5.6vw;
+    margin-left: 8.2vw;
     display: flex;
     position: absolute;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
@@ -487,18 +486,18 @@
   }
 
   #horas-tempo-detalhes {
-    width: 9.06%;
-    height: 9.33%;
+    width: 9.06vw;
+    height: 9.33vw;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
     font-family: "Arial", sans-serif;
     font-size: 124%;
     color: #adadad;
     box-sizing: border-box;
-    padding-left: 1.3%;
-    padding-bottom: 2%;
-    margin-left: 2.93%;
-    margin-right: 2%;
+    padding-left: 1.3vw;
+    padding-bottom: 2vw;
+    margin-left: 2.93vw;
+    margin-right: 2vw;
 
     &::-webkit-input-placeholder {
       color: #adadad;
@@ -533,7 +532,7 @@
 
   #descricao-detalhes-total {
     margin-top: 24vw;
-    margin-left: 6.4vw;
+    margin-left: 8vw;
   }
 
   #titulo-descricao-detalhes {
@@ -585,7 +584,7 @@
 
   #subcategoria-detalhes-total {
     margin-top: 4.53vw;
-    margin-left: 6.4vw;
+    margin-left: 8vw;
   }
 
   .input-container {
@@ -854,9 +853,6 @@
   ::-webkit-scrollbar {
     background-color: #f2f2f2;
     width: 3vw;
-    border: #CB218C 1px solid;
-    border-left: none;
-    border-top: none;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -937,6 +933,10 @@
     margin-top: -11vw;
   }
 
+  #tudo-dos-clones{
+    margin-top: 10vw;
+  }
+
   #numero-do-modo-de-preparo {
     max-width: 7vw;
     margin-top: 6vw;
@@ -948,7 +948,7 @@
     font-family: "Fira Sans", sans-serif;
     font-size: 130%;
     font-weight: 700;
-    color: #cb218c;
+    color: #333;
 
     &::-webkit-input-placeholder {
       color: #909090;
@@ -957,7 +957,7 @@
     ;
 
     input#dialogoselect::-moz-placeholder {
-      color: #909090;
+      color: #adadad;
     }
 
     ;
@@ -966,9 +966,7 @@
 
   #modo-de-preparo {
     box-sizing: border-box;
-    border-left: 1.3vw #9e5fef solid;
-    margin-left: 6.4vw;
-    margin-top: 10vw;
+    margin-top: 4vw;
   }
 
   #modo-de-preparo-titulo {
@@ -980,34 +978,67 @@
     font-size: 130%;
   }
 
-  #titulo-texto-modo{
-    display: inline-block;
-  }
-
   #modo-de-preparo-NaN{
     box-sizing: border-box;
-    border-left: 1.3vw #9e5fef solid;
     margin-left: 6.4vw;
+    border-left: 1.3vw #9e5fef solid;
   }
 
   #passo-a-passo-modo{
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 600;
-    color: #333;
+    font-weight: 500;
+    color: #adadad;
     text-align: left;
-    margin-left: 6vw;
-    padding-top: 2.7vw;
-    font-size: 90%;
+    margin-left: 4.4vw;
+    padding-top: 0.7vw;
+    font-size: 100%;
   }
 
   #botoes-de-tirar-colocar{
-    display: inline-block;
-    margin-left: 14vw;
-    padding-top: -6vw;
+    margin-left: 80vw;
+    margin-top: -12vw;
   }
 
   #linhas-roxa-conteudo{
-    
+    border-left: 1.3vw #9e5fef solid;
+    margin-left: 6.4vw;
+  }
+  
+  #input-modo-de-preparo{
+    width: 73vw;
+    height: 9%;
+    padding: 2px 2px 2px 2px;
+    margin-top: 1.4vw;
+    margin-bottom: 2vw;
+    font-size: 110%;
+    border: 0;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    color: #333333;
+    text-align: left;
+
+    &::-webkit-input-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    input#dialogoselect::-moz-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    &:focus {
+      outline: 0;
+      border-bottom: 2px #9e5fef solid;
+    }
+  }
+
   }
 
 }
