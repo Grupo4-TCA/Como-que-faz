@@ -938,10 +938,7 @@
   }
 
   #numero-do-modo-de-preparo {
-    max-width: 7vw;
-    margin-top: 6vw;
-    margin-left: 5vw;
-    padding-left: 1.4vw;
+    margin-top: 7vw;
     border: 0;
     background-color: white;
     outline: none;
@@ -949,19 +946,14 @@
     font-size: 130%;
     font-weight: 700;
     color: #333;
+  }
 
-    &::-webkit-input-placeholder {
-      color: #909090;
-    }
-
-    ;
-
-    input#dialogoselect::-moz-placeholder {
-      color: #adadad;
-    }
-
-    ;
-
+  #simbolo-do-numero{
+    display: inline-block;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 90%;
+    color: #adadad;
+    box-sizing: border-box;
   }
 
   #modo-de-preparo {
@@ -1009,7 +1001,6 @@
     height: 9%;
     padding: 2px 2px 2px 2px;
     margin-top: 1.4vw;
-    margin-bottom: 2vw;
     font-size: 110%;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
@@ -1017,7 +1008,7 @@
     box-sizing: border-box;
     font-family: "Arial", sans-serif;
     padding-left: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 2vw;
     color: #333333;
     text-align: left;
 
@@ -1037,8 +1028,6 @@
       outline: 0;
       border-bottom: 2px #9e5fef solid;
     }
-  }
-
   }
 
 }
