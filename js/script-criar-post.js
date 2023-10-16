@@ -122,16 +122,16 @@ function adicionarMensagem() {
     }
   }
   
-  function medidas(c) {
-    var itemedidas = document.getElementById('itemedidas-' + c).innerHTML;
-    document.getElementById('medidas-elementos').value = itemedidas;
+  function qmedidas(pega) {
+    var oitemedidas = document.getElementById('itemedidas-' + pega).innerHTML;
+    document.getElementById('medidas-elementos').value = oitemedidas;
 }
 
 function dropdownmedidas(p) {
-    var e = document.getElementsByClassName('dropDown-medidas')[0];
-    var d = ['block', 'none'];
+    var l = document.getElementsByClassName('dropDown-medidas')[0];
+    var f = ['block', 'none'];
 
-    e.style.display = d[p];
+    l.style.display = f[p];
 }
 
     window.onload = function() {
@@ -190,4 +190,29 @@ function dropdownmedidas(p) {
         }
     }
 
+document.getElementById("botao-de-add-ingrediente").addEventListener("click", function () {
+            duplicarDiv();
+        });
+
+        document.getElementById("botao-de-tirar-ingrediente").addEventListener("click", function () {
+            var element = this.parentNode;
+            apagarDiv(element);
+        });
+        
+        var contadorDivs = 0;
+
+        function duplicarDiv() {
+            var divOriginal = document.getElementById('ingredientes-elementos');
+            var clone = divOriginal.cloneNode(true);
+            contadorDivs++;
+            clone.id = "ingredientes-elementos-" + contadorDivs;
+            document.getElementById('clonados-ou-nao').appendChild(clone);
+        }
+    
+        function apagarDiv(element) {
+            var parent = element.parentNode;
+            if (parent.id !== 'ingredientes-elementos') {
+                parent.parentNode.removeChild(parent);
+            }
+        }
     

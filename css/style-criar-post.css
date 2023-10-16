@@ -204,12 +204,12 @@
     width: 100vw;
     height: 16vw;
     padding-top: 5vw;
+    margin-top: 47vw;
     border-top: 1px solid #d7d7d7;
     background-color: #ffffff;
     box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
     z-index: 97;
     position: sticky;
-    bottom: 0;
   }
 
 
@@ -623,7 +623,6 @@
   }
 
   #ingredientes-elementos {
-    margin-left: 8vw;
   }
 
   #linha-rosa-ingredientes {
@@ -636,19 +635,34 @@
     position: absolute;
   }
 
+  #sem-a-linha-rosa{
+    margin-left: 8vw;
+    margin-top: 8vw;
+  }
+
   #titulo-ingredientes-elementos {
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     color: #cb218c;
     text-align: left;
-    margin-left: 5vw;
-    display: inline-block;
+    margin-left: 12vw;
+    margin-bottom: -17vw;
     font-size: 130%;
+  }
+
+  #botao-de-add-ingrediente{
+    margin-left: 79vw;
+    margin-bottom: -19vw;
+  }
+
+  #botao-de-tirar-ingrediente{
+    margin-left: 88vw;
+    margin-bottom: -13.4vw;
   }
 
   #numero-do-ingrediente {
     max-width: 7vw;
-    margin-top: 11vw;
+    margin-top: 6vw;
     margin-left: -3vw;
     padding-left: 1.4vw;
     border: 0;
@@ -884,5 +898,7 @@
     font-size: 110%;
     font-family: 'Heavitas', sans-serif;
   }
+
+
 
 }
