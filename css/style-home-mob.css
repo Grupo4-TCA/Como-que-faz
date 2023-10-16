@@ -403,7 +403,7 @@
   transition: 0.3s;
 }
 .imagens-slide{
-  width: 100%;
+  height: 100%;
 }
 .manual-navigation{
   position: absolute;
@@ -420,7 +420,7 @@
   transition: 0.5s;
 }
 .manual-btn:not(:last-child){
-  margin-right: 5%;
+  margin-right: 1.5%;
 }
 .manual-btn:hover{
   background: #cb218c;
@@ -456,21 +456,20 @@
   display: flex;
 }
 .imagem-categoria{
-  height: 10%;
-  max-width: 50px;
+  height: 14%;
   min-width: 30px;
-  margin-top: 25px;
-  margin-left: -93%;
+  margin-left: 91%;
+  margin-top: 410px;
   position: absolute;
 }
 .texto-slide1{
-  font-size: 30px;
+  font-size: 60px;
+  margin-top: 100px;
   height: 10%;
   max-width: 90%;
   font-weight: 400;
   min-width: 30px;
-  margin-top: -280px;
-  margin-left: 7%;
+  margin-left: 10%;
   position: absolute;
   color: white;
 }
@@ -500,16 +499,16 @@
 }
 .itens-necessarios{
   font-family: Fira Sans Bold;
-  font-size: 17px;
-  width: 83%;
+  font-size: 22px;
+  width: 550px;
   font-weight: 400;
-  margin-top: -240px;
-  margin-left: 7%;
+  margin-top: 200px;
+  margin-left: 10%;
   margin-right: 7%;
   position: absolute;
   color: white;
-  border-left: white solid;
-  height: 45px;
+  border-left: white solid 6px;
+  height: 53px;
   padding-left: 2%;
 }
 .itens-necessarios3{
@@ -518,7 +517,7 @@
   width: 83%;
   font-weight: 400;
   margin-top: -215px;
-  margin-left: 7%;
+  margin-left: 10%;
   margin-right: 7%;
   position: absolute;
   color: white;
@@ -528,12 +527,37 @@
 }
 .textos-carrossel{
   display: inline;
+  position: absolute;
+  margin-left: 50px;
 }
 
-.quadrado-categoria{
-  height: 556px;
+.quadrado-categoria-culinaria{
+  height: 100%;
   width: 60px;
-  color: #cb218c;
+  background-color: #cb2154;
+  position: absolute;
+}
+.primeiro{
+  display: flex;
+  position: relative;
+}
+.textos-carrossel p{
+  font-family: Fira Sans;
+  color: white;
+  margin-left: 10%;
+  font-size: 22px;
+  width: 650px;
+  margin-top: 280px;
+}
+.ver-dica{
+  height: 45px;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 7%;
+  margin-left: 10%;
+  background: none;
+  border: white 2.5px solid;
+  color: white;
 }
 
 

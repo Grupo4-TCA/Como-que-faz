@@ -1,30 +1,38 @@
-let count = 1;
+let countMobile = 1;
+let countDesktop = 1;
 
-function nextImage() {
-    count++;
-    if (count > 3) {
-        count = 1;
+function nextImageMobile() {
+    countMobile++;
+    if (countMobile > 3) {
+        countMobile = 1;
     }
-    document.getElementById("radio" + count).checked = true;
-
-    // Defina o background apenas para o botão correspondente
-    const currentBtn = document.querySelector(".manual-btn" + count);
-    currentBtn.style.background = "#cb218c";
-
-    // Remova o background dos outros botões manuais
-    for (let i = 1; i <= 3; i++) {
-        if (i !== count) {
-            const otherBtn = document.querySelector(".manual-btn" + i);
-            otherBtn.style.background = "white";
-        }
-    }
+    // Ative o carrossel móvel e desative o de desktop
+    document.getElementById("radio1").checked = true;
+    document.getElementById("radio2").checked = false;
+    document.getElementById("radio3").checked = false;
 }
 
-// Inicie o carrossel automaticamente após o carregamento da página
+function nextImageDesktop() {
+    countDesktop++;
+    if (countDesktop > 3) {
+        countDesktop = 1;
+    }
+    // Ative o carrossel de desktop e desative o móvel
+    document.getElementById("radio1").checked = false;
+    document.getElementById("radio2").checked = true;
+    document.getElementById("radio3").checked = false;
+}
+
+// Inicie o carrossel móvel automaticamente após o carregamento da página
 window.addEventListener("load", function () {
-    setInterval(nextImage, 3000);
+    setInterval(nextImageMobile, 3000);
     document.getElementById("radio1").checked = true;
-    document.querySelector(".manual-btn1").style.background = "#cb218c";
+});
+
+// Inicie o carrossel de desktop automaticamente após o carregamento da página
+window.addEventListener("load", function () {
+    setInterval(nextImageDesktop, 3000);
+    document.getElementById("radio2").checked = true;
 });
 
 function VisiRecente() {
