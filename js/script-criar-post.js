@@ -219,7 +219,6 @@ function apagarDiv(element) {
 }
 
 //botoes de criar e tirar modo de preparo
-
 document.getElementById("botao-de-add-modo").addEventListener("click", function () {
     duplicarDivModo();
 });
@@ -237,11 +236,23 @@ function duplicarDivModo() {
     contadorDivsModo++;
     clone.id = "modo-de-preparo-" + contadorDivsModo;
     document.getElementById('tudo-dos-clones').appendChild(clone);
+    atualizarNumeracao();
 }
 
 function apagarDivModo(element) {
     var parent = element.parentNode;
     if (parent.id !== 'modo-de-preparo') {
         parent.parentNode.removeChild(parent);
+        atualizarNumeracao();
     }
+}
+
+function atualizarNumeracao() {
+    var divs = document.querySelectorAll('[id^="modo-de-preparo-"]');
+    divs.forEach(function (div, index) {
+        var numeroDoModo = div.querySelector("#numero-do-modo-de-preparo");
+        if (numeroDoModo) {
+            numeroDoModo.value = index + 1;
+        }
+    });
 }
