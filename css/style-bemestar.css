@@ -92,22 +92,23 @@
       img.imgbe{
         width: 84px;
         height: 84px;
-        margin-left: 4%;
+        margin-left: 5%;
         transform: translate(0, 13px);
       }
       h1.titulobe{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: Heavitas;
         color: #00cd83;
+        max-width: 215px;
         font-size: 35px;
-        font-weight: 800;
-        transform: translate(150px, -80px);
+        font-weight: 400;
+        transform: translate(115px, -70px);
       }
       p.pbe{
         text-align: left;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        width: 200px;
+        width: 65%;
         font-size: 12px;
-        transform: translate(155px, -80px);
+        transform: translate(115px, -70px);
       }
   
 
@@ -130,12 +131,10 @@
       .filtrocu{
         display: flex;
         gap: 10px;
-        overflow:scroll;
+        overflow: scroll;
         height: 100%;
-        margin-left: 50px;
+        margin-left: 7%;
         margin-top: -50px;
-        min-width: 140px;
-        height: 35px;
         padding: 2px 2px 2px 2px;
         border-radius: 5px;
         box-sizing: border-box;
@@ -144,6 +143,7 @@
         text-align: center;
         line-height: normal;
         border: none;
+        width: 85%;
         }
     
         .clicado{
