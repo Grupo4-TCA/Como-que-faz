@@ -140,21 +140,34 @@
     visibility: hidden;
   }
 
+  #agrupamento-conteudo {
+    padding: 0;
+    margin: 0;
+    /* position: absolute; */
+
+  }
+
   #conteudoTarefa1 {
     left: 0;
     transform: translateX(0%);
+    position: fixed;
+    margin-top: 10vw;
   }
 
   #conteudoTarefa2 {
     left: 0;
-    margin-top: -152vw;
+    /* margin-top: -152vw; */
+    margin-top: 10vw;
     transform: translateX(100%);
+    position: absolute;
   }
 
   #conteudoTarefa3 {
     left: 0;
-    margin-top: -47.2vw;
+    /* margin-top: -47.2vw; */
+    margin-top: 10vw;
     transform: translateX(100%);
+    position: absolute;
   }
 
   #detalhes {
@@ -165,8 +178,8 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -6%;
-    margin-left: 7%;
+    margin-top: -15vw;
+    margin-left: 7vw;
   }
 
   #elementos {
@@ -177,7 +190,7 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -6%;
+    margin-top: -15vw;
     margin-left: 7%;
   }
 
@@ -189,7 +202,7 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -6%;
+    margin-top: -15vw;
     margin-left: 7%;
   }
 
@@ -204,7 +217,7 @@
     width: 100vw;
     height: 16vw;
     padding-top: 5vw;
-    margin-top: 47vw;
+    margin-top: 180vw;
     border-top: 1px solid #d7d7d7;
     background-color: #ffffff;
     box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
@@ -218,7 +231,8 @@
     font-size: 100%;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
-    width: 42%;
+    /* width: 42%; */
+    width: 30vw;
     height: 10.10vw;
     padding: 2px 2px 2px 2px;
     border-radius: 5px;
@@ -228,6 +242,7 @@
     border: none;
     z-index: 100;
     margin-left: 51.2vw;
+   
   }
 
   #btnVoltar {
@@ -246,13 +261,14 @@
     line-height: normal;
     z-index: 100;
     margin-left: 6.4vw;
+   
   }
 
   #detalhes-primeira-parte {
     border-top: 1px solid #909090;
-    margin-top: 5.06%;
+    margin-top: 5vw;
     padding-top: 4.26%;
-
+    width: 100vw;
   }
 
   #titulo-da-postagem {
@@ -261,23 +277,23 @@
     color: #333333;
     text-align: left;
     font-size: 140%;
-    margin-left: 6.4%;
+    margin-left: 6.4vw;
   }
 
   #texto-titulo-da-postagem {
-    width: 82%;
-    height: 9.33%;
+    width: 82vw;
+    height: 9.33vw;
     padding: 2px 2px 2px 2px;
-    margin-left: 6.4%;
-    margin-top: 1.55%;
+    margin-left: 6.4vw;
+    margin-top: 1.55vw;
     font-size: 100%;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
     background-color: #ffffff;
     box-sizing: border-box;
     font-family: "Arial", sans-serif;
-    padding-left: 1%;
-    padding-bottom: 2%;
+    padding-left: 1vw;
+    padding-bottom: 2vw;
     color: #333333;
     text-align: left;
 
@@ -315,6 +331,7 @@
     margin-top: 5%;
     border-top: 1px solid #909090;
     padding-top: 6.66%;
+    width: 100vw;
   }
 
   #icon-seta-select {
@@ -368,8 +385,9 @@
   }
 
   .dropDown {
-    width: 74.2vw;
-    height: 24vw;
+    box-sizing: border-box;
+    width: 88.3vw;
+    height: 31vw;
     margin-left: 5.33%;
     padding-top: 3.2%;
     padding-left: 12%;
@@ -393,13 +411,23 @@
     margin-top: -2.3%;
   }
 
-  .item-select-detalhes {
+  .item-select-detalhes.icon {
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
     font-size: 100%;
     color: #333333;
-    box-sizing: border-box;
     cursor: pointer;
+    margin-left: 5vw;
+  }
+
+  .item-select-detalhes.texto{
+    background-color: #f2f2f2;
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-size: 100%;
+    color: #333333;
+    cursor: pointer;
+    padding-bottom: 3vw;
+    margin-left: -5vw;
   }
 
   .dialogoselect.categoria-culinaria {
