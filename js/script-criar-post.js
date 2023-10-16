@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnAvancar = document.getElementById("btnAvancar");
     const btnVoltar = document.getElementById("btnVoltar");
     const conteudos = document.querySelectorAll(".conteudo");
-    
+
     let currentIndex = 0;
 
     function handleItemClick(event) {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.target.classList.add("ativo");
 
         // Define a largura da linha de progresso para corresponder ao botão atual
-        const itemWidth = 100 / itens.length; 
+        const itemWidth = 100 / itens.length;
         const progressoWidth = itemWidth * (currentIndex + 1);
         progresso.style.width = progressoWidth + "%";
 
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Oculta todos os conteúdos de tarefas
         conteudos.forEach(function (conteudo, index) {
-            if(index < currentIndex){
+            if (index < currentIndex) {
                 conteudo.style.transform = "translateX(-100%)"; // Esconde à esquerda
             } else if (index === currentIndex) {
                 conteudo.style.transform = "translateX(0%)"; // Mostra o conteúdo atual
@@ -74,18 +74,18 @@ function category(categoryId) {
 
     // Remova a classe existente (se houver)
     inputElement.classList.remove('categoria-culinaria', 'categoria-limpeza', 'categoria-bemestar');
-  
+
     // Adicione a classe com base no categoryId
     switch (categoryId) {
-      case 1:
-        inputElement.classList.add('categoria-culinaria');
-        break;
-      case 2:
-        inputElement.classList.add('categoria-limpeza');
-        break;
-      case 3:
-        inputElement.classList.add('categoria-bemestar');
-        break;
+        case 1:
+            inputElement.classList.add('categoria-culinaria');
+            break;
+        case 2:
+            inputElement.classList.add('categoria-limpeza');
+            break;
+        case 3:
+            inputElement.classList.add('categoria-bemestar');
+            break;
     }
 
     // Atualize o valor do input com base no item selecionado
@@ -101,28 +101,28 @@ function dropdown(action) {
 function adicionarMensagem() {
     const inputText = document.getElementById('input-text-subcategoria');
     const messageList = document.getElementById('messageList');
-  
+
     // Obter o valor do input
     const inputValue = inputText.value.trim();
-  
+
     // Verificar se o valor não está vazio
     if (inputValue !== '') {
-      // Criar um novo elemento de div para exibir a mensagem
-      const messageDiv = document.createElement('div');
-      messageDiv.id = 'div-etiqueta-subcategoria';
-      messageDiv.textContent = inputValue;
-      messageDiv.style.paddingLeft='1%';
-      messageDiv.style.paddingRight='1%';
-  
-      // Adicionar a div à lista de mensagens
-      messageList.appendChild(messageDiv);
-  
-      // Limpar o valor do input
-      inputText.value = '';
+        // Criar um novo elemento de div para exibir a mensagem
+        const messageDiv = document.createElement('div');
+        messageDiv.id = 'div-etiqueta-subcategoria';
+        messageDiv.textContent = inputValue;
+        messageDiv.style.paddingLeft = '1%';
+        messageDiv.style.paddingRight = '1%';
+
+        // Adicionar a div à lista de mensagens
+        messageList.appendChild(messageDiv);
+
+        // Limpar o valor do input
+        inputText.value = '';
     }
-  }
-  
-  function qmedidas(pega) {
+}
+
+function qmedidas(pega) {
     var oitemedidas = document.getElementById('itemedidas-' + pega).innerHTML;
     document.getElementById('medidas-elementos').value = oitemedidas;
 }
@@ -134,85 +134,114 @@ function dropdownmedidas(p) {
     l.style.display = f[p];
 }
 
-    window.onload = function() {
+window.onload = function () {
 
-        // Check File API support
-        if (window.File && window.FileList && window.FileReader) {
-            var filesInput = document.getElementById("files");
-            var output = document.getElementById("result");
-            var retanguloAdicionarMidia = document.getElementById("retangulo-adicionar-midia");
+    // Check File API support
+    if (window.File && window.FileList && window.FileReader) {
+        var filesInput = document.getElementById("files");
+        var output = document.getElementById("result");
+        var retanguloAdicionarMidia = document.getElementById("retangulo-adicionar-midia");
 
-            retanguloAdicionarMidia.addEventListener("click", function() {
-                filesInput.click(); // Clique no input de arquivo
-            });
+        retanguloAdicionarMidia.addEventListener("click", function () {
+            filesInput.click(); // Clique no input de arquivo
+        });
 
-            filesInput.addEventListener("change", function(event) {
+        filesInput.addEventListener("change", function (event) {
 
-                var files = event.target.files; // FileList object
+            var files = event.target.files; // FileList object
 
-                for (var i = 0; i < files.length; i++) {
-                    var file = files[i];
+            for (var i = 0; i < files.length; i++) {
+                var file = files[i];
 
-                    // Only pics
-                    if (!file.type.match('image')) continue;
+                // Only pics
+                if (!file.type.match('image')) continue;
 
-                    var picReader = new FileReader();
+                var picReader = new FileReader();
 
-                    picReader.addEventListener("load", function(event) {
-                        var picFile = event.target;
-                        var thumbnailContainer = document.createElement("div");
-                        thumbnailContainer.className = "thumbnail-container";
+                picReader.addEventListener("load", function (event) {
+                    var picFile = event.target;
+                    var thumbnailContainer = document.createElement("div");
+                    thumbnailContainer.className = "thumbnail-container";
 
-                        var closeButton = document.createElement("span");
-                        closeButton.className = "close-button";
-                        closeButton.innerHTML = "X";
+                    var closeButton = document.createElement("span");
+                    closeButton.className = "close-button";
+                    closeButton.innerHTML = "X";
 
-                        closeButton.addEventListener("click", function() {
-                            thumbnailContainer.remove();
-                        });
-
-                        var thumbnail = document.createElement("img");
-                        thumbnail.className = 'thumbnail';
-                        thumbnail.src = picFile.result;
-                        thumbnail.title = picFile.name;
-
-                        thumbnailContainer.appendChild(thumbnail);
-                        thumbnailContainer.appendChild(closeButton);
-                        output.appendChild(thumbnailContainer);
+                    closeButton.addEventListener("click", function () {
+                        thumbnailContainer.remove();
                     });
 
-                    // Read the image
-                    picReader.readAsDataURL(file);
-                }
-            });
-        } else {
-            console.log("Your browser does not support File API");
-        }
+                    var thumbnail = document.createElement("img");
+                    thumbnail.className = 'thumbnail';
+                    thumbnail.src = picFile.result;
+                    thumbnail.title = picFile.name;
+
+                    thumbnailContainer.appendChild(thumbnail);
+                    thumbnailContainer.appendChild(closeButton);
+                    output.appendChild(thumbnailContainer);
+                });
+
+                // Read the image
+                picReader.readAsDataURL(file);
+            }
+        });
+    } else {
+        console.log("Your browser does not support File API");
     }
+}
+
+//botoes de criar e tirar ingredientes
 
 document.getElementById("botao-de-add-ingrediente").addEventListener("click", function () {
-            duplicarDiv();
-        });
+    duplicarDiv();
+});
 
-        document.getElementById("botao-de-tirar-ingrediente").addEventListener("click", function () {
-            var element = this.parentNode;
-            apagarDiv(element);
-        });
-        
-        var contadorDivs = 0;
+document.getElementById("botao-de-tirar-ingrediente").addEventListener("click", function () {
+    var element = this.parentNode;
+    apagarDiv(element);
+});
 
-        function duplicarDiv() {
-            var divOriginal = document.getElementById('ingredientes-elementos');
-            var clone = divOriginal.cloneNode(true);
-            contadorDivs++;
-            clone.id = "ingredientes-elementos-" + contadorDivs;
-            document.getElementById('clonados-ou-nao').appendChild(clone);
-        }
-    
-        function apagarDiv(element) {
-            var parent = element.parentNode;
-            if (parent.id !== 'ingredientes-elementos') {
-                parent.parentNode.removeChild(parent);
-            }
-        }
-    
+var contadorDivs = 0;
+
+function duplicarDiv() {
+    var divOriginal = document.getElementById('ingredientes-elementos');
+    var clone = divOriginal.cloneNode(true);
+    contadorDivs++;
+    clone.id = "ingredientes-elementos-" + contadorDivs;
+    document.getElementById('clonados-ou-nao').appendChild(clone);
+}
+
+function apagarDiv(element) {
+    var parent = element.parentNode;
+    if (parent.id !== 'ingredientes-elementos') {
+        parent.parentNode.removeChild(parent);
+    }
+}
+
+//botoes de criar e tirar modo de preparo
+
+document.getElementById("botao-de-add-modo").addEventListener("click", function () {
+    duplicarDivModo();
+});
+
+document.getElementById("botao-de-tirar-modo").addEventListener("click", function () {
+    var element = this.parentNode;
+    apagarDivModo(element);
+});
+
+var contadorDivsModo = 0;
+
+function duplicarDivModo() {
+    var divOriginal = document.getElementById('modo-de-preparo');
+    var clone = divOriginal.cloneNode(true);
+    contadorDivsModo++;
+    clone.id = "modo-de-preparo-" + contadorDivsModo;
+    document.getElementById('tudo-dos-clones').appendChild(clone);
+}
+
+function apagarDivModo(element) {
+    var parent = element.parentNode;
+    if (parent.id !== 'modo-de-preparo') {
+        parent.parentNode.removeChild(parent);
+    }
+}

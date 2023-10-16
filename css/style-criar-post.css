@@ -622,9 +622,6 @@
     padding-top: 4.26%;
   }
 
-  #ingredientes-elementos {
-  }
-
   #linha-rosa-ingredientes {
     width: 1.06vw;
     height: 49.06vw;
@@ -632,12 +629,13 @@
     margin-left: 6.4vw;
     background-color: #cb218c;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
+    margin-top: -25vw;
   }
 
-  #sem-a-linha-rosa{
-    margin-left: 8vw;
-    margin-top: 8vw;
+  #sem-a-linha-rosa {
+    margin-left: 9vw;
+    padding-top: 6vw;
   }
 
   #titulo-ingredientes-elementos {
@@ -648,21 +646,22 @@
     margin-left: 12vw;
     margin-bottom: -17vw;
     font-size: 130%;
+    border: 0;
   }
 
-  #botao-de-add-ingrediente{
+  #botao-de-add-ingrediente {
     margin-left: 79vw;
-    margin-bottom: -19vw;
+    margin-bottom: -21vw;
   }
 
-  #botao-de-tirar-ingrediente{
+  #botao-de-tirar-ingrediente {
     margin-left: 88vw;
-    margin-bottom: -13.4vw;
+    margin-bottom: -15.3vw;
   }
 
   #numero-do-ingrediente {
     max-width: 7vw;
-    margin-top: 6vw;
+    margin-top: 7.4vw;
     margin-left: -3vw;
     padding-left: 1.4vw;
     border: 0;
@@ -701,7 +700,7 @@
     height: 9%;
     padding: 2px 2px 2px 2px;
     margin-left: 5vw;
-    margin-top: 3vw;
+    margin-top: 1.4vw;
     margin-bottom: 2vw;
     font-size: 110%;
     border: 0;
@@ -799,6 +798,10 @@
 
     &:focus {
       outline: none;
+      border: #CB218C 2px solid;
+      border-bottom: none;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
     }
   }
 
@@ -823,6 +826,9 @@
   ::-webkit-scrollbar {
     background-color: #f2f2f2;
     width: 3vw;
+    border: #CB218C 1px solid;
+    border-left: none;
+    border-top: none;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -899,6 +905,81 @@
     font-family: 'Heavitas', sans-serif;
   }
 
+  #ingredientes-elementos-NaN {
+    margin-top: -11vw;
+  }
 
+  #numero-do-modo-de-preparo {
+    max-width: 7vw;
+    margin-top: 6vw;
+    margin-left: 5vw;
+    padding-left: 1.4vw;
+    border: 0;
+    background-color: white;
+    outline: none;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 130%;
+    font-weight: 700;
+    color: #cb218c;
+
+    &::-webkit-input-placeholder {
+      color: #909090;
+    }
+
+    ;
+
+    input#dialogoselect::-moz-placeholder {
+      color: #909090;
+    }
+
+    ;
+
+  }
+
+  #modo-de-preparo {
+    box-sizing: border-box;
+    border-left: 1.3vw #9e5fef solid;
+    margin-left: 6.4vw;
+    margin-top: 10vw;
+  }
+
+  #modo-de-preparo-titulo {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #9e5fef;
+    text-align: left;
+    margin-left: 3.9vw;
+    font-size: 130%;
+  }
+
+  #titulo-texto-modo{
+    display: inline-block;
+  }
+
+  #modo-de-preparo-NaN{
+    box-sizing: border-box;
+    border-left: 1.3vw #9e5fef solid;
+    margin-left: 6.4vw;
+  }
+
+  #passo-a-passo-modo{
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+    margin-left: 6vw;
+    padding-top: 2.7vw;
+    font-size: 90%;
+  }
+
+  #botoes-de-tirar-colocar{
+    display: inline-block;
+    margin-left: 14vw;
+    padding-top: -6vw;
+  }
+
+  #linhas-roxa-conteudo{
+    
+  }
 
 }
