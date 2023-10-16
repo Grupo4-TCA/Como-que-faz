@@ -140,21 +140,34 @@
     visibility: hidden;
   }
 
+  #agrupamento-conteudo {
+    padding: 0;
+    margin: 0;
+    /* position: absolute; */
+
+  }
+
   #conteudoTarefa1 {
     left: 0;
     transform: translateX(0%);
+    position: fixed;
+    margin-top: 10vw;
   }
 
   #conteudoTarefa2 {
     left: 0;
-    margin-top: -152vw;
+    /* margin-top: -152vw; */
+    margin-top: 10vw;
     transform: translateX(100%);
+    position: absolute;
   }
 
   #conteudoTarefa3 {
     left: 0;
-    margin-top: -47.2vw;
+    /* margin-top: -47.2vw; */
+    margin-top: 10vw;
     transform: translateX(100%);
+    position: absolute;
   }
 
   #detalhes {
@@ -165,8 +178,8 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -6%;
-    margin-left: 7%;
+    margin-top: -15vw;
+    margin-left: 7vw;
   }
 
   #elementos {
@@ -177,7 +190,7 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -6%;
+    margin-top: -15vw;
     margin-left: 7%;
   }
 
@@ -189,7 +202,7 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -6%;
+    margin-top: -15vw;
     margin-left: 7%;
   }
 
@@ -204,12 +217,12 @@
     width: 100vw;
     height: 16vw;
     padding-top: 5vw;
+    margin-top: 180vw;
     border-top: 1px solid #d7d7d7;
     background-color: #ffffff;
     box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.35);
     z-index: 97;
     position: sticky;
-    bottom: 0;
   }
 
 
@@ -218,7 +231,8 @@
     font-size: 100%;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
-    width: 42%;
+    /* width: 42%; */
+    width: 30vw;
     height: 10.10vw;
     padding: 2px 2px 2px 2px;
     border-radius: 5px;
@@ -228,6 +242,7 @@
     border: none;
     z-index: 100;
     margin-left: 51.2vw;
+   
   }
 
   #btnVoltar {
@@ -246,13 +261,14 @@
     line-height: normal;
     z-index: 100;
     margin-left: 6.4vw;
+   
   }
 
   #detalhes-primeira-parte {
     border-top: 1px solid #909090;
-    margin-top: 5.06%;
-    padding-top: 4.26%;
-
+    margin-top: 5vw;
+    padding-top: 4.26vw;
+    width: 100vw;
   }
 
   #titulo-da-postagem {
@@ -261,23 +277,23 @@
     color: #333333;
     text-align: left;
     font-size: 140%;
-    margin-left: 6.4%;
+    margin-left: 7vw;
   }
 
   #texto-titulo-da-postagem {
-    width: 82%;
-    height: 9.33%;
+    width: 82vw;
+    height: 9.33vw;
     padding: 2px 2px 2px 2px;
-    margin-left: 6.4%;
-    margin-top: 1.55%;
+    margin-left: 7vw;
+    margin-top: 1.55vw;
     font-size: 100%;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
     background-color: #ffffff;
     box-sizing: border-box;
     font-family: "Arial", sans-serif;
-    padding-left: 1%;
-    padding-bottom: 2%;
+    padding-left: 1vw;
+    padding-bottom: 2vw;
     color: #333333;
     text-align: left;
 
@@ -312,9 +328,10 @@
   }
 
   #detalhes-segunda-parte {
-    margin-top: 5%;
+    margin-top: 5vw;
     border-top: 1px solid #909090;
-    padding-top: 6.66%;
+    padding-top: 6.66vw;
+    width: 100vw;
   }
 
   #icon-seta-select {
@@ -324,8 +341,8 @@
 
 
   #dialogoselect {
-    margin-left: 5.33%;
-    padding-left: 1.06%;
+    margin-left: 7vw;
+    padding-left: 1.06vw;
     width: 85vw;
     height: 10.66vw;
     outline: none;
@@ -368,11 +385,12 @@
   }
 
   .dropDown {
-    width: 74.2vw;
-    height: 24vw;
-    margin-left: 5.33%;
-    padding-top: 3.2%;
-    padding-left: 12%;
+    box-sizing: border-box;
+    width: 87vw;
+    height: 36vw;
+    margin-left: 7vw;
+    padding-top: 3.2vw;
+    padding-left: 12vw;
     border-radius: 5px;
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
@@ -389,17 +407,26 @@
     width: 8vw;
     height: 8vw;
     position: absolute;
-    margin-left: -10%;
-    margin-top: -2.3%;
+    margin-left: -8vw;
   }
 
-  .item-select-detalhes {
+  .iconitem-select-detalhes {
     background-color: #f2f2f2;
     font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
     font-size: 100%;
     color: #333333;
-    box-sizing: border-box;
     cursor: pointer;
+  }
+
+  .item-select-detalhes{
+    background-color: #f2f2f2;
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-size: 100%;
+    color: #333333;
+    cursor: pointer;
+    position: relative;
+    padding-top: 2vw;
+    margin-left: 2vw;
   }
 
   .dialogoselect.categoria-culinaria {
@@ -448,8 +475,8 @@
 
   #tempo-detalhes {
     appearance: none;
-    margin-top: 5.6%;
-    margin-left: 6.4%;
+    margin-top: 5.6vw;
+    margin-left: 8.2vw;
     display: flex;
     position: absolute;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
@@ -459,18 +486,18 @@
   }
 
   #horas-tempo-detalhes {
-    width: 9.06%;
-    height: 9.33%;
+    width: 9.06vw;
+    height: 9.33vw;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
     font-family: "Arial", sans-serif;
     font-size: 124%;
     color: #adadad;
     box-sizing: border-box;
-    padding-left: 1.3%;
-    padding-bottom: 2%;
-    margin-left: 2.93%;
-    margin-right: 2%;
+    padding-left: 1.3vw;
+    padding-bottom: 2vw;
+    margin-left: 2.93vw;
+    margin-right: 2vw;
 
     &::-webkit-input-placeholder {
       color: #adadad;
@@ -505,7 +532,7 @@
 
   #descricao-detalhes-total {
     margin-top: 24vw;
-    margin-left: 6.4vw;
+    margin-left: 8vw;
   }
 
   #titulo-descricao-detalhes {
@@ -557,7 +584,7 @@
 
   #subcategoria-detalhes-total {
     margin-top: 4.53vw;
-    margin-left: 6.4vw;
+    margin-left: 8vw;
   }
 
   .input-container {
@@ -622,10 +649,6 @@
     padding-top: 4.26%;
   }
 
-  #ingredientes-elementos {
-    margin-left: 8vw;
-  }
-
   #linha-rosa-ingredientes {
     width: 1.06vw;
     height: 49.06vw;
@@ -633,7 +656,13 @@
     margin-left: 6.4vw;
     background-color: #cb218c;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
+    margin-top: -25vw;
+  }
+
+  #sem-a-linha-rosa {
+    margin-left: 9vw;
+    padding-top: 6vw;
   }
 
   #titulo-ingredientes-elementos {
@@ -641,14 +670,25 @@
     font-weight: 700;
     color: #cb218c;
     text-align: left;
-    margin-left: 5vw;
-    display: inline-block;
+    margin-left: 12vw;
+    margin-bottom: -17vw;
     font-size: 130%;
+    border: 0;
+  }
+
+  #botao-de-add-ingrediente {
+    margin-left: 79vw;
+    margin-bottom: -21vw;
+  }
+
+  #botao-de-tirar-ingrediente {
+    margin-left: 88vw;
+    margin-bottom: -15.3vw;
   }
 
   #numero-do-ingrediente {
     max-width: 7vw;
-    margin-top: 11vw;
+    margin-top: 7.4vw;
     margin-left: -3vw;
     padding-left: 1.4vw;
     border: 0;
@@ -687,7 +727,7 @@
     height: 9%;
     padding: 2px 2px 2px 2px;
     margin-left: 5vw;
-    margin-top: 3vw;
+    margin-top: 1.4vw;
     margin-bottom: 2vw;
     font-size: 110%;
     border: 0;
@@ -785,6 +825,10 @@
 
     &:focus {
       outline: none;
+      border: #CB218C 2px solid;
+      border-bottom: none;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
     }
   }
 
@@ -883,6 +927,107 @@
     border-radius: 50%;
     font-size: 110%;
     font-family: 'Heavitas', sans-serif;
+  }
+
+  #ingredientes-elementos-NaN {
+    margin-top: -11vw;
+  }
+
+  #tudo-dos-clones{
+    margin-top: 10vw;
+  }
+
+  #numero-do-modo-de-preparo {
+    margin-top: 7vw;
+    border: 0;
+    background-color: white;
+    outline: none;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 130%;
+    font-weight: 700;
+    color: #333;
+  }
+
+  #simbolo-do-numero{
+    display: inline-block;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 90%;
+    color: #adadad;
+    box-sizing: border-box;
+  }
+
+  #modo-de-preparo {
+    box-sizing: border-box;
+    margin-top: 4vw;
+  }
+
+  #modo-de-preparo-titulo {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #9e5fef;
+    text-align: left;
+    margin-left: 3.9vw;
+    font-size: 130%;
+  }
+
+  #modo-de-preparo-NaN{
+    box-sizing: border-box;
+    margin-left: 6.4vw;
+    border-left: 1.3vw #9e5fef solid;
+  }
+
+  #passo-a-passo-modo{
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 500;
+    color: #adadad;
+    text-align: left;
+    margin-left: 4.4vw;
+    padding-top: 0.7vw;
+    font-size: 100%;
+  }
+
+  #botoes-de-tirar-colocar{
+    margin-left: 80vw;
+    margin-top: -12vw;
+  }
+
+  #linhas-roxa-conteudo{
+    border-left: 1.3vw #9e5fef solid;
+    margin-left: 6.4vw;
+  }
+  
+  #input-modo-de-preparo{
+    width: 73vw;
+    height: 9%;
+    padding: 2px 2px 2px 2px;
+    margin-top: 1.4vw;
+    font-size: 110%;
+    border: 0;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    padding-left: 1%;
+    padding-bottom: 2vw;
+    color: #333333;
+    text-align: left;
+
+    &::-webkit-input-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    input#dialogoselect::-moz-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    &:focus {
+      outline: 0;
+      border-bottom: 2px #9e5fef solid;
+    }
   }
 
 }

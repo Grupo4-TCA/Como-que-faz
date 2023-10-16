@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style-home.css">
-    <script src="./js/script-Home-SemLogin.js"></script>
     <link rel="stylesheet" href="./css/style-home-mob.css">
-    <link rel="stylesheet" href="./css/style-480.css">
+    <link rel="stylesheet" href="./css/style-header.css">
+    <script src="./js/script-header.js"></script>
+    <script src="./js/script-Home-SemLogin.js"></script>
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
-    <script src="./js/script-menu-lateral.js"></script>
     <title>Como que Faz | Página Inicial</title>
 </head>
 <header>
+    <section class="header-dispositivo-mobile">
     <nav class="logos">
         <div class="login">
             <a href="#">
@@ -35,6 +35,37 @@
         <a class= "limpeza" href="/">LIMPEZA</a>
         <a class= "bem-estar" href="/">BEM-ESTAR</a>
     </nav>
+    </section>
+    <section class="header-dispositivo-desktop">
+        <nav class="logos">
+            <div id="container" onmouseover="showDiv1()" onmouseout="hideDiv1()" class="login">
+                <img id="img-login" src="imagens/user_icon.png" alt="Faça Login">
+                <div id="hide-hover-span">
+                    <p class="p-1">LOGIN</p><br>
+                    <p class="p-2">ENTRAR / CADASTRAR</p>
+                </div>
+            </div>
+            <div class= "logo">
+                <a href="https://laismiharu.github.io/Como-que-faz/Home">
+                    <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
+                </a>
+            </div>
+            <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class= "search">
+                <a href="/">
+                    <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
+                <div id="hide-hover-search">
+                    <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
+                    <label for="inserir-pesquisa"></label>
+                </div>
+                </a>
+            </div>
+        </nav>
+        <nav class="topcs">
+            <a class="culinaria" href="/">CULINÁRIA</a>
+            <a class= "limpeza" href="/">LIMPEZA</a>
+            <a class= "bem-estar" href="/">BEM-ESTAR</a>
+        </nav>
+        </section>
 </header>
 <body>
     
@@ -103,67 +134,47 @@
     </section>
 
     <section class="conteudo-dispositivo desktop">
-    <header>
-        <nav class="logos">
-            <div class= "user">
-                <a href="/">
-                    <img src="imagens/user_icon.png" alt="Ícone de Usuário">
-                </a>
-            </div>
-            <div class= "logo">
-                <a href="index.html">
-                    <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
-                </a>
-            </div>
-            <div class= "search">
-                <a href="/">
-                    <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
-                </a>
-            </div>
-        </nav>
-        <nav class="topcs">
-            <a class="culinaria" href="/">CULINARIA</a>
-            <a class= "limpeza" href="/">LIMPEZA</a>
-            <a class= "bem-estar" href="/">BEM ESTAR</a>
-        </nav>
-    </header>
-        <div class="slider">
-            <div class="slides">
+        <div class="slider-D">
+            <div class="slides-D">
+                <input type="radio" name="radio-btn" id="radio1-D">
+                <input type="radio" name="radio-btn" id="radio2-D">
+                <input type="radio" name="radio-btn" id="radio3-D">
 
-
-                <input type="radio" name="radio-btn" id="radio1"> 
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-
-                <div class="slide first">
-                    <div class="cachos">
-                        <h1 class="cachos">COMO DEFINIR SEUS CACHOS</h1>
+                <div class="slide primeiro-D">
+                    <div class="quadrado-categoria-culinaria"></div>
+                    <div class="textos-carrossel">
+                        <h1 class="texto-slide1">ARROZ DE FORNO</h1>
+                        <div class="itens-necessarios">óleo - arroz - água - presunto  - queijo  - ervilha  - cenoura - salsa - queijo parmesão - bacon</div>
+                        <p>O arroz de forno é um prato versátil e reconfortante que combina ingredientes como arroz, queijo, legumes e carnes em uma preparação assada no forno.</p>
+                        <button class="ver-dica">VER DICA</button>
                     </div>
-                    
+                    <img class="imagens-slide" src="imagens/carrossel-home-desktop.png" alt="imagem-culinaria">
+                    <img class="imagem-categoria" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria">
                 </div>
-                <div class="slide">
-                   <div class="comida">
-                    <h1 class="comida">ARROZ DE FORNO</h1>
-                   </div>
+                <div class="slide-D">
+                    <img class="imagens-slide" src="imagens/imagem-slide2.png" alt="imagem-limpeza">
+                    <img class="imagem-categoria" src="imagens/icon-limpeza-branco.png" alt="icon-culinaria">
+                    <div class="textos-carrossel">
+                    <h1 class="texto-slide2">COMO LIMPAR SEU FOGÃO</h1>
+                    <div class="itens-necessarios">vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja - Papel toalha</div>
                 </div>
-                <div class="slide">
-                   <div class="limpar">
-                    <h1 class="limpar">COMO LIMPAR SEU FOGÃO</h1>
-                   </div>
                 </div>
-
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>    
-                    <div class="auto-btn2"></div> 
-                    <div class="auto-btn3"></div> 
+                <div class="slide-D">
+                    <img class="imagens-slide" src="imagens/imagem-slide3.png" alt="imagem-bem-estar">
+                    <img class="imagem-categoria" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria">
+                    <div class="textos-carrossel">
+                    <h1 class="texto-slide3">COMO DEFINIR SEUS CACHOS</h1>
+                    <div class="itens-necessarios3">creme para pentear - mascara hidratante - manual</div>
+                </div>
                 </div>
             </div>
+        </div>
 
-            <div class="manual-navigation">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-            </div>
+        <div class="manual-navigation-D">
+            <label for="radio1-D" class="manual-btn manual-btn1-D"></label>
+            <label for="radio2-D" class="manual-btn manual-btn2-D"></label>
+            <label for="radio3-D" class="manual-btn manual-btn3-D"></label>
+        </div>
     </div>
 </section>
 </body>
