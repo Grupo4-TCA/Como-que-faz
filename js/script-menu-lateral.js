@@ -20,3 +20,19 @@ function AbrirMenuLateral() {
       y.style.display = "block"; 
     }
   }
+
+  function showDiv2() {
+    document.getElementById("hide-hover-search").style.display = "block";
+}
+
+function hideDiv2() {
+    document.getElementById("hide-hover-search").style.display = "none";
+}
+
+function showDiv3() {
+  document.getElementById("hide-menu-lateral").style.display = "block";
+}
+
+function hideDiv3() {
+  document.getElementById("hide-menu-lateral").style.display = "none";
+}

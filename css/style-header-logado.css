@@ -16,10 +16,15 @@
         font-family: Fira Sans;
         src: url("../fonts/fira-sans.regular.ttf");
         }
-        
+        .header-dispositivo-mobile{
+            display: block;
+        }
+        .header-dispositivo-desktop{
+            display: none;
+        }
     /* Header Logado */
     .user {
-        margin-top: 9px;
+        margin-top: 5px;
         margin-left: 18px;
         margin-right: -7px;
         position: relative;
@@ -27,7 +32,7 @@
     }
 
     .abrir-menu img {
-        max-width: 34px;
+        max-width: 40px;
         margin-top: 10px;
     }
 
@@ -190,7 +195,290 @@
             text-align: center;
             margin-top: 12px;
             font-weight: 700;
-        }    
+        }
+        .notificacoes{
+            color: white;
+            background: #cb218c;
+            border-radius: 100px;
+            text-align: center;
+            height: 23px;
+            width: 23px;
+            font-size: 15px;
+            padding-top: 4px;
+            padding-left: 5px;
+            display: flex;
+            margin-left: 30px;
+            position: absolute;
+            margin-top: 5px;
+        }
     /*header logado fim*/
 
+}
+
+@media only screen and (min-width: 480px) {
+    * {
+    font-family: Heavitas;
+    padding: 0;
+    margin: 0;
+    }
+    @font-face{
+    font-family: Heavitas;
+    src: url("../fonts/Heavitas.ttf");
+    }
+    @font-face{
+    font-family: Fira Sans Bold;
+    src: url("../fonts/fira-sans.bold.ttf");
+    }
+    @font-face{
+    font-family: Fira Sans;
+    src: url("../fonts/fira-sans.regular.ttf");
+    }
+    
+    .header-dispositivo-mobile{
+        display: none;
+    }
+    .header-dispositivo-desktop{
+        display: block;
+    }
+/* Header Logado */
+.user {
+    margin-top: 9px;
+    margin-left: 13px;
+    margin-right: -7px;
+    position: relative;
+    display: flex;
+}
+
+.user img{
+    height: 50px;
+    margin-top: 10px;
+}
+
+.abrir-menu {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.abrir-menu{
+padding: 0 0 0 0;
+border: none;
+background: none;
+max-width: 34px;
+}
+
+.user-menu {
+position: absolute;
+top: -10px;
+margin-left: -60px;
+background-color: #fff;
+border: 1px solid #ccc;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+height: 700px;
+}
+
+.fechar-menu{
+width: 50px;
+height: 800px;
+margin-left: 100%;
+background: none;
+border: none;
+position: absolute;
+}
+
+.user-menu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+width: 97vw;
+}
+
+.user-menu li {
+padding: 10px;
+text-align: left;
+margin-left: 50px;
+display: flex; 
+margin-top: 2%;
+align-items: center; 
+}
+
+.user-menu img {
+max-width: 50px; 
+margin-right: 10px;
+}
+
+.user-menu a {
+text-decoration: none;
+color: #cb218c;
+display: block;
+font-size: 14px; 
+}
+
+.user-menu a:hover {
+background-color: #f0f0f0;
+
+transition: 1s;
+
+}
+.ajustes {
+margin-top: 30%;
+margin-bottom: 15px;
+display: inline-block;
+justify-content: space-evenly;
+}
+.bem-vindo {
+border-bottom: #4D16BB;
+border-bottom-style: double;
+display: flex;
+height: 100px;
+}
+.bem-vindo img {
+max-width: 45px;
+margin-top: 32px;
+margin-left: 50px;
+}
+.bem-vindo span {
+font-size: 14px;
+font-family: Fira Sans;
+font-weight: bold;
+top: -10px;
+color: #000000;
+}
+.colnm2 {
+margin-top: 35px;
+}
+.nome span {
+color: #cb218c;
+font-size: 15px;
+}
+    .logos {
+    display: flex;
+    justify-content: space-around;
+    height: 85px;
+    box-shadow: 1px 5px 5px rgb(173, 173, 173);
+    background-color: white;
+    }
+    
+    .logo {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    }
+    .logo img {
+    max-width: 65px;
+    margin-top: 5px;
+    align-self: center;
+    }
+    .search {
+    margin-top: 22px;
+    margin-right: 18px;
+    }
+    .search img {
+    max-width: 37px;
+    }
+    .login {
+    margin-top: 9px;
+    margin-left: 13px;
+    margin-right: -7px;
+    position: relative;
+    display: inline-block;
+    }
+    #img-login{
+    max-width: 50px;
+    margin-top: 10px;    
+    }
+    .topcs {
+    background-color: #5417bd;
+    background-image: linear-gradient(to right, #5417bd, #9d21cb);
+    display: flex;
+    justify-content: space-around;
+    height: 43px;
+    }
+    .topcs a {
+    text-decoration: none;
+    color: white;
+    margin-top: 9px;
+    font-size: 20px;
+    }
+    .culinaria {
+    margin-left: 280px;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    margin-top: 12px;
+    }
+    .bem-estar {
+    margin-right: 270px;
+    font-family: Fira Sans Bold;
+    margin-top: 12px;
+    font-weight: 700;
+    }
+    .limpeza{
+        font-family: Fira Sans Bold;
+        text-align: center;
+        margin-top: 12px;
+        font-weight: 700;
+    }
+    #hide-hover-span {
+        display: none;
+        position: absolute;
+        color: #474747;
+        text-align: center;
+        margin-top: -46px;
+        width: 200px;
+        margin-left: 70px;
+    } 
+    #hide-hover-span p{
+        text-align: left;
+        font-family: Fira Sans Bold;
+    }
+    .p-1{
+        font-size: 14px;
+    }
+    .p-2{
+        font-size: 18px;
+        margin-top: -25px;
+    }
+    #hide-hover-search {
+        display: none;
+        position: absolute;
+        color: #474747;
+        text-align: center;
+        margin-top: -28px;
+        width: 200px;
+        margin-left: -220px;
+    }
+    #hide-hover-search input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #9d21cb;
+        font-family: Fira Sans;
+        font-size: 17px;
+    }
+/*header logado fim*/
+    .notificacoes{
+        color: white;
+        background: #cb218c;
+        border-radius: 100px;
+        text-align: center;
+        height: 23px;
+        width: 23px;
+        font-size: 15px;
+        padding-top: 4px;
+        padding-left: 5px;
+        display: flex;
+        margin-left: 30px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    
+        #hide-menu-lateral {
+            display: none;
+            position: absolute;
+            color: #474747;
+            text-align: center;
+            margin-top: -46px;
+            width: 200px;
+            margin-left: 70px;
+        } 
 }

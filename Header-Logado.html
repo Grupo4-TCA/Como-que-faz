@@ -11,33 +11,40 @@
     <section class="header-dispositivo-mobile">
         <nav class="logos">
             <div class="user">
-                <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
-                <div class="user-menu" id="user-menu" style="display: none;">
-                    <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
-                    <ul>
-                        <div class="bem-vindo">
-                            <div class="colnm1">
-                                <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
-                            </div>
-                            <div class="colnm2">
-                                <span>Seja bem-vindo(a)!</span>
-                                <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
-                            </div>
-                        </div>
-                        <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
-                        <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a></li>
-                        <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
-                        <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
-                        <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
-                    <div class="ajustes">
-                        <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
-                        <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
-                    </div>
-                    </ul>
+                <div class="notificacoes">
+                    <p>9+</p>
                 </div>
+                <div class="abrir-menu">
+                    <img class="img-user" src="imagens/icon_sofizinha.png" alt="usuário logado">
+                </div>
+
+                <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
+                    <div class="user-menu" id="user-menu" style="display: none;">
+                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
+                <ul>
+                    <div class="bem-vindo">
+                        <div class="colnm1">
+                            <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
+                        </div>
+                        <div class="colnm2">
+                            <span>Seja bem-vindo(a)!</span>
+                            <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
+                        </div>
+                    </div>
+                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="#">Perfil</a></li>
+                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="#">Notificações</a></li>
+                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="#">Favoritos</a></li>
+                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="#">Interações</a></li>
+                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="#">Rascunhos</a></li>
+                   <div class="ajustes">
+                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="#">Ajustes</a></li>
+                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="#">Sair</a></li>
+                   </div>
+                </ul>
+            </div>
             </div>
             <div class= "logo">
-                <a href="header_logado-mobile.html">
+                <a href="header-mobile.html">
                     <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                 </a>
             </div>
@@ -48,13 +55,52 @@
             </div>
         </nav>
         <nav class="topcs">
-            <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/categoria-culinaria">CULINÁRIA</a>
-            <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/categoria-limpeza">LIMPEZA</a>
-            <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/categoria-bemestar">BEM- ESTAR</a>
+            <a class="culinaria" href="/">CULINÁRIA</a>
+            <a class= "limpeza" href="/">LIMPEZA</a>
+            <a class= "bem-estar" href="/">BEM-ESTAR</a>
         </nav>
     </section>
 
     <section class="header-dispositivo-desktop">
+        <nav class="logos">
+            <div class="user">
+                <div class="notificacoes">
+                    <p>9+</p>
+                </div id="container" onmouseover="showDiv3()" onmouseout="hideDiv3()" class="abrir-menu">
+                <a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">
+                    <img class="img-user" src="imagens/icon_sofizinha.png" alt="usuário logado">
+                    <div id="hide-menu-lateral">
+                        <p class="menu-1">PERFIL</p><br>
+                        <div class="notficacoes">
+                            <p class="menu-2">NOTIFICAÇÕES</p>
+                            <div class="cinco"><p>11</p></div>
+                        </div>
+                        <p class="menu-3">FAVORITOS</p>
+                        <p class="menu-4">INTERAÇÕES</p>
+                        <p class="menu-5">AJUSTES</p>
+                        <p class="menu-6">SAIR</p>
+                    </div>
+            </div>
+            <div class= "logo">
+                <a href="https://laismiharu.github.io/Como-que-faz/Home-Com-Login">
+                    <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
+                </a>
+            </div>
+            <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class= "search">
+                <a href="/">
+                    <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
+                <div id="hide-hover-search">
+                    <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
+                    <label for="inserir-pesquisa"></label>
+                </div>
+                </a>
+            </div>
+        </nav>
+        <nav class="topcs">
+            <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/categoria-culinaria">CULINÁRIA</a>
+            <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/categoria-limpeza">LIMPEZA</a>
+            <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/categoria-bemestar">BEM-ESTAR</a>
+        </nav>
     </section>
 </header>
 <body id="body">
