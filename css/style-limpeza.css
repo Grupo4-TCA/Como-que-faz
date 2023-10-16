@@ -161,7 +161,7 @@
   text-align: center;
   line-height: normal;
   border: none;
-  width: 85%;
+ 
 }
 
 .clicado {
@@ -176,7 +176,7 @@
 #pinterest-style {
   margin-left: 12%;
   margin-top: 8%;
-  display: none;
+ 
 }
 
 #icon-post {
@@ -629,4 +629,142 @@ span {
   color: white;
   font-weight: 500;
   font-family: Heavitas;
+}
+
+@media only screen and (min-width: 481px) {
+  .conteudo.mobile {
+    display: none;
+  }
+  * {
+    font-family: Heavitas;
+    padding: 0;
+    margin: 0;
+    }
+    @font-face{
+    font-family: Heavitas;
+    src: url("../fonts/Heavitas.ttf");
+    }
+    @font-face{
+    font-family: Fira Sans Bold;
+    src: url("../fonts/fira-sans.bold.ttf");
+    }
+    @font-face{
+    font-family: Fira Sans;
+    src: url("../fonts/fira-sans.regular.ttf");
+    }
+    .header-dispositivo-mobile{
+    display: none;
+    }
+    .logos {
+    display: flex;
+    justify-content: space-around;
+    height: 85px;
+    box-shadow: 1px 5px 5px rgb(173, 173, 173);
+    background-color: white;
+    }
+    
+    .logo {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    }
+    .logo img {
+    max-width: 65px;
+    margin-top: 5px;
+    align-self: center;
+    }
+    .search {
+    margin-top: 22px;
+    margin-right: 18px;
+    }
+    .search img {
+    max-width: 37px;
+    }
+    .login {
+    margin-top: 9px;
+    margin-left: 13px;
+    margin-right: -7px;
+    position: relative;
+    display: inline-block;
+    }
+    #img-login{
+    max-width: 50px;
+    margin-top: 10px;    
+    }
+    .topcs {
+    background-color: #027de1;
+    display: flex;
+    justify-content: space-around;
+    height: 43px;
+    }
+    .topcs a {
+    text-decoration: none;
+    color: white;
+    margin-top: 9px;
+    font-size: 20px;
+    }
+    .culinaria {
+    margin-left: 270px;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    margin-top: 12px;
+    }
+    .bem-estar {
+    margin-right: 270px;
+    font-family: Fira Sans Bold;
+    margin-top: 12px;
+    font-weight: 700;
+    }
+    .limpeza{
+        font-family: Fira Sans Bold;
+        text-align: center;
+        margin-top: 12px;
+        font-weight: 700;
+    }
+    #hide-hover-span {
+        display: none;
+        position: absolute;
+        color: #474747;
+        text-align: center;
+        margin-top: -46px;
+        width: 200px;
+        margin-left: 70px;
+    } 
+    #hide-hover-span p{
+        text-align: left;
+        font-family: Fira Sans Bold;
+    }
+    .p-1{
+        font-size: 14px;
+    }
+    .p-2{
+        font-size: 18px;
+        margin-top: -25px;
+    }
+    #hide-hover-search {
+        display: none;
+        position: absolute;
+        color: #474747;
+        text-align: center;
+        margin-top: -28px;
+        width: 200px;
+        margin-left: -220px;
+    }
+    #hide-hover-search input{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #9d21cb;
+        font-family: Fira Sans;
+        font-size: 17px;
+    }
+    .maplimpeza{
+      margin-left: 359px;
+     
+    }
+    .imgli{
+      width: 210px;
+      height: 210px;
+    }
 }

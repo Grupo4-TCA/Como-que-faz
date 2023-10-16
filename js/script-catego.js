@@ -13,21 +13,14 @@ limpar = () => {
     })    
 }
 
-const post = document.getElementById('post');
-const longpres = document.getElementById('longpress');
 
-post.addEventListener('mousedown', function() {
-    pressTimer = setTimeout(function() {
-        longpress.style.display = 'block';
-    }, 1000);
-});
 
-post.addEventListener('mouseup', function() {
-    clearTimeout(pressTimer);
-    longpress.style.display = 'none';
-});
-
-post.addEventListener('mouseout', function() {
-    clearTimeout(pressTimer);
-    longpress.style.display = 'none';
-});
+  
+var long = document.getElementById('longpress')
+$("a").mouseup(function(){
+    clearTimeout(long);
+    return false;
+}).mousedown(function(){
+    long = window.setTimeout(function() {long.style.display = "block"},1000);
+    return false
+})
