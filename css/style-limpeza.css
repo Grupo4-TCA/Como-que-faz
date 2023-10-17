@@ -1,8 +1,20 @@
 @media only screen and (max-width: 480px) {
   * {
     font-family: Heavitas;
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
+  }
+  @font-face{
+    font-family: Heavitas;
+    src: url("../fonts/Heavitas.ttf");
+  }
+  @font-face{
+    font-family: Fira Sans Bold;
+    src: url("../fonts/fira-sans.bold.ttf");
+  }
+  @font-face{
+    font-family: Fira Sans;
+    src: url("../fonts/fira-sans.regular.ttf");
   }
 
   .conteudo.mobile {
@@ -173,86 +185,94 @@
 }
 
 /*basepost*/
+
 #pinterest-style {
-  margin-left: 12%;
-  margin-top: 8%;
- 
+  margin-top: 5vw;
+}
+
+#primeira-fileira-posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  margin-left: 2vw;
+}
+
+#segunda-fileira-posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  margin-left:52vw;
+}
+
+#base-post{
+  margin-top: 34vw;
+  display: block;
 }
 
 #icon-post {
-  width: 18px;
-  height: 18px;
-  margin-right: 4px;
+  width: 4.8vw;
+  height: 4.8vw;
+  display: inline-block;
 }
 
 #descri-icon {
-  margin: 0;
-  margin-right: 9px;
+  margin-right: 2.4vw;
   font-family: Fira Sans Bold;
   font-weight: 700;
   font-size: 15px;
   color: #333333;
   line-height: normal;
+  display: inline-block;
 }
 
 #post-baixo {
-  height: 40px;
-  width: 176px;
-  display: flex;
-  position: absolute;
+  height: 10.66vw;
+  width: 46.93vw;
+  padding: 2.66vw 2.66vw 2.66vw 0.7vw;
+  justify-content: space-around;
   transform: translate(3px, 169px);
-  padding: 10px 10px 10px 10px;
-  align-content: center;
 }
 
 #post-baixo-a {
-  height: 40px;
-  width: 176px;
-  display: flex;
-  position: absolute;
+  height: 10.66vw;
+  width: 46.93vw;
+  padding: 2.66vw 2.66vw 2.66vw 0.7vw;
+  justify-content: space-around;
   transform: translate(3px, 308px);
-  padding: 10px 10px 10px 10px;
-  align-content: center;
 }
 
 #post-baixo-c {
-  height: 40px;
-  width: 176px;
-  display: flex;
-  position: absolute;
+  height: 10.66vw;
+  width: 46.93vw;
+  padding: 2.66vw 2.66vw 2.66vw 0.7vw;
+  justify-content: space-around;
   transform: translate(3px, 169px);
-  padding: 10px 10px 10px 10px;
-  align-content: center;
 }
 
 #post-baixo-e {
-  height: 40px;
-  width: 176px;
-  display: flex;
-  position: absolute;
+  height: 10.66vw;
+  width: 46.93vw;
+  padding: 2.66vw 2.66vw 2.66vw 0.7vw;
+  justify-content: space-around;
   transform: translate(3px, 308px);
-  padding: 10px 10px 10px 10px;
-  align-content: center;
 }
 
 #post-baixo-f {
-  height: 40px;
-  width: 176px;
-  display: flex;
-  position: absolute;
+  height: 10.66vw;
+  width: 46.93vw;
+  padding: 2.66vw 2.66vw 2.66vw 0.7vw;
+  justify-content: space-around;
   transform: translate(3px, 234px);
-  padding: 10px 10px 10px 10px;
-  align-content: center;
 }
 
 #post-baixo-h {
-  height: 40px;
-  width: 176px;
-  display: flex;
-  position: absolute;
+  height: 10.66vw;
+  width: 46.93vw;
+  padding: 2.66vw 2.66vw 2.66vw 0.7vw;
+  justify-content: space-around;
   transform: translate(3px, 169px);
-  padding: 10px 10px 10px 10px;
-  align-content: center;
 }
 
 #post {
@@ -348,44 +368,7 @@
   position: absolute;
 }
 
-#a {
-  margin-left: 200px;
 
-}
-
-#c {
-  padding-top: 130px;
-}
-
-#e {
-  margin-top: 210px;
-}
-
-#f {
-  margin-left: 200px;
-  margin-top: 200px;
-}
-
-#m {
-  margin-left: 200px;
-  margin-top: 710px;
-}
-
-#h {
-  margin-left: 200px;
-  margin-top: 490px;
-}
-
-#k {
-  margin-top: 490px;
-}
-
-#q {
-  margin-top: 700px;
-}
-#n{
-  cursor:pointer;
-}
 
 #post-perg {
   position: absolute;
