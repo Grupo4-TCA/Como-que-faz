@@ -82,8 +82,8 @@
     height: 10%;
     max-width: 50px;
     min-width: 30px;
-    margin-top: 25px;
-    margin-left: -93%;
+    margin-top: 100px;
+    margin-left: -83%;
     position: absolute;
   }
   .texto-slide1{
@@ -397,7 +397,7 @@
 .slides-D input{
   display: none;
 }
-.slide-D{
+.slideD{
   width: 33.33%;
   position: relative;
   transition: 0.3s;
@@ -532,7 +532,7 @@
 }
 
 .quadrado-categoria-culinaria{
-  height: 100%;
+  height: 556px;
   width: 60px;
   background-color: #cb2154;
   position: absolute;
@@ -562,33 +562,54 @@
 
 
 
-.recente-emalta-rapidas{
+.recente-emalta-rapidas-Dkt{
   display: flex;
   justify-content: center;
-  margin: 7% 3% 7% 3%;
+  margin: 2.5% 3% 3% 3%;
 }
-.Recente{
-  padding: 2% 3% 2% 3%;
+.Recente-Dkt{
+  padding: 0.8% 3% 0.8% 3%;
   border: none;
   background-color: #f0f0f0;
   border-radius: 100px 0 0 100px;
   color: #9e5fef;
-  font-size: 17px;
+  font-size: 25px;
 }
-.EmAlta{
-  padding: 2% 3% 2% 3%;
+.Recente-Dkt:Hover{
+  background-color: #ffd662;
+}
+.Recente-Dkt:focus{
+  background-color: #cb218c;
+  color: white  ;
+}
+.EmAlta-Dkt{
+  padding: 0.8% 3% 0.8% 3%;
   border: none;
   background-color: #f0f0f0;
   color: #9e5fef;
-  font-size: 17px;
+  font-size: 25px;
 }
-.Rapidas{
-  padding: 2% 3% 2% 3%;
+.EmAlta-Dkt:Hover{
+  background-color: #ffd662;
+}
+.EmAlta-Dkt:focus{
+  background-color: #cb218c;
+  color: white  ;
+}
+.Rapidas-Dkt{
+  padding: 0.8% 3% 0.8% 3%;
   border-radius: 0 100px 100px 0;
   border: none;
   background-color: #f0f0f0;
   color: #9e5fef;
-  font-size: 17px;
+  font-size: 25px;
+}
+.Rapidas-Dkt:Hover{
+  background-color: #ffd662;
+}
+.Rapidas-Dkt:focus{
+  background-color: #cb218c;
+  color: white  ;
 }
 .Recente:hover{
   background-color: #cb218c;
@@ -605,5 +626,47 @@
 .Rapidas:hover{
   background-color: #cb218c;
   color: white;
+}
+.postagens{
+  margin-left: 20%;
+  width: 800px;
+}
+.post1{
+  position: relative;
+  width: 385px;
+}
+.info-cima-post{
+  position: absolute;
+}
+.post1 h1{
+  margin-top: 300px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-culinaria-branco{
+  height: 40px;
+  margin-top: 285px;
+  margin-left: 330px;
+}
+.legenda{
+  display: flex;
+  width: 385px;
+  justify-content: space-between;
+}
+.legenda img{
+  margin-top: 350px;
+  height: 30px;
+}
+.legenda h3{
+  margin-top: 355px;
+  font-family: Fira Sans Bold;
+  font-size: 20px;
+}
+.relogio{
+  margin-left: 50px;
+}
+.partes{
+  margin-right: 50px;
 }
 }

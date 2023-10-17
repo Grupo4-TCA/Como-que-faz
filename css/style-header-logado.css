@@ -481,4 +481,23 @@ font-size: 15px;
             width: 200px;
             margin-left: 70px;
         } 
+        .img-user{
+            height: 50px;
+        }
+        .usuario-menu{
+            margin-top: 9px;
+            margin-left: 2%;
+            margin-right: -7px;
+            position: relative;
+            display: inline-block;
+        }
+        .texto-bemvindo{
+            position: absolute;
+            margin-top: 25px;
+        }
+        .texto-bemvindo p{
+            font-family: Fira Sans Bold;
+            color: #474747;
+            margin-left: -560px;
+        }
 }
