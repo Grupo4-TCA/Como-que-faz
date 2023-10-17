@@ -152,14 +152,62 @@ function VisiEmAltaDkt() {
     }
   }
 
-  //------------------------------------------------------------------------------------
+  //--------------------------- POST 1
 
   function mostrarDivOculta() {
     var divOculta = document.getElementById("hover-post1");
+    var ta = document.getElementById("icon-culinaria-branco");
+    var t2 = document.getElementById("texto-atras");
     divOculta.style.display = "block";
+    ta.style.display = "none";
+    t2.style.display = "none";
 }
 
 function esconderDivOculta() {
     var divOculta = document.getElementById("hover-post1");
+    var ta = document.getElementById("icon-culinaria-branco");
+    var t2 = document.getElementById("texto-atras");
     divOculta.style.display = "none";
+    ta.style.display = "block";
+    t2.style.display = "block";
 }
+
+  //--------------------------- POST 2
+
+function mostrarDivOculta2() {
+  var divOculta = document.getElementById("hover-post2");
+  var ta = document.getElementById("icon-culinaria-branco2");
+  var t2 = document.getElementById("texto-atras2");
+  divOculta.style.display = "block";
+  ta.style.display = "none";
+  t2.style.display = "none";
+}
+
+function esconderDivOculta2() {
+  var divOculta = document.getElementById("hover-post2");
+  var ta = document.getElementById("icon-culinaria-branco2");
+  var t2 = document.getElementById("texto-atras2");
+  divOculta.style.display = "none";
+  ta.style.display = "block";
+  t2.style.display = "block";
+}
+
+  //--------------------------- POST 3
+
+  function mostrarDivOculta3() {
+    var divOculta3 = document.getElementById("hover-post3");
+    var ta3 = document.getElementById("icon-limpeza-branco3");
+    var t23 = document.getElementById("texto-atras3");
+    divOculta3.style.display = "block";
+    ta3.style.display = "none";
+    t23.style.display = "none";
+  }
+  
+  function esconderDivOculta3() {
+    var divOculta3 = document.getElementById("hover-post3");
+    var ta3 = document.getElementById("icon-limpeza-branco3");
+    var t23 = document.getElementById("texto-atras3");
+    divOculta3.style.display = "none";
+    ta3.style.display = "block";
+    t23.style.display = "block";
+  }
