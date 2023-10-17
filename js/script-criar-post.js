@@ -122,17 +122,19 @@ function adicionarMensagem() {
     }
 }
 
-function qmedidas(pega) {
-    var oitemedidas = document.getElementById('itemedidas-' + pega).innerHTML;
-    document.getElementById('medidas-elementos').value = oitemedidas;
-}
+//function dropdownmedidas(p) {
+    //var l = document.getElementsByClassName('dropDown-medidas')[0];
+    //var f = ['block', 'none'];
 
-function dropdownmedidas(p) {
-    var l = document.getElementsByClassName('dropDown-medidas')[0];
-    var f = ['block', 'none'];
+  //  l.style.display = f[p];
+//}
+//function qmedidas(pega) {
+    //var oitemedidas = document.getElementById('itemedidas-' + pega).innerText;
+    //var medidasElemento = document.querySelector('.medidas-elementos');
+  //  medidasElemento.value = oitemedidas;
+//}
 
-    l.style.display = f[p];
-}
+
 
 window.onload = function () {
 
@@ -201,6 +203,25 @@ document.getElementById("botao-de-tirar-ingrediente").addEventListener("click", 
     apagarDiv(element);
 });
 
+
+function dropdownmedidas(p) {
+    var dropdownElement = document.querySelector('.dropDown-medidas');
+    dropdownElement.style.display = p === 0 ? 'block' : 'none';
+}
+
+var medidasElemento = document.getElementById('medidas-elementos');
+medidasElemento.addEventListener('focus', function() {
+    dropdownmedidas(0);
+});
+
+medidasElemento.addEventListener('blur', function() {
+    dropdownmedidas(1);
+});
+function qmedidas(pega) {
+    var oitemedidas = document.getElementById('itemedidas-' + pega).innerText;
+    document.getElementById('medidas-elementos').value = oitemedidas;
+}
+
 var contadorDivs = 0;
 
 function duplicarDiv() {
@@ -209,13 +230,26 @@ function duplicarDiv() {
     contadorDivs++;
     clone.id = "ingredientes-elementos-" + contadorDivs;
     document.getElementById('clonados-ou-nao').appendChild(clone);
+    atualizarNumeracaoIngredientes()
+
 }
 
 function apagarDiv(element) {
     var parent = element.parentNode;
     if (parent.id !== 'ingredientes-elementos') {
         parent.parentNode.removeChild(parent);
+        atualizarNumeracaoIngredientes()
     }
+}
+
+function atualizarNumeracaoIngredientes() {
+    var divs = document.querySelectorAll('[id^="ingredientes-"]');
+    divs.forEach(function (div, index) {
+        var numeroDoIngrediente = div.querySelector("#numero-do-ingrediente");
+        if (numeroDoIngrediente) {
+            numeroDoIngrediente.innerText = index + 1;
+        }
+    });
 }
 
 //botoes de criar e tirar modo de preparo
