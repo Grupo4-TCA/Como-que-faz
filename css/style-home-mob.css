@@ -686,17 +686,21 @@
 .hover-post1{
   display: none;
   background-color: #cb2154;
-  width: 385px;
+  max-width: 385px;
   height: 338px;
   position: absolute;
   margin-top: -380px;
   border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-.hover-post1 h1{
+.hover-post1 h3{
   color: white;
   font-family: Fira Sans;
-  text-align: center;
   font-size: 15px;
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 0;
 }
 .post1:hover + .hover-post1 {
   display: block;
