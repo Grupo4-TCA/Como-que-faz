@@ -94,16 +94,19 @@
                                     readonly="readonly" />
                                 <div class="dropDown" id="dropdown">
                                     <div class="listDropDown">
-                                        <img class="iconitem-select-detalhes" id="icon-dropdown" onmousedown="category(1)"
-                                            src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
+                                        <img class="iconitem-select-detalhes" id="icon-dropdown"
+                                            onmousedown="category(1)" src="./imagens/culinaria-icon-categoria-1.png"
+                                            alt="culinária">
                                         <div class="item-select-detalhes texto" id="item-select-detalhes-1"
                                             onmousedown="category(1)">CULINÁRIA</div>
-                                        <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="category(2)"
-                                            src="./imagens/limpeza-icon-categoria.png" alt="limpeza">
+                                        <img class="iconitem-select-detalhes icon" id="icon-dropdown"
+                                            onmousedown="category(2)" src="./imagens/limpeza-icon-categoria.png"
+                                            alt="limpeza">
                                         <div class="item-select-detalhes texto" id="item-select-detalhes-2"
                                             onmousedown="category(2)">LIMPEZA</div>
-                                        <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="category(3)"
-                                            src="./imagens/bem-estar-icon-categoria.png" alt="bem-estar">
+                                        <img class="iconitem-select-detalhes icon" id="icon-dropdown"
+                                            onmousedown="category(3)" src="./imagens/bem-estar-icon-categoria.png"
+                                            alt="bem-estar">
                                         <div class="item-select-detalhes texto" id="item-select-detalhes-3"
                                             onmousedown="category(3)">BEM-ESTAR</div>
                                     </div>
@@ -222,9 +225,10 @@
                                     </div>
 
                                     <div id="modo-de-preparo">
-                                       <h2 id="numero-do-modo-de-preparo">1</h2><h2 id="simbolo-do-numero">º</h2>
+                                       <span id="arruma-numero-simbolo"> <input type="text" id="numero-do-modo-de-preparo" placeholder="1"disabled="disabled"><h2 id="simbolo-do-numero">º</h2></span>
                                         <input type="text" id="input-modo-de-preparo" 
                                             placeholder="Misture todos os ingredientes...">
+                                            <button id="apagar-modo-de-preparo" onclick="apagarDivModo(this)">X</button>
                                     </div>
                                 </section>
 

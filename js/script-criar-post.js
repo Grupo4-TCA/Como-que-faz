@@ -219,6 +219,7 @@ function apagarDiv(element) {
 }
 
 //botoes de criar e tirar modo de preparo
+
 document.getElementById("botao-de-add-modo").addEventListener("click", function () {
     duplicarDivModo();
 });
