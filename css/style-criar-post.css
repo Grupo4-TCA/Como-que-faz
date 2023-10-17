@@ -678,12 +678,12 @@
 
   #botao-de-add-ingrediente {
     margin-left: 79vw;
-    margin-bottom: -21vw;
+    margin-bottom: -19vw;
   }
 
   #botao-de-tirar-ingrediente {
     margin-left: 88vw;
-    margin-bottom: -15.3vw;
+    margin-bottom: -13.3vw;
   }
 
   #numero-do-ingrediente {
@@ -938,14 +938,17 @@
   }
 
   #numero-do-modo-de-preparo {
-    margin-top: 7vw;
+    width: 5.5vw;
+    margin-top: 8vw;
+    margin-left: 3vw;
     border: 0;
     background-color: white;
     outline: none;
     font-family: "Fira Sans", sans-serif;
-    font-size: 130%;
+    font-size: 180%;
     font-weight: 700;
     color: #333;
+    position: absolute;
   }
 
   #simbolo-do-numero{
@@ -954,6 +957,11 @@
     font-size: 90%;
     color: #adadad;
     box-sizing: border-box;
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 9vw;
+    margin-top: 9vw;
+    margin-right: 3vw;
   }
 
   #modo-de-preparo {
@@ -997,11 +1005,11 @@
   }
   
   #input-modo-de-preparo{
-    width: 73vw;
+    width: 68vw;
     height: 9%;
     padding: 2px 2px 2px 2px;
-    margin-top: 1.4vw;
-    font-size: 110%;
+    margin-top: 8.2vw;
+    font-size: 100%;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
     background-color: #ffffff;
@@ -1028,6 +1036,13 @@
       outline: 0;
       border-bottom: 2px #9e5fef solid;
     }
+  }
+
+  #apagar-modo-de-preparo{
+    background: none;
+    color: #979797;
+    border: none;
+    display: inline-block;
   }
 
 }
