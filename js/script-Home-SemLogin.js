@@ -151,3 +151,15 @@ function VisiEmAltaDkt() {
       emAltaButton.classList.remove("active");
     }
   }
+
+  //------------------------------------------------------------------------------------
+
+  function mostrarDivOculta() {
+    var divOculta = document.getElementById("hover-post1");
+    divOculta.style.display = "block";
+}
+
+function esconderDivOculta() {
+    var divOculta = document.getElementById("hover-post1");
+    divOculta.style.display = "none";
+}

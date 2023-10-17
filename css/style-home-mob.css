@@ -652,7 +652,6 @@
 .legenda{
   display: flex;
   width: 385px;
-  justify-content: space-between;
 }
 .legenda img{
   margin-top: 350px;
@@ -664,9 +663,43 @@
   font-size: 20px;
 }
 .relogio{
-  margin-left: 50px;
+  margin-left: 40px;
+}
+.relogio h3{
+  margin-left: 10px;
+  width: 60px;
+}
+
+.estrela{
+  margin-left: 40px;
+}
+.estrela h3{
+  margin-left: 10px;
 }
 .partes{
-  margin-right: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.partes h3{ 
+  margin-left: 10px;
+}
+.hover-post1{
+  display: none;
+  background-color: #cb2154;
+  width: 385px;
+  height: 338px;
+  position: absolute;
+  margin-top: -380px;
+  border-radius: 10px 10px 0 0;
+}
+.hover-post1 h1{
+  color: white;
+  font-family: Fira Sans;
+  text-align: center;
+  font-size: 15px;
+}
+.post1:hover + .hover-post1 {
+  display: block;
+  transition: 0.3s;
 }
 }
