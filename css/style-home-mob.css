@@ -685,7 +685,7 @@
 }
 .hover-post1{
   display: none;
-  background-color: #cb2154;
+  background-color: #cb215483;
   max-width: 385px;
   height: 338px;
   position: absolute;
@@ -697,13 +697,132 @@
 .hover-post1 h3{
   color: white;
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 125px;
   margin-right: 0;
 }
 .post1:hover + .hover-post1 {
   display: block;
-  transition: 0.3s;
+  transition: 1s;
+}
+.post1:hover + .info-cima-post {
+  display: none;
+}
+.post1:hover + .info-cima-post {
+  display: none;
+}
+/*post2*/
+.post2{
+  margin-top: 30px;
+  width: 32%;
+}
+.post2 h1{
+  margin-top: 390px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-culinaria-branco2{
+  height: 40px;
+  margin-top: 375px;
+  margin-left: 330px;
+  position: absolute;
+}
+.hover-post2{
+  display: none;
+  background-color: #cb215483;
+  max-width: 385px;
+  height: 428px;
+  position: absolute;
+  margin-top: -470px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hover-post2 h3{
+  color: white;
+  font-family: Fira Sans;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 145px;
+  margin-right: 0;
+  width: 305px;
+}
+.legenda2{
+  display: flex;
+  width: 385px;
+}
+.legenda2 img{
+  margin-top: 440px;
+  height: 30px;
+}
+.legenda2 h3{
+  margin-top: 445px;
+  font-family: Fira Sans Bold;
+  font-size: 20px;
+}
+/*post3*/
+.post3{
+  margin-top: 30px;
+  width: 32%;
+}
+.post3 h1{
+  margin-top: 176px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-limpeza-branco3{
+  height: 40px;
+  margin-top: 161px;
+  margin-left: 330px;
+  position: absolute;
+}
+.hover-post3{
+  display: none;
+  background-color: #027DE183;
+  max-width: 385px;
+  height: 214px;
+  position: absolute;
+  margin-top: -255px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hover-post3 h3{
+  color: white;
+  font-family: Fira Sans;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 0;
+  width: 305px;
+}
+.legenda3{
+  display: flex;
+  width: 385px;
+}
+.legenda3 img{
+  margin-top: 226px;
+  height: 30px;
+}
+.legenda3 h3{
+  margin-top: 231px;
+  font-family: Fira Sans Bold;
+  font-size: 20px;
+}
+.estrela3{
+  margin-left: 0;
+}
+.relogio3{
+  margin-left: 80px;
+}
+.relogio3 h3{
+  margin-left: 10px;
+  width: 60px;
+}
+.estrela3 h3{
+  margin-left: 10px;
 }
 }
