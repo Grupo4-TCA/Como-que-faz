@@ -136,9 +136,9 @@
     <section class="conteudo-dispositivo desktop">
         <div class="slider-D">
             <div class="slides-D">
-                <input type="radio" name="radio-btn" id="radio1-D">
-                <input type="radio" name="radio-btn" id="radio2-D">
-                <input type="radio" name="radio-btn" id="radio3-D">
+                <input type="radio" name="radio-btn" id="radio1D">
+                <input type="radio" name="radio-btn" id="radio2D">
+                <input type="radio" name="radio-btn" id="radio3D">
 
                 <div class="slide primeiro-D">
                     <div class="quadrado-categoria-culinaria"></div>
@@ -151,7 +151,7 @@
                     <img class="imagens-slide" src="imagens/carrossel-home-desktop.png" alt="imagem-culinaria">
                     <img class="imagem-categoria" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria">
                 </div>
-                <div class="slide-D">
+                <div class="slideD">
                     <img class="imagens-slide" src="imagens/imagem-slide2.png" alt="imagem-limpeza">
                     <img class="imagem-categoria" src="imagens/icon-limpeza-branco.png" alt="icon-culinaria">
                     <div class="textos-carrossel">
@@ -159,7 +159,7 @@
                     <div class="itens-necessarios">vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja - Papel toalha</div>
                 </div>
                 </div>
-                <div class="slide-D">
+                <div class="slideD">
                     <img class="imagens-slide" src="imagens/imagem-slide3.png" alt="imagem-bem-estar">
                     <img class="imagem-categoria" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria">
                     <div class="textos-carrossel">
@@ -171,11 +171,56 @@
         </div>
 
         <div class="manual-navigation-D">
-            <label for="radio1-D" class="manual-btn manual-btn1-D"></label>
-            <label for="radio2-D" class="manual-btn manual-btn2-D"></label>
-            <label for="radio3-D" class="manual-btn manual-btn3-D"></label>
+            <label for="radio1D" class="manual-btnD manual-btnD1-D"></label>
+            <label for="radio2D" class="manual-btnD manual-btnD2-D"></label>
+            <label for="radio3D" class="manual-btnD manual-btnD3-D"></label>
         </div>
-    </div>
+
+        <div class="recente-emalta-rapidas-Dkt">
+            <button class="Recente-Dkt" onclick="VisiRecenteDkt()">+RECENTE</button>
+            
+            <button class="EmAlta-Dkt" onclick="VisiEmAltaDkt()">EM ALTA</button>
+
+            <button class="Rapidas-Dkt" onclick="VisiRapidasDkt()">+RÁPIDAS</button>
+        </div>
+        
+        <div class="conteudo-recente-emalta-rapidas-Dkt">
+            <div class="Conteudo-Recente-Dkt" id="Conteudo-Recente-Dkt" style="display: none;">
+                <div class="postagens">
+                    <div class="post1" onmouseover="mostrarDivOculta()" onmouseout="esconderDivOculta()">
+                        <img src="imagens/arroz-de-forno.svg" alt="foto-post1" class="info-cima-post">
+                        <h1 class="info-cima-post">Arroz de Forno Colorido</h1>
+                        <img id="icon-culinaria-branco" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco" class="info-cima-post">
+                        <div class="legenda">
+                            <div class="legenda relogio">
+                                <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                    <h3>1 hora</h3>
+                            </div>
+                            <div class="legenda estrela">
+                                <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                    <h3>4.9</h3>
+                            </div>
+                            <div class="legenda partes">
+                                <img src="imagens/partes-cinza.png" alt="partes">
+                                    <h3>5</h3>
+                            </div>
+                        </div>
+                            <div class="hover-post1" id="hover-post1">
+                                <h3>óleo - arroz - água - presunto  - queijo  - ervilha  - cenoura - salsa - queijo parmesão - bacon</h3>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Conteudo-EmAlta-Dkt" id="Conteudo-EmAlta-Dkt">
+                <h1>oxi</h1>
+            </div>
+
+            <div class="Conteudo-Rapidas-Dkt" id="Conteudo-Rapidas-Dkt" style="display: none;">
+                <h1>naoo</h1>
+            </div>
+        </div>
+
 </section>
 </body>
 <footer>
