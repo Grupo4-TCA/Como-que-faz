@@ -94,8 +94,8 @@
 
                         <div id="detalhes-segunda-parte">
 
-                            <div class="guarda-select">
-                                <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
+                           <!-- <div class="guarda-select">
+                                <input class="dialogoselect" id="dialogoselect" type="text" name="categoria" onchange="mostrarElemento()"
                                     onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"
                                     readonly="readonly" />
                                 <div class="dropDown" id="dropdown">
@@ -103,7 +103,7 @@
                                         <img class="iconitem-select-detalhes" id="icon-dropdown"
                                             onmousedown="category(1)" src="./imagens/culinaria-icon-categoria-1.png"
                                             alt="culinária">
-                                        <div class="item-select-detalhes texto" id="item-select-detalhes-1"
+                                        <div value="culinaria-categoria" class="item-select-detalhes texto" id="item-select-detalhes-1"
                                             onmousedown="category(1)">CULINÁRIA</div>
                                         <img class="iconitem-select-detalhes icon" id="icon-dropdown"
                                             onmousedown="category(2)" src="./imagens/limpeza-icon-categoria.png"
@@ -123,10 +123,14 @@
 
                             <h3 id="tempo-resultado-detalhes">Tempo & Resultado</h3>
                             <div id="tempo-detalhes">
-                                <img id="imagem-tempo-detalhes" src="./imagens/tempo.svg" alt="tempo de execução">
+                                <img id="imagem-tempo-detalhes" src="./imagens/tempo-cor-cinza.svg" alt="tempo de execução">
                                 <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
                                 <input type="number" id="horas-tempo-detalhes" placeholder="00">MINUTOS
                             </div>
+                            <div id="tempo-detalhes-porcoes">
+                                <img id="imagem-tempo-detalhes-porcoes" src="./imagens/porçoes-cinza-culinaria.png" alt="tempo de execução">
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">PORÇÕES
+                            </div>-->
 
                             <div id="descricao-detalhes-total">
                                 <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
@@ -175,40 +179,29 @@
 
                                             <div id="guardar-medidas-elementos">
                                                 <h4 id="nome-do-ingrediente">Medida</h4>
-                                                <input type="text" id="medidas-elementos" placeholder="Xícara"
-                                                    onfocus="dropdownmedidas(0)" onblur="dropdownmedidas(1)"
-                                                    readonly="disabled">
-
-                                                <div class="dropDown-medidas">
-                                                    <div class="listDropDown-medidas">
-                                                        <div class="item-medidas" id="itemedidas-1"
-                                                            onmousedown="qmedidas(1)">
-                                                            Xícara</div>
-                                                        <div class="item-medidas" id="itemedidas-2"
-                                                            onmousedown="qmedidas(2)">
-                                                            Colher de sopa</div>
-                                                        <div class="item-medidas" id="itemedidas-3"
-                                                            onmousedown="qmedidas(3)">
-                                                            Colher de chá</div>
-                                                        <div class="item-medidas" id="itemedidas-4"
-                                                            onmousedown="qmedidas(4)">
-                                                            Colher de café</div>
-                                                        <div class="item-medidas" id="itemedidas-5"
-                                                            onmousedown="qmedidas(5)">
-                                                            Colher de sobremesa</div>
-                                                        <div class="item-medidas" id="itemedidas-6"
-                                                            onmousedown="qmedidas(6)">
-                                                            Copo americano</div>
-                                                        <div class="item-medidas" id="itemedidas-7"
-                                                            onmousedown="qmedidas(7)">
-                                                            Gramas (gr)</div>
-                                                        <div class="item-medidas" id="itemedidas-8"
-                                                            onmousedown="qmedidas(8)">
-                                                            Mililitros (ml)</div>
+                                                <select name="medidas-elementos" id="medidas-elementos">
+                                                    <div class="dropDown-medidas">
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Xícara</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Colher de sopa</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Colher de chá</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Colher de café</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Colher de sobremesa</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Copo americano</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Gramas (gr)</option>
+                                                            <option value="item-de-modo-de-preparo"
+                                                                class="item-medidas">Mililitros (ml)</option>
                                                     </div>
-                                                </div>
+                                                </select>
                                             </div>
-                                        </div>
+
+
                                     </section>
                                     <div id="linha-rosa-ingredientes">
                                         <h2 id="numero-do-ingrediente">1</h2>
@@ -231,10 +224,13 @@
                                     </div>
 
                                     <div id="modo-de-preparo">
-                                       <span id="arruma-numero-simbolo"> <input type="text" id="numero-do-modo-de-preparo" placeholder="1"disabled="disabled"><h2 id="simbolo-do-numero">º</h2></span>
-                                        <input type="text" id="input-modo-de-preparo" 
+                                        <span id="arruma-numero-simbolo"> <input type="text"
+                                                id="numero-do-modo-de-preparo" placeholder="1" disabled="disabled">
+                                            <h2 id="simbolo-do-numero">º</h2>
+                                        </span>
+                                        <input type="text" id="input-modo-de-preparo"
                                             placeholder="Misture todos os ingredientes...">
-                                            <button id="apagar-modo-de-preparo" onclick="apagarDivModo(this)">X</button>
+                                        <button id="apagar-modo-de-preparo" onclick="apagarDivModo(this)">X</button>
                                     </div>
                                 </section>
 
@@ -259,7 +255,7 @@
                     </div>
                 </div>
             </div>
-            
+
     </section>
 
 </body>
