@@ -670,8 +670,9 @@
 }
 .legenda h3{
   margin-top: 355px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .relogio{
   margin-left: 40px;
@@ -774,8 +775,9 @@
 }
 .legenda2 h3{
   margin-top: 445px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .post2 img{
   border-radius: 10px 10px 0 0;
@@ -828,8 +830,9 @@
 }
 .legenda3 h3{
   margin-top: 231px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .estrela3{
   margin-left: 0;
@@ -895,8 +898,9 @@
 }
 .legenda4 h3{
   margin-top: 231px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .estrela4{
   margin-left: 0;
@@ -961,8 +965,9 @@
 }
 .legenda5 h3{
   margin-top: 231px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .estrela5{
   margin-left: 0;
@@ -1028,8 +1033,9 @@
 }
 .legenda6 h3{
   margin-top: 355px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .estrela6{
   margin-left: 0;
@@ -1098,8 +1104,9 @@
 }
 .legenda7 h3{
   margin-top: 445px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .post7 img{
   border-radius: 10px 10px 0 0;
@@ -1152,8 +1159,9 @@
 }
 .legenda8 h3{
   margin-top: 355px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .estrela8{
   margin-left: 0;
@@ -1222,8 +1230,9 @@
 }
 .legenda9 h3{
   margin-top: 445px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .post9 img{
   border-radius: 10px 10px 0 0;
@@ -1286,8 +1295,9 @@
 }
 .legenda10 h3{
   margin-top: 231px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .estrela10{
   margin-left: 0;
@@ -1352,8 +1362,9 @@
 }
 .legenda11 h3{
   margin-top: 355px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .post11 img{
   border-radius: 10px 10px 0 0;
@@ -1406,8 +1417,9 @@
 }
 .legenda12 h3{
   margin-top: 445px;
-  font-family: Fira Sans Bold;
+  font-family: Fira Sans;
   font-size: 20px;
+  color: #333333;
 }
 .post12 img{
   border-radius: 10px 10px 0 0;
@@ -1434,5 +1446,15 @@
 }
 .estrela12 h3{
   margin-left: 10px;
+}
+.salvar-post{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.salvar-post img{
+  position: absolute;
+  height: 20px;
+  width: 20px;
 }
 }

@@ -391,3 +391,15 @@ function esconderDivOculta2() {
       ta3.style.display = "block";
       t23.style.display = "block";
     }
+
+    //--------------------------- 
+    var div = document.getElementById("salvar-post");
+    var favoritoPre = document.getElementById("favorito-pre");
+    
+    div.addEventListener("click", function() {
+        if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+            favoritoPre.style.display = "block";
+        } else {
+            favoritoPre.style.display = "none";
+        }
+    });
