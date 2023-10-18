@@ -962,7 +962,7 @@
   #modo-de-preparo-NaN{
     box-sizing: border-box;
     margin-left: 6.4vw;
-    border-left: 1.3vw #9e5fef solid;
+    border-left: 1vw #9e5fef solid;
   }
 
   #passo-a-passo-modo{
@@ -981,7 +981,7 @@
   }
 
   #linhas-roxa-conteudo{
-    border-left: 1.3vw #9e5fef solid;
+    border-left: 1vw #9e5fef solid;
     margin-left: 6.4vw;
   }
   

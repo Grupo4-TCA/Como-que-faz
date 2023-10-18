@@ -1,81 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style-limpeza.css">
-    <script defer src="./js/script-catego.js"></script>
-    <script src="./js/script-menu-lateral.js"></script>
-    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />   
-    <title>Como que Faz | Limpeza</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style-limpeza.css">
+  <link rel="stylesheet" href="./css/style-home-mob.css">
+  <script src="./js/script-Home-SemLogin.js"></script>
+  <script defer src="./js/script-catego.js"></script>
+  <script src="./js/script-menu-lateral.js"></script>
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+  <title>Como que Faz | Limpeza</title>
 </head>
+
 <body>
-<section class="conteudo desktop">
-  
-  <header>
-    <section class="header-dispositivo-mobile">
-    <nav class="logos">
-        <div class="login">
-            <a href="#">
-                <img src="imagens/user_icon.png" alt="Faça Login">
-            </a>
-        </div>
-        <div class= "logo">
-            <a href="header-mobile.html">
-                <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
-            </a>
-        </div>
-        <div class= "search">
-            <a href="/">
-                <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
-            </a>
-        </div>
-    </nav>
-    <nav class="topcs">
-        <a class="culinaria" href="/">CULINÁRIA</a>
-        <a class= "limpeza" href="/">LIMPEZA</a>
-        <a class= "bem-estar" href="/">BEM-ESTAR</a>
-    </nav>
-    </section>
-    <section class="header-dispositivo-desktop">
+
+  <section class="conteudo desktop">
+
+    <header>
+      <section class="header-dispositivo-mobile">
         <nav class="logos">
-            <div id="container" onmouseover="showDiv1()" onmouseout="hideDiv1()" class="login">
-                <img id="img-login" src="imagens/icon_sofizinha(1).png" alt="Faça Login">
-                <div id="hide-hover-span">
-                    <p class="p-1">LOGIN</p><br>
-                    <p class="p-2">ENTRAR / CADASTRAR</p>
-                </div>
-            </div>
-            <div class= "logo">
-                <a href="https://laismiharu.github.io/Como-que-faz/Home">
-                    <img src="imagens/gatolimpeza.png" alt="Logo do ComoQueFaz">
-                </a>
-            </div>
-            <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class= "search">
-                <a href="/">
-                    <img src="imagens/lupalimpeza.png" alt="Ícone de Pesquisa">
-                <div id="hide-hover-search">
-                    <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
-                    <label for="inserir-pesquisa"></label>
-                </div>
-                </a>
-            </div>
+          <div class="login">
+            <a href="#">
+              <img src="imagens/user_icon.png" alt="Faça Login">
+            </a>
+          </div>
+          <div class="logo">
+            <a href="header-mobile.html">
+              <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
+            </a>
+          </div>
+          <div class="search">
+            <a href="/">
+              <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
+            </a>
+          </div>
         </nav>
         <nav class="topcs">
-            <a class="culinaria" href="/">CULINÁRIA</a>
-            <a class= "limpeza" href="/">LIMPEZA</a>
-            <a class= "bem-estar" href="/">BEM-ESTAR</a>
+          <a class="culinaria" href="/">CULINÁRIA</a>
+          <a class="limpeza" href="/">LIMPEZA</a>
+          <a class="bem-estar" href="/">BEM-ESTAR</a>
         </nav>
+      </section>
+      <section class="header-dispositivo-desktop">
+        <nav class="logos">
+          <div id="container" onmouseover="showDiv1()" onmouseout="hideDiv1()" class="login">
+            <img id="img-login" src="imagens/icon_sofizinha(1).png" alt="Faça Login">
+            <div id="hide-hover-span">
+              <p class="p-1">LOGIN</p><br>
+              <p class="p-2">ENTRAR / CADASTRAR</p>
+            </div>
+          </div>
+          <div class="logo">
+            <a href="https://laismiharu.github.io/Como-que-faz/Home">
+              <img src="imagens/gatolimpeza.png" alt="Logo do ComoQueFaz">
+            </a>
+          </div>
+          <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class="search">
+            <a href="/">
+              <img src="imagens/lupalimpeza.png" alt="Ícone de Pesquisa">
+              <div id="hide-hover-search">
+                <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
+                <label for="inserir-pesquisa"></label>
+              </div>
+            </a>
+          </div>
+        </nav>
+        <nav class="topcs">
+          <a class="culinaria" href="./Categoria-Culinária.html">CULINÁRIA</a>
+          <a class="limpeza" href="./categoria-limpeza.html">LIMPEZA</a>
+          <a class="bem-estar" href="./Categoria-Bem-Estar.html">BEM-ESTAR</a>
+        </nav>
+        <br>
+        <br>
         <div class="mapli">
-          <a  class="maplimpeza" href="./Home-Com-Login.html"> < Voltar</a>
-      </div>
-      <div class="categoli">
+          <a class="maplimpeza" href="./Home.html">
+            < Voltar</a>
+        </div>
+        <div class="categoli">
           <img class="imgli" src="./imagens/categolimpeza.png" alt="icon culinaria">
           <h1 class="tituloli">LIMPEZA</h1>
           <p class="pli">Explore um mundo de sabores e técnicas culinárias com dicas e tutoriais detalhados.</p>
-      </div>
-      <div class="filtrocu">
+        </div>
+        <div class="filtrocu">
           <button class="fcutodas">TODAS</button>
           <button class="fcutodas">+ RECENTES</button>
           <button class="fcutodas">EM ALTA</button>
@@ -91,222 +99,334 @@
           <button class="fcutodas">ALMOÇO</button>
           <button class="fcutodas">JANTAR</button>
           <button class="fcutodas">LANCHE</button>
-      </div>
-      <div id="pinterest-style">
-            <div id="post" >
-              <div id="n">
-                <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
-                <div id="sombra"></div>
-                <h2 id="descri-post">ORGANIZE SUA DISPENSA JÁ!</h2>
-            </div>
-              <div id="post-baixo">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H40</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">5.0</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">~</h3>
-              </div>
-            </div>
-            <div class="longpres" id="longpress">
-              <p class="plongpress">Etiquetas - organizadores - canetas gráficas - cestas - manual</p>
-              <br>
-              <h1 class="h1longpress">ORGANIZE SUA DISPENSA JÁ!</h1>
-            </div>
-          
-          <!--  <div id="a">
-              <div id="post-a">
-                <img id="bolin" src="./imagens/bolin.svg" alt="post">
-                <div id="sombra-a"></div>
-                <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
-              </div>
-              <div id="post-baixo-a">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H30</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">4.5</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">8</h3>
-              </div>
-            </div>
-          
-           
-            
-            <div id="c">
-              <div id="post">
-                <div id="post-perg">
-                  <div id="fundoperg"></div>
-                  <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
-              </div>
-                <div id="post-baixo-h">
-                  <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                  <h3 id="descri-icon">20</h3>
-                  <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                  <h3 id="descri-icon">0</h3>
+        </div>
+<br>
+<br>
+<br>
+        <div class="postagens">
+          <div class="postagens1">
+            <div class="post1" onmouseover="mostrarDivOculta()" onmouseout="esconderDivOculta()" id="posts">
+              <img src="imagens/arroz-de-forno.png" alt="foto-post1" class="info-cima-post">
+              <h1 id="texto-atras" class="info-cima-post">Arroz de Forno Colorido</h1>
+              <img id="icon-culinaria-branco" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco"
+                class="info-cima-post">
+              <div class="legenda">
+                <div class="legenda relogio">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>1H00</h3>
                 </div>
-            </div>
-          
-            
-            <div id="e">
-                <div id="post-a">
-                  <img id="bolin" src="./imagens/bolin.svg" alt="post">
-                  <div id="sombra-a"></div>
-                  <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
+                <div class="legenda estrela">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
                 </div>
-                <div id="post-baixo-e">
-                  <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                  <h3 id="descri-icon">0H30</h3>
-                  <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                  <h3 id="descri-icon">4.5</h3>
-                  <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                  <h3 id="descri-icon">8</h3>
+                <div class="legenda partes">
+                  <img src="imagens/partes-cinza.png" alt="partes">
+                  <h3>5</h3>
                 </div>
-            </div>
-            
-            <div id="f">
-                <div id="post-b">
-                  <img id="cachos" src="./imagens//cachos.svg" alt="post">
-                  <div id="sombra-b"></div>
-                  <h2 id="descri-post-b">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                </div>
-            
-                <div id="post-baixo-f">
-                  <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                  <h3 id="descri-icon">0H50</h3>
-                  <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                  <h3 id="descri-icon">2.4</h3>
-                  <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                  <h3 id="descri-icon">1</h3>
-                </div>
-            </div>
-              
-            
-            
-            <div id="h">
-              <div id="post">
-                  <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
-                  <div id="sombra"></div>
-                  <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
               </div>
-                <div id="post-baixo-h">
-                  <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                  <h3 id="descri-icon">0H40</h3>
-                  <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                  <h3 id="descri-icon">5.0</h3>
-                  <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                  <h3 id="descri-icon">~</h3>
-                </div>
+              <div class="hover-post1" id="hover-post1">
+                <h3>óleo - arroz - água - presunto - queijo - ervilha - cenoura - salsa - queijo parmesão - bacon</h3>
+              </div>
             </div>
-  
-            <div id="k">
-              <div id="post-perg">
-                  <div id="fundoperg"></div>
-                  <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
-              </div>
-                <div id="post-baixo-h">
-                  <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                  <h3 id="descri-icon">20</h3>
-                  <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                  <h3 id="descri-icon">0</h3>
+            <div class="post2" onmouseover="mostrarDivOculta2()" onmouseout="esconderDivOculta2()">
+              <img src="imagens/post-bolo-de-cenoura.png" alt="foto-post2" class="info-cima-post">
+              <h1 id="texto-atras2" class="info-cima-post">Bolo de Cenoura Fofo</h1>
+              <img id="icon-culinaria-branco2" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco2"
+                class="info-cima-post2">
+              <div class="legenda2">
+                <div class="legenda2 relogio">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H30</h3>
                 </div>
+                <div class="legenda2 estrela">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+                <div class="legenda2 partes">
+                  <img src="imagens/partes-cinza.png" alt="partes">
+                  <h3>12</h3>
+                </div>
+              </div>
+              <div class="hover-post2" id="hover-post2">
+                <h3>ovos - cenoura picada - açúcar - leite ou suco de laranja - farinha de trigo - farinha de trigo -
+                  amido de milho - leite - açúcar - chocolate em pó - Essência de baunilha - Chocolate granulado</h3>
+              </div>
             </div>
-  
-            
-            <div id="m">
-              <div id="post-b">
-                <img id="cachos" src="./imagens//cachos.svg" alt="post">
-                <div id="sombra-b"></div>
-                <h2 id="descri-post-b">COMO DEFINIR <br>SEUS CACHOS?</h2>
+            <div class="post3" onmouseover="mostrarDivOculta3()" onmouseout="esconderDivOculta3()">
+              <img src="imagens/post-limpar-fogao.png" alt="foto-post3" class="info-cima-post">
+              <h1 id="texto-atras3" class="info-cima-post">Limpe seu forno fácil</h1>
+              <img id="icon-limpeza-branco3" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco3"
+                class="info-cima-post3">
+              <div class="legenda3">
+                <div class="legenda3 relogio3">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H20</h3>
+                </div>
+                <div class="legenda3 estrela3">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
               </div>
-          
-              <div id="post-baixo-f">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H50</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">2.4</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">1</h3>
+              <div class="hover-post3" id="hover-post3">
+                <h3>vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja - Papel toalha</h3>
               </div>
+            </div>
+            <div class="post4" onmouseover="mostrarDivOculta4()" onmouseout="esconderDivOculta4()">
+              <img src="imagens/post-imagem-pele.png" alt="foto-post4" class="info-cima-post">
+              <h1 id="texto-atras4" class="info-cima-post">Cuidados com a pele negra</h1>
+              <img id="icon-limpeza-branco4" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco4"
+                class="info-cima-post4">
+              <div class="legenda4">
+                <div class="legenda4 relogio3">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H10</h3>
+                </div>
+                <div class="legenda4 estrela3">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+              </div>
+              <div class="hover-post4" id="hover-post4">
+                <h3>esfoliante - água - hidratante</h3>
+              </div>
+            </div>
           </div>
-  
-          <div id="q">
-              <div id="post">
-                <img id="dispensa" src="./imagens/bolo.svg" alt="post">
-                <div id="sombra"></div>
-                <h2 id="descri-post">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
-             </div>
-              <div id="post-baixo-c">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H40</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">5.0</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">9</h3>
+          <div class="postagens2">
+            <div class="post5" onmouseover="mostrarDivOculta5()" onmouseout="esconderDivOculta5()">
+              <img src="imagens/post-organizacao-rotina.png" alt="foto-post5" class="info-cima-post">
+              <h1 id="texto-atras5" class="info-cima-post">Organize sua rotina</h1>
+              <img id="icon-limpeza-branco5" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco5"
+                class="info-cima-post5">
+              <div class="legenda5">
+                <div class="legenda5 relogio5">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>1H20</h3>
+                </div>
+                <div class="legenda5 estrela5">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>5.0</h3>
+                </div>
+              </div>
+              <div class="hover-post5" id="hover-post5">
+                <h3>essa dica não possui itens necessários</h3>
               </div>
             </div>
-      </div>
-      </div>
-        </section>
-</header>
-
-</section>
-<section class="conteudo mobile">
-    <header>
-        <nav class="logos">
-            <div class="login">
-                <a href="#">
-                    <img src="imagens/icon_sofizinha.png" alt="Faça Login">
-                </a>
+            <div class="post6" onmouseover="mostrarDivOculta6()" onmouseout="esconderDivOculta6()">
+              <img src="imagens/post-limpeza-pia.png" alt="foto-post6" class="info-cima-post">
+              <h1 id="texto-atras6" class="info-cima-post">Limpar o ralo nunca foi tão fácil!</h1>
+              <img id="icon-limpeza-branco6" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco6"
+                class="info-cima-post6">
+              <div class="legenda6">
+                <div class="legenda6 relogio6">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>1H20</h3>
+                </div>
+                <div class="legenda6 estrela6">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>5.0</h3>
+                </div>
+              </div>
+              <div class="hover-post6" id="hover-post6">
+                <h3>bicarbonato de sódio - vinagre - água</h3>
+              </div>
             </div>
-            <div class= "logo">
-                <a href="header-mobile.html">
-                    <img src="imagens/gatolimpeza.png" alt="Logo do ComoQueFaz">
-                </a>
+            <div class="post7" onmouseover="mostrarDivOculta7()" onmouseout="esconderDivOculta7()">
+              <img src="imagens/post-bolinho-de-chuva.png" alt="foto-post7" class="info-cima-post">
+              <h1 id="texto-atras7" class="info-cima-post">Bolinho de chuva</h1>
+              <img id="icon-culinaria-branco7" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco7"
+                class="info-cima-post7">
+              <div class="legenda7">
+                <div class="legenda7 relogio">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H45</h3>
+                </div>
+                <div class="legenda7 estrela">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+                <div class="legenda7 partes">
+                  <img src="imagens/partes-cinza.png" alt="partes">
+                  <h3>36</h3>
+                </div>
+              </div>
+              <div class="hover-post7" id="hover-post7">
+                <h3>leite - Amido de Milho Maizena - farinha de trigo - açúcar - fermento em pó - ovos - gema - óleo
+                  para fritar - canela</h3>
+              </div>
             </div>
-            <div class= "search">
-                <a href="/">
-                    <img src="imagens/lupalimpeza.png" alt="Ícone de Pesquisa">
-                </a>
+            <div class="post8" onmouseover="mostrarDivOculta8()" onmouseout="esconderDivOculta8()">
+              <img src="imagens/post-limpeza-dispensa.png" alt="foto-post8" class="info-cima-post">
+              <h1 id="texto-atras8" class="info-cima-post">Organize sua dispensa na rotina</h1>
+              <img id="icon-limpeza-branco8" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco8"
+                class="info-cima-post8">
+              <div class="legenda8">
+                <div class="legenda8 relogio8">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H20</h3>
+                </div>
+                <div class="legenda8 estrela8">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>5.0</h3>
+                </div>
+              </div>
+              <div class="hover-post8" id="hover-post8">
+                <h3>multiuso - água - pano</h3>
+              </div>
             </div>
-        </nav>
-        <nav class="topcs">
-            <a class="culinaria" href="/categoria-culinaria.html">CULINÁRIA</a>
-            <a class= "limpeza" href="/categoria-limpeza.html">LIMPEZA</a>
-            <a class= "bem-estar" href="/">BEM-ESTAR</a>
-        </nav>
+          </div>
+          <div class="postagens3">
+            <div class="post9" onmouseover="mostrarDivOculta9()" onmouseout="esconderDivOculta9()">
+              <img src="imagens/post-lavar-roupa.png" alt="foto-post9" class="info-cima-post">
+              <h1 id="texto-atras9" class="info-cima-post">Bolinho de chuva</h1>
+              <img id="icon-limpeza-branco9" src="imagens/icon-limpeza-branco.png" alt="icon-culinaria-branco9"
+                class="info-cima-post9">
+              <div class="legenda9">
+                <div class="legenda9 relogio9">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H45</h3>
+                </div>
+                <div class="legenda9 estrela9">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+              </div>
+              <div class="hover-post9" id="hover-post9">
+                <h3>roupas - sabão - amaciante - máquina de lavar - água fria ou água quente</h3>
+              </div>
+            </div>
+            <div class="post10" onmouseover="mostrarDivOculta10()" onmouseout="esconderDivOculta10()">
+              <img src="imagens/post-unhas.png" alt="foto-post10" class="info-cima-post">
+              <h1 id="texto-atras10" class="info-cima-post">Faça suas cuticulas sem dor</h1>
+              <img id="icon-bemestar-branco10" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria-branco10"
+                class="info-cima-post10">
+              <div class="legenda10">
+                <div class="legenda10 relogio10">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>0H45</h3>
+                </div>
+                <div class="legenda10 estrela10">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+              </div>
+              <div class="hover-post10" id="hover-post10">
+                <h3>alicate de unha - tesoura de unha - hidratante de cuticula - algodão - papel alumínio</h3>
+              </div>
+            </div>
+            <div class="post11" onmouseover="mostrarDivOculta11()" onmouseout="esconderDivOculta11()">
+              <img src="imagens/post-escondidinho.png" alt="foto-post11" class="info-cima-post">
+              <h1 id="texto-atras11" class="info-cima-post">Escondidinho de frango</h1>
+              <img id="icon-culinaria-branco11" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco11"
+                class="info-cima-post11">
+              <div class="legenda11">
+                <div class="legenda11 relogio">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>1H20</h3>
+                </div>
+                <div class="legenda11 estrela">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+                <div class="legenda11 partes">
+                  <img src="imagens/partes-cinza.png" alt="partes">
+                  <h3>8</h3>
+                </div>
+              </div>
+              <div class="hover-post11" id="hover-post11">
+                <h3>peitos de frango desfiado - molho de tomate pronto - cebola pequena bem picadinha - margarina -
+                  requeijão - pimenta - tempero pronto - milho verde - alho - batata - mussarela ralada - sal</h3>
+              </div>
+            </div>
+            <div class="post12" onmouseover="mostrarDivOculta12()" onmouseout="esconderDivOculta12()">
+              <img src="imagens/post-barba.png" alt="foto-post12" class="info-cima-post">
+              <h1 id="texto-atras12" class="info-cima-post">Barba falhada nunca mais!</h1>
+              <img id="icon-bemestar-branco12" src="imagens/icon-bemestar-branco.png" alt="icon-bemestar-branco12"
+                class="info-cima-post12">
+              <div class="legenda12">
+                <div class="legenda12 relogio12">
+                  <img src="imagens/relogio-cinza.svg" alt="relogio">
+                  <h3>1H20</h3>
+                </div>
+                <div class="legenda12 estrela12">
+                  <img src="imagens/estrela-cinza.svg" alt="estrela">
+                  <h3>4.9</h3>
+                </div>
+              </div>
+              <div class="hover-post12" id="hover-post12">
+                <h3>barbeador - lâmina de barbear - gilete - espuma de barbear - pinça</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
+
+  </section>
+
+  <section class="conteudo mobile">
+    <header>
+      <nav class="logos">
+        <div class="login">
+          <a href="#">
+            <img src="imagens/icon_sofizinha.png" alt="Faça Login">
+          </a>
+        </div>
+        <div class="logo">
+          <a href="header-mobile.html">
+            <img src="imagens/gatolimpeza.png" alt="Logo do ComoQueFaz">
+          </a>
+        </div>
+        <div class="search">
+          <a href="/">
+            <img src="imagens/lupalimpeza.png" alt="Ícone de Pesquisa">
+          </a>
+        </div>
+      </nav>
+      <nav class="topcs">
+        <a class="culinaria" href="/categoria-culinaria.html">CULINÁRIA</a>
+        <a class="limpeza" href="/categoria-limpeza.html">LIMPEZA</a>
+        <a class="bem-estar" href="/">BEM-ESTAR</a>
+      </nav>
+    </header>
+
     <div class="mapli">
-        <a  class="maplimpeza" href="./Home-Com-Login.html"> < Voltar</a>
+      <a class="maplimpeza" href="./Home-Com-Login.html">
+        < Voltar</a>
     </div>
     <div class="categoli">
-        <img class="imgli" src="./imagens/categolimpeza.png" alt="icon culinaria">
-        <h1 class="tituloli">LIMPEZA</h1>
-        <p class="pli">Explore um mundo de sabores e técnicas culinárias com dicas e tutoriais detalhados.</p>
+      <img class="imgli" src="./imagens/categolimpeza.png" alt="icon culinaria">
+      <h1 class="tituloli">LIMPEZA</h1>
+      <p class="pli">Explore um mundo de sabores e técnicas culinárias com dicas e tutoriais detalhados.</p>
     </div>
     <div class="filtrocu">
-        <button class="fcutodas">TODAS</button>
-        <button class="fcutodas">+ RECENTES</button>
-        <button class="fcutodas">EM ALTA</button>
-        <button class="fcutodas">+ RÁPIDAS</button>
-        <button class="fcutodas">- INGREDIENTES</button>
-        <button class="fcutodas">+ INGREDIENTES</button>
-        <button class="fcutodas">INDIVIDUAL</button>
-        <button class="fcutodas">+ PORÇÕES</button>
-        <button class="fcutodas">DOCE</button>
-        <button class="fcutodas">AGRIDOCE</button>
-        <button class="fcutodas">SALGADO</button>
-        <button class="fcutodas">CAFÉ DA MANHÃ</button>
-        <button class="fcutodas">ALMOÇO</button>
-        <button class="fcutodas">JANTAR</button>
-        <button class="fcutodas">LANCHE</button>
+      <button class="fcutodas">TODAS</button>
+      <button class="fcutodas">+ RECENTES</button>
+      <button class="fcutodas">EM ALTA</button>
+      <button class="fcutodas">+ RÁPIDAS</button>
+      <button class="fcutodas">- INGREDIENTES</button>
+      <button class="fcutodas">+ INGREDIENTES</button>
+      <button class="fcutodas">INDIVIDUAL</button>
+      <button class="fcutodas">+ PORÇÕES</button>
+      <button class="fcutodas">DOCE</button>
+      <button class="fcutodas">AGRIDOCE</button>
+      <button class="fcutodas">SALGADO</button>
+      <button class="fcutodas">CAFÉ DA MANHÃ</button>
+      <button class="fcutodas">ALMOÇO</button>
+      <button class="fcutodas">JANTAR</button>
+      <button class="fcutodas">LANCHE</button>
     </div>
+
     <div id="pinterest-style">
-          <div id="post" >
+
+      <section id="primeira-fileira-posts">
+
+        <article id="base-post">
+          <div id="post">
             <div id="n">
               <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
               <div id="sombra"></div>
               <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-          </div>
+            </div>
             <div id="post-baixo">
               <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
               <h3 id="descri-icon">0H40</h3>
@@ -316,12 +436,32 @@
               <h3 id="descri-icon">~</h3>
             </div>
           </div>
-          <div class="longpres" id="longpress">
-            <p class="plongpress">Etiquetas - organizadores - canetas gráficas - cestas - manual</p>
-            <br>
-            <h1 class="h1longpress">ORGANIZE SUA DISPENSA JÁ!</h1>
+        </article>
+
+        <div class="longpres" id="longpress">
+          <p class="plongpress">Etiquetas - organizadores - canetas gráficas - cestas - manual</p>
+          <br>
+          <h1 class="h1longpress">ORGANIZE SUA DISPENSA JÁ!</h1>
+        </div>
+
+        <article id="base-post">
+          <div id="c">
+            <div id="post">
+              <div id="post-perg">
+                <div id="fundoperg"></div>
+                <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
+              </div>
+              <div id="post-baixo-h">
+                <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
+                <h3 id="descri-icon">20</h3>
+                <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
+                <h3 id="descri-icon">0</h3>
+              </div>
+            </div>
           </div>
-        
+        </article>
+
+        <article id="base-post">
           <div id="a">
             <div id="post-a">
               <img id="bolin" src="./imagens/bolin.svg" alt="post">
@@ -337,96 +477,17 @@
               <h3 id="descri-icon">8</h3>
             </div>
           </div>
-        
-         
-          
-          <div id="c">
-            <div id="post">
-              <div id="post-perg">
-                <div id="fundoperg"></div>
-                <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
-            </div>
-              <div id="post-baixo-h">
-                <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                <h3 id="descri-icon">20</h3>
-                <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                <h3 id="descri-icon">0</h3>
-              </div>
-          </div>
-        
-          
-          <div id="e">
-              <div id="post-a">
-                <img id="bolin" src="./imagens/bolin.svg" alt="post">
-                <div id="sombra-a"></div>
-                <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
-              </div>
-              <div id="post-baixo-e">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H30</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">4.5</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">8</h3>
-              </div>
-          </div>
-          
+        </article>
+
+
+        <article id="base-post">
           <div id="f">
-              <div id="post-b">
-                <img id="cachos" src="./imagens//cachos.svg" alt="post">
-                <div id="sombra-b"></div>
-                <h2 id="descri-post-b">COMO DEFINIR <br>SEUS CACHOS?</h2>
-              </div>
-          
-              <div id="post-baixo-f">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H50</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">2.4</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">1</h3>
-              </div>
-          </div>
-            
-          
-          
-          <div id="h">
-            <div id="post">
-                <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
-                <div id="sombra"></div>
-                <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-            </div>
-              <div id="post-baixo-h">
-                <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                <h3 id="descri-icon">0H40</h3>
-                <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                <h3 id="descri-icon">5.0</h3>
-                <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                <h3 id="descri-icon">~</h3>
-              </div>
-          </div>
-
-          <div id="k">
-            <div id="post-perg">
-                <div id="fundoperg"></div>
-                <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
-            </div>
-              <div id="post-baixo-h">
-                <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                <h3 id="descri-icon">20</h3>
-                <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                <h3 id="descri-icon">0</h3>
-              </div>
-          </div>
-
-          
-          <div id="m">
             <div id="post-b">
               <img id="cachos" src="./imagens//cachos.svg" alt="post">
               <div id="sombra-b"></div>
               <h2 id="descri-post-b">COMO DEFINIR <br>SEUS CACHOS?</h2>
             </div>
-        
+
             <div id="post-baixo-f">
               <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
               <h3 id="descri-icon">0H50</h3>
@@ -435,53 +496,124 @@
               <img id="icon-post" src="./imagens/porcao.png" alt="porção">
               <h3 id="descri-icon">1</h3>
             </div>
+          </div>
+        </article>
+
+      </section>
+
+      <section id="segunda-fileira-posts">
+
+        <div id="m">
+          <div id="post-b">
+            <img id="cachos" src="./imagens//cachos.svg" alt="post">
+            <div id="sombra-b"></div>
+            <h2 id="descri-post-b">COMO DEFINIR <br>SEUS CACHOS?</h2>
+          </div>
+
+          <div id="post-baixo-f">
+            <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+            <h3 id="descri-icon">0H50</h3>
+            <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+            <h3 id="descri-icon">2.4</h3>
+            <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+            <h3 id="descri-icon">1</h3>
+          </div>
         </div>
 
         <div id="q">
-            <div id="post">
-              <img id="dispensa" src="./imagens/bolo.svg" alt="post">
-              <div id="sombra"></div>
-              <h2 id="descri-post">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
-           </div>
-            <div id="post-baixo-c">
-              <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-              <h3 id="descri-icon">0H40</h3>
-              <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-              <h3 id="descri-icon">5.0</h3>
-              <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-              <h3 id="descri-icon">9</h3>
-            </div>
+          <div id="post">
+            <img id="dispensa" src="./imagens/bolo.svg" alt="post">
+            <div id="sombra"></div>
+            <h2 id="descri-post">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
           </div>
+          <div id="post-baixo-c">
+            <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+            <h3 id="descri-icon">0H40</h3>
+            <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+            <h3 id="descri-icon">5.0</h3>
+            <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+            <h3 id="descri-icon">9</h3>
+          </div>
+        </div>
+
+        <div id="k">
+          <div id="post-perg">
+            <div id="fundoperg"></div>
+            <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
+          </div>
+          <div id="post-baixo-h">
+            <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
+            <h3 id="descri-icon">20</h3>
+            <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
+            <h3 id="descri-icon">0</h3>
+          </div>
+        </div>
+
+        <div id="e">
+          <div id="post-a">
+            <img id="bolin" src="./imagens/bolin.svg" alt="post">
+            <div id="sombra-a"></div>
+            <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
+          </div>
+          <div id="post-baixo-e">
+            <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+            <h3 id="descri-icon">0H30</h3>
+            <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+            <h3 id="descri-icon">4.5</h3>
+            <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+            <h3 id="descri-icon">8</h3>
+          </div>
+        </div>
+
+
+
+        <div id="h">
+          <div id="post">
+            <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
+            <div id="sombra"></div>
+            <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
+          </div>
+          <div id="post-baixo-h">
+            <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+            <h3 id="descri-icon">0H40</h3>
+            <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+            <h3 id="descri-icon">5.0</h3>
+            <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+            <h3 id="descri-icon">~</h3>
+          </div>
+        </div>
+      </section>
+
     </div>
-    </div>
-        <br>
-        <footer>
-          <div class="Veja-Mais">
-              <h1 class="titulo-veja-mais">VEJA MAIS</h1>
-              <div class="limpeza-culinaria">
-              <div class="veja-culinaria">
-                  <h3 class="texto-veja-mais">CULINÁRIA</h3>
-              </div>
-      
-              <div class="veja-limpeza">
-                  <h3 class="texto-veja-mais">LIMPEZA</h3>
-              </div>
-              </div>
-              
-              <div class="veja-bem-estar">
-                  <h3 class="texto-veja-mais">BEM-ESTAR</h3>
-              </div>
+    <br>
+    <footer>
+      <div class="Veja-Mais">
+        <h1 class="titulo-veja-mais">VEJA MAIS</h1>
+        <div class="limpeza-culinaria">
+          <div class="veja-culinaria">
+            <h3 class="texto-veja-mais">CULINÁRIA</h3>
           </div>
-          <div class="Newsletter">
-              <h3 class="mensagem-news">CADASTRE-SE EM NOSSA NEWSLETTER!</h3>
-              <label for="e-mail"></label>
-              <input class="text-email" type="text" id="e-mail" name="email" placeholder="Digite o seu e-mail">
-              
-              <input class="submit-email" type="submit" value="cadastre-se">
-              
-              <hr class="Linha-Footer-1">
+
+          <div class="veja-limpeza">
+            <h3 class="texto-veja-mais">LIMPEZA</h3>
           </div>
-</section>
+        </div>
+
+        <div class="veja-bem-estar">
+          <h3 class="texto-veja-mais">BEM-ESTAR</h3>
+        </div>
+      </div>
+      <div class="Newsletter">
+        <h3 class="mensagem-news">CADASTRE-SE EM NOSSA NEWSLETTER!</h3>
+        <label for="e-mail"></label>
+        <input class="text-email" type="text" id="e-mail" name="email" placeholder="Digite o seu e-mail">
+
+        <input class="submit-email" type="submit" value="cadastre-se">
+
+        <hr class="Linha-Footer-1">
+      </div>
+  </section>
 
 </body>
+
 </html>
