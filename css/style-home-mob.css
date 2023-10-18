@@ -82,8 +82,8 @@
     height: 10%;
     max-width: 50px;
     min-width: 30px;
-    margin-top: 100px;
-    margin-left: -83%;
+    margin-top: 20px;
+    margin-left: -96%;
     position: absolute;
   }
   .texto-slide1{
@@ -412,26 +412,26 @@
   margin-top: -40px;
   justify-content: center;
 }
-.manual-btn{
+.manual-btnD{
   background: white;
-  padding: 7px;
+  padding: 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
 }
-.manual-btn:not(:last-child){
+.manual-btnD:not(:last-child){
   margin-right: 1.5%;
 }
-.manual-btn:hover{
+.manual-btnD:hover{
   background: #cb218c;
 }
-#radio1-D:checked ~ .primeiro{
+#radio1D:checked ~ .primeiro-D{
   margin-left: 0;
 }
-#radio2:checked ~ .primeiro{
+#radio2D:checked ~ .primeiro-D {
   margin-left: -33.33%;
 }
-#radio3:checked ~ .primeiro{
+#radio3D:checked ~ .primeiro-D{
   margin-left: -66.66%;
 }
 .navigation-auto div{
@@ -455,11 +455,11 @@
   background: none;
   display: flex;
 }
-.imagem-categoria{
+.imagem-categoriaD{
   height: 14%;
   min-width: 30px;
-  margin-left: 91%;
-  margin-top: 410px;
+  margin-left: 90%;
+  margin-top: -150px;
   position: absolute;
 }
 .texto-slide1{
@@ -511,6 +511,35 @@
   height: 53px;
   padding-left: 2%;
 }
+
+.itens-necessarios-bemestar{
+  font-family: Fira Sans Bold;
+  font-size: 22px;
+  width: 550px;
+  font-weight: 400;
+  margin-top: 275px;
+  margin-left: 10%;
+  margin-right: 7%;
+  position: absolute;
+  color: white;
+  border-left: white solid 6px;
+  height: 26px;
+  padding-left: 2%;
+}
+.itens-necessarios-limpeza{
+  font-family: Fira Sans Bold;
+  font-size: 22px;
+  width: 550px;
+  font-weight: 400;
+  margin-top: 275px;
+  margin-left: 10%;
+  margin-right: 7%;
+  position: absolute;
+  color: white;
+  border-left: white solid 6px;
+  height: 53px;
+  padding-left: 2%;
+}
 .itens-necessarios3{
   font-family: Fira Sans Bold;
   font-size: 17px;
@@ -525,6 +554,13 @@
   height: 23px;
   padding-left: 2%;
 }
+.manual-navigation-D{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin-top: -40px;
+  justify-content: center;
+}
 .textos-carrossel{
   display: inline;
   position: absolute;
@@ -537,17 +573,45 @@
   background-color: #cb2154;
   position: absolute;
 }
+.quadrado-categoria-bemestar{
+  height: 556px;
+  width: 60px;
+  background-color: #00cd83;
+  position: absolute;
+}
+.quadrado-categoria-limpeza{
+  height: 556px;
+  width: 60px;
+  background-color: #027de1;
+  position: absolute;
+}
 .primeiro{
   display: flex;
   position: relative;
 }
-.textos-carrossel p{
+.descricao-culinaria{
   font-family: Fira Sans;
   color: white;
   margin-left: 10%;
   font-size: 22px;
   width: 650px;
   margin-top: 280px;
+}
+.descricao-bemestar{
+  font-family: Fira Sans;
+  color: white;
+  margin-left: 10%;
+  font-size: 22px;
+  width: 650px;
+  margin-top: 320px;
+}
+.descricao-limpeza{
+  font-family: Fira Sans;
+  color: white;
+  margin-left: 10%;
+  font-size: 22px;
+  width: 650px;
+  margin-top: 360px;
 }
 .ver-dica{
   height: 45px;
@@ -558,6 +622,11 @@
   background: none;
   border: white 2.5px solid;
   color: white;
+}
+.ver-dica:hover{
+  transition: 0.3s;
+  background: white;
+  color: rgba(0, 0, 0, 0.734)
 }
 
 
@@ -1437,24 +1506,557 @@
 .estrela12{
   margin-left: 0;
 }
-.relogio12{
+.salvar-post1{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post1 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre1{
+  display: none;
+}
+.salvar-post2{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post2 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre2{
+  display: none;
+}
+
+.salvar-post3{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post3 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre3{
+  display: none;
+}
+
+.salvar-post4{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post4 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre4{
+  display: none;
+}
+
+.salvar-post5{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post5 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre5{
+  display: none;
+}
+
+.salvar-post6{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post6 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre6{
+  display: none;
+}
+
+.salvar-post7{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post7 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre7{
+  display: none;
+}
+
+.salvar-post8{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post8 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre8{
+  display: none;
+}
+
+.salvar-post9{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post9 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre9{
+  display: none;
+}
+
+.salvar-post10{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post10 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre10{
+  display: none;
+}
+
+.salvar-post11{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post11 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre11{
+  display: none;
+}
+
+.salvar-post12{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post12 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre12{
+  display: none;
+}
+.carregar{
+  cursor: pointer;
+  margin-top: 30px;
+  width: 14%;
+  justify-content: space-around;
+  margin-left: 43%;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #cb218c;
+  color: white;
+}
+
+
+/*post13*/
+.post13{
+  margin-top: 30px;
+  width: 32%;
+}
+.post13 h1{
+  margin-top: 300px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-culinaria-branco13{
+  height: 40px;
+  margin-top: 285px;
+  margin-left: 330px;
+  position: absolute;
+}
+.hover-post13{
+  display: none;
+  background-color: #cb215483;
+  max-width: 385px;
+  height: 338px;
+  position: absolute;
+  margin-top: -380px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hover-post13 h3{
+  color: white;
+  font-family: Fira Sans;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 160px;
+  margin-right: 0;
+  width: 305px;
+}
+.legenda13{
+  display: flex;
+  width: 385px;
+}
+.legenda13 img{
+  margin-top: 350px;
+  height: 30px;
+}
+.legenda13 h3{
+  margin-top: 355px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  color: #333333;
+}
+.post13 img{
+  border-radius: 10px 10px 0 0;
+}
+.salvar-post13{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post13 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre13{
+  display: none;
+}
+
+/*post14*/
+.post14{
+  margin-top: 30px;
+  width: 32%;
+}
+.post14 h1{
+  margin-top: 390px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-bemestar-branco14{
+  height: 40px;
+  margin-top: 375px;
+  margin-left: 330px;
+  position: absolute;
+}
+.hover-post14{
+  display: none;
+  background-color: #00cd8383;
+  max-width: 385px;
+  height: 428px;
+  position: absolute;
+  margin-top: -470px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hover-post14 h3{
+  color: white;
+  font-family: Fira Sans;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 180px;
+  margin-right: 0;
+  width: 305px;
+}
+.legenda14{
+  display: flex;
+  width: 385px;
+}
+.legenda14 img{
+  margin-top: 440px;
+  height: 30px;
+}
+.legenda14 h3{
+  margin-top: 445px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  color: #333333;
+}
+.post14 img{
+  border-radius: 10px 10px 0 0;
+}
+.salvar-post14{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post14 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre14{
+  display: none;
+}
+.relogio14{
   margin-left: 80px;
 }
-.relogio12 h3{
+.relogio14 h3{
   margin-left: 10px;
   width: 60px;
 }
-.estrela12 h3{
+.estrela14 h3{
   margin-left: 10px;
 }
-.salvar-post{
-  height: 20px;
-  width: 20px;
-  cursor: pointer;
+.estrela14{
+  margin-left: 0;
 }
-.salvar-post img{
+
+/*post15*/
+.post15{
+  margin-top: 30px;
+  width: 32%;
+}
+.post15 h1{
+  margin-top: 390px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-bemestar-branco15{
+  height: 40px;
+  margin-top: 375px;
+  margin-left: 330px;
   position: absolute;
-  height: 20px;
-  width: 20px;
+}
+.hover-post15{
+  display: none;
+  background-color: #00cd8383;
+  max-width: 385px;
+  height: 428px;
+  position: absolute;
+  margin-top: -470px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hover-post15 h3{
+  color: white;
+  font-family: Fira Sans;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 180px;
+  margin-right: 0;
+  width: 305px;
+}
+.legenda15{
+  display: flex;
+  width: 385px;
+}
+.legenda15 img{
+  margin-top: 440px;
+  height: 30px;
+}
+.legenda15 h3{
+  margin-top: 445px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  color: #333333;
+}
+.post15 img{
+  border-radius: 10px 10px 0 0;
+}
+.salvar-post15{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 300px;
+}
+.salvar-post15 img{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  pointer-events: none;
+  border-radius: 0;
+}
+#favorito-pre15{
+  display: none;
+}
+.relogio15{
+  margin-left: 80px;
+}
+.relogio15 h3{
+  margin-left: 10px;
+  width: 60px;
+}
+.estrela15 h3{
+  margin-left: 10px;
+}
+.estrela15{
+  margin-left: 0;
+}
+
+/*post15*/
+.post15{
+  margin-top: 30px;
+  width: 32%;
+}
+.post15 h1{
+  margin-top: 176px;
+  margin-left: 10px;
+  font-family: Fira Sans Bold;
+  color: white;
+}
+#icon-culinaria-branco15{
+  height: 40px;
+  margin-top: 161px;
+  margin-left: 330px;
+  position: absolute;
+}
+.hover-post15{
+  display: none;
+  background-color: #cb215483;
+  max-width: 385px;
+  height: 214px;
+  position: absolute;
+  margin-top: -255px;
+  border-radius: 10px 10px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hover-post15 h3{
+  color: white;
+  font-family: Fira Sans;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 90px;
+  margin-right: 0;
+  width: 305px;
+}
+.legenda15{
+  display: flex;
+  width: 385px;
+}
+.legenda15 img{
+  margin-top: 226px;
+  height: 30px;
+}
+.legenda15 h3{
+  margin-top: 231px;
+  font-family: Fira Sans;
+  font-size: 20px;
+  color: #333333;
+}
+.estrela15{
+  margin-left: 0;
+}
+.relogio15{
+  margin-left: 80px;
+}
+.relogio15 h3{
+  margin-left: 10px;
+  width: 60px;
+}
+.estrela15 h3{
+  margin-left: 10px;
+}
+.post15 img{
+  border-radius: 10px 10px 0 0;
 }
 }

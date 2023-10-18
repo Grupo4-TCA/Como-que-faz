@@ -38,7 +38,7 @@ function nextImageD() {
     if (countD > 3) {
         countD = 1;
     }
-    document.getElementById("radio" + countD +"D").checked = true;
+    document.getElementById("radio" + countD + "D").checked = true;
 
     // Defina o background apenas para o botão correspondente
     const currentBtn = document.querySelector(".manual-btnD" + countD+"-D");
@@ -57,7 +57,7 @@ function nextImageD() {
 // Inicie o carrossel automaticamente após o carregamento da página
 window.addEventListener("load", function () {
   console.log("Página carregada!"); // Adicione esta linha
-  setInterval(nextImage, 3000);
+  setInterval(nextImageD, 3000);
   document.getElementById("radio1D").checked = true;
   document.querySelector(".manual-btnD1-D").style.background = "#cb218c";
 });
@@ -392,14 +392,306 @@ function esconderDivOculta2() {
       t23.style.display = "block";
     }
 
-    //--------------------------- 
-    var div = document.getElementById("salvar-post");
-    var favoritoPre = document.getElementById("favorito-pre");
+    //--------------------------- POST 13
+
+    function mostrarDivOculta13() {
+      var divOculta3 = document.getElementById("hover-post13");
+      var ta3 = document.getElementById("icon-culinaria-branco13");
+      var t23 = document.getElementById("texto-atras13");
+      divOculta3.style.display = "block";
+      ta3.style.display = "none";
+      t23.style.display = "none";
+    }
     
-    div.addEventListener("click", function() {
-        if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
-            favoritoPre.style.display = "block";
-        } else {
-            favoritoPre.style.display = "none";
+    function esconderDivOculta13() {
+      var divOculta3 = document.getElementById("hover-post13");
+      var ta3 = document.getElementById("icon-culinaria-branco13");
+      var t23 = document.getElementById("texto-atras13");
+      divOculta3.style.display = "none";
+      ta3.style.display = "block";
+      t23.style.display = "block";
+    }
+
+    //--------------------------- POST 14
+
+    function mostrarDivOculta14() {
+      var divOculta3 = document.getElementById("hover-post14");
+      var ta3 = document.getElementById("icon-bemestar-branco14");
+      var t23 = document.getElementById("texto-atras14");
+      divOculta3.style.display = "block";
+      ta3.style.display = "none";
+      t23.style.display = "none";
+    }
+    
+    function esconderDivOculta14() {
+      var divOculta3 = document.getElementById("hover-post14");
+      var ta3 = document.getElementById("icon-bemestar-branco14");
+      var t23 = document.getElementById("texto-atras14");
+      divOculta3.style.display = "none";
+      ta3.style.display = "block";
+      t23.style.display = "block";
+    }
+
+      //--------------------------- POST 15
+
+      function mostrarDivOculta15() {
+        var divOculta3 = document.getElementById("hover-post15");
+        var ta3 = document.getElementById("icon-culinaria-branco15");
+        var t23 = document.getElementById("texto-atras15");
+        divOculta3.style.display = "block";
+        ta3.style.display = "none";
+        t23.style.display = "none";
+      }
+      
+      function esconderDivOculta15() {
+        var divOculta3 = document.getElementById("hover-post15");
+        var ta3 = document.getElementById("icon-culinaria-branco15");
+        var t23 = document.getElementById("texto-atras15");
+        divOculta3.style.display = "none";
+        ta3.style.display = "block";
+        t23.style.display = "block";
+      }
+    
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post1");
+      var favoritoPre = document.getElementById("favorito-pre1");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+  
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post2");
+      var favoritoPre = document.getElementById("favorito-pre2");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post3");
+      var favoritoPre = document.getElementById("favorito-pre3");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post4");
+      var favoritoPre = document.getElementById("favorito-pre4");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post5");
+      var favoritoPre = document.getElementById("favorito-pre5");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post6");
+      var favoritoPre = document.getElementById("favorito-pre6");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post7");
+      var favoritoPre = document.getElementById("favorito-pre7");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post8");
+      var favoritoPre = document.getElementById("favorito-pre8");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post9");
+      var favoritoPre = document.getElementById("favorito-pre9");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post10");
+      var favoritoPre = document.getElementById("favorito-pre10");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post11");
+      var favoritoPre = document.getElementById("favorito-pre11");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post12");
+      var favoritoPre = document.getElementById("favorito-pre12");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post13");
+      var favoritoPre = document.getElementById("favorito-pre13");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+    //--------------------------- 
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var div = document.getElementById("salvar-post14");
+      var favoritoPre = document.getElementById("favorito-pre14");
+
+      div.addEventListener("click", function() {
+          if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+              favoritoPre.style.display = "block";
+          } else {
+              favoritoPre.style.display = "none";
+          }
+      });
+  });
+
+      //--------------------------- 
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var div = document.getElementById("salvar-post15");
+        var favoritoPre = document.getElementById("favorito-pre15");
+  
+        div.addEventListener("click", function() {
+            if (favoritoPre.style.display === "none" || favoritoPre.style.display === "") {
+                favoritoPre.style.display = "block";
+            } else {
+                favoritoPre.style.display = "none";
+            }
+        });
+    });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Obtém o botão e a div por seus IDs
+    var mostrarDivBtn = document.getElementById("mostrarDivBtn");
+    var minhaDiv = document.getElementById("post13");
+    var minhaDiv2 = document.getElementById("post14");
+    var minhaDiv3 = document.getElementById("post15");
+
+    // Adiciona um ouvinte de evento de clique ao botão
+    mostrarDivBtn.addEventListener("click", function() {
+        // Verifica se a div está oculta
+        if (minhaDiv.style.display === "none") {
+            // Mostra a div
+            minhaDiv2.style.display = "block";
+            minhaDiv.style.display = "block";
+            minhaDiv3.style.display = "block";
         }
     });
+});
