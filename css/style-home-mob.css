@@ -626,7 +626,8 @@
 .ver-dica:hover{
   transition: 0.3s;
   background: white;
-  color: rgba(0, 0, 0, 0.734)
+  color: rgba(0, 0, 0, 0.734);
+  cursor: pointer;
 }
 
 
