@@ -291,3 +291,16 @@ function atualizarNumeracao() {
         }
     });
 }
+
+
+//function mostrarElementoCulinaria() {
+    var input = document.getElementById("dialogoselect");
+    var elemento = document.getElementById("tempo-detalhes-porcoes");
+
+    // Verifica se uma opção foi selecionada
+    if (input.className.includes("dialogoselect") && input.className.includes("categoria-culinaria")) {
+        elemento.style.display = "block"; // Mostra o elemento
+    } else {
+        elemento.style.display = "none"; // Esconde o elemento se nenhuma opção estiver selecionada
+    }
+//}

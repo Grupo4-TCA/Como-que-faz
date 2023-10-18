@@ -94,8 +94,8 @@
 
                         <div id="detalhes-segunda-parte">
 
-                            <div class="guarda-select">
-                                <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
+                           <!-- <div class="guarda-select">
+                                <input class="dialogoselect" id="dialogoselect" type="text" name="categoria" onchange="mostrarElemento()"
                                     onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"
                                     readonly="readonly" />
                                 <div class="dropDown" id="dropdown">
@@ -103,7 +103,7 @@
                                         <img class="iconitem-select-detalhes" id="icon-dropdown"
                                             onmousedown="category(1)" src="./imagens/culinaria-icon-categoria-1.png"
                                             alt="culinária">
-                                        <div class="item-select-detalhes texto" id="item-select-detalhes-1"
+                                        <div value="culinaria-categoria" class="item-select-detalhes texto" id="item-select-detalhes-1"
                                             onmousedown="category(1)">CULINÁRIA</div>
                                         <img class="iconitem-select-detalhes icon" id="icon-dropdown"
                                             onmousedown="category(2)" src="./imagens/limpeza-icon-categoria.png"
@@ -123,10 +123,14 @@
 
                             <h3 id="tempo-resultado-detalhes">Tempo & Resultado</h3>
                             <div id="tempo-detalhes">
-                                <img id="imagem-tempo-detalhes" src="./imagens/tempo.svg" alt="tempo de execução">
+                                <img id="imagem-tempo-detalhes" src="./imagens/tempo-cor-cinza.svg" alt="tempo de execução">
                                 <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
                                 <input type="number" id="horas-tempo-detalhes" placeholder="00">MINUTOS
                             </div>
+                            <div id="tempo-detalhes-porcoes">
+                                <img id="imagem-tempo-detalhes-porcoes" src="./imagens/porçoes-cinza-culinaria.png" alt="tempo de execução">
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">PORÇÕES
+                            </div>-->
 
                             <div id="descricao-detalhes-total">
                                 <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>

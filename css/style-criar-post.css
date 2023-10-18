@@ -454,7 +454,16 @@
   #imagem-tempo-detalhes {
     width: 9.06vw;
     height: 9.06vw;
-    margin-top: -2%;
+    margin-bottom: -2%;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+    fill: #909090;
+  }
+
+  #imagem-tempo-detalhes-porcoes {
+    width: 9.06vw;
+    height: 9.06vw;
+    margin-bottom: -4%;
     padding: 2px 2px 2px 2px;
     box-sizing: border-box;
     fill: #909090;
@@ -464,8 +473,17 @@
     appearance: none;
     margin-top: 5.6vw;
     margin-left: 8.2vw;
-    display: flex;
-    position: absolute;
+    display: inline-block;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+  }
+
+  #tempo-detalhes-porcoes {
+    appearance: none;
+    margin-top: 5.6vw;
+    margin-left: 8.2vw;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     color: #333333;
@@ -518,7 +536,7 @@
   }
 
   #descricao-detalhes-total {
-    margin-top: 24vw;
+    margin-top: 10vw;
     margin-left: 8vw;
   }
 
