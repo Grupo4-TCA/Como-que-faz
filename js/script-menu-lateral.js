@@ -36,3 +36,18 @@ function showDiv3() {
 function hideDiv3() {
   document.getElementById("hide-menu-lateral").style.display = "none";
 }
+
+function showMenu() {
+  var menu = document.getElementById("menu");
+  menu.style.display = "block";
+}
+
+function hideMenu() {
+  var menu = document.getElementById("menu");
+  menu.style.display = "none";
+}
+
+function navigateToPage(page) {
+  window.location.href = page;
+}
+

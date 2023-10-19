@@ -22,12 +22,12 @@ function nextImage() {
 }
 
 // Inicie o carrossel automaticamente após o carregamento da página
-window.addEventListener("load", function () {
-  console.log("Página carregada!"); // Adicione esta linha
-  setInterval(nextImage, 3000);
-  document.getElementById("radio1").checked = true;
-  document.querySelector(".manual-btn1").style.background = "#cb218c";
-});
+// window.addEventListener("load", function () {
+//   console.log("Página carregada!"); // Adicione esta linha
+//   setInterval(nextImage, 3000);
+//   document.getElementById("radio1").checked = true;
+//   document.querySelector(".manual-btn1").style.background = "#cb218c";
+// });
 
 //------------------------------------------------------------------------------------
 
@@ -57,7 +57,12 @@ function nextImageD() {
 // Inicie o carrossel automaticamente após o carregamento da página
 window.addEventListener("load", function () {
   console.log("Página carregada!"); // Adicione esta linha
-  setInterval(nextImageD, 3000);
+
+  setInterval(nextImage, 2500);
+  document.getElementById("radio1").checked = true;
+  document.querySelector(".manual-btn1").style.background = "#cb218c";
+
+  setInterval(nextImageD, 2500);
   document.getElementById("radio1D").checked = true;
   document.querySelector(".manual-btnD1-D").style.background = "#cb218c";
 });
