@@ -103,8 +103,7 @@
     justify-content: space-evenly;
     }
     .bem-vindo {
-    border-bottom: #4D16BB;
-    border-bottom-style: double;
+    border-bottom: #cb218c solid 2px;
     display: flex;
     height: 100px;
     }
@@ -212,6 +211,7 @@
             margin-top: 5px;
         }
     /*header logado fim*/
+    
 
 }
 
@@ -499,5 +499,28 @@ font-size: 15px;
             font-family: Fira Sans Bold;
             color: #474747;
             margin-left: -560px;
+            white-space: nowrap;
+        }
+
+        .menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            color: #cb218c;
+            list-style: none;
+            padding: 0;
+            width: 300px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.294);
+            border-radius: 0 0 5px 5px;
+        }
+
+        .menu li {
+            padding: 15px 10px 10px 10px;
+            cursor: pointer;
+            height: 25px;
+        }
+
+        .menu li:hover {
+            background-color: #ffd662;
         }
 }
