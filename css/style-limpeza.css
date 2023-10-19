@@ -191,25 +191,24 @@
 }
 
 #primeira-fileira-posts{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100px;
+  display: inline-grid;
   margin-left: 2vw;
+  flex-direction: column;
 }
 
 #segunda-fileira-posts{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100px;
   margin-left:52vw;
 }
 
 #base-post{
-  margin-top: 34vw;
+  margin-bottom: 34vw;
   display: block;
 }
+
+/*parte PARA TODOS de baixo do post*/
 
 #icon-post {
   width: 4.8vw;
@@ -227,13 +226,44 @@
   display: inline-block;
 }
 
+/* FIM parte de baixo do post*/
+
+
+/*PRIMEIRO POST DISPENSA - FILEIRA 1*/
+#dispensa {
+}
+
+#descri-post {
+  position: absolute;
+  font-family: Fira Sans Bold;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  left: 8px;
+  top: 128px;
+  width: 150px;
+}
+
+#sombra {
+  top: 88px;
+  width: 176px;
+  height: 85px;
+  opacity: 0.4;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
+  box-sizing: border-box;
+  position: absolute;
+}
+
 #post-baixo {
   height: 10.66vw;
   width: 46.93vw;
   padding: 2.66vw 2.66vw 2.66vw 0.7vw;
   justify-content: space-around;
-  transform: translate(3px, 169px);
 }
+
+/*FINAL DE PRIMEIRO POST DISPENSA - FILEIRA 1*/
 
 #post-baixo-a {
   height: 10.66vw;
@@ -276,7 +306,7 @@
 }
 
 #post {
-  position: absolute;
+  position: relative;
 }
 
 #post-a {
@@ -285,17 +315,6 @@
 
 #post-b {
   position: relative;
-}
-
-#descri-post {
-  position: absolute;
-  font-family: Fira Sans Bold;
-  font-weight: 700;
-  font-size: 16px;
-  color: #ffffff;
-  left: 8px;
-  top: 120px;
-  width: 150px;
 }
 
 #descri-post-a {
@@ -320,27 +339,11 @@
   width: 150px;
 }
 
-#dispensa {
-  position: absolute;
-}
-
 #bolin {
   position: absolute;
 }
 
 #cachos {
-  position: absolute;
-}
-
-#sombra {
-  top: 88px;
-  width: 176px;
-  height: 85px;
-  opacity: 0.4;
-  padding: 2px 2px 2px 2px;
-  border-radius: 5px;
-  background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
-  box-sizing: border-box;
   position: absolute;
 }
 
@@ -369,14 +372,14 @@
 }
 
 
-
 #post-perg {
-  position: absolute;
+  
+  display: grid;
+  grid-template-columns: auto auto;
 
 }
 
 #text-pergunta {
-  position: absolute;
   font-family: Fira Sans Bold;
   font-weight: 700;
   font-size: 16px;
@@ -395,7 +398,8 @@
   border-radius: 5px;
   background-color: #8c8c8c;
   box-sizing: border-box;
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
 }
 
 #longpress {
