@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style-home-mob.css">
     <link rel="stylesheet" href="./css/style-header.css">
     <link rel="stylesheet" href="./css/style-base-post-desk.css">
+    <link rel="stylesheet" href="./css/style-footer.css">
     <script src="./js/script-header.js"></script>
     <script src="./js/script-Home-SemLogin.js"></script>
     <script src="./js/script-base-post-desk.js"></script>
@@ -41,7 +42,8 @@
     <section class="header-dispositivo-desktop">
         <nav class="logos">
             <div id="container" onmouseover="showDiv1()" onmouseout="hideDiv1()" class="login">
-                <img id="img-login" src="imagens/user_icon.png" alt="Faça Login">
+                <a href="https://laismiharu.github.io/Como-que-faz/Fazer-Login">
+                <img id="img-login" src="imagens/user_icon.png" alt="Faça Login"></a>
                 <div id="hide-hover-span">
                     <p class="p-1">LOGIN</p><br>
                     <p class="p-2">ENTRAR / CADASTRAR</p>
@@ -1297,5 +1299,110 @@
 </section>
 </body>
 <footer>
+    <section class="Footer-Mobile">
+        <div class="Veja-Mais">
+            <h1 class="titulo-veja-mais">VEJA MAIS</h1>
+            <div class="limpeza-culinaria">
+            <div class="veja-culinaria">
+                <h3 class="texto-veja-mais">CULINÁRIA</h3>
+            </div>
+
+            <div class="veja-limpeza">
+                <h3 class="texto-veja-mais">LIMPEZA</h3>
+            </div>
+            </div>
+            
+            <div class="veja-bem-estar">
+                <h3 class="texto-veja-mais">BEM-ESTAR</h3>
+            </div>
+        </div>
+        <div class="Newsletter">
+            <h3 class="mensagem-news">CADASTRE-SE EM NOSSA NEWSLETTER!</h3>
+            <label for="e-mail"></label>
+            <div class="cadastrese-newsletter">
+            <input class="text-email" type="text" id="e-mail" name="email" placeholder="Digite o seu e-mail">
+            <input class="submit-email" type="submit" value="cadastre-se">
+            </div>
+            <hr class="Linha-Footer-1">
+        </div>
+        <div class="footer">
+            <div class="logo2"><img src="imagens/ComoQueFaz_logo2.png" alt="Logo do ComoQueFaz?"></div>
+            <hr class="Linha-Footer-2">
+            <div class="redes">
+                <img src="imagens/tiktok.png" alt="Tiktok">
+                <img src="imagens/twitter.png" alt="Twitter">
+                <img src="imagens/instagram.png" alt="Instagram">
+            </div>
+            <span class="titulos-footer">Contato</span>
+            <li class="contato-footer"><img class="img-contato-footer" src="imagens/telefone_icon.png" alt="telefone">(11) 99999-9999</li>
+            <li class="contato-footer"><img class="img-contato-footer" src="imagens/email_icon.png" alt="e-mail">ComoQueFaz@gmail.com</li>
+            <span class="titulos-footer">Sobre</span>
+            <li class="sobre-footer">Quem Somos</li>
+            <li class="sobre-footer">Termos de Uso e Política de Privacidade</li>
+            <li class="sobre-footer">Anuncie</li>
+            <li class="sobre-footer">Parcerias</li>
+        </div>
+    </section>  
+    <section class="Footer-Desktop">
+        <div class="Veja-Mais">
+            <h1 class="titulo-veja-mais">VEJA MAIS</h1>
+            <div class="limpeza-culinaria-bemestar">
+                <div class="veja-culinaria">
+                    <h3 class="texto-veja-mais">CULINÁRIA</h3>
+                </div>
+
+                <div class="veja-limpeza">
+                    <h3 class="texto-veja-mais">LIMPEZA</h3>
+                </div>
+                
+                <div class="veja-bem-estar">
+                    <h3 class="texto-veja-mais">BEM-ESTAR</h3>
+                </div>
+            </div>
+        </div>
+        <div class="Newsletter">
+            <div class="textos-newsletter">
+                <h3 class="mensagem-news" id="cadastre-se1">CADASTRE-SE EM NOSSA</h3>
+                <h3 class="mensagem-news" id="cadastre-se2">NEWSLETTER!</h3>                
+                <div class="cadastrese-newsletter">
+                    <p>RECEBA SUAS NOTIFICAÇÕES:</p>
+                    <label for="e-mail"></label>
+                    <input class="text-email" type="text" id="e-mail" name="email" placeholder="   Digite o seu e-mail">
+                    <input class="submit-email" type="submit" value="cadastre-se">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="row">
+                   <div class="col-4 logo-center">
+                      <img class="logo-footer" src="imagens/ComoQueFaz_logo2.png" alt="Logo do ComoQueFaz?">
+                      <div class="redes-footer">
+                         <img src="imagens/tiktok.png" alt="Tiktok">
+                         <img src="imagens/twitter.png" alt="Twitter">
+                         <img src="imagens/instagram.png" alt="Instagram">
+                      </div>
+                   </div>
+                   <div class="col-4">
+                      <h4>Contato</h4>
+                      <div>
+                         <img class="icon" src="imagens/telefone_icon.png" alt="telefone">
+                         <p class="texto-info-rodape">(11) 99999-9999</p>
+                         <img class="icon" src="imagens/email_icon.png" alt="email">
+                         <p class="texto-info-rodape">comoquefaz@gmail.com</p>
+                      </div>
+                   </div>
+                   <div class="col-5">
+                      <h4>Sobre</h4>
+                      <p class="texto-info-rodape">Quem somos</p>
+                      <p class="texto-info-rodape">Termos de uso</p>
+                      <p class="texto-info-rodape">Política de privacidade</p>
+                      <p class="texto-info-rodape">Anuncie</p>
+                      <p class="texto-info-rodape">Parcerias</p>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </section> 
 </footer>
 </html>
