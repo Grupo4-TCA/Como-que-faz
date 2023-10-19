@@ -15,12 +15,16 @@ limpar = () => {
 
 
 
-  
-var long = document.getElementById('longpress')
+var pressTimer = document.getElementById("longpress");
+
 $("a").mouseup(function(){
-    clearTimeout(long);
-    return false;
+  clearTimeout(pressTimer);
+  // Clear timeout
+  return false;
 }).mousedown(function(){
-    long = window.setTimeout(function() {long.style.display = "block"},1000);
-    return false
-})
+  // Set timeout
+  pressTimer = window.setTimeout(function() {
+    pressTimer.style.display='block';
+  },1000);
+  return false; 
+});
