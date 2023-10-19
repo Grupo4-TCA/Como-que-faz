@@ -1,333 +1,379 @@
 @media only screen and (max-width: 480px) {
-    * {
-      margin: 0;
-      padding: 0;
+  * {
+    margin: 0;
+    padding: 0;
   }
-  .conteudo.mobile{
+
+  .conteudo.mobile {
     display: block;
     width: 100vw;
-   }
-   
-   .conteudo.desktop{
+  }
+
+  .conteudo.desktop {
     display: none;
-   }
-   .logos {
+  }
+
+  .logos {
     display: flex;
     justify-content: space-around;
     height: 70px;
-    }
-    
-    .logo {
+  }
+
+  .logo {
     margin-top: 5px;
     margin-right: 50px;
     margin-left: 50px;
-    
-    }
-    .logo img {
+
+  }
+
+  .logo img {
     max-width: 50px;
     margin-top: 5px;
     align-self: center;
-    }
-    .search {
+  }
+
+  .search {
     margin-top: 22px;
     margin-right: 13px;
-    }
-    .search img {
+  }
+
+  .search img {
     max-width: 26px;
-    }
-    .login {
+  }
+
+  .login {
     margin-top: 9px;
     margin-left: 18px;
     margin-right: -7px;
     position: relative;
     display: inline-block;
-    }
-    .login img {
+  }
+
+  .login img {
     max-width: 34px;
-    margin-top: 10px;    
-    }
-    .topcs {
-    background-color:  #cb1154;
+    margin-top: 10px;
+  }
+
+  .topcs {
+    background-color: #cb1154;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     height: 38px;
-    }
-    a {
+  }
+
+  a {
     text-decoration: none;
     color: white;
     margin-top: 9px;
     font-size: 14px;
-    }
-    .culinaria {
+  }
+
+  .culinaria {
     margin-left: 13.14px;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     margin-top: 12px;
-    }
-    .bem-estar {
+  }
+
+  .bem-estar {
     margin-right: 8.59px;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     margin-top: 12px;
     font-weight: 700;
-    }
-    .limpeza{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        text-align: center;
-        margin-top: 12px;
-        font-weight: 700;
-    }
-    a.mapculinaria{
-        text-align: center;
-        width: 54px;
-        height: 19px;
-        color:black;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 700;
-        margin-left: 7%;
-      }
-      .mapcu{
-        margin-top: 5%;
-      }
-      img.imgcu{
-        width: 84px;
-        height: 84px;
-        margin-left: 4%;
-        transform: translate(0, 13px);
-      }
-      h1.titulocu{
-        font-family: Heavitas;
-        color: #cb1154;
-        max-width: 150px;
-        font-size: 35px;
-        font-weight: 400;
-        transform: translate(110px, -70px);
-      }
-      p.pcu{
-        text-align: left;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        width: 65%;
-        font-size: 12px;
-        transform: translate(110px, -70px);
-      }
-  
+  }
 
-    .fcutodas{
-        min-width: 35%;
-        height: 35px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #333333;
-        text-align: center;
-        line-height: normal;
-        border: none;
-        gap: 100px;
-      
-        }
-  
-      .filtrocu{
-        display: flex;
-        gap: 10px;
-        overflow:scroll;
-        height: 100%;
-        margin-left: 7%;
-        margin-top: -50px;
-        min-width: 140px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 5px;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #333333;
-        text-align: center;
-        line-height: normal;
-        border: none;
-        width: 85%;
-        }
-        .clicado{
-          background-color: #cb1154;
-          box-sizing: border-box;
-          font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-          font-weight: 700;
-          color: #ffffff;
-          min-width: 140px;
-          padding: 2px 2px 2px 2px;
-          gap: 10px;
-          border-radius: 5px;
-          border: none;
-      }
+  .limpeza {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  a.mapculinaria {
+    text-align: center;
+    width: 54px;
+    height: 19px;
+    color: black;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 7%;
+  }
+
+  .mapcu {
+    margin-top: 5%;
+  }
+
+  img.imgcu {
+    width: 84px;
+    height: 84px;
+    margin-left: 4%;
+    transform: translate(0, 13px);
+  }
+
+  h1.titulocu {
+    font-family: Heavitas;
+    color: #cb1154;
+    max-width: 150px;
+    font-size: 35px;
+    font-weight: 400;
+    transform: translate(110px, -70px);
+  }
+
+  p.pcu {
+    text-align: left;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    width: 65%;
+    font-size: 12px;
+    transform: translate(110px, -70px);
+  }
+
+
+  .fcutodas {
+    min-width: 35%;
+    height: 35px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
+
+  }
+
+  .filtrocu {
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+    height: 100%;
+    margin-left: 7%;
+    margin-top: -50px;
+    min-width: 140px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    width: 85%;
+  }
+
+  .clicado {
+    background-color: #cb1154;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    min-width: 140px;
+    padding: 2px 2px 2px 2px;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+  }
 }
+
 @media only screen and (min-width: 481px) {
   .conteudo.mobile {
     display: none;
   }
+
   * {
     font-family: Heavitas;
     padding: 0;
     margin: 0;
-    }
-    @font-face{
+  }
+
+  @font-face {
     font-family: Heavitas;
     src: url("../fonts/Heavitas.ttf");
-    }
-    @font-face{
+  }
+
+  @font-face {
     font-family: Fira Sans Bold;
     src: url("../fonts/fira-sans.bold.ttf");
-    }
-    @font-face{
+  }
+
+  @font-face {
     font-family: Fira Sans;
     src: url("../fonts/fira-sans.regular.ttf");
-    }
-    .header-dispositivo-mobile{
+  }
+
+  .header-dispositivo-mobile {
     display: none;
-    }
-    .logos {
+  }
+
+  .logos {
     display: flex;
     justify-content: space-around;
     height: 85px;
     box-shadow: 1px 5px 5px rgb(173, 173, 173);
     background-color: white;
-    }
-    
-    .logo {
+  }
+
+  .logo {
     margin-top: 5px;
     margin-right: 50px;
     margin-left: 50px;
-    
-    }
-    .logo img {
+
+  }
+
+  .logo img {
     max-width: 65px;
     margin-top: 5px;
     align-self: center;
-    }
-    .search {
+  }
+
+  .search {
     margin-top: 22px;
     margin-right: 18px;
-    }
-    .search img {
+  }
+
+  .search img {
     max-width: 37px;
-    }
-    .login {
+  }
+
+  .login {
     margin-top: 9px;
     margin-left: 13px;
     margin-right: -7px;
     position: relative;
     display: inline-block;
-    }
-    #img-login{
+  }
+
+  #img-login {
     max-width: 50px;
-    margin-top: 10px;    
-    }
-    .topcs {
+    margin-top: 10px;
+  }
+
+  .topcs {
     background-color: #cb1154;
     display: flex;
     justify-content: space-around;
     height: 43px;
-    }
-    .topcs a {
+  }
+
+  .topcs a {
     text-decoration: none;
     color: white;
     margin-top: 9px;
     font-size: 20px;
-    }
-    .culinaria {
+  }
+
+  .culinaria {
     margin-left: 270px;
     font-family: Fira Sans Bold;
     font-weight: 700;
     margin-top: 12px;
-    }
-    .bem-estar {
+  }
+
+  .bem-estar {
     margin-right: 270px;
     font-family: Fira Sans Bold;
     margin-top: 12px;
     font-weight: 700;
-    }
-    .limpeza{
-        font-family: Fira Sans Bold;
-        text-align: center;
-        margin-top: 12px;
-        font-weight: 700;
-    }
-    #hide-hover-span {
-        display: none;
-        position: absolute;
-        color: #474747;
-        text-align: center;
-        margin-top: -46px;
-        width: 200px;
-        margin-left: 70px;
-    } 
-    #hide-hover-span p{
-        text-align: left;
-        font-family: Fira Sans Bold;
-    }
-    .p-1{
-        font-size: 14px;
-    }
-    .p-2{
-        font-size: 18px;
-        margin-top: -25px;
-    }
-    #hide-hover-search {
-        display: none;
-        position: absolute;
-        color: #474747;
-        text-align: center;
-        margin-top: -28px;
-        width: 200px;
-        margin-left: -220px;
-    }
-    #hide-hover-search input{
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom: 2px solid #9d21cb;
-        font-family: Fira Sans;
-        font-size: 17px;
-    }
-    .mapculinaria{
-      margin-left: 359px;
-    }
-    .imgcu{
-      width: 180px;
-      height: 180px;
-      margin-left: 320px;
-      margin-top: 20px;
-    }
-    .titulocu{
-      font-size: 40px;
-      color: #cb1154;
-      margin-left: 500px;
-      margin-top: -150px;
-    }
-    .pcu{
-      margin-left: 500px;
-      width: 30%;
-      font-size: 12px;
+  }
 
-    }
-    .filtrocu {
-      display: flex;
-      gap: 10px;
-      overflow: auto;
-      height: 100%;
-      margin-left: 19%;
-      margin-right: 19%;
-      margin-top: 70px;
-      padding: 2px 2px 2px 2px;
-      border-radius: 5px;
-      box-sizing: border-box;
-      font-family: "Fira Sans", sans-serif;
-      color: #333333;
-      text-align: center;
-      line-height: normal;
-      border: none;
-      width: auto;
-    }
+  .limpeza {
+    font-family: Fira Sans Bold;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 700;
+  }
 
-    
+  #hide-hover-span {
+    display: none;
+    position: absolute;
+    color: #474747;
+    text-align: center;
+    margin-top: -46px;
+    width: 200px;
+    margin-left: 70px;
+  }
+
+  #hide-hover-span p {
+    text-align: left;
+    font-family: Fira Sans Bold;
+  }
+
+  .p-1 {
+    font-size: 14px;
+  }
+
+  .p-2 {
+    font-size: 18px;
+    margin-top: -25px;
+  }
+
+  #hide-hover-search {
+    display: none;
+    position: absolute;
+    color: #474747;
+    text-align: center;
+    margin-top: -28px;
+    width: 200px;
+    margin-left: -220px;
+  }
+
+  #hide-hover-search input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #9d21cb;
+    font-family: Fira Sans;
+    font-size: 17px;
+  }
+
+  .mapculinaria {
+    margin-left: 359px;
+  }
+
+  .imgcu {
+    width: 180px;
+    height: 180px;
+    margin-left: 320px;
+    margin-top: 20px;
+  }
+
+  .titulocu {
+    font-size: 40px;
+    color: #cb1154;
+    margin-left: 500px;
+    margin-top: -150px;
+  }
+
+  .pcu {
+    margin-left: 500px;
+    width: 30%;
+    font-size: 12px;
+
+  }
+
+  .filtrocu {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    height: 100%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 70px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    width: auto;
+  }
+
+
   .fcutodas {
     min-width: 15%;
     height: 35px;
@@ -342,6 +388,7 @@
     border: none;
     gap: 100px;
   }
+
   .clicado {
     background-color: #027de1;
     box-sizing: border-box;
@@ -349,19 +396,20 @@
     font-weight: 700;
     color: #ffffff;
   }
+
   #pinterest-style {
     margin-left: 18%;
     margin-top: 5%;
-   
+
   }
-  
+
   #icon-post {
     width: 28px;
     height: 28px;
     margin-right: 20px;
-    
+
   }
-  
+
   #descri-icon {
     margin: 0;
     margin-right: 9px;
@@ -371,7 +419,7 @@
     color: #333333;
     line-height: normal;
   }
-  
+
   #post-baixo {
     width: 365px;
     height: 40px;
@@ -381,9 +429,9 @@
     border-radius: 5px;
     padding: 10px 10px 10px 10px;
     align-content: center;
-    background-color:  rgba(86, 86, 86, 0.21);
+    background-color: rgba(86, 86, 86, 0.21);
   }
-  
+
   #post-baixo-a {
     height: 40px;
     width: 176px;
@@ -393,7 +441,7 @@
     padding: 10px 10px 10px 10px;
     align-content: center;
   }
-  
+
   #post-baixo-c {
     height: 40px;
     width: 176px;
@@ -403,7 +451,7 @@
     padding: 10px 10px 10px 10px;
     align-content: center;
   }
-  
+
   #post-baixo-e {
     height: 40px;
     width: 176px;
@@ -413,7 +461,7 @@
     padding: 10px 10px 10px 10px;
     align-content: center;
   }
-  
+
   #post-baixo-f {
     height: 40px;
     width: 176px;
@@ -423,7 +471,7 @@
     padding: 10px 10px 10px 10px;
     align-content: center;
   }
-  
+
   #post-baixo-h {
     height: 40px;
     width: 176px;
@@ -433,21 +481,21 @@
     padding: 10px 10px 10px 10px;
     align-content: center;
   }
-  
+
   #post {
     position: absolute;
     width: 385px;
     height: 388px;
   }
-  
+
   #post-a {
     position: relative;
   }
-  
+
   #post-b {
     position: relative;
   }
-  
+
   #descri-post {
     position: absolute;
     font-family: Fira Sans Bold;
@@ -459,7 +507,7 @@
     height: 300px;
     width: 300px;
   }
-  
+
   #descri-post-a {
     position: absolute;
     font-family: Fira Sans Bold;
@@ -470,7 +518,7 @@
     top: 255px;
     width: 150px;
   }
-  
+
   #descri-post-b {
     position: absolute;
     font-family: Fira Sans Bold;
@@ -481,23 +529,23 @@
     top: 180px;
     width: 150px;
   }
-  
+
   #dispensa {
     position: absolute;
     width: 385px;
     height: 388px;
   }
-  
+
   #bolin {
     position: absolute;
   }
-  
+
   #cachos {
     position: absolute;
   }
-  
+
   #sombra {
-    
+
     opacity: 0.4;
     padding: 2px 2px 2px 2px;
     border-radius: 5px;
@@ -507,7 +555,7 @@
     height: 388px;
     width: 385px;
   }
-  
+
   #sombra-a {
     top: 227px;
     width: 176px;
@@ -519,7 +567,7 @@
     box-sizing: border-box;
     position: absolute;
   }
-  
+
   #sombra-b {
     top: 151px;
     width: 176px;
@@ -531,51 +579,52 @@
     box-sizing: border-box;
     position: absolute;
   }
-  
+
   #a {
     margin-left: 200px;
-  
+
   }
-  
+
   #c {
     padding-top: 130px;
   }
-  
+
   #e {
     margin-top: 210px;
   }
-  
+
   #f {
     margin-left: 200px;
     margin-top: 200px;
   }
-  
+
   #m {
     margin-left: 200px;
     margin-top: 710px;
   }
-  
+
   #h {
     margin-left: 200px;
     margin-top: 490px;
   }
-  
+
   #k {
     margin-top: 490px;
   }
-  
+
   #q {
     margin-top: 700px;
   }
-  #n{
-    cursor:pointer;
+
+  #n {
+    cursor: pointer;
   }
-  
+
   #post-perg {
     position: absolute;
-  
+
   }
-  
+
   #text-pergunta {
     position: absolute;
     font-family: Fira Sans Bold;
@@ -586,7 +635,7 @@
     top: 100px;
     width: 150px;
   }
-  
+
   #fundoperg {
     top: 88px;
     width: 176px;
@@ -598,7 +647,7 @@
     box-sizing: border-box;
     position: absolute;
   }
-  
+
   #longpress {
     opacity: 0.5;
     border-radius: 5px;
@@ -614,80 +663,69 @@
     display: none;
     pointer-events: none;
   }
-  
+
 }
+
 @media only screen and (min-width: 480px) {
   * {
     margin: 0;
     padding: 0;
+  }
+
+  .conteudo.desktop {
+    display: block;
+    width: 100vw;
+  }
+
+  .conteudo.mobile {
+    display: none;
+  }
+
+  .filtrocu {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    height: 100%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-top: 70px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    width: auto;
+  }
+
+
+  .fcutodas {
+    min-width: 15%;
+    height: 50px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-size: large;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
+  }
+
+  .clicado {
+    background-color: #cb1154;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  #subcategorias{
+    transform: translate( 1300px, 50px);
+  }
 }
-.conteudo.desktop{
-  display: block;
-  width: 100vw;
- }
- 
- .conteudo.mobile{
-  display: none;
- }
- .filtrocu {
-  display: flex;
-  gap: 10px;
-  overflow: auto;
-  height: 100%;
-  margin-left: 19%;
-  margin-right: 19%;
-  margin-top: 70px;
-  padding: 2px 2px 2px 2px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
-  color: #333333;
-  text-align: center;
-  line-height: normal;
-  border: none;
-  width: auto;
-}
-
-
-.fcutodas {
-min-width: 15%;
-height: 50px;
-padding: 2px 6px 2px 6px;
-border-radius: 5px;
-background-color: #f2f2f2;
-box-sizing: border-box;
-font-family: "Fira Sans", sans-serif;
-font-size: large;
-color: #333333;
-text-align: center;
-line-height: normal;
-border: none;
-gap: 100px;
-}
-.clicado {
-background-color: #cb1154;
-box-sizing: border-box;
-font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-font-weight: 700;
-color: #ffffff;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-    
