@@ -50,7 +50,8 @@
     background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 700px;
+    height:  750px;
+    z-index:100;
     }
 
     .fechar-menu{
@@ -512,6 +513,7 @@ font-size: 15px;
             width: 300px;
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.294);
             border-radius: 0 0 5px 5px;
+            z-index:100;
         }
 
         .menu li {
