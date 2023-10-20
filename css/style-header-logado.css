@@ -525,4 +525,90 @@ font-size: 15px;
         .menu li:hover {
             background-color: #ffd662;
         }
+
+        .floating {
+            height: 5em;
+            width: 5em;
+            background: #eee;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 2em;
+            right: 2em;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 70px;
+            margin-bottom: 50px;
+        }
+        
+        .floating .material-icons {
+            font-size: 3em;
+            color: white;
+        }
+        
+        .floating-main {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #cb218c;
+            opacity: 1;
+            transition: all, 0.2s;
+            z-index: 8;
+        }
+        
+        .float-opt {
+            position: absolute;
+            height: 90%;
+            width: 90%;
+            border-radius: 50%;
+            opacity: 0;
+            transition: all, 0.2s;
+            z-index: 7;
+            transform: translate(0%, 0%);
+            text-align: center;
+        }
+        
+        .float-opt img {
+            height: 50px;
+            margin-top: 25px;
+        }
+        
+        .opt-text {
+            background: #ffd662;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .opt-media {
+            background: #ffd662;
+            height: 100px;
+            width: 100px;
+        }
+        
+        .float-open {
+            background-image: linear-gradient(to top, gray, transparent);
+        }
+        
+        .float-open .floating-main {
+            transform: rotate(45deg);
+            opacity: 1;
+        }
+        
+        .float-open .float-opt {
+            opacity: 1;
+        }
+        
+        .float-open .opt-text {
+            transform: translate(0%, -130%);
+        }
+        
+        .float-open .opt-media {
+            transform: translate(0%, -250%);
+        }
+        
 }
