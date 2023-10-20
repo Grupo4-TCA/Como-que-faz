@@ -56,21 +56,24 @@
     <h1 class="titulocu">CULINÁRIA</h1>
     <p class="pcu">Explore um mundo de sabores e técnicas culinárias com dicas e tutoriais detalhados.</p>
   </div>
-  <td class="filtrosubcatego">
-      <select name="subcategorias" id="subcategorias">
-          <option class="filtrosub" value="subcatego">Agridoces</option>
-          <option class="filtrosub" value="subcatego">Almoço</option>
-          <option class="filtrosub" value="subcatego">Café da manhã</option>
-          <option class="filtrosub" value="subcatego">Carnes</option>
-          <option class="filtrosub" value="subcatego">Doces</option>
-          <option class="filtrosub" value="subcatego">Fitness</option>
-          <option class="filtrosub" value="subcatego">Jantar</option>
-          <option class="filtrosub" value="subcatego">Lanche</option>
-          <option class="filtrosub" value="subcatego">Massas</option>
-          <option class="filtrosub" value="subcatego">Peixes</option>
-          <option class="filtrosub" value="subcatego">Salgados</option>
-      </select>
-  </td>
+  <div class="container">
+    <input type="text" name="subcate" placeholder="Subcategorias" onfocus="dropdown(0)" onblur="dropdown(1)"/>
+  <div class="dropDown">
+      <div class="listDropDown">
+          <div class="item" id="item-1" onmousedown="category(1)">Agridoces</div>
+          <div class="item" id="item-2" onmousedown="category(2)">Almoço</div>
+          <div class="item" id="item-3" onmousedown="category(3)">Café da manhã</div>
+          <div class="item" id="item-4" onmousedown="category(4)">Carnes</div>
+          <div class="item" id="item-5" onmousedown="category(5)">Doces</div>
+          <div class="item" id="item-6" onmousedown="category(6)">Fitness</div>
+          <div class="item" id="item-7" onmousedown="category(7)">Jantar</div>
+          <div class="item" id="item-8" onmousedown="category(8)">Lanche</div>
+          <div class="item" id="item-9" onmousedown="category(9)">Massas</div>
+          <div class="item" id="item-10" onmousedown="category(10)">Peixes</div>
+          <div class="item" id="item-11" onmousedown="category(11)">Salgados</div>
+      </div>
+  </div>
+</div>
   <div class="filtrocu">
     <button class="fcutodas">TODAS</button>
     <button class="fcutodas">+ RECENTES</button>
