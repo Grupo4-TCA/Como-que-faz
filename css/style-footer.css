@@ -102,6 +102,9 @@ margin-top: 2%;
 margin-bottom: 3%;
 display: flex;
 }
+.conteudo-recente-emalta-rapidas-Dkt{
+  width: 1920px;
+}
 .sobre-footer{
     font-family: Fira Sans;
     color: #D1C2FA;
@@ -327,7 +330,7 @@ margin-top: 1%;
 display: block;
 bottom: 0;
 margin-top: 0%;
-width: 100%;
+max-width: 1920px;
 background-color: #5417bd;
 background-image: linear-gradient(to right, #5417bd, #9c21cb);
 height: 220px;
@@ -446,7 +449,7 @@ margin-right: 12px;
 }
 .col-5 {
     margin-top: 1%;
-    width: 33.33%;
+    width: 25%;
     position: absolute;
     margin-left: 55%;
 }

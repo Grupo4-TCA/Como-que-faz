@@ -56,6 +56,11 @@
     margin-top: 285px;
     margin-left: 330px;
   }
+  #icon-culinaria-branco-C{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+  }
   .legenda{
     display: flex;
     width: 385px;
@@ -141,6 +146,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-culinaria-branco2-B{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-culinaria-branco2-C{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post2{
     display: none;
     background-color: #cb215483;
@@ -191,6 +208,18 @@
     color: white;
   }
   #icon-limpeza-branco3{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco3-B{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco3-C{
     height: 40px;
     margin-top: 161px;
     margin-left: 330px;
@@ -264,6 +293,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-limpeza-branco4-B{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco4-C{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post4{
     display: none;
     background-color: #00cd8383;
@@ -331,6 +372,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-limpeza-branco5-B{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco5-C{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post5{
     display: none;
     background-color: #00cd8383;
@@ -390,10 +443,23 @@
   .post6 h1{
     margin-top: 276px;
     margin-left: 10px;
+    width: 295px;
     font-family: Fira Sans Bold;
     color: white;
   }
   #icon-limpeza-branco6{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco6-B{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco6-C{
     height: 40px;
     margin-top: 285px;
     margin-left: 330px;
@@ -470,6 +536,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-culinaria-branco7-B{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-culinaria-branco7-C{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post7{
     display: none;
     background-color: #cb215483;
@@ -520,6 +598,18 @@
     color: white;
   }
   #icon-limpeza-branco8{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco8-B{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-limpeza-branco8-C{
     height: 40px;
     margin-top: 285px;
     margin-left: 330px;
@@ -596,6 +686,19 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-limpeza-branco9-B{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  
+  #icon-limpeza-branco9-C{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post9{
     display: none;
     background-color: #027DE183;
@@ -656,6 +759,18 @@
     color: white;
   }
   #icon-bemestar-branco10{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-bemestar-branco10-B{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-bemestar-branco10-C{
     height: 40px;
     margin-top: 161px;
     margin-left: 330px;
@@ -728,6 +843,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-culinaria-branco11-B{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-culinaria-branco11-C{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post11{
     display: none;
     background-color: #cb215483;
@@ -778,6 +905,18 @@
     color: white;
   }
   #icon-bemestar-branco12{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-bemestar-branco12-B{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-bemestar-branco12-C{
     height: 40px;
     margin-top: 375px;
     margin-left: 330px;
@@ -1091,6 +1230,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-culinaria-branco13-B{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-culinaria-branco13-C{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post13{
     display: none;
     background-color: #cb215483;
@@ -1164,6 +1315,18 @@
     margin-left: 330px;
     position: absolute;
   }
+  #icon-bemestar-branco14-B{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-bemestar-branco14-C{
+    height: 40px;
+    margin-top: 375px;
+    margin-left: 330px;
+    position: absolute;
+  }
   .hover-post14{
     display: none;
     background-color: #00cd8383;
@@ -1180,7 +1343,7 @@
     font-family: Fira Sans;
     font-size: 20px;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 160px;
     margin-right: 0;
     width: 305px;
   }
@@ -1315,6 +1478,23 @@
     margin-top: 161px;
     margin-left: 330px;
     position: absolute;
+  }
+  #icon-culinaria-branco15-B{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-culinaria-branco15-C{
+    height: 40px;
+    margin-top: 161px;
+    margin-left: 330px;
+    position: absolute;
+  }
+  #icon-culinaria-branco-B{
+    height: 40px;
+    margin-top: 285px;
+    margin-left: 330px;
   }
   .hover-post15{
     display: none;
