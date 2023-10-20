@@ -725,7 +725,27 @@
     color: #ffffff;
   }
 
-  #subcategorias{
+  .subca{
     transform: translate( 1300px, 50px);
+    width: 217px;
+    height: 38px;
+    border: none;
+    font-style: #cb1154;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .subca::-webkit-input-placeholder{
+    color:#cb1154;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .dropDown{
+    width: 227px;
+    height: 247px;
+    background-color: #8c8c8c;
+    padding: 20px 30px;
+    gap: 10px;
+  
   }
 }
