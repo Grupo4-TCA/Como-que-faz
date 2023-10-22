@@ -196,14 +196,13 @@
     position: relative;
     display: inline-grid;
     flex-direction: column;
-    margin-left: 2vw;
+    margin-left: 6vw;
   }
 
   #segunda-fileira-posts {
     position: absolute;
     display: inline-grid;
     flex-direction: column;
-    margin-left: -3vw;
   }
 
   #base-post {
@@ -228,6 +227,10 @@
   }
 
   #post {
+    position: relative;
+  }
+
+  #post-pergunta {
     position: relative;
   }
 
