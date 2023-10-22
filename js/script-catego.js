@@ -15,7 +15,7 @@ limpar = () => {
 
 //longpress-------------------------------------------------------------------------------------//
 //post
-var div = document.getElementById('post');
+var div = document.getElementById('post-dispensa');
     var longPressDiv = document.getElementById('longpress');
     var nomedopost = document.getElementById('descri-post');
     var longpress;
@@ -24,6 +24,15 @@ var div = document.getElementById('post');
     div.addEventListener('mouseup', clearLongPress);
     div.addEventListener('touchstart', startLongPress);
     div.addEventListener('touchend', clearLongPress);
+
+    div.addEventListener('selectstart', function(e) {
+        e.preventDefault();
+    });
+
+    // Impede o menu de contexto ao clicar com o botão direito do mouse
+    div.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
 
     function startLongPress() {
         longpress = setTimeout(function() {

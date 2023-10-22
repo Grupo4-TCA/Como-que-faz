@@ -32,42 +32,41 @@
   .logos {
     display: flex;
     justify-content: space-around;
-    height: 70px;
+    height: 18.66vw;
   }
 
   .logo {
-    margin-top: 5px;
-    margin-right: 50px;
-    margin-left: 50px;
-
+    margin-top: 5.86vw;
+    margin-right: 13.33vw;
+    margin-left: 13.33vw;
   }
 
   .logo img {
-    max-width: 50px;
-    margin-top: 5px;
+    max-width: 13.33vw;
+    margin-top: -3vw;
     align-self: center;
   }
 
   .search {
-    margin-top: 22px;
-    margin-right: 13px;
+    margin-top: 6vw;
+    margin-right: 3.46vw;
   }
 
   .search img {
-    max-width: 26px;
+    max-width: 6.93vw;
   }
 
   .login {
-    margin-top: 9px;
-    margin-left: 18px;
-    margin-right: -7px;
+    margin-top: 2.4vw;
+    margin-left: 4.8vw;
+    margin-right: -1.86vw;
     position: relative;
     display: inline-block;
   }
 
   .login img {
-    max-width: 34px;
-    margin-top: 10px;
+    max-width: 9.06vw;
+    margin-top: 2.66vw;
   }
 
   .topcs {
@@ -75,18 +74,19 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    height: 38px;
+    height: 10.13vw;
+    width: 100vw;
   }
 
   a {
     text-decoration: none;
     color: white;
-    margin-top: 9px;
-    font-size: 14px;
+    margin-top: 2.4vw;
+    font-size: 3.73vw;
   }
 
   .culinaria {
-    margin-left: 13.14px;
+    margin-left: 3.504vw;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     margin-top: 12px;
@@ -179,14 +179,6 @@
 
   }
 
-  .clicado {
-    background-color: #027de1;
-    box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-  }
-
   /*basepost*/
   #pinterest-style {
     margin-top: 5vw;
@@ -216,10 +208,10 @@
     width: 4.8vw;
     height: 4.8vw;
     display: inline-block;
+    margin-left: 1vw;
   }
 
   #descri-icon {
-    margin-right: 2.4vw;
     font-family: Fira Sans Bold;
     font-weight: 700;
     font-size: 15px;
@@ -228,9 +220,12 @@
     display: inline-block;
   }
 
-  #post {
+  #post{
     position: relative;
-    cursor: pointer;
+  }
+
+  #post-dispensa {
+    position: relative;
     user-select: none; /* Evita a seleção de texto dentro da div */
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -238,28 +233,51 @@
   }
 
   #longpress {
+    background-color: #027de187;
     width: 46.93vw;
     height: 46.93vw;
     border-radius: 5px;
     box-sizing: border-box;
     position: absolute;
-    font-family: Fira Sans Bold;
-    font-weight: 700;
-    font-size: 16px;
-    color: #ffffff;
     display: none;
-    pointer-events: none;
     user-select: none; /* Evita a seleção de texto dentro da div */
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
   }
 
-  #background-do-long{
-    width: 175px;
-    height: 175px;
-    background-color: #027de1;
-    opacity: 0.5;
+  #plongpress{
+    width: 30.4vw;
+    margin-top: 3.2vw;
+    margin-left: 3.2vw;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #ffffff;
+  }
+
+  #inline-block-longpress{
+    display: flex;
+  }
+
+  #icon-salvar-vazado{
+    width: 6vw;
+    height: 6.66vw;
+  }
+
+  #icon-limpeza-longpress{
+    width: 9.86vw;
+    height: 9.86vw;
+  }
+
+  #texto-longpress{
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    left: 2.13vw;
+    top: 34.13vw;
+    width: 40vw;
   }
 
   #post-pergunta {
@@ -303,8 +321,7 @@
 
   #post-baixo {
     height: 7vw;
-    width: 46.93vw;
-    padding: 1vw 2.66vw 2.66vw 1.5vw;
+    padding: 2vw 2vw 2.66vw;
     justify-content: space-around;
   }
   /*FINAL 1 POST DISPENSA - FILEIRA 1*/
@@ -340,10 +357,8 @@
   }
 
   #post-baixo-h {
-    margin-left: 1vw;
     height: 7vw;
-    width: 46.93vw;
-    padding: 2vw 2.66vw 2.66vw 1.5vw;
+    padding: 2vw 2vw 2.66vw;
     justify-content: space-around;
   }
 
@@ -375,8 +390,7 @@
 
   #post-baixo-a {
     height: 7vw;
-    width: 46.93vw;
-    padding: 1vw 2.66vw 2.66vw 1.5vw;
+    padding: 1vw 2vw 2.66vw;
     justify-content: space-around;
   }
 
@@ -411,22 +425,19 @@
   /*DESCRIÇÃO POSTS - FILEIRA 2 (A FORMATAÇÃO DO RESTO É A MESMA)*/
   #post-baixo-c {
     height: 7vw;
-    width: 46.93vw;
-    padding: 1vw 2.66vw 2.66vw 1.5vw;
+    padding: 1vw 2vw 2.66vw;
     justify-content: space-around;
   }
 
   #post-baixo-e {
     height: 7vw;
-    width: 46.93vw;
-    padding: 1vw 2.66vw 2.66vw 1.5vw;
+    padding: 1vw 2vw 2.66vw;
     justify-content: space-around;
   }
 
   #post-baixo-f {
     height: 7vw;
-    width: 46.93vw;
-    padding: 1vw 2.66vw 2.66vw 1.5vw;
+    padding: 0vw 1vw 2vw 2.66vw;
     justify-content: space-around;
   }
   /*FIM DESCRIÇÃO POSTS - FILEIRA 2*/
