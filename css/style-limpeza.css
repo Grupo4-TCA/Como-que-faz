@@ -239,7 +239,6 @@
   }
 
   #longpress {
-    display: inline-grid;
     background-color: #027de187;
     width: 46.93vw;
     height: 45.86vw;
@@ -254,22 +253,31 @@
   }
 
   #plongpress{
-    width: 30.4vw;
+    width: 35vw;
+    height: 24vw;
     margin-top: 3.2vw;
-    margin-left: 3.2vw;
+    margin-left: 3.5vw;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     font-size: 15px;
     color: #ffffff;
   }
 
-  #inline-block-longpress{
-    display: inline-block;
+  #long-cima{
+    display: flex;
   }
 
   #icon-salvar-vazado{
-    width: 6vw;
+    width: 6.6vw;
     height: 6.66vw;
+    margin-top: 3.73vw;
+    margin-left: -1vw;
+  }
+
+  #long-baixo{
+    display: flex;
+    margin-top: 33vw;
+    margin-left: -42vw;
   }
 
   #icon-limpeza-longpress{
@@ -282,7 +290,6 @@
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
-    width: 40vw;
   }
 
   #post-pergunta {
