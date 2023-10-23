@@ -7,11 +7,8 @@
    <link rel="stylesheet" href="./css/style-480.css">
     <link rel="stylesheet" href="./css/style-header-logado.css">
     <link rel="stylesheet" href="./css/style-footer.css">
-    <script src="./js/script-menu-lateral.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/script-botao-criar.js"></script>
-   <script src="js/script-Login.js"></script>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
@@ -159,10 +156,6 @@
                      </div>
                      <a href="#"><input type="submit" value="Login" class="login-submit"></a>
                   </form>
-                  <!-- TAB LINKS -->
-                  <div class="tab">
-                     <button class="tablinks-login" onclick="openCity(event, 'Cadastro')">Criar Conta</button>
-                  </div>
                </div>
             </div>
          </div>
@@ -174,18 +167,14 @@
                   <div class="caixa-mob2">
                      <input type="text" placeholder="NOME DE USUÁRIO" required>
                      <input type="text" placeholder="EMAIL" required>
-                     <input type="password" placeholder="SENHA" required>
+                     <input class="input-criarsenha" type="password" placeholder="SENHA" required>
                   </div>
-                  <div class="lembrar-termos-mo b">
+                  <div class="lembrar-termos-mob">
                      <label><input type="checkbox"> Lembrar Senha</label>
                      <p><label><input type="checkbox"> Li e concordo com os termos*</label></p>
                   </div>
                   <a href="#"><input type="submit" value="Cadastre-se" class="cadastro-submit-mob"></a>
                </form>
-               <!-- TAB LINKS -->
-               <div class="tab">
-                  <button class="tablinks-cadastro" onclick="openCity(event, 'Login')">Voltar para o Login</button>
-               </div>
             </div>
          </div>
       </div>
