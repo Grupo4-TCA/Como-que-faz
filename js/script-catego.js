@@ -14,46 +14,44 @@ limpar = () => {
 }
 
 //longpress-------------------------------------------------------------------------------------//
-document.addEventListener('DOMContentLoaded', () => {
-    addClickTouch();
-});
+//post
+var div = document.getElementById('post-dispensa');
+    var longPressDiv = document.getElementById('longpress');
+    var nomedopost = document.getElementById('descri-post');
+    var longpress;
 
-let timmy = null;
-let timmyLong = null;
-const delay = 800;
+    div.addEventListener('mousedown', startLongPress);
+    div.addEventListener('mouseup', clearLongPress);
+    div.addEventListener('touchstart', startLongPress);
+    div.addEventListener('touchend', clearLongPress);
 
-function addClickTouch(){
-    clearTimeout(timmy);
+    div.addEventListener('selectstart', function(e) {
+        e.preventDefault();
+    });
 
-    if('ontouchstar' in document.body) {
-        document.querySelectorAll('[data-long]').forEach((div) => {
-            div.addEventListener('touchstart', start, {
-                once:true,
-            });
-        });
+    // Impede o menu de contexto ao clicar com o botão direito do mouse
+    div.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    function startLongPress() {
+        longpress = setTimeout(function() {
+            longPressDiv.style.display = "flex";
+            nomedopost.style.display = "none";
+        }, 1000);
     }
-}
 
-function start(ev) {
-    ev.preventDefault();
+    function clearLongPress() {
+        clearTimeout(longpress);
+        longPressDiv.style.display = "none";
+        nomedopost.style.display = "block";
+    }
 
-    let ev = ev.target.closest('[data-long]');
-    div.id = 'longpress';
+    longPressDiv.style.display = "none";
 
-    timmy = setTimeout(longPress.bind(div), delay);
+//post-a
+//FIM longpress-------------------------------------------------------------------------------------//
 
-    div.addEventListener('mouseup', addClickTouch);
-    div.addEventListener('touchcancel', addClickTouch);
-}
-
-function longPress() {
-    let div = this;
-    div.removeEventListener('mouseup', addClickTouch);
-    div.removeEventListener('touchcancel', addClickTouch);
-
-    timmyLong = setTimeout(resetButtons.bing(div), 1000);
-
-}
 //filtro subcategorias--------------------------------------------------------------//
 function category(c){
     var item = document.getElementById('item-'+c).innerHTML;
