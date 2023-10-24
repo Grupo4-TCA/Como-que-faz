@@ -7,6 +7,16 @@ function AbrirOpcoes() {
   }
 }
 
+function AbrirOpcoesDesktop() {
+  var x = document.getElementById("hide-opcoes-Desktop");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
 function visibility1() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
@@ -100,3 +110,140 @@ function switchImage(source){
   e.className = "azul";
   }
   }
+
+  
+function visibility1D() {
+  var x = document.getElementById("myDIVD");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden1D() {
+  var x = document.getElementById("myDIVD");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+
+function visibility2D() {
+  var x = document.getElementById("myDIV2D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden2D() {
+  var x = document.getElementById("myDIV2D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility3D() {
+  var x = document.getElementById("myDIV3D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden3D() {
+  var x = document.getElementById("myDIV3D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility4D() {
+  var x = document.getElementById("myDIV4D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden4D() {
+  var x = document.getElementById("myDIV4D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility5D() {
+  var x = document.getElementById("myDIV5D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden5D() {
+  var x = document.getElementById("myDIV5D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility6D() {
+  var x = document.getElementById("myDIV6D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden6D() {
+  var x = document.getElementById("myDIV6D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility7D() {
+  var x = document.getElementById("myDIV7D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden7D() {
+  var x = document.getElementById("myDIV7D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility8D() {
+  var x = document.getElementById("myDIV8D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden8D() {
+  var x = document.getElementById("myDIV8D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
+
+function visibility9D() {
+  var x = document.getElementById("myDIV9D");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function Hidden9D() {
+  var x = document.getElementById("myDIV9D");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+}
