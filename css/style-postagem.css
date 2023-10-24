@@ -1357,8 +1357,9 @@
       .estrelas-taylor{
         content: '\f005';
         font-family: fontAwesome;
-        margin-left: 5%;
-        width: 100px;
+        margin-left: 1%;
+        font-size: 25px;
+        width: 150px;
         color: #9e5fef;
       }
       .comentario{
@@ -1366,20 +1367,29 @@
         margin: -7% 0% 5% 16%;
         display: flex;
         width: 950px;
-        justify-content: space-between !important;
       }
       .comentario h1{
         font-family: Fira Sans Bold;
-        font-size: 23px;
-        margin-right: 10%;
-        margin-left: -1%;
+        font-size: 18px;
+        margin-left: 8%;
         text-align: left;
         color: #9e5fef;
+        margin-top: 1.2%;
+      }
+      .nome-usuario-comt{
+        font-family: Fira Sans;
+        font-size: 17px;
+        width: 230px;
+        margin-left: 1%;
+        margin-top: 1.2%;
+      }
+      .nomes-comentario{
+        display: flex;
       }
       .tres-pontinhos-comentario{
         width: 6px;
-        height: 26  px;
-        margin-right: 10%;
+        height: 26px;
+        margin-left: 22%;
       }
       .texto-comentario-taylor{
         color: #333333;
@@ -1391,21 +1401,51 @@
       }
       .texto-coment-taylor{
         text-align: left;
-        margin-left: 24%;
-        margin-top: -9%;
+        margin-left: 21%;
+        margin-top: -5%;
         margin-right: 10%;
-        font-family: Fira Sans;
-        font-size: 15px;
+        font-family: Fira Sans Bold;
+        font-size: 17px;
       }
       .responder-coment{
-        margin-top: 1%;
         font-size: 16px;
         font-family: Fira Sans Bold;
         color: #4d16bb;
-        margin-left: 35%;
+        margin-left: 8%;
       }
       .mostrar-mais{
         height: 50px;
+      }
+      .coracao-vazado{
+        height: 18px;
+      }
+      .coracao-preenchido{
+        height: 22px;   
+        margin-left: 0.2;
+        margin-top: -1.35%;
+        position: absolute;
+        animation: heartBeat 0.5s ease-in-out;
+      }
+      
+    @keyframes heartBeat {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .coracao-curtir{
+        cursor: pointer;
+      }
+      .curtir-responder{
+        display: flex;
+        width: 150px;
+        margin-left: 21%;
+        margin-top: 1%;
       }
       .mostrar-mais h1{
         background-color: #f2f2f2;

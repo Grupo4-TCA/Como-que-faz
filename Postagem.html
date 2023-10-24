@@ -638,13 +638,28 @@
         
         <div class="comentario">
             <img class="foto-de-perfil-taylorfan" src="./imagens/icon-garota-taylorfan.png" alt="foto-de-perfil-taylorfan">
-            <h1>TaylorFan</h1>
+            <div class="nomes-comentario">
+                <h1>TaylorFan</h1><p class="nome-usuario-comt">| Maria Fernanda da Silva</p>
+            </div>
             <p class="estrelas-taylor">    </p>
-            <img class="tres-pontinhos-comentario" src="./imagens/tres-pontinhos-roxoescuro.png" alt="tres-pontinhos-roxoescuro"> <br>
+            
+        <div id="opcoes" class="opcoes" onclick="AbrirOpcoes()">
+            <div class="ponto"></div>
+            <div class="ponto"></div>
+            <div class="ponto"></div>
+        </div>
+        <div id="hide-opcoes" style="display: none; position: absolute;">
+            </div>
         </div>
             <p class="texto-coment-taylor">to me babando todo 🤤
             Ate babei</p>
-            <h3 class="responder-coment">| Responder</h3>
+            <div class="curtir-responder">
+                <div class="coracao-curtir" onclick="toggleLike(this)">
+                    <img class="coracao-vazado" src="./imagens/coracaovazio.svg" alt="coracação-vazado">
+                    <img id="coracao-preenchido" class="coracao-preenchido" src="./imagens/coracao-rosa.png" alt="coracação-preenchido" style="display: none;">
+                </div>
+                <h3 class="responder-coment">| Responder</h3>
+            </div>
             <div class="mostrar-mais">
                 <h1>MOSTRAR MAIS</h1>
             </div>
