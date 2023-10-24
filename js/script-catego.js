@@ -55,7 +55,7 @@ function configureLongPress(divId, longPressDivId, descriptionId) {
 }
 configureLongPress('post-dispensa-fileira1', 'longpress-post-dispensa-fileira1', 'descri-post');
 
-//post-a
+//post bolinho de chuva
 function configureLongPress(divId, longPressDivId, descriptionId) {
     var div = document.getElementById(divId);
     var longPressDiv = document.getElementById(longPressDivId);
