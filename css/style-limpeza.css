@@ -297,7 +297,7 @@
     font-size: 16px;
     color: #ffffff;
     left: 2.13vw;
-    top: 34.13vw;
+    top: 34vw;
     width: 40vw;
   }
 
@@ -397,7 +397,7 @@
     font-size: 16px;
     color: #ffffff;
     left: 2.13vw;
-    top: 70.13vw;
+    top: 70.30vw;
     width: 40vw;
   }
 
@@ -454,14 +454,15 @@
     width: 46.93vw;
     height: 63.2vw;
   }
-  #descri-post-b {
+
+  #descri-post-cachos-fileira1 {
     position: absolute;
     font-family: Fira Sans Bold;
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
     left: 2.13vw;
-    top: 50.13vw;
+    top: 50.30vw;
     width: 40vw;
   }
 
@@ -477,6 +478,34 @@
     position: absolute;
   }
 
+  #post-cachos-fileira1 {
+    position: relative;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-cachos-fileira1 {
+    width: 46.93vw;
+    height: 63.2vw;
+    background-color: #00cd82a4;
+    margin-top: 186.5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  #cachos-long-baixo{
+    display: flex;
+    margin-top: 50vw;
+    margin-left: -42vw;
+  }
   /*FIM 4 POST CACHOS - FILEIRA 1*/
 
   /*DESCRIÇÃO POSTS - FILEIRA 2 (A FORMATAÇÃO DO RESTO É A MESMA)*/
@@ -498,6 +527,79 @@
     justify-content: space-around;
   }
   /*FIM DESCRIÇÃO POSTS - FILEIRA 2*/
+
+  /* 1 POST CACHOS - FILEIRA 2 */
+  #descri-post-cachos-fileira2 {
+    position: absolute;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    left: 2.13vw;
+    top: 50.30vw;
+    width: 40vw;
+  }
+
+  #post-cachos-fileira2 {
+    position: relative;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-cachos-fileira2 {
+    width: 46.93vw;
+    height: 63.2vw;
+    background-color: #00cd82a4;
+    margin-top: 186.5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  #cachos2-long-baixo{
+    display: flex;
+    margin-top: 50vw;
+    margin-left: -42vw;
+  }
+  /* 1 POST CACHOS - FILEIRA 2 */
+
+  /* 2 POST BOLO DE CENOURA - FILEIRA 2 */
+  #post-bolo-de-cenoura-fileira2 {
+    position: relative;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-bolo-de-cenoura-fileira2 {
+    width: 46.93vw;
+    height: 63.2vw;
+    background-color: #00cd82a4;
+    margin-top: 186.5vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  #bolo-de-cenoura-long-baixo{
+    display: flex;
+    margin-top: 50vw;
+    margin-left: -42vw;
+  }
+  /* FINAL 2 POST BOLO DE CENOURA - FILEIRA 2 */
 
   /*fim basepost*/
   .text-email {
