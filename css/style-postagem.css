@@ -637,3 +637,195 @@
       content:url( https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u18.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
       }
 }
+
+@media only screen and (min-width: 480px){
+    .mapa-do-site{
+        display: flex;
+        margin-left: 16%;
+        margin-top: 2%;
+    }
+    .mapa-do-site p{
+        font-family: Fira Sans;
+    }
+    .mapa-1{
+        text-decoration: underline;
+        margin-right: 7px;
+    }
+    .mapa-2{
+        text-decoration: underline;
+        font-weight: Bold;
+        color: #9e5fef;
+        margin-left: 7px;
+    }
+    .seta-1{
+        margin-right: 7px;
+    }
+    
+    .imagemprincipal{
+        width: 45%;
+        border-radius: 5px;
+      }
+      .Carrossel{
+        margin-top: 1.5%; 
+        display: block;
+        overflow: hidden;
+        margin-right: 10%;
+        margin-left: 16%;
+        position: relative;
+      }
+      .previa{
+        display: flex;
+        margin-top: 1%;
+      }
+      .previa .imagem{
+        width: 140px;
+        border-radius: 5px;
+        transition: 0.2s;
+        margin-right: 2%;
+        align-items: center;
+        overflow: hidden;
+        opacity: 0.9;
+      }
+      .previa .imagem:hover{
+        filter: brightness(70%);
+        opacity: 1;
+      }
+      .imagem img{
+        width: 100%;
+        border-radius: 5px;
+      }
+      .titulo-categoria{
+        line-height: normal;
+        width: 12%;
+        height: 5%;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px;
+        background-color: #cb1154;
+        box-sizing: border-box;
+        margin-left: 53%;
+        display: flex;
+        margin-top: -30%;
+        position: absolute;
+    }
+    .icon-culinaria{
+        width: 20%;
+        margin-left: 2%;
+    }
+    .titulo-culinaria{
+        margin-left: 11%;
+        font-size: 100%;
+        color: white;
+        font-family: Heavitas;
+        font-weight: 400;
+        margin-top: 5%;
+    }
+    .titulos-post{
+        position: absolute;
+        margin-left: 53%;
+        margin-top: -26%;
+    }
+    .titulo-user {
+        font-size: 16px;
+        font-family: Fira Sans;
+        display: inline;
+        color: #333333;
+    }
+    .titulo-principal{
+        font-size: 28px;
+        font-family: Heavitas;
+        color: #333333;
+        font-weight: 400;
+        margin-top: 3%;
+    }
+    .opcoes{
+        position: absolute;
+        margin-top: -29%;
+        margin-left: 83.2%;
+        cursor: pointer;
+    }
+    .ponto{
+        background: #cb2154;
+        width: 8px;
+        height: 8px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #hide-opcoes{
+        z-index:1000;
+        margin-top: -29%;
+        margin-left: 72.2%;
+        display: inline;
+        max-width: 250px;
+        height: 50px;
+        position: absolute;
+        padding: 1% 1% 1% 1%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.565);
+    }
+    #hide-opcoes img{
+        width: 20px;
+        height: 20px;
+    }
+    #hide-opcoes p{
+        font-family: Fira Sans Bold;
+        margin-left: 15px;
+    }
+    .denunciar{
+        width: 150px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .compartilhar{
+        width: 180px;
+        display: flex;
+    }
+    .descricao{
+        position: absolute;
+        font-family: Fira Sans;
+        text-align: justify;
+        color: #333333;
+        width: 580px;
+        margin-top: -21.5%;
+        margin-left: 53%;
+        font-size: 17px;
+        line-height: 100%;
+    }
+    
+    .info-post{
+        margin-top: -17.5%;
+        margin-left: 53%;
+        margin-right: 20%;
+        justify-content: space-between;
+        display: flex;
+    }
+    .tempo{
+        display: inline;
+    }
+    .tempo-post{
+        height: 30px;
+        margin-right: 10px;
+    }
+    .avaliacao{
+        display: inline;
+    }
+    .avalia-post{
+        height: 30px;
+        margin-right: 10px;
+    }
+    .porcoe{
+        display: inline;
+        align-content: right;
+    }
+    .porcao-post{
+        height: 30px;
+        margin-right: 10px;
+    }
+    .texto-info{
+        display: inline;
+        font-size: 30px;
+        font-family: Fira Sans;
+        color: #333333;
+    }
+}
