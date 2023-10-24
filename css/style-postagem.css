@@ -797,14 +797,14 @@
     }
     .opcoes{
         position: absolute;
-        margin-top: -29%;
-        margin-left: 83.2%;
+        margin-top: -0.5%;
+        margin-left: 74%;
         cursor: pointer;
     }
     .ponto{
-        background: #cb2154;
-        width: 8px;
-        height: 8px;
+        background: #4d16bb;
+        width: 5px;
+        height: 5px;
         margin-bottom: 3px;
         border-radius: 3px;
         margin-left: 20px;
@@ -1413,9 +1413,6 @@
         color: #4d16bb;
         margin-left: 8%;
       }
-      .mostrar-mais{
-        height: 50px;
-      }
       .coracao-vazado{
         height: 18px;
       }
@@ -1447,19 +1444,21 @@
         margin-left: 21%;
         margin-top: 1%;
       }
+      .mostrar-mais{
+        height: 50px;
+      }
       .mostrar-mais h1{
         background-color: #f2f2f2;
         color: #4d16bb;
         border: #4d16bb solid 1px;
-        border-radius: 5px;
-        padding: 2% 3% 2% 3%;
-        height: 15px;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 7%;
-        width: 73%;
+        border-radius: 5px;    
+        padding: 0.5% 1% 1% 1%;
+        height: 10px;
+        margin-left: 16%;
+        margin-top: 3%;
+        width: 10%;
         font-size: 13px;
         font-weight: 400;
         text-align: center;
       }
-}
+    }
