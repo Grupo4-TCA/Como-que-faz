@@ -231,7 +231,7 @@
   }
 
   #plongpress{
-    width: 35vw;
+    width: 32vw;
     height: 24vw;
     margin-top: 3.2vw;
     margin-left: 3.5vw;
@@ -253,14 +253,9 @@
     width: 6.6vw;
     height: 6.66vw;
     margin-top: 3.73vw;
-    margin-left: -1vw;
+    margin-left: 2.5vw;
   }
 
-  #long-baixo{
-    display: flex;
-    margin-top: 33vw;
-    margin-left: -42vw;
-  }
 
   #icon-limpeza-longpress{
     width: 9.86vw;
@@ -278,15 +273,15 @@
     position: relative;
   }
 
-  #post-a {
+  #post-bolin-de-chuva {
     position: relative;
   }
 
-  #post-b {
+  #post-cachos {
     position: relative;
   }
 
-  /* FIM parte de baixo do post*/
+  /*FIM parte de baixo do post*/
 
 
   /*1 POST DISPENSA - FILEIRA 1*/
@@ -345,6 +340,12 @@
     -webkit-user-select: none;
     -ms-user-select: none;
   }
+
+  #long-baixo{
+    display: flex;
+    margin-top: 33vw;
+    margin-left: -42vw;
+  }
   /*FINAL 1 POST DISPENSA - FILEIRA 1*/
 
   /*2 PERGUNTA LAVAR ROUPA - FILEIRA 1*/
@@ -382,7 +383,6 @@
     padding: 2vw 2vw 2.66vw;
     justify-content: space-around;
   }
-
   /*FINAL 2 PERGUNTA LAVAR ROUPA - FILEIRA 1*/
 
   /*3 POST BOLINHO DE CHUVA - FILEIRA 1*/
@@ -440,6 +440,12 @@
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+  }
+  
+  #bolin-long-baixo{
+    display: flex;
+    margin-top: 69vw;
+    margin-left: -41vw;
   }
   /*FIM 3 POST BOLINHO DE CHUVA - FILEIRA 1*/
 
