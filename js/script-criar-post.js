@@ -90,6 +90,7 @@ function category(categoryId) {
 
     // Atualize o valor do input com base no item selecionado
     inputElement.value = itemElement.innerText;
+    mostrarElementoCulinaria();
 }
 
 function dropdown(action) {
@@ -293,7 +294,7 @@ function atualizarNumeracao() {
 }
 
 
-//function mostrarElementoCulinaria() {
+function mostrarElementoCulinaria() {
     var input = document.getElementById("dialogoselect");
     var elemento = document.getElementById("tempo-detalhes-porcoes");
 
@@ -303,4 +304,4 @@ function atualizarNumeracao() {
     } else {
         elemento.style.display = "none"; // Esconde o elemento se nenhuma opção estiver selecionada
     }
-//}
+}

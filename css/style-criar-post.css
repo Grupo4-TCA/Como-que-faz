@@ -30,6 +30,14 @@
     max-height: 100vh;
   }
 
+  footer{
+    margin-top: 180vw;
+  }
+
+  .titulo-veja-mais{
+    display: none;
+  }
+
   #menu-post {
     width: 100vw;
     height: 18.7vw;
@@ -148,15 +156,16 @@
   #conteudoTarefa1 {
     left: 0;
     transform: translateX(0%);
-    position: fixed;
+    position: absolute;
     margin-top: 10vw;
+    height: 100vw;
   }
 
   #conteudoTarefa2 {
     left: 0;
     margin-top: 10vw;
     transform: translateX(100%);
-    position: absolute;
+    height: 100vw;
   }
 
   #conteudoTarefa3 {
@@ -164,6 +173,7 @@
     margin-top: 10vw;
     transform: translateX(100%);
     position: absolute;
+    height: 100vw;
   }
 
   #detalhes {
@@ -488,6 +498,7 @@
     font-weight: 700;
     color: #333333;
     text-align: left;
+    display: none;
   }
 
   #horas-tempo-detalhes {
