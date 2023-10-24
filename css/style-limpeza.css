@@ -163,10 +163,10 @@
 
   .filtrocu {
     display: flex;
-    gap: 10px;
+    gap: 2.66vw;
     overflow: scroll;
     height: 100%;
-    margin-left: 7%;
+    margin-left: 2.66vw;
     margin-top: -50px;
     padding: 2px 2px 2px 2px;
     border-radius: 5px;
@@ -176,7 +176,13 @@
     text-align: center;
     line-height: normal;
     border: none;
-
+  }
+  .clicado{
+    background-color: #027de1;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
   }
 
   /*basepost*/
@@ -235,7 +241,7 @@
   #longpress {
     background-color: #027de187;
     width: 46.93vw;
-    height: 46.93vw;
+    height: 45.86vw;
     border-radius: 5px;
     box-sizing: border-box;
     position: absolute;
@@ -247,22 +253,31 @@
   }
 
   #plongpress{
-    width: 30.4vw;
+    width: 35vw;
+    height: 24vw;
     margin-top: 3.2vw;
-    margin-left: 3.2vw;
+    margin-left: 3.5vw;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     font-size: 15px;
     color: #ffffff;
   }
 
-  #inline-block-longpress{
+  #long-cima{
     display: flex;
   }
 
   #icon-salvar-vazado{
-    width: 6vw;
+    width: 6.6vw;
     height: 6.66vw;
+    margin-top: 3.73vw;
+    margin-left: -1vw;
+  }
+
+  #long-baixo{
+    display: flex;
+    margin-top: 33vw;
+    margin-left: -42vw;
   }
 
   #icon-limpeza-longpress{
@@ -275,9 +290,6 @@
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
-    left: 2.13vw;
-    top: 34.13vw;
-    width: 40vw;
   }
 
   #post-pergunta {
@@ -296,24 +308,29 @@
 
 
   /*1 POST DISPENSA - FILEIRA 1*/
+  #dispensa{
+    width: 46.93vw;
+    height: 45.86vw;
+  }
+
   #descri-post {
     position: absolute;
     font-family: Fira Sans Bold;
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
-    left: 8px;
-    top: 128px;
-    width: 150px;
+    left: 2.13vw;
+    top: 34.13vw;
+    width: 40vw;
   }
 
   #sombra {
-    top: 88px;
-    width: 176px;
-    height: 85px;
+    top: 23.46vw;
+    width: 46.93vw;
+    height: 22.66vw;
     opacity: 0.4;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
+    padding: 0.53vw 0.53vw 0.53vw 0.53vw;
+    border-radius: 1.33vw;
     background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
     box-sizing: border-box;
     position: absolute;
@@ -321,7 +338,7 @@
 
   #post-baixo {
     height: 7vw;
-    padding: 2vw 2vw 2.66vw;
+    padding: 1vw 2vw 2vw 2.66vw;
     justify-content: space-around;
   }
   /*FINAL 1 POST DISPENSA - FILEIRA 1*/
@@ -334,17 +351,17 @@
     color: black;
     left: 3vw;
     top: 3vw;
-    width: 150px;
+    width: 40vw;
     position: absolute;
   }
 
   #fundoperg {
-    top: 88px;
-    width: 176px;
-    height: 85px;
+    top: 23.46vw;
+    width: 46.93vw;
+    height: 22.66vw;
     opacity: 0.4;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
+    padding: 0.53vw 0.53vw 0.53vw 0.53vw;
+    border-radius: 1.33vw;
     background-color: #8c8c8c;
     box-sizing: border-box;
     display: flex;
@@ -365,24 +382,28 @@
   /*FINAL 2 PERGUNTA LAVAR ROUPA - FILEIRA 1*/
 
   /*3 POST BOLINHO DE CHUVA - FILEIRA 1*/
+  #bolin{
+    width: 46.93vw;
+    height: 82.93vw;
+  }
   #descri-post-a {
     position: absolute;
     font-family: Fira Sans Bold;
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
-    left: 8px;
-    top: 263px;
-    width: 150px;
+    left: 2.13vw;
+    top: 70.13vw;
+    width: 40vw;
   }
 
   #sombra-a {
-    top: 227px;
-    width: 176px;
-    height: 85px;
+    top: 60.53vw;
+    width: 46.93vw;
+    height: 22.66vw;
     opacity: 0.4;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
+    padding: 0.53vw 0.53vw 0.53vw 0.53vw;
+    border-radius: 1.33vw;
     background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
     box-sizing: border-box;
     position: absolute;
@@ -397,24 +418,28 @@
   /*FIM 3 POST BOLINHO DE CHUVA - FILEIRA 1*/
 
   /*4 POST CACHOS - FILEIRA 1*/
+  #cachos{
+    width: 46.93vw;
+    height: 63.2vw;
+  }
   #descri-post-b {
     position: absolute;
     font-family: Fira Sans Bold;
     font-weight: 700;
     font-size: 16px;
     color: #ffffff;
-    left: 8px;
-    top: 188px;
-    width: 150px;
+    left: 2.13vw;
+    top: 50.13vw;
+    width: 40vw;
   }
 
   #sombra-b {
-    top: 151px;
-    width: 176px;
-    height: 85px;
+    top: 40.26vw;
+    width: 46.93vw;
+    height: 22.66vw;
     opacity: 0.4;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
+    padding: 0.53vw 0.53vw 0.53vw 0.53vw;
+    border-radius: 1.33vw;
     background-image: linear-gradient(-180deg, rgba(242, 242, 242, 0) 0%, #000000 95%);
     box-sizing: border-box;
     position: absolute;
@@ -821,7 +846,7 @@
 
   .filtrocu {
     display: flex;
-    gap: 10px;
+    gap: 2.66vw;
     overflow: auto;
     height: 100%;
     margin-left: 19%;
