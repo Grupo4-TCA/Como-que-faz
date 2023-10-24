@@ -748,4 +748,8 @@
     gap: 10px;
   
   }
+  .listDropDown{
+    width: 227px;
+    height: 247px;
+  }
 }
