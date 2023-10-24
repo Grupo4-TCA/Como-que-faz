@@ -1,3 +1,15 @@
+
+    function toggleLike(button) {
+      const heart = document.getElementById('coracao-preenchido');
+
+      if (heart.style.display === 'block') {
+        heart.style.display = 'none';
+      } else {
+        heart.style.display = 'block';
+      }
+    }
+
+
 function AbrirOpcoes() {
   var x = document.getElementById("hide-opcoes");
   if (x.style.display === "none") {
