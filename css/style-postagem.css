@@ -503,6 +503,7 @@
         width: 100%;
         height: 25px; 
         font-family: Fira Sans Bold;
+        outline: none;
     }
     .botao-comentar{
         background-color: #FFD662;
@@ -1301,15 +1302,25 @@
     .comentar img{
         width: 70px;
     }
+    .anuncio{
+        position: absolute;
+        width: 20%;
+        height: 300px;
+        background-color: #d7d7d7;
+        margin-left: 60%;
+        margin-top: -3%;
+    }
     .inserir-comentario{
         border-top: none;
         border-left: none;
         border-right: none;
         border-bottom: 2px solid #4D16BB;
-        margin-left: 5%;
-        width: 100%;
-        height: 25px; 
-        font-family: Fira Sans Bold;
+        margin-left: 1.5%;
+        width: 40%;
+        height: 50px; 
+        font-family: Fira Sans;
+        outline: none;
+        font-size: 20px;
     }
     .botao-comentar{
         background-color: #FFD662;
@@ -1319,20 +1330,20 @@
         border-right: none;
         border-bottom: none;
         border-radius: 5px;
-        padding: 2% 3% 2% 3%;
-        margin-left: 3%;
-        width: 35%;
+        padding: 0.5% 1% 1% 1%;
+        margin-left: 2.5%;
+        width: 10%;
     }
     .botoes-comentar{
         height: 35px;
-        margin-top: -30px;
+        margin-top: -85px;
         align-items: right;
         display: flex;
         margin-bottom: 10%;
     }
     .cancelar{
+        margin-top: 8px;
         font-size: 15px;
-        margin-top: 2%;
         margin-left: 39%;
         color: #333333;
         height: 20px;
@@ -1351,21 +1362,23 @@
         color: #9e5fef;
       }
       .comentario{
-        margin: 5% 0% 5% 10%;
+        position: absolute;
+        margin: -7% 0% 5% 16%;
         display: flex;
+        width: 950px;
         justify-content: space-between !important;
       }
       .comentario h1{
         font-family: Fira Sans Bold;
-        font-size: 17px;
+        font-size: 23px;
         margin-right: 10%;
         margin-left: -1%;
         text-align: left;
         color: #9e5fef;
       }
       .tres-pontinhos-comentario{
-        width: 3px;
-        height: 13px;
+        width: 6px;
+        height: 26  px;
         margin-right: 10%;
       }
       .texto-comentario-taylor{
@@ -1373,8 +1386,8 @@
         font-family: Fira Sans;
       }
       .foto-de-perfil-taylorfan{
-        width: 43px;
-        height: 43px;
+        width: 70px;
+        height: 70px;
       }
       .texto-coment-taylor{
         text-align: left;
