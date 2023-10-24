@@ -230,28 +230,6 @@
     position: relative;
   }
 
-  #post-dispensa {
-    position: relative;
-    user-select: none; /* Evita a seleção de texto dentro da div */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-
-  #longpress {
-    background-color: #027de187;
-    width: 46.93vw;
-    height: 45.86vw;
-    border-radius: 5px;
-    box-sizing: border-box;
-    position: absolute;
-    display: none;
-    user-select: none; /* Evita a seleção de texto dentro da div */
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-
   #plongpress{
     width: 35vw;
     height: 24vw;
@@ -261,6 +239,10 @@
     font-weight: 700;
     font-size: 15px;
     color: #ffffff;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
 
   #long-cima{
@@ -341,6 +323,28 @@
     padding: 1vw 2vw 2vw 2.66vw;
     justify-content: space-around;
   }
+
+  #post-dispensa-fileira1 {
+    position: relative;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-dispensa-fileira1 {
+    background-color: #027de187;
+    width: 46.93vw;
+    height: 45.86vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
   /*FINAL 1 POST DISPENSA - FILEIRA 1*/
 
   /*2 PERGUNTA LAVAR ROUPA - FILEIRA 1*/
@@ -415,6 +419,28 @@
     justify-content: space-around;
   }
 
+  #post-bolin-fileira1 {
+    position: relative;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-bolin-fileira1 {
+    margin-top: 92vw;
+    background-color: #cb1155a1;
+    width: 46.93vw;
+    height: 82.93vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none; 
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
   /*FIM 3 POST BOLINHO DE CHUVA - FILEIRA 1*/
 
   /*4 POST CACHOS - FILEIRA 1*/
