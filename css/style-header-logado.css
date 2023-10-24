@@ -44,7 +44,7 @@
     }
 
     .user-menu {
-    position: absolute;
+    position: fixed;
     top: -10px;
     margin-left: -60px;
     background-color: #fff;
