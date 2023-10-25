@@ -227,18 +227,9 @@ configureLongPress('post-cachos-fileira1', 'longpress-post-cachos-fileira1', 'de
 //FIM longpress-------------------------------------------------------------------------------------//
 
 //filtro subcategorias--------------------------------------------------------------//
-function category(c){
-    var item = document.getElementById('item-'+c).innerHTML;
-    document.getElementsByTagName('input')[0];
+function focado(){
+    document.getElementsByClassName('dropDown')[0].style.display="block";
 }
-function dropdown(p){
-    var e = document.getElementsByClassName('dropDown')[0];
-    var d = ['block','none'];
-    e.style.display = d(p);
-
-    var t = ['0px', '0px-10px'];
-
-    setTimeout(function(){
-        e.style.transform = 'translate('+t[p]+')';
-    },0);
+function desfoque(){
+    document.getElementsByClassName('dropDown')[0].style.display="none"
 }
