@@ -271,14 +271,14 @@
   }
 
   .pontilhado-mob {
-    width: 290%;
-    height: 360px;
+    width: 95vw;
+    height: 80vw;
     padding: 2px 2px 2px 2px;
     border-radius: 10px;
     border: 6px dashed #bababa;
     background-color: rgba(242, 242, 242, 0);
     box-sizing: border-box;
-    transform: translate(-125px, 20px);
+    transform: translate(-145px, 20px);
   }
 
   .gato-rasc {
@@ -290,13 +290,13 @@
   }
 
   .sem-rasc {
-    margin-top: -300px;
-    width: 500px;
+    margin-top: -340px;
+    width: 80vw;
     margin-left: -110px;
-    font-size: 18px;
+    font-size: 20px;
   }
   .Comece-mob{
-    margin-top: 200px;
+    margin-top: 220px;
     width: 200px;
     height: 50px;
     background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
@@ -308,7 +308,7 @@
     color: #ffffff;
     text-align: center;
     line-height: normal;
-    margin-left: -35px;
+    margin-left: -30px;
   }
 
   /*post*/
