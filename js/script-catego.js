@@ -310,18 +310,18 @@ configureLongPress('post-dispensa-fileira2', 'longpress-post-dispensa-fileira2',
 // FINAL longpress-------------------------------------------------------------------------------------//
 
 //filtro subcategorias--------------------------------------------------------------//
-function category(c) {
-    var item = document.getElementById('item-' + c).innerHTML;
+function category(c){
+    var item = document.getElementById('item-'+c).innerHTML;
     document.getElementsByTagName('input')[0];
 }
-function dropdown(p) {
+function dropdown(p){
     var e = document.getElementsByClassName('dropDown')[0];
-    var d = ['block', 'none'];
+    var d = ['block','none'];
     e.style.display = d(p);
 
     var t = ['0px', '0px-10px'];
 
-    setTimeout(function () {
-        e.style.transform = 'translate(' + t[p] + ')';
-    }, 0);
+    setTimeout(function(){
+        e.style.transform = 'translate('+t[p]+')';
+    },0);
 }

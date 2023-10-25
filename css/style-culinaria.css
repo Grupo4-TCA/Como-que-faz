@@ -743,13 +743,29 @@
   .dropDown{
     width: 227px;
     height: 247px;
-    background-color: #8c8c8c;
+    background-color: #f2f2f2;
     padding: 20px 30px;
     gap: 10px;
-  
+    overflow: auto;
+    transform: translate( 1300px, 50px);
+    display: none;
+  }
+ .dropDown::-webkit-scrollbar{
+    display: none;
   }
   .listDropDown{
     width: 227px;
     height: 247px;
+  }
+  .item{
+    width: 253px;
+    height: 28px;
+    padding: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .item:hover{
+    color: #cb1154;
   }
 }
