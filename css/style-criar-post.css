@@ -165,6 +165,7 @@
     left: 0;
     margin-top: 10vw;
     transform: translateX(100%);
+    position: absolute;
     height: 100vw;
   }
 
