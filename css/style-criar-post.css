@@ -21,21 +21,13 @@
     margin: 0;
   }
 
-  #conteudo-dispositivo.mobile {
+  .conteudo-dispositivo.mobile {
     display: block;
     width: 100vw;
   }
 
   #tudonessapaginamobile {
     max-height: 100vh;
-  }
-
-  footer{
-    margin-top: 180vw;
-  }
-
-  .titulo-veja-mais{
-    display: none;
   }
 
   #menu-post {
