@@ -12,6 +12,11 @@
     <script src="js/script-botao-criar.js"></script>
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
     <title>Como que Faz | Criar Pergunta</title>
+    <script>
+        function PaginaAnterior() {
+            window.history.back()
+        }
+    </script>
 </head>
 <header>
     <section class="header-dispositivo-mobile">
@@ -104,8 +109,8 @@
 </header>
 <body>
     <header class="botoes-cancelar-publicar">
-        <button class="cancelarpergunta">CANCELAR</button>
-        <button class="publicarpergunta">PUBLICAR</button>
+        <button class="cancelarpergunta" onclick="PaginaAnterior()">CANCELAR</button>
+        <button class="publicarpergunta" onclick="PaginaAnterior()">PUBLICAR</button>
     </header>
 
     <select class="filtropergunta">
