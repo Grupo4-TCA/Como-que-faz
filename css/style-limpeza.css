@@ -177,12 +177,20 @@
     line-height: normal;
     border: none;
   }
-  .clicado{
+
+  .clicado {
     background-color: #027de1;
     box-sizing: border-box;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     color: #ffffff;
+  }
+
+  #icon-salvar-vazado {
+    width: 6.6vw;
+    height: 6.66vw;
+    margin-top: 3.73vw;
+    margin-left: 2.5vw;
   }
 
   /*basepost*/
@@ -226,11 +234,11 @@
     display: inline-block;
   }
 
-  #post{
+  #post {
     position: relative;
   }
 
-  #plongpress{
+  #plongpress {
     width: 32vw;
     height: 24vw;
     margin-top: 3.2vw;
@@ -245,24 +253,23 @@
     -ms-user-select: none;
   }
 
-  #long-cima{
+  #long-cima {
     display: flex;
   }
 
-  #icon-salvar-vazado{
-    width: 6.6vw;
-    height: 6.66vw;
-    margin-top: 3.73vw;
-    margin-left: 2.5vw;
-  }
-
-
-  #icon-limpeza-longpress{
+  #icon-limpeza-longpress {
     width: 9.86vw;
     height: 9.86vw;
   }
 
-  #texto-longpress{
+  #icon-culinaria-longpress {
+    width: 7.86vw;
+    height: 7.86vw;
+    margin-top: 1vw;
+  }
+
+  #texto-longpress {
+    width: 90vw;
     font-family: Fira Sans Bold;
     font-weight: 700;
     font-size: 16px;
@@ -285,7 +292,7 @@
 
 
   /*1 POST DISPENSA - FILEIRA 1*/
-  #dispensa{
+  #dispensa {
     width: 46.93vw;
     height: 45.86vw;
   }
@@ -321,7 +328,7 @@
 
   #post-dispensa-fileira1 {
     position: relative;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -335,17 +342,18 @@
     box-sizing: border-box;
     position: absolute;
     display: none;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
   }
 
-  #long-baixo{
+  #long-baixo {
     display: flex;
     margin-top: 33vw;
     margin-left: -42vw;
   }
+
   /*FINAL 1 POST DISPENSA - FILEIRA 1*/
 
   /*2 PERGUNTA LAVAR ROUPA - FILEIRA 1*/
@@ -383,22 +391,13 @@
     padding: 2vw 2vw 2.66vw;
     justify-content: space-around;
   }
+
   /*FINAL 2 PERGUNTA LAVAR ROUPA - FILEIRA 1*/
 
   /*3 POST BOLINHO DE CHUVA - FILEIRA 1*/
-  #bolin{
+  #bolin {
     width: 46.93vw;
     height: 82.93vw;
-  }
-  #descri-post-a {
-    position: absolute;
-    font-family: Fira Sans Bold;
-    font-weight: 700;
-    font-size: 16px;
-    color: #ffffff;
-    left: 2.13vw;
-    top: 70.30vw;
-    width: 40vw;
   }
 
   #sombra-a {
@@ -419,9 +418,20 @@
     justify-content: space-around;
   }
 
+  #descri-post-a {
+    position: absolute;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    left: 2.13vw;
+    top: 70.30vw;
+    width: 40vw;
+  }
+
   #post-bolin-fileira1 {
     position: relative;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -436,21 +446,22 @@
     box-sizing: border-box;
     position: absolute;
     display: none;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
   }
-  
-  #bolin-long-baixo{
+
+  #bolin-long-baixo {
     display: flex;
     margin-top: 69vw;
     margin-left: -41vw;
   }
+
   /*FIM 3 POST BOLINHO DE CHUVA - FILEIRA 1*/
 
   /*4 POST CACHOS - FILEIRA 1*/
-  #cachos{
+  #cachos {
     width: 46.93vw;
     height: 63.2vw;
   }
@@ -480,7 +491,7 @@
 
   #post-cachos-fileira1 {
     position: relative;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -495,17 +506,18 @@
     box-sizing: border-box;
     position: absolute;
     display: none;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
   }
-  
-  #cachos-long-baixo{
+
+  #cachos-long-baixo {
     display: flex;
     margin-top: 50vw;
     margin-left: -42vw;
   }
+
   /*FIM 4 POST CACHOS - FILEIRA 1*/
 
   /*DESCRIÇÃO POSTS - FILEIRA 2 (A FORMATAÇÃO DO RESTO É A MESMA)*/
@@ -526,6 +538,7 @@
     padding: 0vw 1vw 2vw 2.66vw;
     justify-content: space-around;
   }
+
   /*FIM DESCRIÇÃO POSTS - FILEIRA 2*/
 
   /* 1 POST CACHOS - FILEIRA 2 */
@@ -542,7 +555,7 @@
 
   #post-cachos-fileira2 {
     position: relative;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -552,28 +565,39 @@
     width: 46.93vw;
     height: 63.2vw;
     background-color: #00cd82a4;
-    margin-top: 186.5vw;
     border-radius: 5px;
     box-sizing: border-box;
     position: absolute;
     display: none;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
   }
-  
-  #cachos2-long-baixo{
+
+  #cachos2-long-baixo {
     display: flex;
     margin-top: 50vw;
     margin-left: -42vw;
   }
+
   /* 1 POST CACHOS - FILEIRA 2 */
 
   /* 2 POST BOLO DE CENOURA - FILEIRA 2 */
+  #descri-post-bolo-de-cenoura {
+    position: absolute;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    left: 2.13vw;
+    top: 34vw;
+    width: 40vw;
+  }
+
   #post-bolo-de-cenoura-fileira2 {
     position: relative;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -581,25 +605,112 @@
 
   #longpress-post-bolo-de-cenoura-fileira2 {
     width: 46.93vw;
-    height: 63.2vw;
-    background-color: #00cd82a4;
-    margin-top: 186.5vw;
+    height: 45.86vw;
+    background-color: #cb1155a1;
+    margin-top: 73.5vw;
     border-radius: 5px;
     box-sizing: border-box;
     position: absolute;
     display: none;
-    user-select: none; 
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
   }
-  
-  #bolo-de-cenoura-long-baixo{
+
+  #bolo-de-cenoura-long-baixo {
     display: flex;
-    margin-top: 50vw;
+    margin-top: 34vw;
     margin-left: -42vw;
   }
+
   /* FINAL 2 POST BOLO DE CENOURA - FILEIRA 2 */
+
+  /* 3 POST BOLINHO DE CHUVA - FILEIRA 2 */
+  #descri-post-bolin-fileira2 {
+    position: absolute;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    left: 2.13vw;
+    top: 70.30vw;
+    width: 40vw;
+  }
+
+  #post-bolin-fileira2 {
+    position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-bolin-fileira2 {
+    margin-top: 166vw;
+    background-color: #cb1155a1;
+    width: 46.93vw;
+    height: 82.93vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #bolin2-long-baixo {
+    display: flex;
+    margin-top: 69vw;
+    margin-left: -41vw;
+  }
+
+  /* FINAL 3 POST BOLINHO DE CHUVA - FILEIRA 2 */
+
+  /* 3 POST DISPENSA - FILEIRA 2 */
+  #descri-post-dispensa-fileira2 {
+    position: absolute;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    left: 2.13vw;
+    top: 34vw;
+    width: 40vw;
+  }
+
+  #post-dispensa-fileira2 {
+    position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #longpress-post-dispensa-fileira2 {
+    margin-top: 260.5vw;
+    background-color: #027de187;
+    width: 46.93vw;
+    height: 45.86vw;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  #long-baixo-dispensa-fileira2 {
+    display: flex;
+    margin-top: 33vw;
+    margin-left: -42vw;
+  }
+
+  /* 3 POST DISPENSA - FILEIRA 2 */
 
   /*fim basepost*/
   .text-email {

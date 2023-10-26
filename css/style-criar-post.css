@@ -21,21 +21,13 @@
     margin: 0;
   }
 
-  #conteudo-dispositivo.mobile {
+  .conteudo-dispositivo.mobile {
     display: block;
     width: 100vw;
   }
 
   #tudonessapaginamobile {
     max-height: 100vh;
-  }
-
-  footer{
-    margin-top: 180vw;
-  }
-
-  .titulo-veja-mais{
-    display: none;
   }
 
   #menu-post {
@@ -68,8 +60,8 @@
     width: 13.335vw;
     height: 13.335vw;
     box-sizing: border-box;
-    margin-top: 2.4%;
-    margin-bottom: 2.4%;
+    margin-top: 2.4vw;
+    margin-bottom: -2.4vw;
   }
 
   .perfil-foto-menu-post {
@@ -155,9 +147,9 @@
 
   #conteudoTarefa1 {
     left: 0;
+    margin-top: 10vw;
     transform: translateX(0%);
     position: absolute;
-    margin-top: 10vw;
     height: 100vw;
   }
 
@@ -165,6 +157,7 @@
     left: 0;
     margin-top: 10vw;
     transform: translateX(100%);
+    position: absolute;
     height: 100vw;
   }
 
