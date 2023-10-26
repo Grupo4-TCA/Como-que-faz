@@ -126,8 +126,7 @@
         border: none;
         gap: 100px;
         }
-      }
-  
+     
       .filtrocu{
         display: flex;
         gap: 10px;
@@ -153,64 +152,280 @@
           font-weight: 700;
           color: #ffffff;
       }
-      @media only screen and (min-width: 480px) {
-        * {
-          margin: 0;
-          padding: 0;
-      }
-      .conteudo.desktop{
-        display: block;
-        width: 100vw;
-       }
-       
-       .conteudo.mobile{
-        display: none;
-       }
-       .filtrocu {
-        display: flex;
-        gap: 10px;
-        overflow: auto;
-        height: 100%;
-        margin-left: 19%;
-        margin-right: 19%;
-        margin-top: 70px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 5px;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #333333;
-        text-align: center;
-        line-height: normal;
-        border: none;
-        width: auto;
-      }
-      
-      
-      .fcutodas {
-      min-width: 15%;
-      height: 50px;
-      padding: 2px 6px 2px 6px;
+    
+    }
+  
+    @media only screen and (min-width: 480px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    .conteudo.desktop{
+      display: block;
+      width: 100vw;
+     }
+     
+     .conteudo.mobile{
+      display: none;
+     }
+     * {
+      font-family: Heavitas;
+      padding: 0;
+      margin: 0;
+    }
+  
+    @font-face {
+      font-family: Heavitas;
+      src: url("../fonts/Heavitas.ttf");
+    }
+  
+    @font-face {
+      font-family: Fira Sans Bold;
+      src: url("../fonts/fira-sans.bold.ttf");
+    }
+  
+    @font-face {
+      font-family: Fira Sans;
+      src: url("../fonts/fira-sans.regular.ttf");
+    }
+  
+    .header-dispositivo-mobile {
+      display: none;
+    }
+  
+    .logos {
+      display: flex;
+      justify-content: space-around;
+      height: 85px;
+      box-shadow: 1px 5px 5px rgb(173, 173, 173);
+      background-color: white;
+    }
+  
+    .logo {
+      margin-top: 5px;
+      margin-right: 50px;
+      margin-left: 50px;
+  
+    }
+  
+    .logo img {
+      max-width: 65px;
+      margin-top: 5px;
+      align-self: center;
+    }
+  
+    .search {
+      margin-top: 22px;
+      margin-right: 18px;
+    }
+  
+    .search img {
+      max-width: 37px;
+    }
+  
+    .login {
+      margin-top: 9px;
+      margin-left: 13px;
+      margin-right: -7px;
+      position: relative;
+      display: inline-block;
+    }
+  
+    #img-login {
+      max-width: 50px;
+      margin-top: 10px;
+    }
+  
+    .topcs {
+      background-color: #00cd83;
+      display: flex;
+      justify-content: space-around;
+      height: 43px;
+    }
+  
+    .topcs a {
+      text-decoration: none;
+      color: white;
+      margin-top: 9px;
+      font-size: 20px;
+    }
+  
+    .culinaria {
+      margin-left: 270px;
+      font-family: Fira Sans Bold;
+      font-weight: 700;
+      margin-top: 12px;
+    }
+  
+    .bem-estar {
+      margin-right: 270px;
+      font-family: Fira Sans Bold;
+      margin-top: 12px;
+      font-weight: 700;
+    }
+  
+    .limpeza {
+      font-family: Fira Sans Bold;
+      text-align: center;
+      margin-top: 12px;
+      font-weight: 700;
+    }
+  
+    #hide-hover-span {
+      display: none;
+      position: absolute;
+      color: #474747;
+      text-align: center;
+      margin-top: -46px;
+      width: 200px;
+      margin-left: 70px;
+    }
+  
+    #hide-hover-span p {
+      text-align: left;
+      font-family: Fira Sans Bold;
+    }
+  
+    .p-1 {
+      font-size: 14px;
+    }
+  
+    .p-2 {
+      font-size: 18px;
+      margin-top: -25px;
+    }
+  
+    #hide-hover-search {
+      display: none;
+      position: absolute;
+      color: #474747;
+      text-align: center;
+      margin-top: -28px;
+      width: 200px;
+      margin-left: -220px;
+    }
+  
+    #hide-hover-search input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid #9d21cb;
+      font-family: Fira Sans;
+      font-size: 17px;
+    }
+  
+    .mapbe {
+      margin-left: 359px;
+    }
+  
+    .imgbe {
+      width: 180px;
+      height: 180px;
+      margin-left: 320px;
+      margin-top: 20px;
+    }
+  
+    .titulobe {
+      font-size: 40px;
+      color: #00cd83;
+      margin-left: 500px;
+      margin-top: -150px;
+    }
+  
+    .pbe {
+      margin-left: 500px;
+      width: 30%;
+      font-size: 12px;
+  
+    }
+     .filtrocu {
+      display: flex;
+      gap: 10px;
+      overflow: auto;
+      height: 100%;
+      margin-left: 19%;
+      margin-right: 19%;
+      margin-top: 70px;
+      padding: 2px 2px 2px 2px;
       border-radius: 5px;
-      background-color: #f2f2f2;
       box-sizing: border-box;
       font-family: "Fira Sans", sans-serif;
-      font-size: large;
       color: #333333;
       text-align: center;
       line-height: normal;
       border: none;
-      gap: 100px;
-      }
-      .clicado {
-      background-color: #00cd83;
+      width: auto;
+    }
+    
+    
+    .fcutodas {
+    min-width: 15%;
+    height: 50px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-size: large;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
+    }
+    .clicado {
+    background-color: #00cd83;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    }
+    .subca{
+      transform: translate( 1300px, 50px);
+      width: 217px;
+      height: 38px;
+      border: none;
+      padding: 0px 5px;
       box-sizing: border-box;
-      font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+      outline: none;
+    }
+    .subca::-webkit-input-placeholder{
+      color:#00cd83;
+      font-size: 20px;
       font-weight: 700;
-      color: #ffffff;
-      }
-      
-      }
-      
+    }
+    .dropDown{
+      width: 227px;
+      height: 247px;
+      background-color: #f2f2f2;
+      padding: 20px 30px;
+      gap: 10px;
+      overflow: auto;
+      transform: translate( 1300px, 50px);
+      display: none;
+      position: absolute;
+      z-index: 99;
+    }
+   .dropDown::-webkit-scrollbar{
+      display: none;
+    }
+    .listDropDown{
+      width: 227px;
+      height: 247px;
+    }
+    .item{
+      width: 253px;
+      height: 28px;
+      padding: 2px 2px 2px 2px;
+      background-color: rgba(255, 255, 255, 0);
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+    .item:hover{
+      color: #00cd83;
+    }
+    
+    } 
       
       
       
