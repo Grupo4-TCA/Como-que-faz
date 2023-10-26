@@ -8,6 +8,15 @@
         heart.style.display = 'block';
       }
     }
+    function toggleLike1(button) {
+      const heart = document.getElementById('coracao-preenchido1');
+
+      if (heart.style.display === 'block') {
+        heart.style.display = 'none';
+      } else {
+        heart.style.display = 'block';
+      }
+    }
 
 
 function AbrirOpcoes() {

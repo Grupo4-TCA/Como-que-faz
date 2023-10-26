@@ -579,11 +579,10 @@
         font-size: 15px;
       }
       .responder-coment{
-        margin-top: 1%;
         font-size: 16px;
         font-family: Fira Sans Bold;
         color: #4d16bb;
-        margin-left: 35%;
+        margin-left: 5%;
       }
       .mostrar-mais{
         height: 50px;
@@ -688,6 +687,40 @@
         width: 180px;
         display: flex;
     }
+    .coracao-vazado{
+      height: 18px;
+    }
+    .coracao-preenchido{
+      height: 22px;   
+      margin-left: 0.2;
+      margin-top: -6.2%;
+      position: absolute;
+      animation: heartBeat 0.5s ease-in-out;
+    }
+    
+  @keyframes heartBeat {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    .coracao-curtir{
+      cursor: pointer;
+      width: 22px;
+      height: 18px;
+    }
+    .curtir-responder{
+      display: flex;
+      width: 200px;
+      margin-left: 23%;
+      margin-top: 3%;
+    }
+    
 }
 
 @media only screen and (min-width: 480px){

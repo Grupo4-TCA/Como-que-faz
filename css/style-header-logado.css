@@ -1,21 +1,21 @@
 @media only screen and (max-width: 480px) {
-        * {
-        font-family: Heavitas;
-        padding: 0;
-        margin: 0;
-        }
-        @font-face{
-        font-family: Heavitas;
-        src: url("../fonts/Heavitas.ttf");
-        }
-        @font-face{
-        font-family: Fira Sans Bold;
-        src: url("../fonts/fira-sans.bold.ttf");
-        }
-        @font-face{
-        font-family: Fira Sans;
-        src: url("../fonts/fira-sans.regular.ttf");
-        }
+            * {
+            font-family: Heavitas;
+            padding: 0;
+            margin: 0;
+            }
+            @font-face{
+            font-family: Heavitas;
+            src: url("../fonts/Heavitas.ttf");
+            }
+            @font-face{
+            font-family: Fira Sans Bold;
+            src: url("../fonts/fira-sans.bold.ttf");
+            }
+            @font-face{
+            font-family: Fira Sans;
+            src: url("../fonts/fira-sans.regular.ttf");
+            }
         .header-dispositivo-mobile{
             display: block;
         }
@@ -51,7 +51,7 @@
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height:  750px;
-    z-index:100;
+    z-index:103;
     }
 
     .fechar-menu{
@@ -151,7 +151,7 @@
         margin-right: 13px;
         }
         .search img {
-        max-width: 26px;
+            width: 26px;
         }
         .login {
         margin-top: 9px;
@@ -227,6 +227,7 @@
         align-items: center;
         margin-right: 10px;
         margin-bottom: 20px;
+        z-index: 102;
     }
     
     .floating .material-icons {
@@ -245,7 +246,7 @@
         background: #cb218c;
         opacity: 1;
         transition: all, 0.2s;
-        z-index: 8;
+        z-index: 102;
     }
     
     .float-opt {
@@ -459,7 +460,7 @@ font-size: 15px;
     margin-right: 18px;
     }
     .search img {
-    max-width: 37px;
+        width: 37px;
     }
     .login {
     margin-top: 9px;
@@ -518,10 +519,12 @@ font-size: 15px;
     }
     .p-1{
         font-size: 14px;
+        width: 200px;
     }
     .p-2{
         font-size: 18px;
         margin-top: -25px;
+        width: 200px;
     }
     #hide-hover-search {
         display: none;
@@ -624,6 +627,7 @@ font-size: 15px;
             align-items: center;
             margin-right: 70px;
             margin-bottom: 50px;
+            z-index: 102;
         }
         
         .floating .material-icons {
@@ -642,7 +646,7 @@ font-size: 15px;
             background: #cb218c;
             opacity: 1;
             transition: all, 0.2s;
-            z-index: 8;
+            z-index: 102;
         }
         
         .float-opt {

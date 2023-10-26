@@ -57,6 +57,7 @@
     background-color: #f5f5f5;
     box-sizing: border-box;
     font-family: Fira Sans Bold;
+    cursor: pointer;
     font-weight: 700;
     color: #4d16bb;
     text-align: center;
@@ -144,6 +145,7 @@
     height: 51px;
     padding: 2px 2px 2px 2px;
     border-radius: 15px;
+    cursor: pointer;
     border: 2px solid #4d16bb;
     background-color: #f5f5f5;
     box-sizing: border-box;
@@ -241,6 +243,7 @@
     box-sizing: border-box;
     font-family: Fira Sans Bold;
     font-weight: 700;
+    cursor: pointer;
     color: #4d16bb;
     text-align: center;
     line-height: normal;
