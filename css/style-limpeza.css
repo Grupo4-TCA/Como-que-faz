@@ -1132,5 +1132,49 @@
     font-weight: 700;
     color: #ffffff;
   }
-
+  .subca{
+    transform: translate( 1300px, 50px);
+    width: 217px;
+    height: 38px;
+    border: none;
+    font-style: #027de1;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .subca::-webkit-input-placeholder{
+    color:#027de1;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .dropDown{
+    width: 227px;
+    height: 247px;
+    background-color: #f2f2f2;
+    padding: 20px 30px;
+    gap: 10px;
+    overflow: auto;
+    transform: translate( 1300px, 50px);
+    display: none;
+    position: absolute;
+    z-index: 99;
+  }
+ .dropDown::-webkit-scrollbar{
+    display: none;
+  }
+  .listDropDown{
+    width: 227px;
+    height: 247px;
+  }
+  .item{
+    width: 253px;
+    height: 28px;
+    padding: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .item:hover{
+    color: #027de1;
+  }
 }
