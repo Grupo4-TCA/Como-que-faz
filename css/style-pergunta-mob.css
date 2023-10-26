@@ -1,39 +1,22 @@
 @media only screen and (max-width: 480px) {
     * {
+        font-family: Heavitas;
         padding: 0;
         margin: 0;
-    }
-
-    @font-face {
-
-        font-family: 'Heavitas';
-
+        }
+        @font-face{
+        font-family: Heavitas;
         src: url("../fonts/Heavitas.ttf");
-
-    }
-
-    @font-face {
-
-        font-family: 'Fira Sans Bold';
-
+        }
+        @font-face{
+        font-family: Fira Sans Bold;
         src: url("../fonts/fira-sans.bold.ttf");
-
-    }
-
-    @font-face {
-
-        font-family: 'Fira Sans';
-
+        }
+        @font-face{
+        font-family: Fira Sans;
         src: url("../fonts/fira-sans.regular.ttf");
+        }
 
-    }
-
-
-
-    section .head-perg {
-        padding: 50px;
-        border-bottom: 2px solid #c2c2c2;
-    }
     .cabecaculinaria {
         margin-left: 7%;
         margin-right: 7%;
@@ -62,6 +45,7 @@
         margin-left: 10%;
         display: flex;
         margin-top: 5%;
+        margin-bottom: 8%;
     }
     .icon-culinaria{
         width: 20%;
@@ -75,6 +59,7 @@
         font-weight: 400;
         margin-top: 6%;
     }
+    
     .postajem {
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
@@ -103,9 +88,6 @@
         width: 30px;
     }
 
-    .head-perg h1 {
-        font-size: 15px;
-    }
 
     .judas {
         display: flex;
@@ -116,16 +98,33 @@
         margin-bottom: 15%;
     }
 
-    .nick2 {
-        margin-left: 0;
-        font-size: 12px;
-        color: #9e5fef;
-        font-family: sans-serif;
-        font-weight: 800;
+    .titulouser{
+        font-size: 15px;
+        font-family: Fira Sans;
+        display: inline;
+        color: #333333;
     }
+    .titulouser h3{
+        margin-left: 8.5%;
+        font-size: 15px;
+        font-family: Fira Sans;
+        display: inline;
+        color: #333333;
+    }
+    .nick2{
+        font-size: 15px;
+        font-family: Fira Sans;
+        display: inline;
+        color: #9e5fef;
+    }
+    .conteudo{
+        font-family: Fira Sans Bold;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 8%;
+        font-size: 19px;
 
-    .head-perg p {
-        font-size: 18px;
     }
 
     .judas button {
@@ -209,7 +208,6 @@
         font-size: 15px;
         color: #4D16BB;
     }
-
     .quantidadeDeComentarios {
         margin: 0;
         color: black;
@@ -230,10 +228,12 @@
         width: 100%;
         height: 25px; 
         font-family: Fira Sans Bold;
-    }    
+        outline: none;
+    }
     .botoes-comentar{
         height: 35px;
         margin-top: -30px;
+        align-items: right;
         display: flex;
         margin-bottom: 10%;
     }
@@ -269,19 +269,109 @@
     .fazer-comentario {
         width: 100%;
     }
+    .nomes-comentario{
+      display: flex;
+    }
+    .estrelas-taylor{
+      content: '\f005';
+      font-family: fontAwesome;
+      margin-left: 5%;
+      width: 100px;
+      color: #9e5fef;
+      font-size: 16px;
+    }
+    .opcoes{
+        position: absolute;
+        margin-top: -0.5%;
+        margin-left: 74%;
+        cursor: pointer;
+    }
+    .ponto{
+        background: #cb2154;
+        width: 8px;
+        height: 8px;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #hide-opcoes{
+        z-index:1000;
+        margin-top: -5%;
+        margin-left: 30%;
+        display: inline;
+        height: 70px;
+        position: absolute;
+        background-color: white;
+        padding: 5% 5% 5% 5%;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.565);
+    }
+    #hide-opcoes img{
+        width: 20px;
+        height: 20px;
+    }
+    #hide-opcoes p{
+        font-family: Fira Sans Bold;
+        margin-left: 15px;
+    }
+    .texto-coment-taylor{
+      text-align: left;
+      margin-left: 24%;
+      margin-top: -9%;
+      margin-right: 10%;
+      font-family: Fira Sans;
+      font-size: 15px;
+    }
+    .coracao-vazado{
+      height: 18px;
+    }
+    .coracao-preenchido{
+      height: 22px;   
+      margin-left: 0.2;
+      margin-top: -6.2%;
+      position: absolute;
+      animation: heartBeat 0.5s ease-in-out;
+    }
+    
+  @keyframes heartBeat {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    .coracao-curtir{
+      cursor: pointer;
+      width: 22px;
+      height: 18px;
+    }
+    .curtir-responder{
+      display: flex;
+      width: 200px;
+      margin-left: 23%;
+      margin-top: 3%;
+    }
+    
+    
+    .nome-usuario-comt{
+        font-family: Fira Sans;
+        font-size: 17px;
+        width: 230px;
+        margin-left: 1%;
+        margin-top: 1.2%;
+      }
     .comentario h1{
         font-family: Fira Sans Bold;
         font-size: 17px;
         margin-right: 10%;
         margin-left: -1%;
         text-align: left;
-        color: #9e5fef;
-      }
-      .estrelas-taylor{
-        content: '\f005';
-        font-family: fontAwesome;
-        margin-left: 5%;
-        width: 100px;
         color: #9e5fef;
       }
       .texto-coment-taylor{
@@ -293,11 +383,11 @@
         font-size: 15px;
       }
       .responder-coment{
-        margin-top: 1%;
+        margin-top: 0%;
         font-size: 16px;
         font-family: Fira Sans Bold;
         color: #4d16bb;
-        margin-left: 35%;
+        margin-left: 5%;
       }
       .mostrar-mais{
         height: 50px;
@@ -359,10 +449,11 @@
 
     }
 
-    .comentario {
+    .comentario{
+        margin: 5% 0% 5% 10%;
         display: flex;
-        margin-bottom: 32px;
-    }
+        justify-content: space-between !important;
+      }
 
     .tari {
         width: 12%;
@@ -454,7 +545,7 @@
         background-color: #00cd83;
     }
 
-
+    
 
 
 }

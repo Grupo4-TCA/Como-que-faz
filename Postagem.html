@@ -10,6 +10,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="./js/script-menu-lateral.js"></script>
     <script src="js/script-botao-criar.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script-botao-criar.js"></script>
     <title>Como que Faz | Postagem</title>
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
 </head>
@@ -17,7 +20,7 @@
     <section class="header-dispositivo-mobile">
         <nav class="logos">
             <div class="user">
-                <div class="notificacoes">
+                <div class="notificacoes-header">
                     <p>9+</p>
                 </div>
                 <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
@@ -33,20 +36,20 @@
                             <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
                         </div>
                     </div>
-                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">Perfil</a></li>
-                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="https://laismiharu.github.io/Como-que-faz/Minhas-Notificações">Notificações</a></li>
-                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="https://laismiharu.github.io/Como-que-faz/Meus-Favoritos">Favoritos</a></li>
-                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">Interações</a></li>
-                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">Rascunhos</a></li>
+                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Perfil</a></li>
+                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações">Notificações</a></li>
+                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos">Favoritos</a></li>
+                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Interações</a></li>
+                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Rascunhos</a></li>
                    <div class="ajustes">
-                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">Ajustes</a></li>
-                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="https://laismiharu.github.io/Como-que-faz/Sair-da-conta">Sair</a></li>
+                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Ajustes</a></li>
+                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">Sair</a></li>
                    </div>
                 </ul>
             </div>
             </div>
             <div class= "logo">
-                <a href="header-mobile.html">
+                <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                     <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                 </a>
             </div>
@@ -57,46 +60,46 @@
             </div>
         </nav>
         <nav class="topcs">
-            <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
-            <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
-            <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
+            <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
+            <a class= "limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
+            <a class= "bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
         </nav>
     </section>
 
     <section class="header-dispositivo-desktop">
         <nav class="logos">
             <div class="usuario-menu">
-                <div class="notificacoes">
+                <div class="notificacoes-header">
                     <p>9+</p>
                 </div>
                 <div class="abrir-menu" onmouseover="showMenu()" onmouseout="hideMenu()">
-                    <a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">
+                    <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                         <img class="img-user" src="imagens/icon_sofizinha.png" alt="usuário logado">
                     </a>
                 <ul class="menu" id="menu">
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Meu-perfil')">PERFIL</li>
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Minhas-Notificações')">NOTIFICAÇÕES</li>
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Meus-Favoritos')">FAVORITOS</li>
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Meu-perfil')">INTERAÇÕES</li>
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Meu-perfil')">RASCUNHOS</li>
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Meu-perfil')">AJUSTES</li>
-                    <li onclick="navigateToPage('https://laismiharu.github.io/Como-que-faz/Sair-da-conta')">SAIR</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">PERFIL</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações')">NOTIFICAÇÕES</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos')">FAVORITOS</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">INTERAÇÕES</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">RASCUNHOS</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">AJUSTES</li>
+                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta')">SAIR</li>
                 </ul>
             </div>
             </div>
             <div class="texto-bemvindo">
-                <a href="https://laismiharu.github.io/Como-que-faz/Meu-perfil">
+                <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                 <p class="p-1">Seja bem vindo!</p><br>
                 <p class="p-2">Sofia Albuquerque Lima</p>
                 </a>    
             </div>
             <div class= "logo">
-                <a href="https://laismiharu.github.io/Como-que-faz/Home-Com-Login">
+                <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                     <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                 </a>
             </div>
             <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class= "search">
-                <a href="/">
+                <a>
                     <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
                 <div id="hide-hover-search">
                     <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
@@ -106,14 +109,31 @@
             </div>
         </nav>
         <nav class="topcs">
-            <a class="culinaria" href="https://laismiharu.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
-            <a class= "limpeza" href="https://laismiharu.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
-            <a class= "bem-estar" href="https://laismiharu.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
+            <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
+            <a class= "limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
+            <a class= "bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
         </nav>
     </section>
 </header>
 
 <body>
+    <div class="floating-smoke">
+        <div class="floating">
+           <div class="floating-main">
+              <i class="material-icons">add</i>
+           </div>
+           <div class="float-opt opt-text">
+              <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Post">
+                 <img src="imagens/editar_icon.svg" alt="editar">
+              </a>
+           </div>
+           <div class="float-opt opt-media">
+              <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Pergunta">
+                 <img src="imagens/feedback_icon.svg" alt="feedback">
+              </a>
+           </div>
+        </div>
+    </div>
     <section class="conteudo-dispositivo-mobile">        
             
         <div class="titulo-categoria">
@@ -373,7 +393,13 @@
         </div>
             <p class="texto-coment-taylor">to me babando todo 🤤
             Ate babei</p>
-            <h3 class="responder-coment">| Responder</h3>
+            <div class="curtir-responder">
+                <div class="coracao-curtir">
+                    <img class="coracao-vazado" src="./imagens/coracaovazio.svg" alt="coracação-vazado" onmouseover="toggleLike(this)">
+                    <img id="coracao-preenchido" class="coracao-preenchido" src="./imagens/coracao-rosa.png" alt="coracação-preenchido" style="display: none;" onmouseover="toggleLike(this)">
+                </div>
+                <h3 class="responder-coment">| Responder</h3>
+            </div>
             <div class="mostrar-mais">
                 <h1>MOSTRAR MAIS</h1>
             </div>
@@ -654,9 +680,9 @@
             <p class="texto-coment-taylor">to me babando todo 🤤
             Ate babei</p>
             <div class="curtir-responder">
-                <div class="coracao-curtir" onclick="toggleLike(this)">
+                <div class="coracao-curtir" onclick="toggleLike1(this)">
                     <img class="coracao-vazado" src="./imagens/coracaovazio.svg" alt="coracação-vazado">
-                    <img id="coracao-preenchido" class="coracao-preenchido" src="./imagens/coracao-rosa.png" alt="coracação-preenchido" style="display: none;">
+                    <img id="coracao-preenchido1" class="coracao-preenchido" src="./imagens/coracao-rosa.png" alt="coracação-preenchido" style="display: none;">
                 </div>
                 <h3 class="responder-coment">| Responder</h3>
             </div>

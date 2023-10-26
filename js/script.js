@@ -53,3 +53,98 @@ document.getElementsByClassName("tablinks")[0].classList.add("active");
     e.className = "azul";
     }
     }
+
+
+    
+  function mostrarDiv1(div1) {
+    // Ocultar todas as divs
+    var divs = document.querySelectorAll('.hidden');
+    for (var i = 0; i < divs.length; i++) {
+        divs[i].style.display = 'none';
+    }
+
+    // Mostrar a div selecionada
+    var div = document.getElementById(div1);
+    if (div) {
+        div.style.display = 'block';
+    }
+}
+
+function mostrarDiv2(div2) {
+  // Ocultar todas as divs
+  var divs = document.querySelectorAll('.hidden');
+  for (var i = 0; i < divs.length; i++) {
+    divs[i].style.display = 'none';
+  }
+  // Ocultar todas as divs com classe "hidden-inicial"
+  var divsIn = document.querySelectorAll('.hidden-inicial');
+  for (var i = 0; i < divsIn.length; i++) {
+    divsIn[i].style.display = 'none';
+  }
+
+  // Mostrar a div selecionada
+  var div = document.getElementById(div2);
+  if (div) {
+      div.style.display = 'block';
+  }
+}
+function mostrarDiv3(div3) {
+  // Ocultar todas as divs
+  var divs = document.querySelectorAll('.hidden');
+  for (var i = 0; i < divs.length; i++) {
+      divs[i].style.display = 'none';
+  }
+  // Ocultar todas as divs com classe "hidden-inicial"
+  var divsIn = document.querySelectorAll('.hidden-inicial');
+  for (var i = 0; i < divsIn.length; i++) {
+    divsIn[i].style.display = 'none';
+  }
+
+
+  // Mostrar a div selecionada
+  var div = document.getElementById(div3);
+  if (div) {
+      div.style.display = 'block';
+  }
+}
+
+function mostrarDiv4(div4) {
+  // Ocultar todas as divs
+  var divs = document.querySelectorAll('.hidden');
+  for (var i = 0; i < divs.length; i++) {
+      divs[i].style.display = 'none';
+  }
+  
+  // Ocultar todas as divs com classe "hidden-inicial"
+  var divsIn = document.querySelectorAll('.hidden-inicial');
+  for (var i = 0; i < divsIn.length; i++) {
+    divsIn[i].style.display = 'none';
+  }
+
+
+  // Mostrar a div selecionada
+  var div = document.getElementById(div4);
+  if (div) {
+      div.style.display = 'block';
+  }
+}
+
+function mostrarDiv5(div5) {
+  // Ocultar todas as divs
+  var divs = document.querySelectorAll('.hidden');
+  for (var i = 0; i < divs.length; i++) {
+      divs[i].style.display = 'none';
+  }
+
+  // Ocultar todas as divs com classe "hidden-inicial"
+  var divsIn = document.querySelectorAll('.hidden-inicial');
+  for (var i = 0; i < divsIn.length; i++) {
+    divsIn[i].style.display = 'none';
+  }
+
+  // Mostrar a div selecionada
+  var div = document.getElementById(div5);
+  if (div) {
+      div.style.display = 'block';
+  }
+}
