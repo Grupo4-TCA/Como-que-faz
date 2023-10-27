@@ -1,0 +1,263 @@
+@media only screen and (min-width: 721px) {
+    * {
+        font-family: Heavitas;
+        padding: 0;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: Heavitas;
+        src: url("../fonts/Heavitas.ttf");
+    }
+
+    @font-face {
+        font-family: Fira Sans Bold;
+        src: url("../fonts/fira-sans.bold.ttf");
+    }
+
+    @font-face {
+        font-family: Fira Sans;
+        src: url("../fonts/fira-sans.regular.ttf");
+    }
+
+    .header-dispositivo-mobile {
+        display: none;
+    }
+
+    .header-dispositivo-desktop {
+        display: block;
+    }
+
+    #fade-atras-cp,
+    #modal-criar-post {
+        transition: .5s;
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    #fade-atras-cp {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 1000;
+    }
+
+    #modal-criar-post {
+        width: 60.31vw;
+        height: 36.14vw;
+        box-sizing: border-box;
+        border-radius: 0.3vw;
+        background-color: #f2f2f2;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1001;
+        overflow: hidden;
+    }
+
+    .modal-header {
+        display: flex;
+    }
+
+    #modal-criar-post.hidden,
+    #fade-atras-cp.hidden {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #modal-criar-post.hidden {
+        top: 0;
+    }
+
+    .modal-header{
+        margin-top: 1.35vw;
+    }
+
+    #criar-post-titulo {
+        font-size: 140%;
+        margin-left: 1.04lvw;
+        font-family: "Heavitas", sans-serif;
+        color: #4d16bb;
+        text-align: left;
+    }
+
+    #gato-criar-post {
+        width: 1.92vw;
+        height: 1.92vw;
+        margin-left: 2.18vw;
+    }
+
+    #close-modal-criar-post {
+        margin-left: 36vw;
+        font-size: 140%;
+        font-family: "Heavitas", sans-serif;
+        color: #4d16bb;
+    }
+
+    #criar-post-etapas {
+        margin-top: 0.93vw;
+    }
+
+    .linha-baixo {
+        width: 60.31vw;
+        height: 0.677vw;
+        background-image: linear-gradient(89.9984726943774deg, #ffa462 0%, #9d21cb 48.6110592628467%, #4d16bb 99.2062434669349%);
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        transform: rotate(180deg);
+    }
+
+    #progresso {
+        box-shadow: 0 0 0.52vw 0.8vw  rgba(225, 225, 225, 0.904);
+        width: 60.31vw;
+        height: 0.677vw;
+        padding: 2px 2px 2px 2px;
+        background-color: #d7d7d7;
+        box-sizing: border-box;
+        position: absolute;
+    }
+
+    /* Estilos para a lista de tarefas */
+    .lista-tarefas {
+        display: flex;
+
+    }
+
+    /* Estilos para as tarefas */
+    .tarefa {
+        font-size: 80%;
+        font-weight: 600;
+        border: none;
+        margin-top: 0.6vw;
+    }
+
+    #agrupamento-conteudo {
+        padding: 0;
+        margin: 0;
+    }
+
+    #conteudoTarefa1 {
+        left: 0;
+        transform: translateX(0%);
+        position: absolute;
+    }
+
+    #conteudoTarefa2 {
+        left: 0;
+        transform: translateX(100%);
+        position: absolute;
+    }
+
+    #conteudoTarefa3 {
+        left: 0;
+        transform: translateX(100%);
+        position: absolute;
+    }
+
+    #bolinhas-atras{
+        color: #d6d6d6;
+        font-weight: 700;
+        font-size: 90%;
+        position: absolute;
+        left: 15vw;
+    }
+
+    #numero-do-elemento{
+        width: 1.92vw;
+        height: 1.5vw;
+        border-radius: 5.20vw;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #a1a1a1;
+        text-align: center;
+        background-color: #d5d5d5;
+        padding-top: 0.4vw;
+        margin-right: 0.67vw;
+        display: inline-block;
+    }
+
+    .detalhes-numero1{
+       
+    }
+
+    #detalhes {
+        background-color: #f2f2f2;
+        width: 9vw;
+        height: 2vw;
+        box-sizing: border-box;
+        font-family: "Heavitas", sans-serif;
+        color: #4d16bb;
+        text-align: left;
+        line-height: normal;
+        margin-left: 12.13vw;
+    }
+
+    #elementos {
+        background-color: #f2f2f2;
+        width: 11vw;
+        height: 2vw;
+        box-sizing: border-box;
+        font-family: "Heavitas", sans-serif;
+        color: #921FC9;
+        text-align: left;
+        line-height: normal;
+        margin-left: 7%;
+    }
+
+    #midias {
+        background-color: #f2f2f2;
+        width: 9vw;
+        height: 2vw;
+        box-sizing: border-box;
+        font-family: "Heavitas", sans-serif;
+        color: #CB218C;
+        text-align: left;
+        line-height: normal;
+        margin-left: 7%;
+    }
+
+    .conteudo {
+        width: 60.31vw;
+        height: 23.33vw;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    #btnAvancar {
+        width: 11.09vw;
+        height: 2.13vw;
+        font-size: 90%;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px;
+        background-image: linear-gradient(89.99098801485042deg, #4d16bb 0%, #9d21cb 99.20266782940685%);
+        color: #ffffff;
+        text-align: center;
+        border: none;
+        margin-left: 52vw;
+        position: relative;
+    }
+
+    #btnVoltar {
+        width: 11.09vw;
+        height: 2.13vw;
+        padding: 0.53vw 0.53vw 0.53vw 0.53vw;
+        border-radius: 0.260vw;
+        border: 1px solid #4d16bb;
+        background-color: #f2f2f2;
+        box-sizing: border-box;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        font-size: 90%;
+        color: #4d16bb;
+        text-align: center;
+        line-height: normal;
+        margin-left: 5vw;
+        position: absolute;
+    }
+}

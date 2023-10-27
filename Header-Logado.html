@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-header-logado.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/criar-post-desk-pop-up.css">
+    <script src="./js/script-criar-post-mb.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/script-botao-criar.js"></script>
+    <script src="./js/criar-post-desk-pop-up.js"></script>
     <title>ComoQueFaz?</title>
 </head>
 <header>
@@ -16,37 +20,50 @@
                 <div class="notificacoes-header">
                     <p>9+</p>
                 </div>
-                <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png" alt="usuário logado"></button>
-                    <div class="user-menu" id="user-menu" style="display: none;">
-                <button class="fechar-menu" onclick="FecharMenuLateral()"><div class="fechar"></div></button>
-                <ul>
-                    <div class="bem-vindo">
-                        <div class="colnm1">
-                            <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
+                <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png"
+                        alt="usuário logado"></button>
+                <div class="user-menu" id="user-menu" style="display: none;">
+                    <button class="fechar-menu" onclick="FecharMenuLateral()">
+                        <div class="fechar"></div>
+                    </button>
+                    <ul>
+                        <div class="bem-vindo">
+                            <div class="colnm1">
+                                <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
+                            </div>
+                            <div class="colnm2">
+                                <span>Seja bem-vindo(a)!</span>
+                                <div class="nome">
+                                    <p><span>Sofia Albuquerque Lima</span></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="colnm2">
-                            <span>Seja bem-vindo(a)!</span>
-                            <div class="nome"><p><span>Sofia Albuquerque Lima</span></p></div>
+                        <li><img src="imagens/user2_icon.png" alt="perfil"><a
+                                href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Perfil</a></li>
+                        <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a
+                                href="https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações">Notificações</a>
+                        </li>
+                        <li><img src="imagens/salvos_icon.png" alt="favoritos"><a
+                                href="https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos">Favoritos</a></li>
+                        <li><img src="imagens/interacoes_icon.png" alt="interações"><a
+                                href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Interações</a></li>
+                        <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a
+                                href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Rascunhos</a></li>
+                        <div class="ajustes">
+                            <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a
+                                    href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Ajustes</a></li>
+                            <li><img src="imagens/sair_icon.png" alt="sair"><a
+                                    href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">Sair</a></li>
                         </div>
-                    </div>
-                    <li><img src="imagens/user2_icon.png" alt="perfil"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Perfil</a></li>
-                    <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a href="https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações">Notificações</a></li>
-                    <li><img src="imagens/salvos_icon.png" alt="favoritos"><a href="https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos">Favoritos</a></li>
-                    <li><img src="imagens/interacoes_icon.png" alt="interações"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Interações</a></li>
-                    <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Rascunhos</a></li>
-                   <div class="ajustes">
-                    <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Ajustes</a></li>
-                    <li><img src="imagens/sair_icon.png" alt="sair"><a href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">Sair</a></li>
-                   </div>
-                </ul>
+                    </ul>
+                </div>
             </div>
-            </div>
-            <div class= "logo">
+            <div class="logo">
                 <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                     <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                 </a>
             </div>
-            <div class= "search">
+            <div class="search">
                 <a href="/">
                     <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
                 </a>
@@ -54,8 +71,8 @@
         </nav>
         <nav class="topcs">
             <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
-            <a class= "limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
-            <a class= "bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
+            <a class="limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
+            <a class="bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
         </nav>
     </section>
 
@@ -69,62 +86,144 @@
                     <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                         <img class="img-user" src="imagens/icon_sofizinha.png" alt="usuário logado">
                     </a>
-                <ul class="menu" id="menu">
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">PERFIL</li>
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações')">NOTIFICAÇÕES</li>
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos')">FAVORITOS</li>
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">INTERAÇÕES</li>
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">RASCUNHOS</li>
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">AJUSTES</li>
-                    <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta')">SAIR</li>
-                </ul>
-            </div>
+                    <ul class="menu" id="menu">
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">PERFIL</li>
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações')">
+                            NOTIFICAÇÕES</li>
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos')">
+                            FAVORITOS</li>
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">INTERAÇÕES
+                        </li>
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">RASCUNHOS
+                        </li>
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Meu-perfil')">AJUSTES
+                        </li>
+                        <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta')">SAIR
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="texto-bemvindo">
                 <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
-                <p class="p-1">Seja bem vindo!</p><br>
-                <p class="p-2">Sofia Albuquerque Lima</p>
-                </a>    
+                    <p class="p-1">Seja bem vindo!</p><br>
+                    <p class="p-2">Sofia Albuquerque Lima</p>
+                </a>
             </div>
-            <div class= "logo">
+            <div class="logo">
                 <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                     <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                 </a>
             </div>
-            <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class= "search">
+            <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class="search">
                 <a>
                     <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
-                <div id="hide-hover-search">
-                    <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
-                    <label for="inserir-pesquisa"></label>
-                </div>
+                    <div id="hide-hover-search">
+                        <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
+                        <label for="inserir-pesquisa"></label>
+                    </div>
                 </a>
             </div>
         </nav>
         <nav class="topcs">
             <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
-            <a class= "limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
-            <a class= "bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
+            <a class="limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
+            <a class="bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
         </nav>
     </section>
 </header>
+
 <body id="body">
-    <div class="floating-smoke">
-        <div class="floating">
-           <div class="floating-main">
-              <i class="material-icons">add</i>
-           </div>
-           <div class="float-opt opt-text">
-              <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Post">
-                 <img src="imagens/editar_icon.svg" alt="editar">
-              </a>
-           </div>
-           <div class="float-opt opt-media">
-              <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Pergunta">
-                 <img src="imagens/feedback_icon.svg" alt="feedback">
-              </a>
-           </div>
+    <section class="header-dispositivo-mobile">
+        <div class="floating-smoke">
+            <div class="floating">
+                <div class="floating-main">
+                    <i class="material-icons">add</i>
+                </div>
+                <div class="float-opt opt-text">
+                    <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Post">
+                        <img src="imagens/editar_icon.svg" alt="editar">
+                    </a>
+                </div>
+                <div class="float-opt opt-media">
+                    <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Pergunta">
+                        <img src="imagens/feedback_icon.svg" alt="feedback">
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="header-dispositivo-desktop">
+        <div class="floating-smoke">
+            <div class="floating">
+                <div class="floating-main">
+                    <i class="material-icons">add</i>
+                </div>
+                <div class="float-opt opt-text" id="open-modal">
+                    <img src="imagens/editar_icon.svg" alt="editar">
+                </div>
+                <div class="float-opt opt-media">
+                    <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Pergunta">
+                        <img src="imagens/feedback_icon.svg" alt="feedback">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- POP-UP CRIAR POSTAGEM -->
+        <div id="fade-atras-cp" class="hidden">
+            <div id="modal-criar-post" class="hidden">
+                <div class="modal-header">
+                    <img src="./imagens/gato-preenchido-roxo.png" alt="criar post titulo" id="gato-criar-post">
+                    <h2 id="criar-post-titulo">CRIAR POSTAGEM</h2>
+                    <div id="close-modal-criar-post">X</div>
+                </div>
+
+                <div class="modal-body">
+                    <div id="criar-post-etapas">
+                        <div class="linha-baixo">
+                            <div class="linha-progresso" id="progresso"></div>
+                        </div>
+
+                        <div class="lista-tarefas">
+                            <h2 id="bolinhas-atras">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </h2>
+                            <button class="tarefa ativo" id="detalhes">
+                                <div id="numero-do-elemento" class="detalhes-numero1">1</div>
+                                Detalhes</button>
+                            <button class="tarefa" id="elementos">
+                                <div id="numero-do-elemento" class="elementos-numero2">2</div>
+                                Elementos</button>
+                            <button class="tarefa" id="midias">
+                                <div id="numero-do-elemento" class="midias-numero3">3</div>
+                                Mídias</button>
+                        </div>
+
+                        <div id="agrupamento-conteudo">
+
+                            <div class="conteudo conteudo1" id="conteudoTarefa1">
+                                <h2 id="titulo-detalhes">DETALHES</h2>
+
+                            <input type="text" id="input-titulo-da-postagem" placeholder="TÍTULO DA POSTAGEM">
+                            </div>
+
+                            <div class="conteudo conteudo2" id="conteudoTarefa2">
+                                b
+                            </div>
+
+                            <div class="conteudo conteudo3" id="conteudoTarefa3">
+                                c
+                            </div>
+                        </div>
+                            <button id="btnVoltar" class="Voltar">VOLTAR</button>
+                            <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FINAL POP-UP CRIAR POSTAGEM -->
+    </section>
+
 </body>
+
 </html>
