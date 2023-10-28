@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/!criar-post-desk (pop-up).css">
-    <link rel="stylesheet" href="./js/!criar-post-desk (pop-up).js">
+    <link rel="stylesheet" href="./css/criar-post-desk-pop-up.css">
+    <script src="./js/criar-post-desk-pop-up.js"></script>  <!-- Corrija o caminho para o arquivo CSS -->
 </head>
 <body id="body">
 
-    <div class="float-opt opt-text">
+    <div class="float-opt opt-text" id="open-modal">
         <img src="imagens/editar_icon.svg" alt="editar">
     </div>
 
-    <div id="fade-atras-cp">
-        <div id="modal-criar-post">
+    <div id="fade-atras-cp" class="hidden">
+        <div id="modal-criar-post" class="hidden">
             <div class="modal-header">
-                <h2>este é o modal</h2>
-                <button id="close-modal-criar-post">fechar</button>
+                <img src="./imagens/gato-preenchido-roxo.png" alt="criar post titulo" id="gato-criar-post">
+                <h2 id="criar-post-titulo">CRIAR POSTAGEM</h2>
+                <div id="close-modal-criar-post">X</div>
             </div>
 
             <div class="modal-body">
@@ -27,6 +27,6 @@
             </div>
         </div>
     </div>
-
+<!-- Corrija o caminho para o arquivo JavaScript -->
 </body>
 </html>

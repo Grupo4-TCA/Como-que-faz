@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Define a largura da linha de progresso para corresponder ao botão atual
         const itemWidth = 100 / itens.length;
-        const progressoWidth = itemWidth * (currentIndex + 1);
-        progresso.style.width = progressoWidth + "%";
+        const progressoWidth = itemWidth * (itens.length - (currentIndex + 1)); // Calcula a largura do progresso de trás para frente
+        progresso.style.width = progressoWidth + "%";        
 
         // Altera o nome do botão "Avançar" para "Criar Post" na Tarefa 3
         if (currentIndex === 2) {
@@ -122,20 +122,6 @@ function adicionarMensagem() {
         inputText.value = '';
     }
 }
-
-//function dropdownmedidas(p) {
-    //var l = document.getElementsByClassName('dropDown-medidas')[0];
-    //var f = ['block', 'none'];
-
-  //  l.style.display = f[p];
-//}
-//function qmedidas(pega) {
-    //var oitemedidas = document.getElementById('itemedidas-' + pega).innerText;
-    //var medidasElemento = document.querySelector('.medidas-elementos');
-  //  medidasElemento.value = oitemedidas;
-//}
-
-
 
 window.onload = function () {
 
