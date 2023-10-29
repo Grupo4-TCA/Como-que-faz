@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 conteudo.style.transform = "translateX(100%)"; // Esconde à direita
             }
         });
-
     }
 
     // Adiciona um ouvinte de evento de clique ao botão "Avançar"
