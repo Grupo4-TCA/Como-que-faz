@@ -564,48 +564,6 @@ content:url( https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a
    
 }
 
-.user img {
-  width: 71px;
-  height: 71px;
-}
-
-.logo img {
-    width: 94px;
-    height: 94px;
-}
-
-.search img {
-  width: 62px;
-  height: 64px;
-}
-.topcs {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1920px;
-  height: 61px;
-  background-color: #cb1154
-}
-
-a.topcs {
-  text-decoration: none;
-  color:white;
-  margin-left: -370px;
-}
-
-a.topcs1 {
-  text-decoration: none;
-  color:white;
- 
-}
-
-a.topcs2 {
-  text-decoration: none;
-  color:white;
-  margin-left: -370px;
-
-}
-
 a.mapcategoria{
   text-align: center;
   width: 146px;
