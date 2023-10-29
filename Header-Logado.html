@@ -186,15 +186,15 @@
                         </div>
 
                         <div class="lista-tarefas">
-                            <h2 id="bolinhas-atras">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </h2>
+                            <h2 id="bolinhas-atras">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </h2>
                             <button class="tarefa ativo" id="detalhes">
-                                <div id="numero-do-elemento" class="detalhes-numero1">1</div>
+                                <div id="numero-do-elemento" class="detalhes-numero">1</div>
                                 Detalhes</button>
                             <button class="tarefa" id="elementos">
-                                <div id="numero-do-elemento" class="elementos-numero2">2</div>
+                                <div id="numero-do-elemento" class="elementos-numero">2</div>
                                 Elementos</button>
                             <button class="tarefa" id="midias">
-                                <div id="numero-do-elemento" class="midias-numero3">3</div>
+                                <div id="numero-do-elemento" class="midias-numero">3</div>
                                 Mídias</button>
                         </div>
 
@@ -202,8 +202,38 @@
 
                             <div class="conteudo conteudo1" id="conteudoTarefa1">
                                 <h2 id="titulo-detalhes">DETALHES</h2>
-
                             <input type="text" id="input-titulo-da-postagem" placeholder="TÍTULO DA POSTAGEM">
+                            <div class="guarda-select">
+                                <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
+                                    onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="CATEGORIA DA POSTAGEM"
+                                    readonly="readonly" />
+                                <div class="dropDown" id="dropdown">
+                                    <div class="listDropDown">
+                                        
+                                        <div value="culinaria-categoria" class="item-select-detalhes texto"
+                                            id="item-select-detalhes-1" onmousedown="category(1)">CULINÁRIA</div>
+                                        
+                                        <div class="item-select-detalhes texto" id="item-select-detalhes-2"
+                                            onmousedown="category(2)">LIMPEZA</div>
+                                        
+                                        <div class="item-select-detalhes texto" id="item-select-detalhes-3"
+                                            onmousedown="category(3)">BEM-ESTAR</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="tempo-detalhes">
+                                <img id="imagem-tempo-detalhes" src="./imagens/tempo-cor-cinza.svg"
+                                    alt="tempo de execução">
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">HORAS
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">MINUTOS
+                            </div>
+                            <div id="tempo-detalhes-porcoes">
+                                <img id="imagem-tempo-detalhes-porcoes" src="./imagens/porçoes-cinza-culinaria.png"
+                                    alt="tempo de execução">
+                                <input type="number" id="horas-tempo-detalhes" placeholder="00">PORÇÕES
+                            </div>
+
                             </div>
 
                             <div class="conteudo conteudo2" id="conteudoTarefa2">
