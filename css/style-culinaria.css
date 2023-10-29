@@ -122,7 +122,7 @@
 
   p.pcu {
     text-align: left;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: Fira Sans;
     width: 65%;
     font-size: 12px;
     transform: translate(110px, -70px);

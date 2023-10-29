@@ -76,7 +76,7 @@
     }
     
     .corpo{
-        background-image: url(../imagens/fundogatos.png);
+        background: #919191;
     }
     .popupsair-borda{
       background-image:  linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);

@@ -28,6 +28,15 @@ function AbrirOpcoes() {
   }
 }
 
+function AbrirOpcoesComentario() {
+  var x = document.getElementById("hide-opcoes-comentario");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 function AbrirOpcoesDesktop() {
   var x = document.getElementById("hide-opcoes-Desktop");
   if (x.style.display === "none") {
