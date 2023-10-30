@@ -421,13 +421,13 @@
         </div>
         
         <div class="Carrossel">
-            <img class="imagemprincipal" src="./imagens/imagem-1-post.png" alt="imagem1">
+            <img class="imagemprincipalDesktop" src="./imagens/imagem-1-post.png" alt="imagem1">
             <div class="previa">
                 <div class="imagem">
-                    <img onclick="switchImage('./imagens/imagem-1-post.png')" src="./imagens/imagem-1-post.png" alt="">
+                    <img onclick="switchImageDesktop('./imagens/imagem-1-post.png')" src="./imagens/imagem-1-post.png" alt="">
                 </div>
                 <div class="imagem">
-                    <img onclick="switchImage('./imagens/imagem-2-post.png')" src="./imagens/imagem-2-post.png" alt="">
+                    <img onclick="switchImageDesktop('./imagens/imagem-2-post.png')" src="./imagens/imagem-2-post.png" alt="">
                 </div>
             </div>
         </div>
@@ -662,7 +662,9 @@
             <p class="p-filtro">Filtrar</p>
             </div>
         </div>
-        <div class="anuncio"></div>
+        <div class="anuncio">
+            <img src="imagens/Ad.png" alt="ad">
+        </div>
         <div class="comentar">
             <img src="./imagens/imagem-foto-de-perfil-fofa.png" alt="foto-de-perfil">
             <input class="inserir-comentario" type="text" name="inserir-comentario" id="inserir-comentario" placeholder="Digite seu comentário...">
@@ -680,12 +682,19 @@
             </div>
             <p class="estrelas-taylor">    </p>
             
-        <div id="opcoes" class="opcoes" onclick="AbrirOpcoes()">
-            <div class="ponto"></div>
-            <div class="ponto"></div>
-            <div class="ponto"></div>
+            <div id="opcoes-comentario" class="opcoes-comentario" onclick="AbrirOpcoesComentarioDesktop()">
+                <div class="ponto-comentario"></div>
+                <div class="ponto-comentario"></div>
+                <div class="ponto-comentario"></div>
+            </div>
         </div>
-        <div id="hide-opcoes" style="display: none; position: absolute;">
+        <div id="hide-opcoes-comentario-Desktop" style="display: none;">
+            <div class="denunciar-comentario">
+            <img src="imagens/denunciar-cor-preta.svg" alt="denunciar"> <p>Denunciar comentário</p>
+            </div>
+    
+            <div class="compartilhar-comentario">
+            <img src="imagens/compartilhar-cor-preta.svg" alt="compartilhar"> <p>Compartilhar comentário</p>
             </div>
         </div>
             <p class="texto-coment-taylor">to me babando todo 🤤

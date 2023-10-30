@@ -673,7 +673,7 @@
     #hide-opcoes{
         z-index:1000;
         margin-top: -5%;
-        margin-left: 33%;
+        margin-left: 28%;
         display: inline;
         height: 70px;
         position: absolute;
@@ -873,14 +873,14 @@
     }
     .opcoes{
         position: absolute;
-        margin-top: -0.5%;
-        margin-left: 74%;
+        margin-top: -30%;
+        margin-left: 83.2%;
         cursor: pointer;
     }
     .ponto{
-        background: #4d16bb;
-        width: 5px;
-        height: 5px;
+        background: #cb2154;
+        width: 8px;
+        height: 8px;
         margin-bottom: 3px;
         border-radius: 3px;
         margin-left: 20px;
@@ -1087,18 +1087,21 @@
         padding: 14% 3% 5% 2%;
         display: flex;
     }
-    .icon-colher{
+    .info-item img{
         width: 50px;
         height: 50px;
         display: block; 
         margin-right: 3%;
+        margin-left: 3%;
     }
     .titulo-colher{
-        font-family: Fira Sans Bold;
+        font-family: Fira Sans;
         height: 0;
+        font-weight: 400;
         font-size: 13px;
         text-decoration: none;
     }
+    
     .info-texto{
         font-family: Fira Sans Bold;
         font-size: 12px;
@@ -1381,7 +1384,7 @@
     .anuncio{
         position: absolute;
         width: 20%;
-        height: 300px;
+        height: 450px;
         background-color: #d7d7d7;
         margin-left: 60%;
         margin-top: -3%;
@@ -1499,6 +1502,52 @@
         position: absolute;
         animation: heartBeat 0.5s ease-in-out;
       }
+      .ponto-comentario{
+          background: #4d16bb;
+          width: 5px;
+          height: 5px;
+          margin-bottom: 3px;
+          border-radius: 3px;
+          margin-left: 20px;
+          margin-right: 4%;
+      }
+      .opcoes-comentario{
+          position: absolute;
+          margin-left: 73%;
+          cursor: pointer;
+      }
+      #hide-opcoes-comentario-Desktop{
+          z-index:1000;
+          margin-top: -8%;
+          margin-left: 38%;
+          display: inline;
+          height: 70px;
+          position: absolute;
+          background-color: white;
+          padding: 1% 1% 1% 1%;
+          border-radius: 5px;
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.565);
+      }
+      #hide-opcoes-comentario-Desktop img{
+          width: 20px;
+          height: 20px;
+      }
+      #hide-opcoes-comentario-Desktop p{
+          font-family: Fira Sans Bold;
+          margin-left: 15px;
+      }
+      .denunciar-comentario{
+          width: 200px;
+          display: flex;
+          margin-bottom: 20px;
+      }
+      .compartilhar-comentario{
+          display: flex;
+      }
+      .compartilhar-comentario p{
+          width: 210px;
+      }
+  
       
     @keyframes heartBeat {
         0% {
