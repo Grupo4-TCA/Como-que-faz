@@ -942,6 +942,114 @@
   .header-dispositivo-mobile {
     display: none;
   }
+  .mapculinaria {
+    margin-left: 18%;
+    font-family: Fira Sans;
+    color: black;
+}
+.mapculinaria2 {
+  font-family: Fira Sans Bold;
+  color: #9e5fef;
+}
+.imgcu {
+  width: 120px;
+  height: 120px;
+  margin-left: 17.5%;
+  margin-top: 20px;
+}
+.titulocu {
+  font-size: 45px;
+  color: #027de1;
+  margin-left: 470px;
+  margin-top: -110px;
+  font-weight: 400;
+}.pcu {
+  margin-left: 470px;
+  width: 20%;
+  font-size: 15px;
+  font-family: Fira Sans;
+}
+.container {
+  width: 10%;
+  position: absolute;
+  margin-left: 1330px;
+  margin-top: -20px;
+}
+.subca {
+  width: 217px;
+  height: 38px;
+  border: none;
+  color: #cb1154;
+  padding: 0px 5px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: Fira Sans Bold;
+}
+.dropDown {
+  width: 227px;
+  height: 247px;
+  background-color: #f2f2f2;
+  padding: 20px 30px;
+  gap: 10px;
+  overflow: auto;
+  transform: translate( -70px, 0px);
+  display: none;
+  position: absolute;
+  z-index: 99;
+  border-radius: 5px;
+  color: #333333;
+}
+.listDropDown {
+  width: 227px;
+  height: 247px;
+}
+.item {
+  width: 253px;
+  height: 28px;
+  padding: 2px 2px 2px 2px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.filtroantes {
+  overflow: hidden;
+}
+.filtrocu {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+  height: 100%;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 50px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  border: none;
+  width: auto;
+  overflow: auto;
+}
+.fcutodas {
+  min-width: 15%;
+  height: 50px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  font-size: large;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  border: none;
+  gap: 100px;
+}
 
   .logos {
     display: flex;
