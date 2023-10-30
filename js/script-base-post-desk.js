@@ -1,5 +1,6 @@
   //--------------------------- POST 1
 
+
   function mostrarDivOculta() {
     var divOculta = document.getElementById("hover-post1");
     var ta = document.getElementById("icon-culinaria-branco");
@@ -7,17 +8,16 @@
     divOculta.style.display = "block";
     ta.style.display = "none";
     t2.style.display = "none";
-}
-
-function esconderDivOculta() {
+  }
+  
+  function esconderDivOculta() {
     var divOculta = document.getElementById("hover-post1");
     var ta = document.getElementById("icon-culinaria-branco");
     var t2 = document.getElementById("texto-atras");
     divOculta.style.display = "none";
     ta.style.display = "block";
     t2.style.display = "block";
-}
-
+  }
   //--------------------------- POST 2
 
 function mostrarDivOculta2() {
@@ -896,7 +896,7 @@ function esconderDivOculta5B() {
 
       //--------------------------- POST 1
 
-  function mostrarDivOculta() {
+  function mostrarDivOcultaB() {
     var divOculta = document.getElementById("hover-post1-B");
     var ta = document.getElementById("icon-culinaria-branco-B");
     var t2 = document.getElementById("texto-atras-B");
