@@ -1,9 +1,41 @@
-@media only screen and (min-width: 721px) {
+@media only screen and (min-width: 481px) {
     * {
         font-family: Heavitas;
         padding: 0;
         margin: 0;
     }
+    
+.tabcontent {
+    float: left;
+    width: 937px;
+    height: 1784px;
+    transform: translate(644px, 50px);
+    padding: 2px 2px 2px 2px;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+.mapa-do-site{
+    display: flex;
+    margin-bottom: 2%;
+}
+.mapa-do-site p{
+    font-family: Fira Sans;
+}
+.mapa-1{
+    text-decoration: underline;
+    margin-right: 7px;
+}
+.mapa-2{
+    text-decoration: underline;
+    font-weight: Bold;
+    color: #9e5fef;
+    margin-left: 7px;
+}
+.seta-1{
+    margin-right: 7px;
+}
+
 
     @font-face {
         font-family: Heavitas;
@@ -185,4 +217,54 @@
         font-family: "Fira Sans Medium", "Fira Sans", sans-serif;
         font-size: 16px;
     }
+    
+.tab {
+    float: left;
+    transform: translate(267px, 295px);
+    width: 284px;
+    height: 450px;
+    padding: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    position: fixed;
+  }
+  
+  .tab button {
+    display: block;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 67px;
+    padding: 17px 17px 17px 17px;
+    color: gray;
+    box-sizing: border-box;
+    font-family: "Heavitas", sans-serif;
+    text-align: left;
+    line-height: normal;
+    margin-bottom: 28px;
+    border-radius: 5px;
+    font-size:25px;
+  }
+  
+  .tab button:hover {
+    color: grey;
+    background-color: rgba(24, 24, 24, 0.185);
+  }
+  
+  .tab button.active {
+    width: 300px;
+    height: 67px;
+    padding: 17px 17px 17px 17px;
+    border-radius: 5px;
+    background-image: linear-gradient(89.99146929511329deg, #4d16bb 0%, #9d21cb 99.20305052121002%);
+    box-sizing: border-box;
+    border-style: none;
+    font-family: "Heavitas", sans-serif;
+    text-align: left;
+    line-height: normal;
+    color: white;
+  }
 }
