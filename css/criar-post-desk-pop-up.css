@@ -79,7 +79,7 @@
 
     #criar-post-titulo {
         font-size: 140%;
-        margin-left: 1.04lvw;
+        margin-left: 1.04vw;
         font-family: "Heavitas", sans-serif;
         color: #4d16bb;
         text-align: left;
@@ -92,7 +92,7 @@
     }
 
     #close-modal-criar-post {
-        margin-left: 36vw;
+        margin-left: 40vw;
         font-size: 140%;
         font-family: "Heavitas", sans-serif;
         color: #4d16bb;
@@ -160,23 +160,23 @@
     }
 
     #bolinhas-atras {
-        width: 20vw;
+        width: 20.5vw;
         color: #d6d6d6;
         font-weight: 700;
         font-size: 80%;
         position: absolute;
-        left: 21vw;
-        padding-top: 0.78vw;
+        left: 20.5vw;
+        padding-top: 1.1vw;
     }
 
     #numero-do-elemento {
         width: 1.92vw;
-        height: 1.5vw;
+        height: 1.3vw;
         border-radius: 5.20vw;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
         text-align: center;
-        padding-top: 0.3vw;
+        padding-top: 0.5vw;
         margin-right: 0.5vw;
         display: inline-block;
     }
@@ -206,6 +206,7 @@
         text-align: left;
         line-height: normal;
         margin-left: 12.13vw;
+        font-size: 100%;
     }
 
     #elementos {
@@ -220,6 +221,7 @@
         line-height: normal;
         margin-left: 7%;
         z-index: 2;
+        font-size: 100%;
     }
 
     #midias {
@@ -232,6 +234,7 @@
         text-align: left;
         line-height: normal;
         margin-left: 7%;
+        font-size: 100%;
     }
 
     .conteudo {
@@ -243,10 +246,10 @@
     }
 
     #titulo-detalhes {
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: "Heavitas", sans-serif;
         font-weight: 700;
-        color: #333333;
-        font-size: 100%;
+        color: #777;
+        font-size: 120%;
     }
 
     #input-titulo-da-postagem {
@@ -508,7 +511,7 @@
 
     #descricao-detalhes {
         width: 22.08vw;
-        height: 3.02vw;
+        height: 6.2vw;
         margin-top: 0.88vw;
         padding: 2px 2px 2px 2px;
         border-radius: 0.26vw;
@@ -612,14 +615,18 @@
         display: inline-block;
     }
 
+    #clonados-ou-nao {
+        margin-top: 1vw;
+    }
+
     #linha-rosa-ingredientes {
         width: 0.26vw;
-        height: 12vw;
+        height: 11vw;
         padding: 2px 2px 2px 2px;
         background-color: #cb218c;
         box-sizing: border-box;
         position: absolute;
-        margin-top: -5.8vw;
+        margin-top: -4.6vw;
     }
 
     #ingredientes-elementos-NaN {
@@ -631,7 +638,7 @@
         width: 23vw;
         position: relative;
         margin-left: 2vw;
-        margin-top: -1vw;
+        margin-top: 5vw;
     }
 
     #titulo-ingredientes-elementos {
@@ -639,8 +646,9 @@
         font-weight: 700;
         color: #cb218c;
         text-align: left;
-        margin-left: 1.5vw;
-        font-size: 100%;
+        margin-left: 2vw;
+        margin-bottom: -6vw;
+        font-size: 110%;
         border: 0;
     }
 
@@ -830,10 +838,17 @@
         text-align: left;
     }
 
-    #tudo-dos-clones{
+    #titulo-elementos {
+        font-family: "Heavitas", sans-serif;
+        font-weight: 700;
+        color: #777;
+        font-size: 120%;
+    }
+
+    #tudo-dos-clones {
         width: 25vw;
         margin-left: 25vw;
-        margin-top: -5.6vw;
+        margin-top: -4.8vw;
         position: absolute;
     }
 
@@ -875,7 +890,7 @@
         padding-bottom: 1.5vw;
     }
 
-    #modo-de-preparo{
+    #modo-de-preparo {
         padding-bottom: 1.5vw;
     }
 
@@ -894,7 +909,7 @@
     }
 
     #linhas-roxa-conteudo {
-        border-left: 0.36vw #9e5fef solid;
+        border-left: 0.31vw #9e5fef solid;
     }
 
     #input-modo-de-preparo {
@@ -938,42 +953,41 @@
     }
 
     #adicione-midias {
+        width: 25vw;
+        height: 6.8vw;
+        font-size: 100%;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
         color: #333333;
         text-align: left;
-        margin-left: -2vw;
-        width: 25vw;
-        height: 6.8vw;
-        font-size: 90%;
-      }
-    
-      #retangulo-adicionar-midia {
-        width: 20.06vw;
-        height: 17.4vw;
-        margin-top: -4vw;
-        margin-left: -0.7vw;
+        margin-top: 1vw;
+    }
+
+    #retangulo-adicionar-midia {
+        width: 18.06vw;
+        height: 15.4vw;
+        margin-top: -5vw;
         padding: 2px 2px 2px 2px;
         border-radius: 5px;
         border: 2px dashed #cb218c;
         background-color: rgba(203, 33, 140, 0.03);
         box-sizing: border-box;
-      }
-    
-      #mais-adicionar-midia {
+    }
+
+    #mais-adicionar-midia {
         width: 2.13vw;
         height: 2.13vw;
         margin-left: 8.5vw;
         margin-top: 36%;
-      }
-    
-      .thumbnail {
+    }
+
+    .thumbnail {
         max-width: relative;
         height: 6vw;
         position: relative;
-      }
-    
-      .close-button {
+    }
+
+    .close-button {
         width: 2vw;
         height: 1.8vw;
         margin-left: -1vw;
@@ -986,15 +1000,15 @@
         border-radius: 50%;
         font-size: 110%;
         font-family: 'Heavitas', sans-serif;
-      }
+    }
 
-      #result{
+    #result {
         width: 28vw;
         height: 21vw;
         margin-left: 23vw;
         margin-top: -20vw;
         background-color: rgba(206, 71, 157, 0.03);
-      }
+    }
 
     /* botoes criar post */
     #botoes-criar-post {
