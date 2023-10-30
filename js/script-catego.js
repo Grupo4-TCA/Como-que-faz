@@ -317,7 +317,9 @@ function category(c) {
 
 function focado(){
     document.getElementsByClassName('dropDown')[0].style.display="block";
+    document.getElementById('seta-culinaria').style.transform="rotateX(0deg)";
 }
 function desfoque(){
     document.getElementsByClassName('dropDown')[0].style.display="none"
+    document.getElementById('seta-culinaria').style.transform="rotateX(180deg)";
 }
