@@ -356,6 +356,9 @@
         display: block;
     }
 
+    a:link{
+        text-decoration: none;
+    }
     /* Header Logado */
     .user {
         margin-top: 9px;
