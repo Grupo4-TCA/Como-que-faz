@@ -151,6 +151,7 @@
         left: 0;
         transform: translateX(100%);
         position: absolute;
+        overflow: auto;
     }
 
     #conteudoTarefa3 {
@@ -460,9 +461,9 @@
         background-color: #f2f2f2;
         box-sizing: border-box;
         font-family: "Arial", sans-serif;
-        font-size: 90%;
+        font-size: 130%;
         color: #555;
-        font-weight: 700;
+        font-weight: 600;
         margin-left: 0.4vw;
         margin-right: 0.4vw;
 
@@ -670,7 +671,7 @@
         background-color: #f2f2f2;
         outline: none;
         font-family: "Fira Sans", sans-serif;
-        font-size: 90%;
+        font-size: 120%;
         font-weight: 700;
         color: #cb218c;
 
@@ -977,7 +978,7 @@
     #mais-adicionar-midia {
         width: 2.13vw;
         height: 2.13vw;
-        margin-left: 8.5vw;
+        margin-left: 8vw;
         margin-top: 36%;
     }
 
@@ -1008,11 +1009,16 @@
         margin-left: 23vw;
         margin-top: -20vw;
         background-color: rgba(206, 71, 157, 0.03);
+        overflow: auto;
     }
 
     /* botoes criar post */
     #botoes-criar-post {
         margin-top: 24.7vw;
+        padding-top: 1vw;
+        width: 63.12vw;
+        height: 5vw;
+        box-shadow: 0 -4px 6px -3px rgba(0, 0, 0, 0.3);
     }
 
     #btnAvancar {

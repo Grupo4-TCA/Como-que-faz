@@ -969,17 +969,22 @@
   font-size: 15px;
   font-family: Fira Sans;
 }
-.container {
+.container{
   width: 10%;
   position: absolute;
   margin-left: 1330px;
   margin-top: -20px;
 }
+.container img{
+  transform: rotateX(180deg);
+  height: 10px;
+  margin-left: 5px;
+}
 .subca {
   width: 217px;
   height: 38px;
   border: none;
-  color: #cb1154;
+  color: #027de1;
   padding: 0px 5px;
   box-sizing: border-box;
   outline: none;
@@ -1001,9 +1006,23 @@
   border-radius: 5px;
   color: #333333;
 }
+.dropDown::-webkit-scrollbar{
+  display: none;
+}
 .listDropDown {
   width: 227px;
   height: 247px;
+}
+.item {
+  width: 253px;
+  height: 28px;
+  padding: 2px 2px 2px 2px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.item:hover{
+  color: #cb1154;
 }
 .item {
   width: 253px;
@@ -1197,26 +1216,6 @@
 
   }
 
-  .filtrocu {
-    display: flex;
-    gap: 2.66vw;
-    overflow: auto;
-    height: 100%;
-    margin-left: 19%;
-    margin-right: 19%;
-    margin-top: 70px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-family: "Fira Sans", sans-serif;
-    color: #333333;
-    text-align: center;
-    line-height: normal;
-    border: none;
-    width: auto;
-  }
-
-
   .fcutodas {
     min-width: 15%;
     height: 50px;
@@ -1239,40 +1238,6 @@
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     color: #ffffff;
-  }
-  .subca{
-    transform: translate( 1300px, 50px);
-    width: 217px;
-    height: 38px;
-    border: none;
-    font-style: #027de1;
-    padding: 0px 5px;
-    box-sizing: border-box;
-    outline: none;
-  }
-  .subca::-webkit-input-placeholder{
-    color:#027de1;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .dropDown{
-    width: 227px;
-    height: 247px;
-    background-color: #f2f2f2;
-    padding: 20px 30px;
-    gap: 10px;
-    overflow: auto;
-    transform: translate( 1300px, 50px);
-    display: none;
-    position: absolute;
-    z-index: 99;
-  }
- .dropDown::-webkit-scrollbar{
-    display: none;
-  }
-  .listDropDown{
-    width: 227px;
-    height: 247px;
   }
   .item{
     width: 253px;
