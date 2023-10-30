@@ -20,6 +20,10 @@
     src: url("../fonts/fira-sans.regular.ttf");
   }
 
+  .conteudo-dispositivo-desktop{
+    display: none;
+  }
+
   .mapli {
     margin-top: 5%;
   }
