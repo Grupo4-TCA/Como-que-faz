@@ -831,7 +831,8 @@
     }
 
     #tudo-dos-clones{
-        margin-left: 21vw;
+        width: 25vw;
+        margin-left: 25vw;
         margin-top: -5.6vw;
         position: absolute;
     }
@@ -870,7 +871,6 @@
 
     #modo-de-preparo-NaN {
         box-sizing: border-box;
-        margin-left: 6.4vw;
         border-left: 0.36vw #9e5fef solid;
         padding-bottom: 1.5vw;
     }
@@ -894,7 +894,6 @@
     }
 
     #linhas-roxa-conteudo {
-        margin-left: 6.4vw;
         border-left: 0.36vw #9e5fef solid;
     }
 
