@@ -47,6 +47,16 @@ function AbrirOpcoesDesktop() {
 }
 
 
+function AbrirOpcoesComentarioDesktop() {
+  var x = document.getElementById("hide-opcoes-comentario-Desktop");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
 function visibility1() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
@@ -131,6 +141,9 @@ function visibility9() {
 function switchImage(source){
   document.querySelector(".imagemprincipal").src = source;
 }
+function switchImageDesktop(source){
+  document.querySelector(".imagemprincipalDesktop").src = source;
+}
 
  //icon-heart-interações
  function mudarcor(e){
@@ -150,6 +163,7 @@ function visibility1D() {
     x.style.display = "none";
   }
 }
+
 function Hidden1D() {
   var x = document.getElementById("myDIVD");
   if (x.style.display === "block") {
