@@ -989,9 +989,11 @@
       }
 
       #result{
-        width: 23vw;
+        width: 28vw;
+        height: 21vw;
         margin-left: 23vw;
         margin-top: -20vw;
+        background-color: rgba(206, 71, 157, 0.03);
       }
 
     /* botoes criar post */
