@@ -15,6 +15,9 @@
     background-color: #f9f9f9;
     box-sizing: border-box;
 }
+a:link{
+    text-decoration: none;
+}
 .mapa-do-site{
     display: flex;
     margin-bottom: 2%;
@@ -74,11 +77,15 @@
         color: #9e5fef;
         background-color: #ececec;
         gap: 20px;
-        width: 100%;
+        width: 96%;
         height: 8vh;
         align-items: center;
-        padding: 0 36px;
+        padding: 0 0 0 4%;
         border-radius: 6px 6px 0px 0px;
+    }
+
+    .headernot h3{
+        font-size: 23px;
     }
 
     div.headernot img {
@@ -88,7 +95,6 @@
     }
 
     div.filtro-not {
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-size: medium;
         color: #9e5fef;
         margin-top: 30px;
@@ -148,8 +154,7 @@
     .radio-container {
         position: relative;
         display: inline-block;
-        padding-left: 15px;
-        margin-right: 10px;
+        margin-right: 1%;
     }
 
     .radio-container input[type="radio"] {
@@ -158,21 +163,22 @@
     }
 
     .radio-container label {
+        font-family: Fira Sans;
         position: relative;
-        padding: 4px 15px;
+        padding: 7px 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         background-color: #9d5fef28;
     }
-
+    .contpostnot h3{
+        margin-top: 20px;
+        margin-left: 10px;
+        font-family: Fira Sans;
+    }
     .radio-container input[type="radio"]:checked+label {
         background-color: #9e5fef;
         color: #f9f9f9;
-    }
-
-    div.filtro-not {
-        margin-left: 80px;
     }
 
     .contpostnot {
@@ -194,8 +200,8 @@
         display: flex;
         height: 35vh;
         width: 35vh;
-        margin-top: 50px;
-        margin-left: 110px;
+        margin-top: 40px;
+        margin-left: 150px;
         object-fit: contain;
         gap: 15px;
     }
@@ -206,7 +212,7 @@
         display: flex;
         text-align: center;
         object-fit: contain;
-        margin-left: 138px;
+        margin-left: 180px;
         margin-top: 10px;
         gap: 10px;
         align-items: center;
@@ -220,7 +226,7 @@
     
 .tab {
     float: left;
-    transform: translate(267px, 295px);
+    transform: translate(267px, 150px);
     width: 284px;
     height: 450px;
     padding: 2px 2px 2px 2px;
