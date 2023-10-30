@@ -267,15 +267,16 @@
                                     <section id="clonados-ou-nao">
 
                                         <div id="ingredientes-elementos">
-                                            <img id="botao-de-add-ingrediente" src="./imagens/adicionar-ingrediente.svg"
-                                                onclick="duplicarDiv()">
-                                            <img id="botao-de-tirar-ingrediente" src="./imagens/tirar-ingrediente.svg"
-                                                alt="excluir ingrediente" onclick="apagarDiv(this)">
-
                                             <section id="sem-a-linha-rosa">
+                                                <img id="botao-de-add-ingrediente"
+                                                    src="./imagens/adicionar-ingrediente.svg" onclick="duplicarDiv()">
+                                                <img id="botao-de-tirar-ingrediente"
+                                                    src="./imagens/tirar-ingrediente.svg" alt="excluir ingrediente"
+                                                    onclick="apagarDiv(this)">
+
                                                 <h4 id="nome-do-ingrediente">Nome do ingrediente</h4>
                                                 <input type="text" id="input-nome-do-ingrediente"
-                                                    placeholder="Farinha de trigo">
+                                                    placeholder="FARINHA DE TRIGO">
 
                                                 <div id="coiso-pra-deixar-certo">
                                                     <div id="quantidade-elementos">
@@ -315,7 +316,7 @@
                                                             </div>
                                                         </select>
                                                     </div>
-
+                                                </div>
 
                                             </section>
                                             <div id="linha-rosa-ingredientes">
@@ -326,7 +327,6 @@
                                     </section>
 
                                     <div id="tudo-dos-clones">
-
                                         <section id="linhas-roxa-conteudo">
                                             <div id="titulo-texto-modo">
                                                 <h2 id="modo-de-preparo-titulo">MODO DE PREPARO</h2>
@@ -339,8 +339,8 @@
                                             </div>
 
                                             <div id="modo-de-preparo">
-                                                <span id="arruma-numero-simbolo"> <input type="text"
-                                                        id="numero-do-modo-de-preparo" placeholder="1"
+                                                <span id="arruma-numero-simbolo">
+                                                    <input type="text" id="numero-do-modo-de-preparo" placeholder="1"
                                                         disabled="disabled">
                                                     <h2 id="simbolo-do-numero">º</h2>
                                                 </span>
@@ -350,26 +350,35 @@
                                                     onclick="apagarDivModo(this)">X</button>
                                             </div>
                                         </section>
-
                                     </div>
+
                                 </div>
                             </div>
 
-                                <div class="conteudo conteudo3" id="conteudoTarefa3">
-                                    c
+                            <div class="conteudo conteudo3" id="conteudoTarefa3">
+                                <input type="file" id="files" accept="image/*" multiple style="display: none;">
+                                <div id="esqueleto-midias">
+                                    <h1 id="adicione-midias">ADICIONE IMAGENS E VÍDEOS À SUA POSTAGEM!</h1>
+                                    <div id="retangulo-adicionar-midia">
+                                        <img src="./imagens/mais-rosa.svg" alt="adicionar mídia"
+                                            id="mais-adicionar-midia">
+                                    </div>
+                                    <div class="midia-adicionada-retangulo" id="midia-adicionada-retangulo"></div>
                                 </div>
+                                <div id="result"></div>
                             </div>
-
-                            <div id="botoes-criar-post">
-                                <button id="btnVoltar" class="Voltar">VOLTAR</button>
-                                <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
-                            </div>
-
                         </div>
+
+                        <div id="botoes-criar-post">
+                            <button id="btnVoltar" class="Voltar">VOLTAR</button>
+                            <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <!-- FINAL POP-UP CRIAR POSTAGEM -->
+        </div>
+        <!-- FINAL POP-UP CRIAR POSTAGEM -->
     </section>
 
 </body>
