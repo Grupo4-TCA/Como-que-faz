@@ -95,7 +95,6 @@
     width: 54px;
     height: 19px;
     color: black;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     font-weight: 700;
     margin-left: 7%;
   }
@@ -345,27 +344,34 @@
 
   .mapculinaria {
     margin-left: 359px;
+    font-family: Fira Sans;
+    color: black;
+  }
+
+  .mapculinaria2 {
+    font-family: Fira Sans Bold;
+    color: #9e5fef;
   }
 
   .imgcu {
-    width: 180px;
-    height: 180px;
-    margin-left: 320px;
+    width: 120px;
+    height: 120px;
+    margin-left: 345px;
     margin-top: 20px;
   }
 
   .titulocu {
-    font-size: 40px;
+    font-size: 45px;
     color: #cb1154;
     margin-left: 500px;
-    margin-top: -150px;
+    margin-top: -110px;
   }
 
   .pcu {
     margin-left: 500px;
-    width: 30%;
-    font-size: 12px;
-
+    width: 20%;
+    font-size: 15px;
+    font-family: Fira Sans;
   }
   .filtrocu {
     display: flex;
@@ -411,8 +417,13 @@
     color: #ffffff;
   }
 
+  .container{
+    width: 10%;
+    position: absolute;
+    margin-left: 1360px;
+    margin-top: -20px;
+  }
   .subca{
-    transform: translate( 1300px, 50px);
     width: 217px;
     height: 38px;
     border: none;
