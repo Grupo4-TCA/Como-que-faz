@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style-480.css">
     <link rel="stylesheet" href="./css/style-limpeza.css">
+    <link rel="stylesheet" href="./css/style-favoritos-desktop.css">
     <script src="./js/base-post-mb.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
@@ -12,6 +13,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/script-botao-criar.js"></script>
+    <script src="./js/script-base-post-desk.js"></script>
+    <link rel="stylesheet" href="./css/style-base-post-desk.css">
     <title>Como que Faz | Meus Favoritos</title>
 </head>
 <header>
@@ -132,7 +135,7 @@
        </div>
     </div>
 </div>
-  <section id="conteudo-dispositivo mobile">
+  <section id="conteudo-dispositivo-mobile">
     <div class="mapli">
       <a  class="maplimpeza" href="./Home-Com-Login.html"> < Voltar</a>
   </div>
@@ -454,9 +457,9 @@
       <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
           <button class="tablinks">Perfil</button></a>
       <a href="https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações">
-          <button class="tablinks active">Notificações</button></a>
+          <button class="tablinks">Notificações</button></a>
       <a href="https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos">
-          <button class="tablinks">Favoritos</button></a>
+          <button class="tablinks active">Favoritos</button></a>
       <a href="">
           <button class="tablinks">Ajustes</button></a>
       <a href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">
@@ -467,13 +470,13 @@
       <div id="Notificacoes" class="tabcontent">
           
       <div class="mapa-do-site">
-          <p class="mapa-1">Home</p><p class="seta-1"> > </p><p class="mapa-1">Meu Perfil</p><p class="seta"> > </p><p class="mapa-2">Minhas Notificações</p>
+          <p class="mapa-1">Home</p><p class="seta-1"> > </p><p class="mapa-1">Meu Perfil</p><p class="seta"> > </p><p class="mapa-2">Meus Favoritos</p>
       </div>
 
           <div class="feed-not">
             <div class="headernot">
-              <img src="imagens/u51.svg" alt="">
-              <h3>Notificações</h3>
+              <img src="imagens/favoritos.svg" alt="">
+              <h3>FAVORITOS</h3>
             </div>
           </div>
     
@@ -484,20 +487,261 @@
             </div>
             <div class="radio-container">
               <input type="radio" id="radio2" name="radio-group">
-              <label for="radio2">Comentários</label>
+              <label for="radio2">Culinária</label>
             </div>
             <div class="radio-container">
               <input type="radio" id="radio3" name="radio-group">
-              <label for="radio3">Curtidas</label>
+              <label for="radio3">Limpeza</label>
             </div>
             <div class="radio-container">
               <input type="radio" id="radio4" name="radio-group">
-              <label for="radio4">Dicas recebidas</label>
+              <label for="radio4">Bem Estar</label>
             </div>
-            <div class="radio-container">
-              <input type="radio" id="radio4" name="radio-group">
-              <label for="radio4">Avaliações</label>
-            </div>
+          </div>
+
+          <div class="conteudo-fav">
+            <div class="postagens">
+              <div class="postagens1" style="margin-left: 65px; margin-top: 5%">
+                  <div class="post1" onmouseover="mostrarDivOculta()" onmouseout="esconderDivOculta()" id="posts">
+                      <img src="imagens/arroz-de-forno.png" alt="foto-post1" class="info-cima-post">
+                      <h1 id="texto-atras" class="info-cima-post">Arroz de Forno Colorido</h1>
+                      <img id="icon-culinaria-branco" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco" class="info-cima-post">
+                      <div class="legenda">
+                          <div class="legenda relogio">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>1H00</h3>
+                          </div>
+                          <div class="legenda estrela">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                          <div class="legenda partes">
+                              <img src="imagens/partes-cinza.png" alt="partes">
+                                  <h3>5</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post1" id="hover-post1">
+                              <a href="https://grupo4-tca.github.io/Como-que-faz/Dica"><div class="salvar-post1" id="salvar-post1">
+                                  <img id="favorito-vaz1" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre1" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>óleo - arroz - água - presunto  - queijo  - ervilha  - cenoura - salsa - queijo parmesão - bacon</h3></a>
+                          </div>
+                  </div>
+                  <div class="post2" onmouseover="mostrarDivOculta2()" onmouseout="esconderDivOculta2()">
+                      <img src="imagens/post-bolo-de-cenoura.png" alt="foto-post2" class="info-cima-post">
+                      <h1 id="texto-atras2" class="info-cima-post">Bolo de Cenoura Fofo</h1>
+                      <img id="icon-culinaria-branco2" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco2" class="info-cima-post2">
+                      <div class="legenda2">
+                          <div class="legenda2 relogio">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>0H30</h3>
+                          </div>
+                          <div class="legenda2 estrela">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                          <div class="legenda2 partes">
+                              <img src="imagens/partes-cinza.png" alt="partes">
+                                  <h3>12</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post2" id="hover-post2">
+                              <div class="salvar-post2" id="salvar-post2">
+                                  <img id="favorito-vaz2" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre2" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>ovos - cenoura picada - açúcar - leite ou suco de laranja - farinha de trigo - farinha de trigo  - amido de milho - leite - açúcar - chocolate em pó - Essência de baunilha - Chocolate granulado</h3>
+                          </div>
+                  </div>
+                  <div class="post3" onmouseover="mostrarDivOculta3()" onmouseout="esconderDivOculta3()">
+                      <img src="imagens/post-limpar-fogao.png" alt="foto-post3" class="info-cima-post">
+                      <h1 id="texto-atras3" class="info-cima-post">Limpe seu forno fácil</h1>
+                      <img id="icon-limpeza-branco3" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco3" class="info-cima-post3">
+                      <div class="legenda3">
+                          <div class="legenda3 relogio3">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>0H20</h3>
+                          </div>
+                          <div class="legenda3 estrela3">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post3" id="hover-post3">
+                              <div class="salvar-post3" id="salvar-post3">
+                                  <img id="favorito-vaz3" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre3" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja - Papel toalha</h3>
+                          </div>
+                  </div>
+                  <div class="post4" onmouseover="mostrarDivOculta4()" onmouseout="esconderDivOculta4()">
+                      <img src="imagens/post-imagem-pele.png" alt="foto-post4" class="info-cima-post">
+                      <h1 id="texto-atras4" class="info-cima-post">Cuidados com a pele negra</h1>
+                      <img id="icon-limpeza-branco4" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco4" class="info-cima-post4">
+                      <div class="legenda4">
+                          <div class="legenda4 relogio3">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>0H10</h3>
+                          </div>
+                          <div class="legenda4 estrela3">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post4" id="hover-post4">
+                              <div class="salvar-post4" id="salvar-post4">
+                                  <img id="favorito-vaz4" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre4" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>esfoliante - água - hidratante</h3>
+                          </div>
+                  </div>
+                  <div id="post13" class="post13" onmouseover="mostrarDivOculta13()" onmouseout="esconderDivOculta13()" style="display: none;">
+                      <img src="imagens/post-sorvete-açai.png" alt="foto-post13" class="info-cima-post">
+                      <h1 id="texto-atras13" class="info-cima-post">Sorverte de açaí caseiro</h1>
+                      <img id="icon-culinaria-branco13" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco13" class="info-cima-post13">
+                      <div class="legenda13">
+                          <div class="legenda11 relogio">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>1H20</h3>
+                          </div>
+                          <div class="legenda11 estrela">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                          <div class="legenda11 partes">
+                              <img src="imagens/partes-cinza.png" alt="partes">
+                                  <h3>8</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post13" id="hover-post13">
+                              <div class="salvar-post13" id="salvar-post13">
+                                  <img id="favorito-vaz13" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre13" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>esfoliante - água - hidratante</h3>
+                          </div>
+                  </div>
+              </div>
+              <div class="postagens2" style="margin-left: 4%; margin-top: 5%">
+                  <div class="post5" onmouseover="mostrarDivOculta5()" onmouseout="esconderDivOculta5()">
+                      <img src="imagens/post-organizacao-rotina.png" alt="foto-post5" class="info-cima-post">
+                      <h1 id="texto-atras5" class="info-cima-post">Organize sua rotina</h1>
+                      <img id="icon-limpeza-branco5" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco5" class="info-cima-post5">
+                      <div class="legenda5">
+                          <div class="legenda5 relogio5">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>1H20</h3>
+                          </div>
+                          <div class="legenda5 estrela5">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>5.0</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post5" id="hover-post5">
+                              <div class="salvar-post5" id="salvar-post5">
+                                  <img id="favorito-vaz5" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre5" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>essa dica não possui itens necessários</h3>
+                          </div>
+                  </div>
+                  <div class="post6" onmouseover="mostrarDivOculta6()" onmouseout="esconderDivOculta6()">
+                      <img src="imagens/post-limpeza-pia.png" alt="foto-post6" class="info-cima-post">
+                      <h1 id="texto-atras6" class="info-cima-post">Limpar o ralo nunca foi tão fácil!</h1>
+                      <img id="icon-limpeza-branco6" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco6" class="info-cima-post6">
+                      <div class="legenda6">
+                          <div class="legenda6 relogio6">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>1H20</h3>
+                          </div>
+                          <div class="legenda6 estrela6">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>5.0</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post6" id="hover-post6">
+                              <div class="salvar-post6" id="salvar-post6">
+                                  <img id="favorito-vaz6" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre6" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>bicarbonato de sódio - vinagre - água</h3>
+                          </div>
+                  </div>
+                  <div class="post7" onmouseover="mostrarDivOculta7()" onmouseout="esconderDivOculta7()">
+                      <img src="imagens/post-bolinho-de-chuva.png" alt="foto-post7" class="info-cima-post">
+                      <h1 id="texto-atras7" class="info-cima-post">Bolinho de chuva</h1>
+                      <img id="icon-culinaria-branco7" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco7" class="info-cima-post7">
+                      <div class="legenda7">
+                          <div class="legenda7 relogio">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>0H45</h3>
+                          </div>
+                          <div class="legenda7 estrela">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                          <div class="legenda7 partes">
+                              <img src="imagens/partes-cinza.png" alt="partes">
+                                  <h3>36</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post7" id="hover-post7">
+                              <div class="salvar-post7" id="salvar-post7">
+                                  <img id="favorito-vaz7" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre7" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>leite - Amido de Milho Maizena - farinha de trigo - açúcar - fermento em pó - ovos  - gema - óleo para fritar - canela</h3>
+                          </div>
+                  </div>
+                  <div class="post8" onmouseover="mostrarDivOculta8()" onmouseout="esconderDivOculta8()">
+                      <img src="imagens/post-limpeza-dispensa.png" alt="foto-post8" class="info-cima-post">
+                      <h1 id="texto-atras8" class="info-cima-post">Organize sua dispensa na rotina</h1>
+                      <img id="icon-limpeza-branco8" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco8" class="info-cima-post8">
+                      <div class="legenda8">
+                          <div class="legenda8 relogio8">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>0H20</h3>
+                          </div>
+                          <div class="legenda8 estrela8">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>5.0</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post8" id="hover-post8">
+                              <div class="salvar-post8" id="salvar-post8">
+                                  <img id="favorito-vaz8" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre8" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>multiuso - água - pano</h3>
+                          </div>
+                  </div>
+                  <div id="post14" class="post14" onmouseover="mostrarDivOculta14()" onmouseout="esconderDivOculta14()" style="display: none;">
+                      <img src="imagens/post-exercicios-bemetar.png" alt="foto-post14" class="info-cima-post">
+                      <h1 id="texto-atras14" class="info-cima-post">Equilíbrio Vital: Exercícios!</h1>
+                      <img id="icon-bemestar-branco14" src="imagens/icon-bemestar-branco.png" alt="icon-bemestar-branco14" class="info-cima-post14">
+                      <div class="legenda14">
+                          <div class="legenda14 relogio14">
+                              <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                  <h3>0H20</h3>
+                          </div>
+                          <div class="legenda14 estrela14">
+                              <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                  <h3>4.9</h3>
+                          </div>
+                      </div>
+                          <div class="hover-post14" id="hover-post14">
+                              <div class="salvar-post14" id="salvar-post14">
+                                  <img id="favorito-vaz14" src="imagens/salvar-post-vazado.png" alt="bandeira-favoritos-vazado">
+                                  <img id="favorito-pre14" src="imagens/salvar-post-preenchido.png" alt="bandeira-favoritos-preenchido">
+                              </div>
+                              <h3>Tapete de Yoga ou Esteira - Pesos Livres - Bola de Exercício - Barra para Flexões - Corda de Pular - Banco de Musculação</h3>
+                          </div>
+                  </div>
+              </div>
+          </div>
           </div>
     
 </section>
