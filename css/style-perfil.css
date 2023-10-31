@@ -413,5 +413,115 @@
   
     /*Fim de interações*/
     
-
+  #editar-perfil-popup{
+    position: fixed;
+    padding: 1%;
+    border-radius: 10px;
+    z-index: 300;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 725px;
+    background-color: #f9f9f9;
+  }
+  #fundo-editar-perfil{
+    position: fixed;
+    background: #000000a3;
+    width: 1920px;
+    height: 1080px;
+    z-index: 299;
+  }
+  .xis-sair{
+    color: #4d16bb;
+    cursor: pointer;
+  }
+  .banner-editar{
+    width: 525px;
+    margin-top: 20px;
+    height: 95px;
+  }
+  .foto-editar{
+    transform: translate(-100.5px, -63px);
+    height: 90px;
+  }
+  .fundo-foto-editar{
+    transform: translate(0px, -58px);
+    height: 100px;
+  }
+  .editar-foto-camera{
+    width: 35px;
+  }
+  #camera1{
+    transform: translate(450px, -90px);
+  }
+  #camera2{
+    transform: translate(-130px, -60px);
+  }
+  #tit1{
+    margin-top: -40px;
+  }
+  .tit-editar{
+    font-family: Heavitas;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 45px;
+    color: #4d16bb;
+  }
+  .tit-duas{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+  }
+  .tex-editar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid #333333;
+    width: 83%;
+    background: none;
+    font-family: Fira Sans;
+    font-size: 16px;
+    outline: none;
+  }
+  .tex-editar::placeholder{
+    color: #333333;
+    font-family: Fira Sans;
+    outline: none;
+  }
+  .tex-duas{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px; 
+  }
+  .redes-editar img{
+    height: 30px;
+  }
+  .redes-editar{
+    width: 83%;
+    margin-left: 45px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .rede-editar{
+    margin-top: 10px;
+    padding: 2% 0% 0 12%;
+    width: 31%;
+    height: 50px;
+    border-radius: 5px;
+    background: #ffd662;
+  }
+  .salvar{
+    background: #4d16bb;
+    color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 180px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+  }
 }

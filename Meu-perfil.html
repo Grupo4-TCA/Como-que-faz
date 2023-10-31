@@ -496,7 +496,50 @@
         <a href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">
             <button class="tablinks">Sair da conta</button></a>
       </div>
-      
+
+      <div id="editar-perfil-popup" style="display: none;">
+        <h1 onclick="SairEditarPerfil()" class="xis-sair">X</h1>
+        <img class="banner-editar" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
+        <img id="camera1" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
+        <img class="fundo-foto-editar" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
+        <img class="foto-editar" src="./imagens/foto-perfil.svg" alt="">
+        <img id="camera2" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
+
+        <h3 id="tit1" class="tit-editar">NOME DE USUÁRIO</h3>
+
+        <input class="tex-editar" type="text" name="user" placeholder="Sofizinha">
+
+        <h3 class="tit-editar">BIOGRAFIA</h3>
+
+        <input class="tex-editar" type="text" name="user" placeholder="Dicas caseiras fáceis de fazer">
+        
+        <div class="tit-duas">
+          <h3 class="tit-editar">NOME DO SITE</h3>
+          <h3 class="tit-editar">URL DO SITE</h3>
+        </div>
+        <div class="tex-duas">
+          <input id="tex-duas1" class="tex-editar" type="text" name="user" placeholder="Site">
+          <input id="tex-duas2" class="tex-editar" type="text" name="user" placeholder="UserDicas.com.br">
+        </div>
+        <h3 class="tit-editar">REDES CONECTADAS</h3>
+
+        <div class="redes-editar">
+          <div class="rede-editar">
+            <img src="./imagens/tiktok-roxo-escuro.png" alt="tiktok">
+          </div>
+          <div class="rede-editar">
+            <img src="./imagens/instagram-roxo-escuro.png" alt="instagram">
+          </div>
+          <div class="rede-editar">
+            <img src="./imagens/twitter-roxo-escuro.png" alt="twitter">
+          </div>
+        </div>
+        <button onclick="SairEditarPerfil()" class="salvar">SALVAR</button>
+        </div>
+        
+      </div>
+      <div id="fundo-editar-perfil" style="display: none;">
+      </div>
     <div class="tab-content">  
       <div id="Perfil" class="tabcontent active">
         <div class="perfil-cima">
@@ -506,7 +549,7 @@
     </div>
             <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
             <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
-            <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil">Editar Perfil</button>
+            <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil" onclick="EditarPerfil()">Editar Perfil</button>
             <div class="nome-user">
               <h1 class="User1234">Sofizinha | </h1>
               <h2 class="Nome1234"> Sofia Albuquerque Lima</h2>
