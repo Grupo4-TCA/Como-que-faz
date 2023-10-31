@@ -196,6 +196,7 @@
   /*basepost*/
   #pinterest-style {
     margin-top: 5vw;
+    height: 320vw;
   }
 
   #primeira-fileira-posts {
@@ -211,6 +212,21 @@
     display: inline-grid;
     flex-direction: column;
   }
+
+  
+#primeira-fileira-posts-em-alta {
+  position: absolute;
+  display: inline-grid;
+  flex-direction: column;
+}
+
+#segunda-fileira-posts-em-alta {
+  position: relative;
+  display: inline-grid;
+  flex-direction: column;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
 
   #base-post {
     width: 46.93vw;
