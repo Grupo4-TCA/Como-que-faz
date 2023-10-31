@@ -18,4 +18,31 @@
         background-color: #9e5fef;
         color: white;
     }
+    .sem-rescunhos{
+        margin-top: 25px;        
+        width: 95%;
+        border-radius: 10px;
+        border: 4px dashed #bababa;
+        margin-left: -2.5%;
+    }
+    .sem-rescunhos img{
+        margin-left: 78px;
+        width: 60%;
+        opacity: 0.5;
+    }
+    .sem-rescunhos h3{
+        color: #7a7a7a;
+        font-family: Fira Sans;
+        margin-left: 17.5%;
+        margin-top: -40px;
+        width: 65%;
+    }
+    .sem-rescunhos h2{
+        color: #9e5fef;
+        font-family: Fira Sans Bold;
+        margin-left: 27.5%;
+        width: 45%;
+        text-decoration: underline;
+        margin-bottom: 50px;
+    }
 }
