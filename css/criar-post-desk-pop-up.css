@@ -1055,3 +1055,9 @@
         position: absolute;
     }
 }
+
+@media only screen and (max-width: 480px){
+    .CRIAR-dispositivo-desktop{
+        display: none;
+    }
+}
