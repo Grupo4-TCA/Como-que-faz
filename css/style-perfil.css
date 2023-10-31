@@ -45,6 +45,62 @@
         text-decoration: underline;
         margin-bottom: 50px;
     }
+
+    /* interações ----------------------------------------------------------------------- */
+    #base-not-interacoes{
+        width: 100vw;
+        height: 25vw;
+        background-color: aliceblue;
+        margin-left: -6.8vw;
+        padding-top: 7vw;
+        border: 0;
+        border-bottom: 1px solid #d7d7d7;
+    }
+
+    #foto-perfil-not{
+        width: 18vw;
+        height: 18vw;
+        border-radius: 10vw;
+        margin-left: 5vw;
+        display: inline-block;
+    }
+
+    #descri-interacao{
+        display: inline-block;
+        margin-left: 3vw;
+        margin-top: 4vw;
+        position: absolute;
+    }
+
+    #nome-do-user{
+        color: #333333;
+        font-family: Fira Sans, sans-serif;
+        font-size: 100%;
+        font-weight: 700;
+    }
+
+    #tipo-interacao{
+        color: #7e7e7e;
+        font-family: Fira Sans, sans-serif;
+        font-size: 80%;
+        font-weight: 500;
+    }
+
+    #ver-interacao{
+        width: 22vw;
+        height: 8vw;
+        border: none;
+        color: white;
+        background-color: #cb218c;
+        display: inline-block;
+        border-radius: 1vw;
+        font-weight: 600;
+        font-family: Fira Sans, sans-serif;
+        margin-left: 47vw;
+        position: absolute;
+        margin-top: 4vw;
+    }
+    /* FINAL interações ----------------------------------------------------------------------- */
 }
 
 @media only screen and (min-width: 481px) {
