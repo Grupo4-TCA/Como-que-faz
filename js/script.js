@@ -18,22 +18,27 @@ document.getElementsByClassName("tablinks")[0].classList.add("active");
 
 
     // funcao da tabela dentro de conta
-  function opiniao(evt, opiniaoperfil) {
-    var i, tabcontentperfil, tablinksperfil;
-  
-    tabcontentperfil = document.getElementsByClassName("tabcontent-perfil");
-    for (i = 0; i < tabcontentperfil.length; i++) {
-      tabcontentperfil[i].style.display = "none";
+    function opiniao(evt, opiniaoperfil) {
+      var i, tabcontentperfil, tablinksperfil;
+    
+      // Oculta todos os elementos com a classe "tabcontent-perfil"
+      tabcontentperfil = document.getElementsByClassName("tabcontent-perfil");
+      for (i = 0; i < tabcontentperfil.length; i++) {
+        tabcontentperfil[i].style.display = "none";
+      }
+    
+      // Remove a classe "active" de todos os elementos com a classe "tablinks-perfil"
+      tablinksperfil = document.getElementsByClassName("tablinks-perfil");
+      for (i = 0; i < tablinksperfil.length; i++) {
+        tablinksperfil[i].className = tablinksperfil[i].className.replace(" active", "");
+      }
+    
+      // Exibe o conteúdo da guia selecionada
+      document.getElementById(opiniaoperfil).style.display = "block";
+    
+      // Adiciona a classe "active" à guia selecionada
+      evt.currentTarget.className += " active";
     }
-  
-    tablinksperfil = document.getElementsByClassName("tablinks-perfil");
-    for (i = 0; i < tablinksperfil.length; i++) {
-      tablinksperfil[i].className = tablinksperfil[i].className.replace(" active", "");
-    }
-  
-    document.getElementById(opiniaoperfil).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
 
   //botao de filtro
   function selecionarFiltro(botao) {
