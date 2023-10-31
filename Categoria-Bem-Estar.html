@@ -70,50 +70,52 @@
 
     <br>
     <br>
-    <div class="mapbe">
-        <a class="mapbemestar" href="./Home.html">
-            < Voltar</a>
+    <div class="mapCU">
+      <a class="mapculinaria" href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
+        Home ></a> <a class="mapculinaria2" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária"> Bem Estar </a>
     </div>
-    <div class="categobe">
-        <img class="imgbe" src="./imagens/categobemestar.png" alt="icon culinaria">
-        <h1 class="titulobe">BEM-ESTAR</h1>
-        <p class="pbe">Explore um mundo saudável e técnicas de bem-estar com dicas e tutoriais detalhados.</p>
+    <div class="categocu">
+      <img class="imgcu" src="./imagens/categobemestar.png" alt="icon culinaria">
+      <h1 class="titulocu">BEM ESTAR</h1>
+      <p class="pcu">Explore métodos para manter um equilíbrio saudável, cultivar a felicidade e alcançar o seu potencial máximo.</p>
     </div>
     <div class="container">
-        <input class="subca" type="text" name="subcate" placeholder="Subcategorias" onFocus="focado()" onBlur="desfoque()"/>
-      <div class="dropDown">
-          <div class="listDropDown">
-              <div class="item" id="item-1" onMouseDown="category(1)">Agridoces</div><br>
-              <div class="item" id="item-2" onMouseDown="category(2)">Almoço</div><br>
-              <div class="item" id="item-3" onMouseDown="category(3)">Café da manhã</div><br>
-              <div class="item" id="item-4" onMouseDown="category(4)">Carnes</div><br>
-              <div class="item" id="item-5" onMouseDown="category(5)">Doces</div><br>
-              <div class="item" id="item-6" onMouseDown="category(6)">Fitness</div><br>
-              <div class="item" id="item-7" onMouseDown="category(7)">Jantar</div><br>
-              <div class="item" id="item-8" onMouseDown="category(8)">Lanche</div><br>
-              <div class="item" id="item-9" onMouseDown="category(9)">Massas</div><br>
-              <div class="item" id="item-10" onMouseDown="category(10)">Peixes</div><br>
-              <div class="item" id="item-11" onMouseDown="category(11)">Salgados</div>
-          </div>
-      </div>
+      <button class="subca" type="text" name="subcate" onclick="focado()" onBlur="desfoque()">Subcategorias <img id="seta" src="imagens/seta-verde.png" alt=""></button>
+    <div class="dropDown">
+        <div class="listDropDown">
+            <div class="item" id="item-1" onMouseDown="category(1)">Agridoces</div><br>
+            <div class="item" id="item-2" onMouseDown="category(2)">Almoço</div><br>
+            <div class="item" id="item-3" onMouseDown="category(3)">Café da manhã</div><br>
+            <div class="item" id="item-4" onMouseDown="category(4)">Carnes</div><br>
+            <div class="item" id="item-5" onMouseDown="category(5)">Doces</div><br>
+            <div class="item" id="item-6" onMouseDown="category(6)">Fitness</div><br>
+            <div class="item" id="item-7" onMouseDown="category(7)">Jantar</div><br>
+            <div class="item" id="item-8" onMouseDown="category(8)">Lanche</div><br>
+            <div class="item" id="item-9" onMouseDown="category(9)">Massas</div><br>
+            <div class="item" id="item-10" onMouseDown="category(10)">Peixes</div><br>
+            <div class="item" id="item-11" onMouseDown="category(11)">Salgados</div>
+        </div>
     </div>
+  </div>
+  <div class="filtroantes">
     <div class="filtrocu">
-        <button class="fcutodas">TODAS</button>
-        <button class="fcutodas">+ RECENTES</button>
-        <button class="fcutodas">EM ALTA</button>
-        <button class="fcutodas">+ RÁPIDAS</button>
-        <button class="fcutodas">- INGREDIENTES</button>
-        <button class="fcutodas">+ INGREDIENTES</button>
-        <button class="fcutodas">INDIVIDUAL</button>
-        <button class="fcutodas">+ PORÇÕES</button>
-        <button class="fcutodas">DOCE</button>
-        <button class="fcutodas">AGRIDOCE</button>
-        <button class="fcutodas">SALGADO</button>
-        <button class="fcutodas">CAFÉ DA MANHÃ</button>
-        <button class="fcutodas">ALMOÇO</button>
-        <button class="fcutodas">JANTAR</button>
-        <button class="fcutodas">LANCHE</button>
+      <button class="fcutodas">TODAS</button>
+      <button class="fcutodas">+ RECENTES</button>
+      <button class="fcutodas">EM ALTA</button>
+      <button class="fcutodas">+ RÁPIDAS</button>
+      <button class="fcutodas">- INGREDIENTES</button>
+      <button class="fcutodas">+ INGREDIENTES</button>
+      <button class="fcutodas">INDIVIDUAL</button>
+      <button class="fcutodas">+ PORÇÕES</button>
+      <button class="fcutodas">DOCE</button>
+      <button class="fcutodas">AGRIDOCE</button>
+      <button class="fcutodas">SALGADO</button>
+      <button class="fcutodas">CAFÉ DA MANHÃ</button>
+      <button class="fcutodas">ALMOÇO</button>
+      <button class="fcutodas">JANTAR</button>
+      <button class="fcutodas">LANCHE</button>
     </div>
+  </div>
     <br>
     <br>
     <br>
@@ -140,7 +142,7 @@
             </div>
             <div class="post2" onmouseover="mostrarDivOculta2()" onmouseout="esconderDivOculta2()">
                 <img src="imagens/sono.png" alt="foto-post2" class="info-cima-post">
-                <h1 id="texto-atras2" class="info-cima-post">Melhore seus habitos noturnos</h1>
+                <h1 id="texto-atras2" class="info-cima-post">Durma melhor hoje</h1>
                 <img id="icon-culinaria-branco2" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria-branco2"
                     class="info-cima-post2">
                 <div class="legenda2">
@@ -217,9 +219,9 @@
                 </div>
             </div>
             <div class="post6" onmouseover="mostrarDivOculta6()" onmouseout="esconderDivOculta6()">
-                <img src="imagens/post-limpeza-pia.png" alt="foto-post6" class="info-cima-post">
-                <h1 id="texto-atras6" class="info-cima-post">Limpar o ralo nunca foi tão fácil!</h1>
-                <img id="icon-limpeza-branco6" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco6"
+                <img src="imagens/cachorro-bemestar.png" alt="foto-post6" class="info-cima-post">
+                <h1 id="texto-atras6" class="info-cima-post">Exames de rotina para o seu cãozinho</h1>
+                <img id="icon-limpeza-branco6" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco6"
                     class="info-cima-post6">
                 <div class="legenda6">
                     <div class="legenda6 relogio6">
@@ -231,14 +233,14 @@
                         <h3>5.0</h3>
                     </div>
                 </div>
-                <div class="hover-post6" id="hover-post6">
-                    <h3>bicarbonato de sódio - vinagre - água</h3>
+                <div class="hover-post6" id="hover-post6" style="background: #00cd8383;">
+                    <h3>Essa dica não possui itens necessários</h3>
                 </div>
             </div>
             <div class="post7" onmouseover="mostrarDivOculta7()" onmouseout="esconderDivOculta7()">
-                <img src="imagens/post-bolinho-de-chuva.png" alt="foto-post7" class="info-cima-post">
-                <h1 id="texto-atras7" class="info-cima-post">Bolinho de chuva</h1>
-                <img id="icon-culinaria-branco7" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco7"
+                <img src="imagens/desculpas.png" alt="foto-post7" class="info-cima-post">
+                <h1 id="texto-atras7" class="info-cima-post">Pedido de desculpas criativo</h1>
+                <img id="icon-culinaria-branco7" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria-branco7"
                     class="info-cima-post7">
                 <div class="legenda7">
                     <div class="legenda7 relogio">
@@ -254,15 +256,14 @@
                         <h3>36</h3>
                     </div>
                 </div>
-                <div class="hover-post7" id="hover-post7">
-                    <h3>leite - Amido de Milho Maizena - farinha de trigo - açúcar - fermento em pó - ovos - gema - óleo
-                        para fritar - canela</h3>
+                <div class="hover-post7" id="hover-post7" style="background: #00cd8383;">
+                    <h3>papel - post-it - tesoura - cola - glitter</h3>
                 </div>
             </div>
             <div class="post8" onmouseover="mostrarDivOculta8()" onmouseout="esconderDivOculta8()">
                 <img src="imagens/post-limpeza-dispensa.png" alt="foto-post8" class="info-cima-post">
-                <h1 id="texto-atras8" class="info-cima-post">Organize sua dispensa na rotina</h1>
-                <img id="icon-limpeza-branco8" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco8"
+                <h1 id="texto-atras8" class="info-cima-post">A organização muda tudo na sua rotina! Entenda</h1>
+                <img id="icon-limpeza-branco8" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco8"
                     class="info-cima-post8">
                 <div class="legenda8">
                     <div class="legenda8 relogio8">
@@ -274,16 +275,16 @@
                         <h3>5.0</h3>
                     </div>
                 </div>
-                <div class="hover-post8" id="hover-post8">
+                <div class="hover-post8" id="hover-post8" style="background: #00cd8383;">
                     <h3>multiuso - água - pano</h3>
                 </div>
             </div>
         </div>
         <div class="postagens3">
             <div class="post9" onmouseover="mostrarDivOculta9()" onmouseout="esconderDivOculta9()">
-                <img src="imagens/post-lavar-roupa.png" alt="foto-post9" class="info-cima-post">
-                <h1 id="texto-atras9" class="info-cima-post">Bolinho de chuva</h1>
-                <img id="icon-limpeza-branco9" src="imagens/icon-limpeza-branco.png" alt="icon-culinaria-branco9"
+                <img src="imagens/academia.png" alt="foto-post9" class="info-cima-post">
+                <h1 id="texto-atras9" class="info-cima-post">Rotina de treinos leves</h1>
+                <img id="icon-limpeza-branco9" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria-branco9"
                     class="info-cima-post9">
                 <div class="legenda9">
                     <div class="legenda9 relogio9">
@@ -295,8 +296,8 @@
                         <h3>4.9</h3>
                     </div>
                 </div>
-                <div class="hover-post9" id="hover-post9">
-                    <h3>roupas - sabão - amaciante - máquina de lavar - água fria ou água quente</h3>
+                <div class="hover-post9" id="hover-post9" style="background: #00cd8383;">
+                    <h3>Essa dica não possui itens necessários</h3>
                 </div>
             </div>
             <div class="post10" onmouseover="mostrarDivOculta10()" onmouseout="esconderDivOculta10()">
@@ -314,14 +315,14 @@
                         <h3>4.9</h3>
                     </div>
                 </div>
-                <div class="hover-post10" id="hover-post10">
+                <div class="hover-post10" id="hover-post10" style="background: #00cd8383;">
                     <h3>alicate de unha - tesoura de unha - hidratante de cuticula - algodão - papel alumínio</h3>
                 </div>
             </div>
             <div class="post11" onmouseover="mostrarDivOculta11()" onmouseout="esconderDivOculta11()">
-                <img src="imagens/post-escondidinho.png" alt="foto-post11" class="info-cima-post">
-                <h1 id="texto-atras11" class="info-cima-post">Escondidinho de frango</h1>
-                <img id="icon-culinaria-branco11" src="imagens/icon-culinaria-branco.png" alt="icon-culinaria-branco11"
+                <img src="imagens/poros.png" alt="foto-post11" class="info-cima-post">
+                <h1 id="texto-atras11" class="info-cima-post">Mascara anti poros caseira</h1>
+                <img id="icon-culinaria-branco11" src="imagens/icon-bemestar-branco.png" alt="icon-culinaria-branco11"
                     class="info-cima-post11">
                 <div class="legenda11">
                     <div class="legenda11 relogio">
@@ -337,9 +338,8 @@
                         <h3>8</h3>
                     </div>
                 </div>
-                <div class="hover-post11" id="hover-post11">
-                    <h3>peitos de frango desfiado - molho de tomate pronto - cebola pequena bem picadinha - margarina -
-                        requeijão - pimenta - tempero pronto - milho verde - alho - batata - mussarela ralada - sal</h3>
+                <div class="hover-post11" id="hover-post11" style="background: #00cd8383;">
+                    <h3>Essa dica não possui itens necessários</h3>
                 </div>
             </div>
             <div class="post12" onmouseover="mostrarDivOculta12()" onmouseout="esconderDivOculta12()">
@@ -357,7 +357,7 @@
                         <h3>4.9</h3>
                     </div>
                 </div>
-                <div class="hover-post12" id="hover-post12">
+                <div class="hover-post12" id="hover-post12" style="background: #00cd8383;">
                     <h3>barbeador - lâmina de barbear - gilete - espuma de barbear - pinça</h3>
                 </div>
             </div>
