@@ -99,7 +99,7 @@
   .hover-post1{
     display: none;
     background-color: #cb215483;
-    max-width: 385px;
+    width: 305px;
     height: 338px;
     position: absolute;
     margin-top: -380px;
