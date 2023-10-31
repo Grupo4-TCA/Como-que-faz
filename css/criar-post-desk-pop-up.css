@@ -20,11 +20,11 @@
         src: url("../fonts/fira-sans.regular.ttf");
     }
 
-    .header-dispositivo-mobile {
+    .CRIAR-dispositivo-mobile {
         display: none;
     }
 
-    .header-dispositivo-desktop {
+    .CRIAR-dispositivo-desktop {
         display: block;
     }
 
