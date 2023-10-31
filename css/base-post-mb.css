@@ -28,7 +28,7 @@
       .conteudo.desktop {
         display: none;
       }
-      
+
     /*basepost*/
   #pinterest-style {
     margin-top: 5vw;
@@ -49,7 +49,6 @@
     flex-direction: column;
   }
 
-  
 #primeira-fileira-posts-em-alta {
   position: absolute;
   display: inline-grid;
@@ -75,6 +74,13 @@
     height: 4.8vw;
     display: inline-block;
     margin-left: 1vw;
+  }
+  
+  #icon-salvar-vazado {
+    width: 6.6vw;
+    height: 6.66vw;
+    margin-top: 3.73vw;
+    margin-left: 2.5vw;
   }
 
   #descri-icon {
