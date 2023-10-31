@@ -415,6 +415,14 @@
   .filtro{
     margin-top: 25px;
     margin-left: 33px;
+    display: flex;
+    gap: 10px;
+  }
+  .filtroint{
+    margin-top: 25px;
+    margin-left: 160px;
+    display: flex;
+    gap: 10px;
   }
   button.botao-filtro{
     margin: 14px 7px 0px 0;
@@ -465,8 +473,24 @@
   .comentario-interacoes{
     width: 835px;
     height: 207px;
+    background-color: #8c8c8c83;
   }
+  .userint{
+    font-family:"Fira Sans Bold", "Fira Sans", sans-serif;
+    color: #cb218c;
+    font-size: 20px;
+    transform: translate(10,20px);
   
+  }
+  .respondeuint{
+    font-family:"Fira Sans Bold", "Fira Sans", sans-serif;
+    font-size: 20px;
+  }
+  .ygona{
+    border-radius: 200%;
+    width: 80px;
+    height: 80px;
+  }
     /*Fim de interações*/
     
   #editar-perfil-popup{
