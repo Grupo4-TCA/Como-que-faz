@@ -35,6 +35,10 @@
     height: 320vw;
   }
 
+  .pinterest-style-class{
+    margin-left: -7vw;
+  }
+
   #primeira-fileira-posts {
     position: relative;
     display: inline-grid;
