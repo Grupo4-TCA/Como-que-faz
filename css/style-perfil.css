@@ -1,0 +1,21 @@
+@media only screen and (max-width: 481px) {
+    .postagens-rascunhos-interacoes button{
+        width: 33.33%;
+        border: none;
+        background-color: #e0e0e0;
+        color: #9e5fef;
+        height: 40px;
+    }
+    .postagens:hover{
+        background-color: #9e5fef;
+        color: white;
+    }
+    .rascunhos:hover{
+        background-color: #9e5fef;
+        color: white;
+    }
+    .interacoes:hover{
+        background-color: #9e5fef;
+        color: white;
+    }
+}
