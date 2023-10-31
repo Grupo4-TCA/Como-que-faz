@@ -86,7 +86,7 @@
   #descri-icon {
     font-family: Fira Sans Bold;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     color: #333333;
     line-height: normal;
     display: inline-block;
@@ -101,9 +101,9 @@
     height: 24vw;
     margin-top: 3.2vw;
     margin-left: 3.5vw;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 13px;
     color: #ffffff;
     user-select: none;
     -moz-user-select: none;
@@ -130,7 +130,7 @@
     width: 90vw;
     font-family: Fira Sans Bold;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffff;
   }
 
@@ -180,7 +180,7 @@
 
   #post-baixo {
     height: 7vw;
-    padding: 1vw 2vw 2vw 2.66vw;
+    padding: 1vw 2vw 2vw 0vw;
     justify-content: space-around;
   }
 
@@ -246,7 +246,7 @@
 
   #post-baixo-h {
     height: 7vw;
-    padding: 2vw 2vw 2.66vw;
+    padding: 2vw 2vw 2.66vw 0vw;
     justify-content: space-around;
   }
 
@@ -272,7 +272,7 @@
 
   #post-baixo-a {
     height: 7vw;
-    padding: 1vw 2vw 2.66vw;
+    padding: 1vw 2vw 2.66vw 0vw;
     justify-content: space-around;
   }
 
@@ -381,19 +381,19 @@
   /*DESCRIÇÃO POSTS - FILEIRA 2 (A FORMATAÇÃO DO RESTO É A MESMA)*/
   #post-baixo-c {
     height: 7vw;
-    padding: 1vw 2vw 2.66vw;
+    padding: 1vw 2vw 2.66vw 0vw;
     justify-content: space-around;
   }
 
   #post-baixo-e {
     height: 7vw;
-    padding: 1vw 2vw 2.66vw;
+    padding: 1vw 2vw 2.66vw 0vw;
     justify-content: space-around;
   }
 
   #post-baixo-f {
     height: 7vw;
-    padding: 0vw 1vw 2vw 2.66vw;
+    padding: 0vw 1vw 2vw 0vw;
     justify-content: space-around;
   }
 
