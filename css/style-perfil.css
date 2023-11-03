@@ -1,312 +1,487 @@
 @media only screen and (max-width: 480px) {
-    .postagens-rascunhos-interacoes button{
-        width: 33.33%;
-        border: none;
-        background-color: #e0e0e0;
-        color: #9e5fef;
-        height: 40px;
-    }
-    .postagens:hover{
-        background-color: #9e5fef;
-        color: white;
-    }
-    .rascunhos:hover{
-        background-color: #9e5fef;
-        color: white;
-    }
-    .interacoes:hover{
-        background-color: #9e5fef;
-        color: white;
-    }
-    .sem-rescunhos{
-        margin-top: 25px;        
-        width: 95%;
-        border-radius: 10px;
-        border: 4px dashed #bababa;
-        margin-left: -2.5%;
-    }
-    .sem-rescunhos img{
-        margin-left: 78px;
-        width: 60%;
-        opacity: 0.5;
-    }
-    .sem-rescunhos h3{
-        color: #7a7a7a;
-        font-family: Fira Sans;
-        margin-left: 17.5%;
-        margin-top: -40px;
-        width: 65%;
-    }
-    .sem-rescunhos h2{
-        color: #9e5fef;
-        font-family: Fira Sans Bold;
-        margin-left: 27.5%;
-        width: 45%;
-        text-decoration: underline;
-        margin-bottom: 50px;
-    }
+  .postagens-rascunhos-interacoes button {
+    width: 33.33%;
+    border: none;
+    background-color: #e0e0e0;
+    color: #9e5fef;
+    height: 40px;
+  }
 
-    /* interações ----------------------------------------------------------------------- */
-    #base-not-interacoes{
-        width: 100vw;
-        height: 25vw;
-        background-color: aliceblue;
-        margin-left: -6.8vw;
-        padding-top: 7vw;
-        border: 0;
-        border-bottom: 1px solid #d7d7d7;
-    }
+  .postagens:hover {
+    background-color: #9e5fef;
+    color: white;
+  }
 
-    #foto-perfil-not{
-        width: 18vw;
-        height: 18vw;
-        border-radius: 10vw;
-        margin-left: 5vw;
-        display: inline-block;
-    }
+  .rascunhos:hover {
+    background-color: #9e5fef;
+    color: white;
+  }
 
-    #descri-interacao{
-        display: inline-block;
-        margin-left: 3vw;
-        margin-top: 4vw;
-        position: absolute;
-    }
+  .interacoes:hover {
+    background-color: #9e5fef;
+    color: white;
+  }
 
-    #nome-do-user{
-        color: #333333;
-        font-family: Fira Sans, sans-serif;
-        font-size: 100%;
-        font-weight: 700;
-    }
+  .sem-rescunhos {
+    margin-top: 25px;
+    width: 95%;
+    border-radius: 10px;
+    border: 4px dashed #bababa;
+    margin-left: -2.5%;
+  }
 
-    #tipo-interacao{
-        color: #7e7e7e;
-        font-family: Fira Sans, sans-serif;
-        font-size: 80%;
-        font-weight: 500;
-    }
+  .sem-rescunhos img {
+    margin-left: 78px;
+    width: 60%;
+    opacity: 0.5;
+  }
 
-    #ver-interacao{
-        width: 22vw;
-        height: 8vw;
-        border: none;
-        color: white;
-        background-color: #cb218c;
-        display: inline-block;
-        border-radius: 1vw;
-        font-weight: 600;
-        font-family: Fira Sans, sans-serif;
-        margin-left: 47vw;
-        position: absolute;
-        margin-top: 4vw;
-    }
-    /* FINAL interações ----------------------------------------------------------------------- */
+  .sem-rescunhos h3 {
+    color: #7a7a7a;
+    font-family: Fira Sans;
+    margin-left: 17.5%;
+    margin-top: -40px;
+    width: 65%;
+  }
+
+  .sem-rescunhos h2 {
+    color: #9e5fef;
+    font-family: Fira Sans Bold;
+    margin-left: 27.5%;
+    width: 45%;
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+
+  /* interaÃ§Ãµes ----------------------------------------------------------------------- */
+  #base-not-interacoes {
+    width: 100vw;
+    height: 25vw;
+    background-color: aliceblue;
+    margin-left: -6.8vw;
+    padding-top: 7vw;
+    border: 0;
+    border-bottom: 1px solid #d7d7d7;
+  }
+
+  #foto-perfil-not {
+    width: 18vw;
+    height: 18vw;
+    border-radius: 10vw;
+    margin-left: 5vw;
+    display: inline-block;
+  }
+
+  #descri-interacao {
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 4vw;
+    position: absolute;
+  }
+
+  #nome-do-user {
+    color: #333333;
+    font-family: Fira Sans, sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+  }
+
+  #tipo-interacao {
+    color: #7e7e7e;
+    font-family: Fira Sans, sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+  }
+
+  #ver-interacao {
+    width: 22vw;
+    height: 8vw;
+    border: none;
+    color: white;
+    background-color: #cb218c;
+    display: inline-block;
+    border-radius: 1vw;
+    font-weight: 600;
+    font-family: Fira Sans, sans-serif;
+    margin-left: 47vw;
+    position: absolute;
+    margin-top: 4vw;
+  }
+
+  /* FINAL interaÃ§Ãµes ----------------------------------------------------------------------- */
+}
+
+button.editar-perfil-mob {
+  width: 144px;
+  height: 36px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 12px;
+  border-style: none;
+  background-color: #4d16bb;
+  box-sizing: border-box;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+  transform: translate(50px, 70px);
+}
+
+#editar-perfil-popup-mob {
+  position: fixed;
+  padding: 1%;
+  border-radius: 10px;
+  z-index: 300;
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 725px;
+  background-color: #f9f9f9;
+}
+
+#fundo-editar-perfil-mob {
+  position: fixed;
+  background: #000000a3;
+  width: 1920px;
+  height: 1080px;
+  z-index: 299;
+}
+
+.xis-sair {
+  color: #4d16bb;
+  cursor: pointer;
+}
+
+.banner-editar {
+  width: 525px;
+  margin-top: 20px;
+  height: 95px;
+}
+
+.foto-editar {
+  transform: translate(45.5px, -105px);
+  height: 90px;
+}
+
+.fundo-foto-editar {
+  transform: translate(0px, -58px);
+  height: 100px;
+}
+
+.editar-foto-camera {
+  width: 35px;
+}
+
+#camera1 {
+  transform: translate(450px, -90px);
+}
+
+#camera2 {
+  transform: translate(-130px, -60px);
+}
+
+#tit1 {
+  margin-top: -40px;
+}
+
+.tit-editar {
+  font-family: Heavitas;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 45px;
+  color: #4d16bb;
+}
+
+.tit-duas {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 120px;
+}
+
+.tex-editar {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid #333333;
+  width: 83%;
+  background: none;
+  font-family: Fira Sans;
+  font-size: 16px;
+  outline: none;
+}
+
+.tex-editar::placeholder {
+  color: #333333;
+  font-family: Fira Sans;
+  outline: none;
+}
+
+.tex-duas {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 45px;
+}
+
+.redes-editar img {
+  height: 30px;
+}
+
+.redes-editar {
+  width: 83%;
+  margin-left: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rede-editar {
+  margin-top: 10px;
+  padding: 2% 0% 0 12%;
+  width: 31%;
+  height: 50px;
+  border-radius: 5px;
+  background: #ffd662;
+}
+
+.salvar {
+  background: #4d16bb;
+  color: white;
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-left: 300px;
+  width: 180px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 481px) {
-    .tab {
-        float: left;
-        transform: translate(267px, 150px);
-        width: 284px;
-        height: 450px;
-        padding: 2px 2px 2px 2px;
-        background-color: rgba(255, 255, 255, 0);
-        box-sizing: border-box;
-        position: fixed;
-      }
-      
-      .tab button {
-        display: block;
-        background-color: inherit;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        transition: 0.3s;
-        width: 300px;
-        height: 67px;
-        padding: 17px 17px 17px 17px;
-        color: gray;
-        box-sizing: border-box;
-        font-family: "Heavitas", sans-serif;
-        text-align: left;
-        line-height: normal;
-        margin-bottom: 28px;
-        border-radius: 5px;
-        font-size:25px;
-      }
-      
-      .tab button:hover {
-        color: grey;
-        background-color: rgba(24, 24, 24, 0.185);
-      }
-      
-      .tab button.active {
-        width: 300px;
-        height: 67px;
-        padding: 17px 17px 17px 17px;
-        border-radius: 5px;
-        background-image: linear-gradient(89.99146929511329deg, #4d16bb 0%, #9d21cb 99.20305052121002%);
-        box-sizing: border-box;
-        border-style: none;
-        font-family: "Heavitas", sans-serif;
-        text-align: left;
-        line-height: normal;
-        color: white;
-      }
-      .perfil-cima{
-        width: 937px;
-        height: 474px;
-        border-radius: 14px;
-        background-color: #f9f9f9;
-        box-sizing: border-box;
-    }
-    img.fundo-foto-perfil{
-        transform: translate(37px, -68px);
-    }
-    img.foto-perfil{
-        transform: translate(-94px, -78px);
-    }
-    button.editar-perfil{
-        width: 144px;
-        height: 36px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 12px;
-        border-style: none;
-        background-color: #4d16bb;
-        box-sizing: border-box;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        color: #ffffff;
-        text-align: center;
-        line-height: normal;
-        transform: translate(490px,-100px);
-    }
-        
-    .mapa-do-site{
-        display: flex;
-        margin-bottom: 2%;
-    }
-    .mapa-do-site p{
-        font-family: Fira Sans;
-    }
-    .mapa-1{
-        text-decoration: underline;
-        margin-right: 7px;
-    }
-    .mapa-2{
-        text-decoration: underline;
-        font-weight: Bold;
-        color: #9e5fef;
-        margin-left: 7px;
-    }
-    .seta-1{
-        margin-right: 7px;
-    }
-    h1.User1234{
-        font-family: "Heavitas", sans-serif;
-        color: #cb218c;
-        font-size: 22px;
-        transform: translate(57px,-70px);
-        font-weight: 500;
-    }
-    h2.Nome1234{
-        font-family: Fira Sans;
-        font-weight: 700;
-        color: #333333;
-        font-size: 20px;
-        transform: translate(65px,-70px);
-    }
-    .nome-user{
-        display: flex;
-    }
-    h5.dicas-caseiras{
-        font-family: Fira Sans;
-        font-size: 16px;
-        transform: translate(57px,-65px);
-        font-weight: 500;
-    }
-    .descricao-pf{
-      font-size: 16px;
-      font-weight: 400;
-      font-family: Fira Sans;
-      transform: translate(60px, -60px);
-    }
-    img.tiktok-rosa{
-        width: 24px;
-        height: 24px;
-        box-sizing: border-box;
-        transform: translate(60px,-50px);
-    }
-    img.twitter-rosa{
-      width: 24px;
-      height: 24px;
-      box-sizing: border-box;
-      transform: translate(70px,-50px);
-    }
-    img.instagram-rosa{
-        width: 24px;
-      height: 24px;
-      box-sizing: border-box;
-      transform: translate(80px,-50px);
-    }
-    .vis-seguidores{
-        width: 166px;
-        height: 36px;
-        padding: 6px 2px 2px 2px;
-        border-radius: 12px;
-        background-color: #ffd662;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #4d16bb;
-        text-align: center;
-        font-size: 18px;
-        display: inline-block;
-        margin-right: 15px;
-        margin-top: 8px;
-        transform: translate(-30px,-10px);
-        font-weight: 700;
-    }
-    .vis-seguindo{
-        width: 166px;
-        height: 36px;
-        padding: 6px 2px 2px 2px;
-        border-radius: 12px;
-        background-color: #ffd662;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #4d16bb;
-        text-align: center;
-        font-size: 18px;
-        display: inline-block;
-        transform: translate(-20px,-10px);
-        margin-top: 8px;
-        font-weight: 700;
-    }
-    .vis-postagens{
-        width: 166px;
-        height: 36px;
-        padding: 6px 2px 2px 2px;
-        border-radius: 12px;
-        background-color: #ffd662;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #4d16bb;
-        text-align: center;
-        font-size: 18px;
-        display: inline-block;
-        transform: translate(5px,-10px);
-        margin-top: 8px;
-        font-weight: 700;
-    }
-    
-    
-/*perfil parte de baixo*/
-.perfil-baixo{
+  .tab {
+    float: left;
+    transform: translate(267px, 150px);
+    width: 284px;
+    height: 450px;
+    padding: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    position: fixed;
+  }
+
+  .tab button {
+    display: block;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 300px;
+    height: 67px;
+    padding: 17px 17px 17px 17px;
+    color: gray;
+    box-sizing: border-box;
+    font-family: "Heavitas", sans-serif;
+    text-align: left;
+    line-height: normal;
+    margin-bottom: 28px;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+
+  .tab button:hover {
+    color: grey;
+    background-color: rgba(24, 24, 24, 0.185);
+  }
+
+  .tab button.active {
+    width: 300px;
+    height: 67px;
+    padding: 17px 17px 17px 17px;
+    border-radius: 5px;
+    background-image: linear-gradient(89.99146929511329deg, #4d16bb 0%, #9d21cb 99.20305052121002%);
+    box-sizing: border-box;
+    border-style: none;
+    font-family: "Heavitas", sans-serif;
+    text-align: left;
+    line-height: normal;
+    color: white;
+  }
+
+  .perfil-cima {
+    width: 937px;
+    height: 474px;
+    border-radius: 14px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+
+  img.fundo-foto-perfil {
+    transform: translate(37px, -68px);
+  }
+
+  img.foto-perfil {
+    transform: translate(-94px, -78px);
+  }
+
+  button.editar-perfil {
+    width: 144px;
+    height: 36px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 12px;
+    border-style: none;
+    background-color: #4d16bb;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    transform: translate(490px, -100px);
+  }
+
+  .mapa-do-site {
+    display: flex;
+    margin-bottom: 2%;
+  }
+
+  .mapa-do-site p {
+    font-family: Fira Sans;
+  }
+
+  .mapa-1 {
+    text-decoration: underline;
+    margin-right: 7px;
+  }
+
+  .mapa-2 {
+    text-decoration: underline;
+    font-weight: Bold;
+    color: #9e5fef;
+    margin-left: 7px;
+  }
+
+  .seta-1 {
+    margin-right: 7px;
+  }
+
+  h1.User1234 {
+    font-family: "Heavitas", sans-serif;
+    color: #cb218c;
+    font-size: 22px;
+    transform: translate(57px, -70px);
+    font-weight: 500;
+  }
+
+  h2.Nome1234 {
+    font-family: Fira Sans;
+    font-weight: 700;
+    color: #333333;
+    font-size: 20px;
+    transform: translate(65px, -70px);
+  }
+
+  .nome-user {
+    display: flex;
+  }
+
+  h5.dicas-caseiras {
+    font-family: Fira Sans;
+    font-size: 16px;
+    transform: translate(57px, -65px);
+    font-weight: 500;
+  }
+
+  .descricao-pf {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Fira Sans;
+    transform: translate(60px, -60px);
+  }
+
+  img.tiktok-rosa {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    transform: translate(60px, -50px);
+  }
+
+  img.twitter-rosa {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    transform: translate(70px, -50px);
+  }
+
+  img.instagram-rosa {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    transform: translate(80px, -50px);
+  }
+
+  .vis-seguidores {
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 8px;
+    transform: translate(-30px, -10px);
+    font-weight: 700;
+  }
+
+  .vis-seguindo {
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(-20px, -10px);
+    margin-top: 8px;
+    font-weight: 700;
+  }
+
+  .vis-postagens {
+    width: 166px;
+    height: 36px;
+    padding: 6px 2px 2px 2px;
+    border-radius: 12px;
+    background-color: #ffd662;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #4d16bb;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    transform: translate(5px, -10px);
+    margin-top: 8px;
+    font-weight: 700;
+  }
+
+
+  /*perfil parte de baixo*/
+  .perfil-baixo {
     padding-top: 15px;
-}
-.tab-perfil {
-  display: flex;
+  }
+
+  .tab-perfil {
+    display: flex;
     overflow: hidden;
     width: 927px;
     height: 47px;
@@ -339,9 +514,11 @@
     background-color: #9e5fef;
     color: white;
   }
-  #Postagens{
+
+  #Postagens {
     display: block;
   }
+
   .tabcontent-perfil {
     display: none;
     width: 309px;
@@ -351,33 +528,37 @@
     box-sizing: border-box;
     border-top: none;
   }
+
   /*Rascunhos*/
-    .rascunhos-esqueleto{  
-      width: 926px;
-      height: 586px;
-      padding: 2px 2px 2px 2px;
-      background-color: #f2f2f2;
-      box-sizing: border-box;
-    }
-    .pontilhado-em-volta{
-      width: 853px;
-      height: 360px;
-      padding: 2px 2px 2px 2px;
-      border-radius: 10px;
-      border: 6px dashed #bababa;
-      background-color: rgba(242, 242, 242, 0);
-      box-sizing: border-box;
-      transform: translate(36.5px, 25px);
-    }
-    img.gato-sem-rascunhos{
-      width: 272px;
-      height: 272px;
-      opacity: 0.59;
-      box-sizing: border-box;
-      transform: translate(327px, -300px);
-    }
-    h2.sem-rascunhos{
-      width: 355px;
+  .rascunhos-esqueleto {
+    width: 926px;
+    height: 586px;
+    padding: 2px 2px 2px 2px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+
+  .pontilhado-em-volta {
+    width: 853px;
+    height: 360px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+    border: 6px dashed #bababa;
+    background-color: rgba(242, 242, 242, 0);
+    box-sizing: border-box;
+    transform: translate(36.5px, 25px);
+  }
+
+  img.gato-sem-rascunhos {
+    width: 272px;
+    height: 272px;
+    opacity: 0.59;
+    box-sizing: border-box;
+    transform: translate(327px, -300px);
+  }
+
+  h2.sem-rascunhos {
+    width: 355px;
     height: 32px;
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
@@ -387,89 +568,124 @@
     text-align: center;
     line-height: normal;
     transform: translate(285.5px, -365px);
-    }
-    h2.Comece-por-aqui{
-      width: 191px;
-      height: 32px;
-      background-color: rgba(255, 255, 255, 0);
-      box-sizing: border-box;
-      font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-      font-weight: 700;
-      text-decoration: underline;
-      color: #9e5fef;
-      text-align: left;
-      line-height: normal;
-      transform: translate(377.5px, -370px);
-      cursor: pointer;
-    }
-    /*Fim de rascunhos*/
-  
-    /*Postagens*/
-    .postagens-esqueleto{
-      width: 926px;
-      height: 988px;
-      padding: 2px 20px 2px 0px;
-      box-sizing: border-box;
-  
   }
-  .filtro{
+
+  h2.Comece-por-aqui {
+    width: 191px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #9e5fef;
+    text-align: left;
+    line-height: normal;
+    transform: translate(377.5px, -370px);
+    cursor: pointer;
+  }
+
+  /*Fim de rascunhos*/
+
+  /*Postagens*/
+  .postagens-esqueleto {
+    width: 926px;
+    height: 988px;
+    padding: 2px 20px 2px 0px;
+    box-sizing: border-box;
+
+  }
+
+  .filtro {
     margin-top: 25px;
     margin-left: 33px;
+    display: flex;
+    gap: 10px;
   }
-  button.botao-filtro{
+  .filtroint{
+    margin-top: 25px;
+    margin-left: 160px;
+    display: flex;
+    gap: 10px;
+  }
+
+  button.botao-filtro {
     margin: 14px 7px 0px 0;
-      width: 139px;
-      height: 29px;
-      padding: 2px 2px 2px 2px;
-      border-radius: 7px;
-      background-color: rgba(158, 95, 239, 0.13);
+    width: 139px;
+    height: 29px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
+    background-color: rgba(158, 95, 239, 0.13);
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #9e5fef;
+    text-align: center;
+    line-height: normal;
+    border-style: none;
+
+    &:hover {
       box-sizing: border-box;
-      font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-      font-weight: 700;
-      color: #9e5fef;
-      text-align: center;
-      line-height: normal;
-      border-style: none;
-        &:hover{
-          box-sizing: border-box;
-          opacity: 1;
-          background-color: #9d5fef3f;
-        }
+      opacity: 1;
+      background-color: #9d5fef3f;
     }
-  .botao-filtro.active{
-          background-color: #9e5fef;
-          box-sizing: border-box;
-          font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-          font-weight: 700;
-          color: #ffffff;
-        }
-    /*Fim postagens*/
-  
-    /*Interações*/
-    .interacoes-esqueleto{  
-      width: 926px;
-      height: 586px;
-      padding: 2px 2px 2px 2px;
-      box-sizing: border-box;
-    }
-    .heart-icon {
-      cursor: pointer;
-      transition: fill 0.3s ease-in-out;
   }
-  img.azul{
+
+  .botao-filtro.active {
+    background-color: #9e5fef;
+    box-sizing: border-box;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  /*Fim postagens*/
+
+  /*InteraÃ§Ãµes*/
+  .interacoes-esqueleto {
+    width: 926px;
+    height: 586px;
+    padding: 2px 2px 2px 2px;
+    box-sizing: border-box;
+  }
+
+  .heart-icon {
+    cursor: pointer;
+    transition: fill 0.3s ease-in-out;
+  }
+
+  img.azul {
     content: url(https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u17.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
   }
-  img.vermelho{
-  content:url( https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u18.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
+
+  img.vermelho {
+    content: url(https://files.axshare.com/gsc/V8CDR5/14/98/53/149853897c1d4acaafb2a9e4cf5619cd/images/perfil/u18.svg?pageId=3e54c061-96d3-4029-9a62-74e3821412f8)
   }
-  .comentario-interacoes{
+
+  .comentario-interacoes {
     width: 835px;
     height: 207px;
+    background-color: #8c8c8c83;
   }
-  
-    /*Fim de interações*/
-    
-  #editar-perfil-popup{
+  .userint{
+    font-family:"Fira Sans Bold", "Fira Sans", sans-serif;
+    color: #cb218c;
+    font-size: 20px;
+    transform: translate(10,20px);
+
+  }
+  .respondeuint{
+    font-family:"Fira Sans Bold", "Fira Sans", sans-serif;
+    font-size: 20px;
+  }
+  .ygona{
+    border-radius: 200%;
+    width: 80px;
+    height: 80px;
+  }
+  /*Fim de interaÃ§Ãµes*/
+
+  #editar-perfil-popup {
     position: fixed;
     padding: 1%;
     border-radius: 10px;
@@ -480,55 +696,67 @@
     height: 725px;
     background-color: #f9f9f9;
   }
-  #fundo-editar-perfil{
+
+  #fundo-editar-perfil {
     position: fixed;
     background: #000000a3;
     width: 1920px;
     height: 1080px;
     z-index: 299;
   }
-  .xis-sair{
+
+  .xis-sair {
     color: #4d16bb;
     cursor: pointer;
   }
-  .banner-editar{
+
+  .banner-editar {
     width: 525px;
     margin-top: 20px;
     height: 95px;
   }
-  .foto-editar{
+
+  .foto-editar {
     transform: translate(-100.5px, -63px);
     height: 90px;
   }
-  .fundo-foto-editar{
+
+  .fundo-foto-editar {
     transform: translate(0px, -58px);
     height: 100px;
   }
-  .editar-foto-camera{
+
+  .editar-foto-camera {
     width: 35px;
   }
-  #camera1{
+
+  #camera1 {
     transform: translate(450px, -90px);
   }
-  #camera2{
+
+  #camera2 {
     transform: translate(-130px, -60px);
   }
-  #tit1{
+
+  #tit1 {
     margin-top: -40px;
   }
-  .tit-editar{
+
+  .tit-editar {
     font-family: Heavitas;
     font-weight: 400;
     font-size: 18px;
     margin-left: 45px;
     color: #4d16bb;
   }
-  .tit-duas{
+
+  .tit-duas {
     display: flex;
     justify-content: space-between;
     margin-right: 120px;
   }
-  .tex-editar{
+
+  .tex-editar {
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 45px;
@@ -542,26 +770,31 @@
     font-size: 16px;
     outline: none;
   }
-  .tex-editar::placeholder{
+
+  .tex-editar::placeholder {
     color: #333333;
     font-family: Fira Sans;
     outline: none;
   }
-  .tex-duas{
+
+  .tex-duas {
     display: flex;
     justify-content: space-between;
-    margin-right: 45px; 
+    margin-right: 45px;
   }
-  .redes-editar img{
+
+  .redes-editar img {
     height: 30px;
   }
-  .redes-editar{
+
+  .redes-editar {
     width: 83%;
     margin-left: 45px;
     display: flex;
     justify-content: space-between;
   }
-  .rede-editar{
+
+  .rede-editar {
     margin-top: 10px;
     padding: 2% 0% 0 12%;
     width: 31%;
@@ -569,7 +802,8 @@
     border-radius: 5px;
     background: #ffd662;
   }
-  .salvar{
+
+  .salvar {
     background: #4d16bb;
     color: white;
     border-radius: 5px;

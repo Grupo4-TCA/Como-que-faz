@@ -52,3 +52,23 @@ function SairEditarPerfil(){
         fundo.style.display = "none";
     }
 }
+
+function EditarPerfilMob(){
+    var popup = document.getElementById("editar-perfil-popup-mob");
+    var fundo = document.getElementById("fundo-editar-perfil-mob");
+
+    if (popup.style.display === "none"){
+        popup.style.display = "block";
+        fundo.style.display = "block";
+    }
+}
+
+function SairEditarPerfilMob(){
+    var popup = document.getElementById("editar-perfil-popup-mob");
+    var fundo = document.getElementById("fundo-editar-perfil-mob");
+
+    if (popup.style.display === "block"){
+        popup.style.display = "none";
+        fundo.style.display = "none";
+    }
+}
