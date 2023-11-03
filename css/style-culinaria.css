@@ -4,12 +4,12 @@
     padding: 0;
   }
 
-  .conteudo.mobile {
+  .conteudo-mobile {
     display: block;
     width: 100vw;
   }
 
-  .conteudo.desktop {
+  .conteudo-desktop {
     display: none;
   }
 
@@ -185,15 +185,12 @@
     padding: 0;
   }
 
-  .conteudo.desktop {
+  .conteudo-desktop {
     display: block;
     width: 100vw;
   }
 
-  .conteudo.mobile {
-    display: none;
-  }
-  .conteudo.mobile {
+  .conteudo-mobile {
     display: none;
   }
 

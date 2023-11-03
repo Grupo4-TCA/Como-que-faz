@@ -1,9 +1,4 @@
 @media only screen and (min-width: 721px) {
-    * {
-        font-family: Heavitas;
-        padding: 0;
-        margin: 0;
-    }
 
     @font-face {
         font-family: Heavitas;
@@ -277,6 +272,21 @@
         transform: rotate(180deg);
     }
 
+    .dialogoselect.categoria-culinaria {
+        background-color: #cb2154;
+        color: #ffff;
+    }
+
+    .dialogoselect.categoria-limpeza {
+        background-color: #027de1;
+        color: #ffff;
+    }
+
+    .dialogoselect.categoria-bemestar {
+        background-color: #00cd83;
+        color: #ffff;
+    }
+
     #dialogoselect {
         width: 22.08vw;
         height: 3.02vw;
@@ -328,7 +338,7 @@
         color: #333;
     }
 
-    .dropDown {
+    .dropDown-categoria {
         width: 22.08vw;
         box-sizing: border-box;
         border-radius: 0.26vw;
@@ -362,21 +372,6 @@
         position: relative;
         padding-top: 0.8vw;
         padding-left: 0.7vw;
-    }
-
-    .dialogoselect.categoria-culinaria {
-        background-color: #cb2154;
-        color: #ffff;
-    }
-
-    .dialogoselect.categoria-limpeza {
-        background-color: #027de1;
-        color: #ffff;
-    }
-
-    .dialogoselect.categoria-bemestar {
-        background-color: #00cd83;
-        color: #ffff;
     }
 
     #item-select-detalhes-1 {
@@ -618,6 +613,7 @@
 
     #clonados-ou-nao {
         margin-top: 1vw;
+        position: absolute;
     }
 
     #linha-rosa-ingredientes {
@@ -818,15 +814,6 @@
         }
     }
 
-    ::-webkit-scrollbar {
-        background-color: #f2f2f2;
-        width: 0.60vw;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background-color: #cb218c;
-    }
-
     .item-medidas {
         background-color: #f2f2f2;
         width: 22.06vw;
@@ -849,7 +836,7 @@
     #tudo-dos-clones {
         width: 25vw;
         margin-left: 25vw;
-        margin-top: -4.8vw;
+        margin-top: 1vw;
         position: absolute;
     }
 

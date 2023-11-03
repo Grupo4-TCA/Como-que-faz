@@ -66,16 +66,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Inicialmente, definir a largura da linha de progresso e mostrar o conteúdo da Tarefa 1
     handleItemClick({ target: itens[currentIndex] });
 });
-function category(categoryId) {
+function categor(categorId) {
     // Obtenha uma referência ao elemento de entrada
     var inputElement = document.querySelector('.dialogoselect');
-    var itemElement = document.getElementById('item-select-detalhes-' + categoryId);
+    var itemElement = document.getElementById('item-select-detalhes-' + categorId);
 
     // Remova a classe existente (se houver)
     inputElement.classList.remove('categoria-culinaria', 'categoria-limpeza', 'categoria-bemestar');
 
-    // Adicione a classe com base no categoryId
-    switch (categoryId) {
+    // Adicione a classe com base no categorId
+    switch (categorId) {
         case 1:
             inputElement.classList.add('categoria-culinaria');
             break;
@@ -92,8 +92,8 @@ function category(categoryId) {
     mostrarElementoCulinaria();
 }
 
-function dropdown(action) {
-    var dropdownElement = document.getElementsByClassName('dropDown')[0];
+function dropdowncate(action) {
+    var dropdownElement = document.getElementsByClassName('dropDown-categoria')[0];
     var displayValues = ['block', 'none'];
     dropdownElement.style.display = displayValues[action];
 }
