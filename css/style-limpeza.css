@@ -20,12 +20,12 @@
     src: url("../fonts/fira-sans.regular.ttf");
   }
 
-  .conteudo.mobile {
+  .conteudo-mobile {
     display: block;
     width: 100vw;
   }
 
-  .conteudo.desktop {
+  .conteudo-desktop {
     display: none;
   }
 
@@ -394,7 +394,7 @@
 }
 
 @media only screen and (min-width: 481px) {
-  .conteudo.mobile {
+  .conteudo-mobile {
     display: none;
   }
 
