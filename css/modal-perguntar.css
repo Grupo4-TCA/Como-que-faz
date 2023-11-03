@@ -1,0 +1,74 @@
+@media only screen and (min-width: 721px) {
+    * {
+        font-family: Heavitas;
+        padding: 0;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: Heavitas;
+        src: url("../fonts/Heavitas.ttf");
+    }
+
+    @font-face {
+        font-family: Fira Sans Bold;
+        src: url("../fonts/fira-sans.bold.ttf");
+    }
+
+    @font-face {
+        font-family: Fira Sans;
+        src: url("../fonts/fira-sans.regular.ttf");
+    }
+
+    .CRIAR-dispositivo-mobile {
+        display: none;
+    }
+
+    .CRIAR-dispositivo-desktop {
+        display: block;
+    }
+
+    #fade-pergunta,
+    #modal-pergunta {
+        transition: .5s;
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    #fade-pergunta {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 9998;
+    }
+
+    #modal-pergunta {
+        width: 60.31vw;
+        height: 36.14vw;
+        box-sizing: border-box;
+        border-radius: 0.3vw;
+        background-color: #f2f2f2;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+    }    
+
+    .modal-header-pergunta {
+        display: flex;
+    }
+
+    #modal-pergunta.hide,
+    #fade-pergunta.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    #modal-pergunta.hide {
+        top: 0;
+    }
+}

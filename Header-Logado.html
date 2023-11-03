@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="./css/style-header-logado.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/criar-post-desk-pop-up.css">
-    <script src="./js/script-criar-post-mb.js"></script>
+    <link rel="stylesheet" href="./css/modal-perguntar.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/script-botao-criar.js"></script>
+    <script src="./js/script-criar-post-mb.js"></script>
     <script src="./js/criar-post-desk-pop-up.js"></script>
+    <script src="./js/criar-pergunta.js"></script>
     <title>ComoQueFaz?</title>
 </head>
 <header>
@@ -162,10 +164,8 @@
                 <div class="float-opt opt-text" id="open-modal">
                     <img src="imagens/editar_icon.svg" alt="editar">
                 </div>
-                <div class="float-opt opt-media">
-                    <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Pergunta">
-                        <img src="imagens/feedback_icon.svg" alt="feedback">
-                    </a>
+                <div class="float-opt opt-media" id="open-pergunta">
+                    <img src="imagens/feedback_icon.svg" alt="feedback">
                 </div>
             </div>
         </div>
@@ -384,8 +384,25 @@
             </div>
         </div>
         <!-- FINAL POP-UP CRIAR POSTAGEM -->
+
+        <!-- POP-UP PERGUNTA -->
+        <div id="fade-pergunta" class="hide">
+            <div id="modal-pergunta" class="hide">
+                <div class="modal-header-pergunta">
+                    <img src="./imagens/gato-preenchido-roxo.png" alt="criar post titulo" id="gato-criar-post">
+                    <h2 id="criar-post-titulo">CRIAR PERGUNTA</h2>
+                    <div id="close-modal-pergunta">X</div>
+                </div>
+
+                <div class="modal-body-pergunta">
+
+                </div>
+            </div>
+        </div>
+        <!-- FINAL POP-UP PERGUNTA -->
     </section>
 
+    <script src="./js/criar-pergunta.js"></script>
 </body>
 
 </html>
