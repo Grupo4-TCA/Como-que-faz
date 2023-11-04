@@ -79,7 +79,7 @@
         </a>
       </div>
     </nav>
-    <nav class="topcs">
+    <nav class="topcs" id="topcs">
       <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
       <a class="limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
       <a class="bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
@@ -146,11 +146,16 @@
 
   <section class="conteudo-dispositivo mobile">
     <div id="editar-perfil-popup-mob" style="display: none;">
-      <h1 onclick="SairEditarPerfilMob()" class="xis-sair">X</h1>
+      <div class="cima-editar">
+        <h1 onclick="SairEditarPerfilMob()" class="xis-sair">X</h1>
+        <button onclick="SairEditarPerfilMob()" class="salvar">SALVAR</button>
+      </div>
       <img class="banner-editar" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
       <img id="camera1" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
-      <img class="fundo-foto-editar" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
-      <img class="foto-editar" src="./imagens/foto-perfil.svg" alt="">
+      <div class="foto-fundo-editar">
+        <img class="fundo-foto-editar" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
+        <img class="foto-editar-perfil" src="./imagens/foto-perfil.svg" alt="">
+      </div>
       <img id="camera2" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
 
       <h3 id="tit1" class="tit-editar">NOME DE USUÁRIO</h3>
@@ -162,8 +167,8 @@
       <input class="tex-editar" type="text" name="user" placeholder="Dicas caseiras fáceis de fazer">
 
       <div class="tit-duas">
-        <h3 class="tit-editar">NOME DO SITE</h3>
-        <h3 class="tit-editar">URL DO SITE</h3>
+        <h3 class="tit-editar1">NOME DO SITE</h3>
+        <h3 class="tit-editar1">URL DO SITE</h3>
       </div>
       <div class="tex-duas">
         <input id="tex-duas1" class="tex-editar" type="text" name="user" placeholder="Site">
@@ -182,7 +187,6 @@
           <img src="./imagens/twitter-roxo-escuro.png" alt="twitter">
         </div>
       </div>
-      <button onclick="SairEditarPerfilMob()" class="salvar">SALVAR</button>
     </div>
 
     <div id="fundo-editar-perfil-mob" style="display: none;">
@@ -193,7 +197,7 @@
       <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
       <div class="foto-editar">
         <img class="imagem-perfil-mob" src="./imagens/foto-perfil.svg" alt="foto de perfil">
-        <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil-mob"
+        <button class="editar-perfil-mob"
           onclick="EditarPerfilMob()">Editar Perfil</button>
       </div>
       <h1 class="User1234">Sofizinha</h1>
@@ -222,7 +226,7 @@
               <h3 id="vis-seguindo">SEGUINDO</h3>
             </div>
             <div id="inf-perfil-3">
-              <h3 id="segui">0</h3>
+              <h3 id="segui">3</h3>
               <h3 id="vis-seguindo">POSTAGENS</h3>
             </div>
           </div>
@@ -237,7 +241,7 @@
 
           <div class="conteudo-postagens-rascunhos-interacoes">
             <div class="Conteudo-postagens" id="Conteudo-postagens">
-              <div class="pinterest-style-class" id="pinterest-style">
+              <div class="pinterest-style-class" id="pinterest-style" style="height: 200vw;">
 
                 <section id="primeira-fileira-posts">
 
@@ -272,25 +276,6 @@
                   </div>
                   <!-- FINAL 1 POST DISPENSA - FILEIRA 1 -->
 
-                  <!-- 2 PERGUNTA LAVAR ROUPA - FILEIRA 1 -->
-                  <article id="base-post">
-                    <div id="post-pergunta">
-                      <div id="c">
-                        <div id="post-perg">
-                          <div id="fundoperg"></div>
-                          <h2 id="text-pergunta">Amo pão de alho, como posso preparar um?</h2>
-                        </div>
-                        <div id="post-baixo-h">
-                          <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                          <h3 id="descri-icon">20</h3>
-                          <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                          <h3 id="descri-icon">0</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                  <!-- FINAL 2 PERGUNTA LAVAR ROUPA - FILEIRA 1 -->
-
                   <!-- 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
                   <article id="base-post">
                     <div id="post-bolin-de-chuva">
@@ -323,56 +308,6 @@
                   </div>
                   <!-- FINAL 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
 
-                  <!-- 4 POST CACHOS - FILEIRA 1 -->
-                  <article id="base-post">
-                    <div id="post-cachos">
-                      <div id="post-cachos-fileira1">
-                        <img id="cachos" src="./imagens/cachos.svg" alt="post">
-                        <div id="sombra-b"></div>
-                        <h2 id="descri-post-cachos-fileira1">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                      </div>
-                      <div id="post-baixo-f">
-                        <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                        <h3 id="descri-icon">0H50</h3>
-                        <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                        <h3 id="descri-icon">2.4</h3>
-                        <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                        <h3 id="descri-icon">1</h3>
-                      </div>
-                    </div>
-                  </article>
-                  <div id="longpress-post-cachos-fileira1">
-                    <div id="long-cima">
-                      <p id="plongpress">Creme para pentear modelador - Mascára recuperadora - Shampoo - Condicionador
-                        hidratante</p>
-                      <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                    </div>
-                    <div id="cachos-long-baixo">
-                      <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
-                        alt="post com categoria limpeza">
-                      <h2 id="texto-longpress">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                    </div>
-                  </div>
-                  <!-- FINAL 4 POST CACHOS - FILEIRA 1 -->
-
-                  <!-- 5 POST PERGUNTA - FILEIRA 1 -->
-                  <article id="base-post">
-                    <div id="post">
-                      <div id="c">
-                        <div id="post-perg">
-                          <div id="fundoperg"></div>
-                          <h2 id="text-pergunta">Como faço SkinCare com ingredientes naturais?</h2>
-                        </div>
-                        <div id="post-baixo-h">
-                          <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                          <h3 id="descri-icon">20</h3>
-                          <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                          <h3 id="descri-icon">0</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                  <!-- FINAL 5 POST PERGUNTA - FILEIRA 1 -->
                 </section>
 
                 <section id="segunda-fileira-posts">
@@ -407,114 +342,6 @@
                     </div>
                   </div>
                   <!-- FINAL 1 POST CACHOS - FILEIRA 2 -->
-
-                  <!-- 2 POST BOLO DE CENOURA - FILEIRA 2 -->
-                  <article id="base-post">
-                    <div id="post-bolo-de-cenoura">
-                      <div id="post-bolo-de-cenoura-fileira2">
-                        <img id="dispensa" src="./imagens/bolo.svg" alt="post">
-                        <div id="sombra"></div>
-                        <h2 id="descri-post-bolo-de-cenoura">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
-                      </div>
-                      <div id="post-baixo-c">
-                        <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                        <h3 id="descri-icon">0H40</h3>
-                        <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                        <h3 id="descri-icon">5.0</h3>
-                        <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                        <h3 id="descri-icon">9</h3>
-                      </div>
-                    </div>
-                  </article>
-                  <div id="longpress-post-bolo-de-cenoura-fileira2">
-                    <div id="long-cima">
-                      <p id="plongpress">Ovo - Manteiga - Açúcar - Óleo - Farinha de trigo - Fermento em pó - Cenoura
-                        média ralada</p>
-                      <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                    </div>
-                    <div id="bolo-de-cenoura-long-baixo">
-                      <img id="icon-culinaria-longpress" src="./imagens/icon-culinaria-branco.png"
-                        alt="post com categoria limpeza">
-                      <h2 id="texto-longpress">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
-                    </div>
-                  </div>
-                  <!-- FINAL 2 POST BOLO DE CENOURA - FILEIRA 2 -->
-
-                  <article id="base-post">
-                    <div id="post">
-                      <div id="c">
-                        <div id="post-perg">
-                          <div id="fundoperg"></div>
-                          <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
-                        </div>
-                        <div id="post-baixo-h">
-                          <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
-                          <h3 id="descri-icon">20</h3>
-                          <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
-                          <h3 id="descri-icon">0</h3>
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-
-                  <article id="base-post">
-                    <div id="post-bolin-de-chuva">
-                      <div id="post-bolin-fileira2">
-                        <img id="bolin" src="./imagens/bolin.svg" alt="post">
-                        <div id="sombra-a"></div>
-                        <h2 id="descri-post-bolin-fileira2">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
-                      </div>
-                      <div id="post-baixo-a">
-                        <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                        <h3 id="descri-icon">0H30</h3>
-                        <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                        <h3 id="descri-icon">4.5</h3>
-                        <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                        <h3 id="descri-icon">8</h3>
-                      </div>
-                    </div>
-                  </article>
-                  <div id="longpress-post-bolin-fileira2">
-                    <div id="long-cima">
-                      <p id="plongpress">Farinha de trigo - Açúcar - Extrato de baunilha - Fermento em pó - Canela em pó
-                        - óleo - Ovo</p>
-                      <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                    </div>
-                    <div id="bolin2-long-baixo">
-                      <img id="icon-culinaria-longpress" src="./imagens/icon-culinaria-branco.png"
-                        alt="post com categoria limpeza">
-                      <h2 id="texto-longpress">BOLINHO DE <br>CHUVA DA VOVÓ</h2>
-                    </div>
-                  </div>
-
-                  <article id="base-post">
-                    <div id="post">
-                      <div id="post-dispensa-fileira2">
-                        <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
-                        <div id="sombra"></div>
-                        <h2 id="descri-post-dispensa-fileira2">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-                      </div>
-                      <div id="post-baixo">
-                        <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                        <h3 id="descri-icon">0H40</h3>
-                        <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                        <h3 id="descri-icon">5.0</h3>
-                        <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                        <h3 id="descri-icon">~</h3>
-                      </div>
-                    </div>
-                  </article>
-                  <div id="longpress-post-dispensa-fileira2">
-                    <div id="long-cima">
-                      <p id="plongpress">Etiquetas - organizadores - caneta gráfica - cestas - manual</p>
-                      <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                    </div>
-                    <div id="long-baixo-dispensa-fileira2">
-                      <img id="icon-limpeza-longpress" src="./imagens/icon-limpeza-branco.png"
-                        alt="post com categoria limpeza">
-                      <h2 id="texto-longpress">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-                    </div>
-                  </div>
 
                 </section>
               </div>
@@ -803,22 +630,6 @@
 
 <footer>
   <section class="Footer-Mobile">
-    <div class="Veja-Mais">
-      <h1 class="titulo-veja-mais">VEJA MAIS</h1>
-      <div class="limpeza-culinaria">
-        <div class="veja-culinaria">
-          <h3 class="texto-veja-mais">CULINÁRIA</h3>
-        </div>
-
-        <div class="veja-limpeza">
-          <h3 class="texto-veja-mais">LIMPEZA</h3>
-        </div>
-      </div>
-
-      <div class="veja-bem-estar">
-        <h3 class="texto-veja-mais">BEM-ESTAR</h3>
-      </div>
-    </div>
     <div class="Newsletter">
       <h3 class="mensagem-news">CADASTRE-SE EM NOSSA NEWSLETTER!</h3>
       <label for="e-mail"></label>

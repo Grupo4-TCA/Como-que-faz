@@ -28,6 +28,7 @@
     border-radius: 10px;
     border: 4px dashed #bababa;
     margin-left: -2.5%;
+    margin-bottom: 300px;
   }
 
   .sem-rescunhos img {
@@ -41,6 +42,7 @@
     font-family: Fira Sans;
     margin-left: 17.5%;
     margin-top: -40px;
+    font-size: 90%;
     width: 65%;
   }
 
@@ -50,6 +52,7 @@
     margin-left: 27.5%;
     width: 45%;
     text-decoration: underline;
+    font-size: 100%;
     margin-bottom: 50px;
   }
 
@@ -109,23 +112,22 @@
   }
 
   /* FINAL interaÃ§Ãµes ----------------------------------------------------------------------- */
-}
-
+  
 button.editar-perfil-mob {
   width: 144px;
   height: 36px;
-  padding: 2px 2px 2px 2px;
+  padding: 1px 1px 1px 1px;
   border-radius: 12px;
   border-style: none;
   background-color: #4d16bb;
   box-sizing: border-box;
   font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
   color: #ffffff;
   text-align: center;
   line-height: normal;
-  transform: translate(50px, 70px);
+  transform: translate(-30px, 10px);
 }
 
 #editar-perfil-popup-mob {
@@ -133,10 +135,10 @@ button.editar-perfil-mob {
   padding: 1%;
   border-radius: 10px;
   z-index: 300;
-  width: 70%;
-  margin-top: 2%;
-  margin-left: 5%;
-  height: 725px;
+  width: 93%;
+  margin-top: 10%;
+  margin-left: 2.5%;
+  height: 555px;
   background-color: #f9f9f9;
 }
 
@@ -151,22 +153,28 @@ button.editar-perfil-mob {
 .xis-sair {
   color: #4d16bb;
   cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 .banner-editar {
-  width: 525px;
+  width: 95%;
+  margin-left: 2.5%;
   margin-top: 20px;
-  height: 95px;
+}
+.foto-fundo-editar{
+  margin-left: 5%;
+  height: 0;
 }
 
-.foto-editar {
-  transform: translate(45.5px, -105px);
-  height: 90px;
+.foto-editar-perfil {
+  transform: translate(-80px, -65px);
+  height: 70px;
 }
 
 .fundo-foto-editar {
   transform: translate(0px, -58px);
-  height: 100px;
+  height: 80px;
 }
 
 .editar-foto-camera {
@@ -181,28 +189,34 @@ button.editar-perfil-mob {
   transform: translate(-130px, -60px);
 }
 
-#tit1 {
-  margin-top: -40px;
-}
 
 .tit-editar {
   font-family: Heavitas;
   font-weight: 400;
-  font-size: 18px;
-  margin-left: 45px;
+  font-size: 15px;
+  margin-left: 25px;
   color: #4d16bb;
+}
+.tit-editar1{
+  font-family: Heavitas;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 35px;
+  color: #4d16bb;
+  width: 120px;
 }
 
 .tit-duas {
   display: flex;
   justify-content: space-between;
-  margin-right: 120px;
+  margin-right: 70px;
+  margin-left: -10px;
 }
 
 .tex-editar {
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-left: 45px;
+  margin-left: 25px;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -232,15 +246,15 @@ button.editar-perfil-mob {
 
 .redes-editar {
   width: 83%;
-  margin-left: 45px;
+  margin-left: 25px;
   display: flex;
   justify-content: space-between;
 }
 
 .rede-editar {
   margin-top: 10px;
-  padding: 2% 0% 0 12%;
-  width: 31%;
+  padding: 6% 0% 0% 10%;
+  width: 20%;
   height: 50px;
   border-radius: 5px;
   background: #ffd662;
@@ -250,13 +264,19 @@ button.editar-perfil-mob {
   background: #4d16bb;
   color: white;
   border-radius: 5px;
-  margin-top: 100px;
-  margin-left: 300px;
-  width: 180px;
-  height: 45px;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 130px;
+  height: 30px;
   border: none;
   cursor: pointer;
 }
+.cima-editar{
+  justify-content: space-between;
+  display: flex;
+}
+}
+
 
 @media only screen and (min-width: 481px) {
   .tab {
