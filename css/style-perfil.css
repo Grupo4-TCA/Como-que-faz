@@ -709,6 +709,7 @@
   }
 
   .cometint {
+
     margin-left: 110px;
     margin-top: 7px;
     font-family: "Fira Sans", sans-serif;
@@ -717,9 +718,7 @@
 
   .userint {
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    color: #ffd662;
     font-size: 20px;
-    width: 130px;
     height: 20px;
     margin-left: 40px;
     margin-top: -20px;
@@ -730,12 +729,12 @@
   }
 
   .respondeuint {
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    color: #ffd662;
     font-size: 20px;
-    width: 130px;
     height: 20px;
     margin-top: -20px;
-    margin-left: 180px;
+    margin-left: 220px;
   }
 
   .ygona {
