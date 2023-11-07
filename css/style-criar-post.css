@@ -109,17 +109,18 @@
     width: 100%;
     height: 4vw;
     padding: 2px 2px 2px 2px;
-    background-color: #d7d7d7;
+    background-image: linear-gradient(89.9984726943774deg, #ffa462 0%, #9d21cb 48.6110592628467%, #4d16bb 99.2062434669349%);
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+    transform: rotate(180deg);
   }
 
   #progresso {
+    box-shadow: 0 0 5vw 8vw rgba(225, 225, 225, 0.904);
     width: 100vw;
     height: 4vw;
     padding: 2px 2px 2px 2px;
-    background-image: linear-gradient(89.9984726943774deg, #4d16bb 0%, #9d21cb 48.6110592628467%, #ffa462 99.2062434669349%);
     background-color: #d7d7d7;
     box-sizing: border-box;
     position: absolute;
@@ -941,7 +942,7 @@
   }
 
   #numero-do-modo-de-preparo {
-    width: 5.5vw;
+    width: 8vw;
     margin-top: 8vw;
     margin-left: 3vw;
     border: 0;
@@ -957,14 +958,14 @@
   #simbolo-do-numero{
     display: inline-block;
     font-family: "Fira Sans", sans-serif;
-    font-size: 90%;
+    font-size: 100%;
     color: #adadad;
     box-sizing: border-box;
     padding-bottom: 1vw;
     margin-bottom: 1vw;
-    margin-left: 9vw;
+    margin-left: 12vw;
     margin-top: 9vw;
-    margin-right: 3vw;
+    margin-right: 0.5vw;
   }
 
   #modo-de-preparo {
