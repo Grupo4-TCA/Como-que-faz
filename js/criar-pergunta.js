@@ -26,3 +26,30 @@ function modalpergunta() {
 document.addEventListener("DOMContentLoaded", function () {
     modalpergunta();
 });
+
+function dropdownpergunta(action) {
+    var dropdownElement = document.getElementsByClassName('dropdown-perguntar-categoria')[0];
+    var displayValues = ['block', 'none'];
+    dropdownElement.style.display = displayValues[action];
+}
+
+function perguntar(c){
+    var inputElement = document.querySelector('.dialogoselect-perguntar-categoria');
+    var itemElement = document.getElementById('item-perguntar-categoria-' + c);
+
+    inputElement.classList.remove('categoria-culinaria', 'categoria-limpeza', 'categoria-bemestar');
+
+    switch (c) {
+        case 1:
+            inputElement.classList.add('categoria-culinaria');
+            break;
+        case 2:
+            inputElement.classList.add('categoria-limpeza');
+            break;
+        case 3:
+            inputElement.classList.add('categoria-bemestar');
+            break;
+    }
+
+    inputElement.value = itemElement.innerText;
+}

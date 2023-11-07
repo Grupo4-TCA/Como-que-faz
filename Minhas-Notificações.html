@@ -403,9 +403,25 @@
                     <!-- ADIIONAR AQUI O ONTEUDO DO PERGUNTAR -->
                     <section class="alinhamento-da-pergunta">
                         
-                        <div class="categoria-criar-perg">
-                            <h1>CULINÁRIA</h1>
+                        
+                        <!-- //teste dropdown -->
+                        <div class="guarda-select-perguntar">
+                            <input class="dialogoselect-perguntar-categoria" id="dialogoselect-perguntar-categoria" type="text" name="categoria" onfocus="dropdownpergunta(0)" onblur="dropdownpergunta(1)"
+                            placeholder="CATEGORIA DA POSTAGEM" readonly="readonly">
+                            <div class="dropdown-perguntar-categoria">
+                                <div class="listdropdown-perguntar-categoria">
+                                    
+                                    <div value="categoria-culinaria" class="item-perguntar-categoria" id="item-perguntar-categoria-1" onmousedown="perguntar(1)">CULINÁRIA</div>
+                    
+                                    <div value="categoria-limpeza" class="item-perguntar-categoria" id="item-perguntar-categoria-2" onmousedown="perguntar(2)">LIMPEZA</div>
+                    
+                                    <div value="categoria-bemestar" class="item-perguntar-categoria" id="item-perguntar-categoria-3" onmousedown="perguntar(3)">BEM-ESTAR</div>
+                    
+                                </div>
+                            </div>
                         </div>
+                        <!-- //teste dropdown -->
+
 
                         <div class="duvida1">
                             
