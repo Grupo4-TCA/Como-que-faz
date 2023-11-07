@@ -116,6 +116,7 @@ function category(categoryId) {
     mostrarElementoCulinaria();
 }
 
+
 function dropdown(action) {
     var dropdownElement = document.getElementsByClassName('dropDown')[0];
     var displayValues = ['block', 'none'];
@@ -135,8 +136,8 @@ function adicionarMensagem() {
         const messageDiv = document.createElement('div');
         messageDiv.id = 'div-etiqueta-subcategoria';
         messageDiv.textContent = inputValue;
-        messageDiv.style.paddingLeft = '1%';
-        messageDiv.style.paddingRight = '1%';
+        messageDiv.style.paddingLeft = '3%';
+        messageDiv.style.paddingRight = '3%';
 
         // Adicionar a div à lista de mensagens
         messageList.appendChild(messageDiv);

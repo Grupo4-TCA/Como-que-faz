@@ -175,7 +175,7 @@
             <div id="modal-criar-post" class="hidden">
                 <div class="modal-header">
                     <img src="./imagens/gato-preenchido-roxo.png" alt="criar post titulo" id="gato-criar-post">
-                    <h2 id="criar-post-titulo">CRIAR POSTAGEM</h2>
+                    <h2 id="criar-post-titulo">CRIAR DICA</h2>
                     <div id="close-modal-criar-post">X</div>
                 </div>
 
@@ -231,13 +231,13 @@
                                     <div id="tempo-detalhes">
                                         <img id="imagem-tempo-detalhes" src="./imagens/tempo-cor-cinza.svg"
                                             alt="tempo de execução">
-                                        <input type="number" id="horas-tempo-detalhes" placeholder="00">H
-                                        <input type="number" id="horas-tempo-detalhes" placeholder="00">MIN
+                                        <input type="number" id="horas-tempo-detalhes" placeholder="00" min="0" max="100">H
+                                        <input type="number" id="horas-tempo-detalhes" placeholder="00" min="0" max="60">MIN
                                     </div>
                                     <div id="tempo-detalhes-porcoes">
                                         <img id="imagem-tempo-detalhes-porcoes"
                                             src="./imagens/porçoes-cinza-culinaria.png" alt="tempo de execução">
-                                        <input type="number" id="horas-tempo-detalhes" placeholder="00">PORÇÕES
+                                        <input type="number" id="horas-tempo-detalhes" placeholder="00" min="0">PORÇÕES
                                     </div>
                                 </section>
 
@@ -397,7 +397,7 @@
                 <div class="modal-body-pergunta">
                     <!-- ADIIONAR AQUI O ONTEUDO DO PERGUNTAR -->
                     <section class="alinhamento-da-pergunta">
-
+                        
                         <div class="categoria-criar-perg">
                             <h1>CULINÁRIA</h1>
                         </div>

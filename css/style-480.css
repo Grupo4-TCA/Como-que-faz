@@ -23,6 +23,10 @@
   .conteudo-dispositivo-desktop{
     display: none;
   }
+  
+  .conteudo-dispositivo-mobile{
+    display: block;
+  }
 
   .mapli {
     margin-top: 5%;
