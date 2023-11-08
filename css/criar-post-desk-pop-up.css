@@ -561,7 +561,7 @@
     #input-text-subcategoria {
         margin-top: 0.88vw;
         width: 22.08vw;
-        height: 2.02vw;
+        height: 3vw;
         display: inline-block;
         padding: 2px 2px 2px 2px;
         border-radius: 5px;
@@ -579,15 +579,15 @@
 
     #icon {
         display: inline-block;
-        width: 1.5vw;
-        height: 1.5vw;
+        width: 2vw;
+        height: 2vw;
         margin-left: -2.6vw;
-        margin-bottom: -0.5vw;
+        margin-bottom: -0.8vw;
     }
 
     .message-list {
         width: 22.06vw;
-        height: 4vw;
+        height: 3vw;
         max-height: 200px;
         overflow-y: auto;
         border-radius: 5px;
@@ -619,17 +619,17 @@
 
     #linha-rosa-ingredientes {
         width: 0.26vw;
-        height: 11vw;
+        height: 10vw;
         padding: 2px 2px 2px 2px;
         background-color: #cb218c;
         box-sizing: border-box;
         position: absolute;
-        margin-top: -4.6vw;
+        margin-top: -4.1vw;
     }
 
     #ingredientes-elementos-NaN {
         width: 23vw;
-        margin-top: 6.8vw;
+        margin-top: 5.8vw;
     }
 
     #sem-a-linha-rosa {
@@ -637,6 +637,8 @@
         position: relative;
         margin-left: 2vw;
         margin-top: 5vw;
+        border: 0;
+        border-left: 0.26vw solid #cb218c;
     }
 
     #titulo-ingredientes-elementos {
@@ -652,11 +654,11 @@
 
     #botao-de-add-ingrediente {
         margin-left: 18vw;
-        margin-bottom: -1.8vw;
+        margin-bottom: -1vw;
     }
 
     #botao-de-tirar-ingrediente {
-        margin-bottom: -1.8vw;
+        margin-bottom: -1vw;
     }
 
     #numero-do-ingrediente {
@@ -695,8 +697,7 @@
 
     #input-nome-do-ingrediente {
         width: 22.06vw;
-        height: 2.5vw;
-        padding-bottom: -1vw;
+        height: 2vw;
         font-size: 90%;
         border: 0;
         border-bottom: 1px solid #727272;
@@ -738,11 +739,10 @@
 
     #input-quantidade-do-ingrediente {
         width: 3.5vw;
-        height: 2.5vw;
+        height: 2vw;
         margin-top: 0.6vw;
         font-size: 100%;
         border: 0;
-        padding-bottom: 0.20vw;
         padding-left: 1vw;
         border-bottom: 1px solid #727272;
         margin-left: 1vw;
@@ -869,7 +869,7 @@
         color: #9e5fef;
         text-align: left;
         margin-left: 1.5vw;
-        font-size: 100%;
+        font-size: 110%;
         border: 0;
     }
 
@@ -881,12 +881,13 @@
 
     #modo-de-preparo {
         padding-bottom: 1.5vw;
+        margin-top: 0.4vw;
     }
 
     #passo-a-passo-modo {
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 500;
-        color: #adadad;
+        color: #333;
         text-align: left;
         margin-left: 1.6vw;
         font-size: 80%;
@@ -907,12 +908,12 @@
         padding: 2px 2px 2px 2px;
         font-size: 90%;
         border: 0;
-        border-bottom: 1px solid #d7d7d7;
+        border-bottom: 1px solid #727272;
         background-color: rgba(255, 0, 0, 0);
         box-sizing: border-box;
         font-family: "Arial", sans-serif;
         padding-left: 1%;
-        padding-bottom: 0.6vw;
+        padding-bottom: 0.2vw;
         color: #333333;
         text-align: left;
 
