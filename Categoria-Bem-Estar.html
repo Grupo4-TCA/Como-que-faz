@@ -30,11 +30,11 @@
     <header>
         <section class="header-dispositivo-desktop">
             <nav class="logos">
-                <div class="usuario-menu">
-                    <div class="notificacoes-header">
+                <section class="usuario-menu">
+                    <figure class="notificacoes-header">
                         <p>9+</p>
-                    </div>
-                    <div class="abrir-menu" onmouseover="showMenu()" onmouseout="hideMenu()">
+                    </figure>
+                    <nav class="abrir-menu" onmouseover="showMenu()" onmouseout="hideMenu()">
                         <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                             <img class="img-user" src="imagens/icon_sofizinha.png" alt="usuário logado">
                         </a>
@@ -55,20 +55,20 @@
                             <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta')">
                                 SAIR</li>
                         </ul>
-                    </div>
-                </div>
+                    </nav>
+                </section>
                 <div class="texto-bemvindo">
                     <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                         <p class="p-1">Seja bem vindo!</p><br>
                         <p class="p-2">Sofia Albuquerque Lima</p>
                     </a>
                 </div>
-                <div class="logo">
+                <figure class="logo">
                     <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                         <img src="imagens/gatobemestar.png" alt="Logo do ComoQueFaz">
                     </a>
-                </div>
-                <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class="search">
+                </figure>
+                <figure id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class="search">
                     <a>
                         <img src="imagens/lupabemestar.png" alt="Ícone de Pesquisa">
                         <div id="hide-hover-search">
@@ -76,7 +76,7 @@
                             <label for="inserir-pesquisa"></label>
                         </div>
                     </a>
-                </div>
+                </figure>
             </nav>
             <nav class="topcs" style="background: #00cd83;">
                 <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
@@ -476,38 +476,38 @@
         <section class="conteudo-desktop">
             <br>
             <br>
-            <div class="mapCU">
+            <section class="mapCU">
                 <a class="mapculinaria" href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                     Home ></a> <a class="mapculinaria2"
                     href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária"> Bem Estar </a>
-            </div>
-            <div class="categocu">
+            </section>
+            <section class="categocu">
                 <img class="imgcu" src="./imagens/categobemestar.png" alt="icon culinaria">
                 <h1 class="titulocu">BEM ESTAR</h1>
                 <p class="pcu">Explore métodos para manter um equilíbrio saudável, cultivar a felicidade e alcançar o
                     seu potencial máximo.</p>
-            </div>
-            <div class="container">
+            </section>
+            <section class="container">
                 <button class="subca" type="text" name="subcate" onclick="focado()" onBlur="desfoque()">Subcategorias
                     <img id="seta" src="imagens/seta-verde.png" alt=""></button>
-                <div class="dropDown">
-                    <div class="listDropDown">
-                        <div class="item" id="item-1" onMouseDown="category(1)">Agridoces</div><br>
-                        <div class="item" id="item-2" onMouseDown="category(2)">Almoço</div><br>
-                        <div class="item" id="item-3" onMouseDown="category(3)">Café da manhã</div><br>
-                        <div class="item" id="item-4" onMouseDown="category(4)">Carnes</div><br>
-                        <div class="item" id="item-5" onMouseDown="category(5)">Doces</div><br>
-                        <div class="item" id="item-6" onMouseDown="category(6)">Fitness</div><br>
-                        <div class="item" id="item-7" onMouseDown="category(7)">Jantar</div><br>
-                        <div class="item" id="item-8" onMouseDown="category(8)">Lanche</div><br>
-                        <div class="item" id="item-9" onMouseDown="category(9)">Massas</div><br>
-                        <div class="item" id="item-10" onMouseDown="category(10)">Peixes</div><br>
-                        <div class="item" id="item-11" onMouseDown="category(11)">Salgados</div>
-                    </div>
-                </div>
-            </div>
-            <div class="filtroantes">
-                <div class="filtrocu">
+                <nav class="dropDown">
+                    <ul class="listDropDown">
+                        <li class="item" id="item-1" onMouseDown="category(1)">Agridoces</li><br>
+                        <li class="item" id="item-2" onMouseDown="category(2)">Almoço</li><br>
+                        <li class="item" id="item-3" onMouseDown="category(3)">Café da manhã</li><br>
+                        <li class="item" id="item-4" onMouseDown="category(4)">Carnes</li><br>
+                        <li class="item" id="item-5" onMouseDown="category(5)">Doces</li><br>
+                        <li class="item" id="item-6" onMouseDown="category(6)">Fitness</li><br>
+                        <li class="item" id="item-7" onMouseDown="category(7)">Jantar</li><br>
+                        <li class="item" id="item-8" onMouseDown="category(8)">Lanche</li><br>
+                        <li class="item" id="item-9" onMouseDown="category(9)">Massas</li><br>
+                        <li class="item" id="item-10" onMouseDown="category(10)">Peixes</li><br>
+                        <li class="item" id="item-11" onMouseDown="category(11)">Salgados</li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="filtroantes">
+                <nav class="filtrocu">
                     <button class="fcutodas">TODAS</button>
                     <button class="fcutodas">+ RECENTES</button>
                     <button class="fcutodas">EM ALTA</button>
@@ -523,270 +523,270 @@
                     <button class="fcutodas">ALMOÇO</button>
                     <button class="fcutodas">JANTAR</button>
                     <button class="fcutodas">LANCHE</button>
-                </div>
-            </div>
+                </nav>
+            </section>
             <br>
             <br>
             <br>
-            <div class="postagens">
-                <div class="postagens1">
-                    <div class="post1" onmouseover="mostrarDivOculta()" onmouseout="esconderDivOculta()" id="posts">
+            <section class="postagens">
+                <section class="postagens1">
+                    <article class="post1" onmouseover="mostrarDivOculta()" onmouseout="esconderDivOculta()" id="posts">
                         <img src="imagens/beberagua.png" alt="foto-post1" class="info-cima-post">
                         <h1 id="texto-atras" class="info-cima-post">Dicas para beber mais agua</h1>
                         <img id="icon-culinaria-branco" src="imagens/icon-bemestar-branco.png"
                             alt="icon-culinaria-branco" class="info-cima-post">
-                        <div class="legenda">
-                            <div class="legenda relogio">
+                        <aside class="legenda">
+                            <figure class="legenda relogio">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>1H00</h3>
-                            </div>
-                            <div class="legenda estrela">
+                            </figure>
+                            <figure class="legenda estrela">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post1" id="hover-post1" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post1" id="hover-post1" style="background: #00cd8383;">
                             <h3> essa dica não tem ingredientes</h3>
-                        </div>
-                    </div>
-                    <div class="post2" onmouseover="mostrarDivOculta2()" onmouseout="esconderDivOculta2()">
+                        </aside>
+                    </article>
+                    <article class="post2" onmouseover="mostrarDivOculta2()" onmouseout="esconderDivOculta2()">
                         <img src="imagens/sono.png" alt="foto-post2" class="info-cima-post">
                         <h1 id="texto-atras2" class="info-cima-post">Durma melhor hoje</h1>
                         <img id="icon-culinaria-branco2" src="imagens/icon-bemestar-branco.png"
                             alt="icon-culinaria-branco2" class="info-cima-post2">
-                        <div class="legenda2">
-                            <div class="legenda2 relogio">
+                        <aside class="legenda2">
+                            <figure class="legenda2 relogio">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H30</h3>
-                            </div>
-                            <div class="legenda2 estrela">
+                            </figure>
+                            <figure class="legenda2 estrela">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post2" id="hover-post2" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post2" id="hover-post2" style="background: #00cd8383;">
                             <h3> livros - chá - silencio</h3>
-                        </div>
-                    </div>
-                    <div class="post3" onmouseover="mostrarDivOculta3()" onmouseout="esconderDivOculta3()">
+                        </aside>
+                    </article>
+                    <article class="post3" onmouseover="mostrarDivOculta3()" onmouseout="esconderDivOculta3()">
                         <img src="imagens/descolorir.png" alt="foto-post3" class="info-cima-post">
                         <h1 id="texto-atras3" class="info-cima-post">Descolorir o cabelo</h1>
                         <img id="icon-limpeza-branco3" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco3"
                             class="info-cima-post3">
-                        <div class="legenda3">
-                            <div class="legenda3 relogio3">
+                        <aside class="legenda3">
+                            <figure class="legenda3 relogio3">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H20</h3>
-                            </div>
-                            <div class="legenda3 estrela3">
+                            </figure>
+                            <figure class="legenda3 estrela3">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post3" id="hover-post3" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post3" id="hover-post3" style="background: #00cd8383;">
                             <h3>pó descolorante - hidratação - oleo capilar - agua oxigenada - condicionador</h3>
-                        </div>
-                    </div>
-                    <div class="post4" onmouseover="mostrarDivOculta4()" onmouseout="esconderDivOculta4()">
+                        </aside>
+                    </article>
+                    <article class="post4" onmouseover="mostrarDivOculta4()" onmouseout="esconderDivOculta4()">
                         <img src="imagens/post-imagem-pele.png" alt="foto-post4" class="info-cima-post">
                         <h1 id="texto-atras4" class="info-cima-post">Cuidados com a pele negra</h1>
                         <img id="icon-limpeza-branco4" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco4"
                             class="info-cima-post4">
-                        <div class="legenda4">
-                            <div class="legenda4 relogio3">
+                        <aside class="legenda4">
+                            <figure class="legenda4 relogio3">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H10</h3>
-                            </div>
-                            <div class="legenda4 estrela3">
+                            </figure>
+                            <figure class="legenda4 estrela3">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post4" id="hover-post4">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post4" id="hover-post4">
                             <h3>esfoliante - água - hidratante</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="postagens2">
-                    <div class="post5" onmouseover="mostrarDivOculta5()" onmouseout="esconderDivOculta5()">
+                        </aside>
+                    </article>
+                </section>
+                <section class="postagens2">
+                    <article class="post5" onmouseover="mostrarDivOculta5()" onmouseout="esconderDivOculta5()">
                         <img src="imagens/post-organizacao-rotina.png" alt="foto-post5" class="info-cima-post">
                         <h1 id="texto-atras5" class="info-cima-post">Organize sua rotina</h1>
                         <img id="icon-limpeza-branco5" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco5"
                             class="info-cima-post5">
-                        <div class="legenda5">
-                            <div class="legenda5 relogio5">
+                        <aside class="legenda5">
+                            <figure class="legenda5 relogio5">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>1H20</h3>
-                            </div>
-                            <div class="legenda5 estrela5">
+                            </figure>
+                            <figure class="legenda5 estrela5">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>5.0</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post5" id="hover-post5">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post5" id="hover-post5">
                             <h3>essa dica não possui itens necessários</h3>
-                        </div>
-                    </div>
-                    <div class="post6" onmouseover="mostrarDivOculta6()" onmouseout="esconderDivOculta6()">
+                        </aside>
+                    </article>
+                    <article class="post6" onmouseover="mostrarDivOculta6()" onmouseout="esconderDivOculta6()">
                         <img src="imagens/cachorro-bemestar.png" alt="foto-post6" class="info-cima-post">
                         <h1 id="texto-atras6" class="info-cima-post">Exames de rotina para o seu cãozinho</h1>
                         <img id="icon-limpeza-branco6" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco6"
                             class="info-cima-post6">
-                        <div class="legenda6">
-                            <div class="legenda6 relogio6">
+                        <aside class="legenda6">
+                            <figure class="legenda6 relogio6">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>1H20</h3>
-                            </div>
-                            <div class="legenda6 estrela6">
+                            </figure>
+                            <figure class="legenda6 estrela6">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>5.0</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post6" id="hover-post6" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post6" id="hover-post6" style="background: #00cd8383;">
                             <h3>Essa dica não possui itens necessários</h3>
-                        </div>
-                    </div>
-                    <div class="post7" onmouseover="mostrarDivOculta7()" onmouseout="esconderDivOculta7()">
+                        </aside>
+                    </article>
+                    <article class="post7" onmouseover="mostrarDivOculta7()" onmouseout="esconderDivOculta7()">
                         <img src="imagens/desculpas.png" alt="foto-post7" class="info-cima-post">
                         <h1 id="texto-atras7" class="info-cima-post">Pedido de desculpas criativo</h1>
                         <img id="icon-culinaria-branco7" src="imagens/icon-bemestar-branco.png"
                             alt="icon-culinaria-branco7" class="info-cima-post7">
-                        <div class="legenda7">
-                            <div class="legenda7 relogio">
+                        <aside class="legenda7">
+                            <figure class="legenda7 relogio">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H45</h3>
-                            </div>
-                            <div class="legenda7 estrela">
+                            </figure>
+                            <figure class="legenda7 estrela">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                            <div class="legenda7 partes">
+                            </figure>
+                            <figure class="legenda7 partes">
                                 <img src="imagens/partes-cinza.png" alt="partes">
                                 <h3>36</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post7" id="hover-post7" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post7" id="hover-post7" style="background: #00cd8383;">
                             <h3>papel - post-it - tesoura - cola - glitter</h3>
-                        </div>
-                    </div>
-                    <div class="post8" onmouseover="mostrarDivOculta8()" onmouseout="esconderDivOculta8()">
+                        </aside>
+                    </article>
+                    <article class="post8" onmouseover="mostrarDivOculta8()" onmouseout="esconderDivOculta8()">
                         <img src="imagens/post-limpeza-dispensa.png" alt="foto-post8" class="info-cima-post">
                         <h1 id="texto-atras8" class="info-cima-post">A organização muda tudo na sua rotina! Entenda</h1>
                         <img id="icon-limpeza-branco8" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco8"
                             class="info-cima-post8">
-                        <div class="legenda8">
-                            <div class="legenda8 relogio8">
+                        <aside class="legenda8">
+                            <figure class="legenda8 relogio8">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H20</h3>
-                            </div>
-                            <div class="legenda8 estrela8">
+                            </figure>
+                            <figure class="legenda8 estrela8">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>5.0</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post8" id="hover-post8" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post8" id="hover-post8" style="background: #00cd8383;">
                             <h3>multiuso - água - pano</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="postagens3">
-                    <div class="post9" onmouseover="mostrarDivOculta9()" onmouseout="esconderDivOculta9()">
+                        </aside>
+                    </article>
+                </section>
+                <section class="postagens3">
+                    <article class="post9" onmouseover="mostrarDivOculta9()" onmouseout="esconderDivOculta9()">
                         <img src="imagens/academia.png" alt="foto-post9" class="info-cima-post">
                         <h1 id="texto-atras9" class="info-cima-post">Rotina de treinos leves</h1>
                         <img id="icon-limpeza-branco9" src="imagens/icon-bemestar-branco.png"
                             alt="icon-culinaria-branco9" class="info-cima-post9">
-                        <div class="legenda9">
-                            <div class="legenda9 relogio9">
+                        <aside class="legenda9">
+                            <figure class="legenda9 relogio9">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H45</h3>
-                            </div>
-                            <div class="legenda9 estrela9">
+                            </figure>
+                            <figure class="legenda9 estrela9">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post9" id="hover-post9" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post9" id="hover-post9" style="background: #00cd8383;">
                             <h3>Essa dica não possui itens necessários</h3>
-                        </div>
-                    </div>
-                    <div class="post10" onmouseover="mostrarDivOculta10()" onmouseout="esconderDivOculta10()">
+                        </aside>
+                    </article>
+                    <article class="post10" onmouseover="mostrarDivOculta10()" onmouseout="esconderDivOculta10()">
                         <img src="imagens/post-unhas.png" alt="foto-post10" class="info-cima-post">
                         <h1 id="texto-atras10" class="info-cima-post">Faça suas cuticulas sem dor</h1>
                         <img id="icon-bemestar-branco10" src="imagens/icon-bemestar-branco.png"
                             alt="icon-culinaria-branco10" class="info-cima-post10">
-                        <div class="legenda10">
-                            <div class="legenda10 relogio10">
+                        <aside class="legenda10">
+                            <figure class="legenda10 relogio10">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>0H45</h3>
-                            </div>
-                            <div class="legenda10 estrela10">
+                            </figure>
+                            <figure class="legenda10 estrela10">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post10" id="hover-post10" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post10" id="hover-post10" style="background: #00cd8383;">
                             <h3>alicate de unha - tesoura de unha - hidratante de cuticula - algodão - papel alumínio
                             </h3>
-                        </div>
-                    </div>
-                    <div class="post11" onmouseover="mostrarDivOculta11()" onmouseout="esconderDivOculta11()">
+                        </aside>
+                    </article>
+                    <article class="post11" onmouseover="mostrarDivOculta11()" onmouseout="esconderDivOculta11()">
                         <img src="imagens/poros.png" alt="foto-post11" class="info-cima-post">
                         <h1 id="texto-atras11" class="info-cima-post">Mascara anti poros caseira</h1>
                         <img id="icon-culinaria-branco11" src="imagens/icon-bemestar-branco.png"
                             alt="icon-culinaria-branco11" class="info-cima-post11">
-                        <div class="legenda11">
-                            <div class="legenda11 relogio">
+                        <aside class="legenda11">
+                            <figure class="legenda11 relogio">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>1H20</h3>
-                            </div>
-                            <div class="legenda11 estrela">
+                            </figure>
+                            <figure class="legenda11 estrela">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                            <div class="legenda11 partes">
+                            </figure>
+                            <figure class="legenda11 partes">
                                 <img src="imagens/partes-cinza.png" alt="partes">
                                 <h3>8</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post11" id="hover-post11" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post11" id="hover-post11" style="background: #00cd8383;">
                             <h3>Essa dica não possui itens necessários</h3>
-                        </div>
-                    </div>
-                    <div class="post12" onmouseover="mostrarDivOculta12()" onmouseout="esconderDivOculta12()">
+                        </aside>
+                    </article>
+                    <article class="post12" onmouseover="mostrarDivOculta12()" onmouseout="esconderDivOculta12()">
                         <img src="imagens/post-barba.png" alt="foto-post12" class="info-cima-post">
                         <h1 id="texto-atras12" class="info-cima-post">Barba falhada nunca mais!</h1>
                         <img id="icon-bemestar-branco12" src="imagens/icon-bemestar-branco.png"
                             alt="icon-bemestar-branco12" class="info-cima-post12">
-                        <div class="legenda12">
-                            <div class="legenda12 relogio12">
+                        <aside class="legenda12">
+                            <figure class="legenda12 relogio12">
                                 <img src="imagens/relogio-cinza.svg" alt="relogio">
                                 <h3>1H20</h3>
-                            </div>
-                            <div class="legenda12 estrela12">
+                            </figure>
+                            <figure class="legenda12 estrela12">
                                 <img src="imagens/estrela-cinza.svg" alt="estrela">
                                 <h3>4.9</h3>
-                            </div>
-                        </div>
-                        <div class="hover-post12" id="hover-post12" style="background: #00cd8383;">
+                            </figure>
+                        </aside>
+                        <aside class="hover-post12" id="hover-post12" style="background: #00cd8383;">
                             <h3>barbeador - lâmina de barbear - gilete - espuma de barbear - pinça</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </aside>
+                    </article>
+                </section>
+            </section>
 
         </section>
 
         <section class="conteudo-mobile">
 
-            <div class="mapbe">
+            <section class="mapbe">
                 <a class="mapbemestar" href="./index.html">Voltar</a>
-            </div>
-            <div class="categobe">
+            </section>
+            <section class="categobe">
                 <img class="imgbe" src="./imagens/categobemestar.png" alt="icon culinaria">
                 <h1 class="titulobe">BEM-ESTAR</h1>
                 <p class="pbe">Explore um mundo de sabores e técnicas culinárias com dicas e tutoriais detalhados.</p>
-            </div>
-            <div class="filtrocu">
+            </section>
+            <nav class="filtrocu">
                 <button class="fcutodas">TODAS</button>
                 <button class="fcutodas">+ RECENTES</button>
                 <button class="fcutodas">EM ALTA</button>
@@ -802,140 +802,140 @@
                 <button class="fcutodas">ALMOÇO</button>
                 <button class="fcutodas">JANTAR</button>
                 <button class="fcutodas">LANCHE</button>
-            </div>
+            </nav>
 
-            <div id="pinterest-style">
+            <section id="pinterest-style">
 
                 <section id="primeira-fileira-posts">
 
                     <!-- 1 POST DISPENSA - FILEIRA 1 -->
                     <article id="base-post">
-                        <div id="post">
-                            <div id="post-dispensa-fileira1">
+                        <section id="post">
+                            <article id="post-dispensa-fileira1">
                                 <img id="dispensa" src="./imagens/rotina-de-ex.png" alt="post">
-                                <div id="sombra"></div>
+                                <figure id="sombra"></figure>
                                 <h2 id="descri-post">CRIANDO ROTINA<br>DE EXERCÍCIOS</h2>
-                            </div>
-                            <div id="post-baixo">
+                            </article>
+                            <section id="post-baixo">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">0H40</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">5.0</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-dispensa-fileira1" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-dispensa-fileira1" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Agenda - Calendário - Pesos - Barra de porta - Corda</p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="long-baixo">
+                        </article>
+                        <article id="long-baixo">
                             <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">CRIANDO ROTINA<br>DE EXERCÍCIOS</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
                     <!-- FINAL 1 POST DISPENSA - FILEIRA 1 -->
 
                     <!-- 2 PERGUNTA LAVAR ROUPA - FILEIRA 1 -->
                     <article id="base-post">
-                        <div id="post-pergunta">
-                            <div id="c">
-                                <div id="post-perg">
+                        <section id="post-pergunta">
+                            <section id="c">
+                                <article id="post-perg">
                                     <div id="fundoperg"></div>
                                     <h2 id="text-pergunta">Como posso passar fio dental do jeito certo?</h2>
-                                </div>
-                                <div id="post-baixo-h">
+                                </article>
+                                <section id="post-baixo-h">
                                     <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
                                     <h3 id="descri-icon">10</h3>
                                     <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
                                     <h3 id="descri-icon">2</h3>
-                                </div>
-                            </div>
-                        </div>
+                                </section>
+                            </section>
+                        </section>
                     </article>
                     <!-- FINAL 2 PERGUNTA LAVAR ROUPA - FILEIRA 1 -->
 
                     <!-- 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
                     <article id="base-post">
-                        <div id="post-bolin-de-chuva">
-                            <div id="post-bolin-fileira1">
+                        <section id="post-bolin-de-chuva">
+                            <article id="post-bolin-fileira1">
                                 <img id="bolin" src="./imagens/massagem.png" alt="post">
-                                <div id="sombra-a"></div>
+                                <figure id="sombra-a"></figure>
                                 <h2 id="descri-post-a">TERAPIA ATRAVÉS<br>DE MASSAGEM</h2>
-                            </div>
-                            <div id="post-baixo-a">
+                            </article>
+                            <section id="post-baixo-a">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">1H00</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">5.0</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-bolin-fileira1" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-bolin-fileira1" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Auxílio - Òleo de coco - Pedras de massagem - Velas</p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="bolin-long-baixo">
+                        </article>
+                        <article id="bolin-long-baixo">
                             <img id="icon-culinaria-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">TERAPIA ATRAVÉS<br>DE MASSAGEM</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
                     <!-- FINAL 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
 
                     <!-- 4 POST CACHOS - FILEIRA 1 -->
                     <article id="base-post">
-                        <div id="post-cachos">
-                            <div id="post-cachos-fileira1">
+                        <section id="post-cachos">
+                            <article id="post-cachos-fileira1">
                                 <img id="cachos" src="./imagens/mindfulness.png" alt="post">
-                                <div id="sombra-b"></div>
+                                <figure id="sombra-b"></figure>
                                 <h2 id="descri-post-cachos-fileira1">PASSO-A-PASSO<br>ATRAINDO SORTE</h2>
-                            </div>
-                            <div id="post-baixo-f">
+                            </article>
+                            <section id="post-baixo-f">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">0H20</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">2.4</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-cachos-fileira1" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-cachos-fileira1" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Fé - Vontade - Local calmo</p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="cachos-long-baixo">
+                        </article>
+                        <article id="cachos-long-baixo">
                             <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">PASSO-A-PASSO<br>ATRAINDO SORTE</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
                     <!-- FINAL 4 POST CACHOS - FILEIRA 1 -->
 
                     <!-- 5 POST PERGUNTA - FILEIRA 1 -->
                     <article id="base-post">
-                        <div id="post">
-                            <div id="c">
-                                <div id="post-perg">
-                                    <div id="fundoperg"></div>
+                        <section id="post">
+                            <section id="c">
+                                <article id="post-perg">
+                                    <figure id="fundoperg"></figure>
                                     <h2 id="text-pergunta">Como faço SkinCare com ingredientes naturais?</h2>
-                                </div>
-                                <div id="post-baixo-h">
+                                </article>
+                                <section id="post-baixo-h">
                                     <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
                                     <h3 id="descri-icon">20</h3>
                                     <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
                                     <h3 id="descri-icon">0</h3>
-                                </div>
-                            </div>
-                        </div>
+                                </section>
+                            </section>
+                        </section>
                     </article>
                     <!-- FINAL 5 POST PERGUNTA - FILEIRA 1 -->
                 </section>
@@ -943,255 +943,255 @@
                 <section id="segunda-fileira-posts">
                     <!-- 1 POST CACHOS - FILEIRA 2 -->
                     <article id="base-post">
-                        <div id="post-cachos">
-                            <div id="post-cachos-fileira2">
+                        <section id="post-cachos">
+                            <article id="post-cachos-fileira2">
                                 <img id="cachos" src="./imagens/tenia-de-respiração.png" alt="post">
-                                <div id="sombra-b"></div>
+                                <figure id="sombra-b"></figure>
                                 <h2 id="descri-post-cachos-fileira2">TÉCNICA DE<br>RESPIRAÇÃO</h2>
-                            </div>
-                            <div id="post-baixo-f">
+                            </article>
+                            <section id="post-baixo-f">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">0H05</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">5.0</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-cachos-fileira2" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-cachos-fileira2" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Ambiente arrejado - Calma</p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="cachos-long-baixo">
+                        </article>
+                        <article id="cachos-long-baixo">
                             <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">TÉCNICA DE<br>RESPIRAÇÃO</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
                     <!-- FINAL 1 POST CACHOS - FILEIRA 2 -->
 
                     <!-- 2 POST BOLO DE CENOURA - FILEIRA 2 -->
                     <article id="base-post">
-                        <div id="post-bolo-de-cenoura">
-                            <div id="post-bolo-de-cenoura-fileira2">
+                        <section id="post-bolo-de-cenoura">
+                            <article id="post-bolo-de-cenoura-fileira2">
                                 <img id="dispensa" src="./imagens/dormir-bem.png" alt="post">
-                                <div id="sombra"></div>
+                                <figure id="sombra"></figure>
                                 <h2 id="descri-post-bolo-de-cenoura">UMA BOA NOITE<br>DE SONO</h2>
-                            </div>
-                            <div id="post-baixo-c">
+                            </article>
+                            <section id="post-baixo-c">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">0H50</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">3.2</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-bolo-de-cenoura-fileira2" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-bolo-de-cenoura-fileira2" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Higiene pessoal - Lugar confortável - Óleo calmante</p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="bolo-de-cenoura-long-baixo">
+                        </article>
+                        <article id="bolo-de-cenoura-long-baixo">
                             <img id="icon-culinaria-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">UMA BOA NOITE<br>DE SONO</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
                     <!-- FINAL 2 POST BOLO DE CENOURA - FILEIRA 2 -->
 
                     <article id="base-post">
-                        <div id="post">
-                            <div id="c">
-                                <div id="post-perg">
-                                    <div id="fundoperg"></div>
+                        <section id="post">
+                            <section id="c">
+                                <article id="post-perg">
+                                    <figure id="fundoperg"></figure>
                                     <h2 id="text-pergunta">Quero entender sobre paz espiritual, onde achar?</h2>
-                                </div>
-                                <div id="post-baixo-h">
+                                </article>
+                                <section id="post-baixo-h">
                                     <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
                                     <h3 id="descri-icon">200</h3>
                                     <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
                                     <h3 id="descri-icon">19</h3>
-                                </div>
-                            </div>
-                        </div>
+                                </section>
+                            </section>
+                        </section>
                     </article>
 
                     <article id="base-post">
-                        <div id="post-bolin-de-chuva">
-                            <div id="post-bolin-fileira2">
+                        <section id="post-bolin-de-chuva">
+                            <article id="post-bolin-fileira2">
                                 <img id="bolin" src="./imagens/autocuidado-homens.png" alt="post">
-                                <div id="sombra-a"></div>
+                                <figure id="sombra-a"></figure>
                                 <h2 id="descri-post-bolin-fileira2">AUTOCUIDADO<br>PARA HOMENS</h2>
-                            </div>
-                            <div id="post-baixo-a">
+                            </article>
+                            <section id="post-baixo-a">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">0H40</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">5.0</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-bolin-fileira2" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-bolin-fileira2" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Óleo hidratante - Cortador de unha - Creme calmante - Mascára para cravos
                             </p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="bolin2-long-baixo">
+                        </article>
+                        <article id="bolin2-long-baixo">
                             <img id="icon-culinaria-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">AUTOCUIDADO<br>PARA HOMENS</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
 
                     <article id="base-post">
-                        <div id="post">
-                            <div id="post-dispensa-fileira2">
+                        <section id="post">
+                            <article id="post-dispensa-fileira2">
                                 <img id="dispensa" src="./imagens/meditação-para-iniciantes.jpg" alt="post">
-                                <div id="sombra"></div>
+                                <figure id="sombra"></figure>
                                 <h2 id="descri-post-dispensa-fileira2">MEDITAÇÃO<br>EM SUA ROTINA</h2>
-                            </div>
-                            <div id="post-baixo">
+                            </article>
+                            <section id="post-baixo">
                                 <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                                 <h3 id="descri-icon">0H20</h3>
                                 <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                                 <h3 id="descri-icon">1.0</h3>
                                 <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                                 <h3 id="descri-icon">~</h3>
-                            </div>
-                        </div>
+                            </section>
+                        </section>
                     </article>
-                    <div id="longpress-post-dispensa-fileira2" style="background-color: #00cd8383;">
-                        <div id="long-cima">
+                    <section id="longpress-post-dispensa-fileira2" style="background-color: #00cd8383;">
+                        <article id="long-cima">
                             <p id="plongpress">Almofada de meditação - Fones de ouvido confortáveis - Links de
                                 meditações guiadas - Incenso</p>
                             <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="long-baixo-dispensa-fileira2">
+                        </article>
+                        <article id="long-baixo-dispensa-fileira2">
                             <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
                                 alt="post com categoria limpeza">
                             <h2 id="texto-longpress">MEDITAÇÃO<br>EM SUA ROTINA</h2>
-                        </div>
-                    </div>
+                        </article>
+                    </section>
 
                 </section>
-            </div>
+            </section>
         </section>
     </main>
     <footer>
         <section class="Footer-Mobile">
-            <div class="Veja-Mais">
+            <article class="Veja-Mais">
                 <h1 class="titulo-veja-mais">VEJA MAIS</h1>
-                <div class="limpeza-culinaria">
-                    <div class="veja-culinaria">
+                <section class="limpeza-culinaria">
+                    <figure class="veja-culinaria">
                         <h3 class="texto-veja-mais">CULINÁRIA</h3>
-                    </div>
-
-                    <div class="veja-limpeza">
+                    </figure>
+                    <figure class="veja-limpeza">
                         <h3 class="texto-veja-mais">LIMPEZA</h3>
-                    </div>
-                </div>
-
-                <div class="veja-bem-estar">
+                    </figure>
+                </section>
+                <section class="veja-bem-estar">
                     <h3 class="texto-veja-mais">BEM-ESTAR</h3>
-                </div>
-            </div>
-            <div class="Newsletter">
+                </section>
+            </article>
+            <article class="Newsletter">
                 <h3 class="mensagem-news">CADASTRE-SE EM NOSSA NEWSLETTER!</h3>
                 <label for="e-mail"></label>
-                <div class="cadastrese-newsletter">
+                <section class="cadastrese-newsletter">
                     <input class="text-email" type="text" id="e-mail" name="email" placeholder="Digite o seu e-mail">
                     <input class="submit-email" type="submit" value="cadastre-se">
-                </div>
+                </section>
                 <hr class="Linha-Footer-1">
-            </div>
-            <div class="footer">
-                <div class="logo2"><img src="imagens/ComoQueFaz_logo2.png" alt="Logo do ComoQueFaz?"></div>
+            </article>
+            <article class="footer">
+                <figure class="logo2"><img src="imagens/ComoQueFaz_logo2.png" alt="Logo do ComoQueFaz?"></figure>
                 <hr class="Linha-Footer-2">
-                <div class="redes">
+                <figure class="redes">
                     <img src="imagens/tiktok.png" alt="Tiktok">
                     <img src="imagens/twitter.png" alt="Twitter">
                     <img src="imagens/instagram.png" alt="Instagram">
-                </div>
-                <span class="titulos-footer">Contato</span>
-                <li class="contato-footer"><img class="img-contato-footer" src="imagens/telefone_icon.png"
-                        alt="telefone">(11) 99999-9999</li>
-                <li class="contato-footer"><img class="img-contato-footer" src="imagens/email_icon.png"
-                        alt="e-mail">ComoQueFaz@gmail.com</li>
-                <span class="titulos-footer">Sobre</span>
-                <li class="sobre-footer">Quem Somos</li>
-                <li class="sobre-footer">Termos de Uso e Política de Privacidade</li>
-                <li class="sobre-footer">Anuncie</li>
-                <li class="sobre-footer">Parcerias</li>
-            </div>
+                </figure>
+                <ol>
+                    <li class="titulos-footer">Contato</li>
+                    <li class="contato-footer"><img class="img-contato-footer" src="imagens/telefone_icon.png"
+                            alt="telefone">(11) 99999-9999</li>
+                    <li class="contato-footer"><img class="img-contato-footer" src="imagens/email_icon.png"
+                            alt="e-mail">ComoQueFaz@gmail.com</li>
+                    <li class="titulos-footer">Sobre</li>
+                    <li class="sobre-footer">Quem Somos</li>
+                    <li class="sobre-footer">Termos de Uso e Política de Privacidade</li>
+                    <li class="sobre-footer">Anuncie</li>
+                    <li class="sobre-footer">Parcerias</li>
+                </ol>
+            </article>
         </section>
         <section class="Footer-Desktop">
-            <div class="Veja-Mais">
+            <article class="Veja-Mais">
                 <h1 class="titulo-veja-mais">VEJA MAIS</h1>
-                <div class="limpeza-culinaria-bemestar">
-                    <div class="veja-culinaria">
+                <section class="limpeza-culinaria-bemestar">
+                    <figure class="veja-culinaria">
                         <h3 class="texto-veja-mais">CULINÁRIA</h3>
-                    </div>
+                    </figure>
 
-                    <div class="veja-limpeza">
+                    <figure class="veja-limpeza">
                         <h3 class="texto-veja-mais">LIMPEZA</h3>
-                    </div>
+                    </figure>
 
-                    <div class="veja-bem-estar">
+                    <figure class="veja-bem-estar">
                         <h3 class="texto-veja-mais">BEM-ESTAR</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="Newsletter">
-                <div class="textos-newsletter">
+                    </figure>
+                </section>
+            </article>
+            <article class="Newsletter">
+                <section class="textos-newsletter">
                     <h3 class="mensagem-news" id="cadastre-se1">CADASTRE-SE EM NOSSA</h3>
                     <h3 class="mensagem-news" id="cadastre-se2">NEWSLETTER!</h3>
-                    <div class="cadastrese-newsletter">
+                    <article class="cadastrese-newsletter">
                         <p>RECEBA SUAS NOTIFICAÇÕES:</p>
                         <label for="e-mail"></label>
                         <input class="text-email" type="text" id="e-mail" name="email"
                             placeholder="   Digite o seu e-mail">
                         <input class="submit-email" type="submit" value="cadastre-se">
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="wrapper">
-                    <div class="row">
-                        <div class="col-4 logo-center">
+                    </article>
+                </section>
+            </article>
+            <article class="footer">
+                <section class="wrapper">
+                    <section class="row">
+                        <article class="col-4 logo-center">
                             <img class="logo-footer" src="imagens/ComoQueFaz_logo2.png" alt="Logo do ComoQueFaz?">
-                            <div class="redes-footer">
+                            <figure class="redes-footer">
                                 <img src="imagens/tiktok.png" alt="Tiktok">
                                 <img src="imagens/twitter.png" alt="Twitter">
                                 <img src="imagens/instagram.png" alt="Instagram">
-                            </div>
-                        </div>
-                        <div class="col-4">
+                            </figure>
+                        </article>
+                        <article class="col-4">
                             <h4>Contato</h4>
-                            <div>
+                            <figure>
                                 <img class="icon" src="imagens/telefone_icon.png" alt="telefone">
                                 <p class="texto-info-rodape">(11) 99999-9999</p>
                                 <img class="icon" src="imagens/email_icon.png" alt="email">
                                 <p class="texto-info-rodape">comoquefaz@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="col-5">
+                            </figure>
+                        </article>
+                        <article class="col-5">
                             <h4>Sobre</h4>
                             <p class="texto-info-rodape">Quem somos</p>
                             <p class="texto-info-rodape">Termos de uso</p>
                             <p class="texto-info-rodape">Política de privacidade</p>
                             <p class="texto-info-rodape">Anuncie</p>
                             <p class="texto-info-rodape">Parcerias</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </article>
+                    </section>
+                </section>
+            </article>
         </section>
     </footer>
 </body>
