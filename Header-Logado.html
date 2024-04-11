@@ -20,28 +20,31 @@
    <header>
       <section class="header-dispositivo-mobile">
          <nav class="logos">
-            <div class="user">
-               <div class="notificacoes-header">
+            <article class="user">
+               <figure class="notificacoes-header">
                   <p>9+</p>
-               </div>
+               </figure>
                <button class="abrir-menu" onclick="AbrirMenuLateral()"><img src="imagens/icon_sofizinha.png"
                      alt="usuário logado"></button>
-               <div class="user-menu" id="user-menu" style="display: none;">
+               <section class="user-menu" id="user-menu" style="display: none;">
                   <button class="fechar-menu" onclick="FecharMenuLateral()">
-                     <div class="fechar"></div>
+                     <figure class="fechar"></figure>
                   </button>
+
                   <ul>
-                     <div class="bem-vindo">
-                        <div class="colnm1">
+                     <section class="bem-vindo">
+                        <section class="colnm1">
                            <img src="imagens/icon_sofizinha.png" alt="Perfil de Usuário" id="iconeSofizinha">
-                        </div>
-                        <div class="colnm2">
+                        </section>
+
+                        <section class="colnm2">
                            <span>Seja bem-vindo(a)!</span>
-                           <div class="nome">
+                           <figure class="nome">
                               <p><span>Sofia Albuquerque Lima</span></p>
-                           </div>
-                        </div>
-                     </div>
+                           </figure>
+                        </section>
+                     </section>
+
                      <li><img src="imagens/user2_icon.png" alt="perfil"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Perfil</a></li>
                      <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a
@@ -53,39 +56,44 @@
                            href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Interações</a></li>
                      <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Rascunhos</a></li>
-                     <div class="ajustes">
+                     <section class="ajustes">
                         <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a
                               href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Ajustes</a></li>
                         <li><img src="imagens/sair_icon.png" alt="sair"><a
                               href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">Sair</a></li>
-                     </div>
+                     </section>
                   </ul>
-               </div>
-            </div>
-            <div class="logo">
+               </section>
+            </article>
+
+            <article class="logo">
                <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                   <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                </a>
-            </div>
-            <div class="search">
+            </article>
+            
+            <article class="search">
                <a href="/">
                   <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
                </a>
-            </div>
+            </article>
          </nav>
+
          <nav class="topcs">
             <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
             <a class="limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
             <a class="bem-estar" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Bem-Estar">BEM-ESTAR</a>
          </nav>
       </section>
+
       <section class="header-dispositivo-desktop">
          <nav class="logos">
-            <div class="usuario-menu">
-               <div class="notificacoes-header">
+            <article class="usuario-menu">
+               <figure class="notificacoes-header">
                   <p>9+</p>
-               </div>
-               <div class="abrir-menu" onmouseover="showMenu()" onmouseout="hideMenu()">
+               </figure>
+
+               <section class="abrir-menu" onmouseover="showMenu()" onmouseout="hideMenu()">
                   <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                      <img class="img-user" src="imagens/icon_sofizinha.png" alt="usuário logado">
                   </a>
@@ -106,30 +114,34 @@
                      <li onclick="navigateToPage('https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta')">SAIR
                      </li>
                   </ul>
-               </div>
-            </div>
-            <div class="texto-bemvindo">
+               </section>
+            </article>
+
+            <article class="texto-bemvindo">
                <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                   <p class="p-1">Seja bem vindo!</p>
                   <br>
                   <p class="p-2">Sofia Albuquerque Lima</p>
                </a>
-            </div>
-            <div class="logo">
+            </article>
+
+            <article class="logo">
                <a href="https://grupo4-tca.github.io/Como-que-faz/Home-Com-Login">
                   <img src="imagens/ComoQueFaz_logo.png" alt="Logo do ComoQueFaz">
                </a>
-            </div>
-            <div id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class="search">
+            </article>
+
+            <article id="container2" onmouseover="showDiv2()" onmouseout="hideDiv2()" class="search">
                <a>
                   <img src="imagens/search_icon.png" alt="Ícone de Pesquisa">
-                  <div id="hide-hover-search">
+                  <figure id="hide-hover-search">
                      <input class="texto-search" type="text" name="inserir-pesquisa" placeholder="Pesquisar...">
                      <label for="inserir-pesquisa"></label>
-                  </div>
+                  </figure>
                </a>
-            </div>
+            </article>
          </nav>
+
          <nav class="topcs">
             <a class="culinaria" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Culinária">CULINÁRIA</a>
             <a class="limpeza" href="https://grupo4-tca.github.io/Como-que-faz/Categoria-Limpeza">LIMPEZA</a>
@@ -137,6 +149,7 @@
          </nav>
       </section>
    </header>
+
    <main>
       <section class="CRIAR-dispositivo-mobile">
          <div class="floating-smoke">
@@ -157,6 +170,7 @@
             </div>
          </div>
       </section>
+      
       <section class="CRIAR-dispositivo-desktop">
          <div class="floating-smoke">
             <div class="floating">
@@ -354,6 +368,7 @@
             </div>
          </div>
          <!-- FINAL POP-UP CRIAR POSTAGEM -->
+
          <!-- POP-UP PERGUNTA -->
          <div id="fade-pergunta" class="hide">
             <div id="modal-pergunta" class="hide">
