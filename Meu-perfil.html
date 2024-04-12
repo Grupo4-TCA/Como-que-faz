@@ -147,6 +147,7 @@
          </nav>
       </section>
    </header>
+
    <main>
       <section class="CRIAR-dispositivo-mobile">
          <div class="floating-smoke">
@@ -413,8 +414,9 @@
          </div>
          <!-- FINAL POP-UP PERGUNTA -->
       </section>
+
       <section class="conteudo-dispositivo mobile">
-         <div id="editar-perfil-popup-mob" style="display: none;">
+         <article id="editar-perfil-popup-mob" style="display: none;">
             <div class="cima-editar">
                <h1 onclick="SairEditarPerfilMob()" class="xis-sair">X</h1>
                <button onclick="SairEditarPerfilMob()" class="salvar">SALVAR</button>
@@ -450,196 +452,209 @@
                   <img src="./imagens/twitter-roxo-escuro.png" alt="twitter">
                </div>
             </div>
-         </div>
-         <div id="fundo-editar-perfil-mob" style="display: none;">
-         </div>
-         <div class="perfil-cima">
+         </article>
+
+         <figure id="fundo-editar-perfil-mob" style="display: none;">
+         </figure>
+
+         <article class="perfil-cima">
             <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
-            <div class="foto-editar">
+            <figure class="foto-editar">
                <img class="imagem-perfil-mob" src="./imagens/foto-perfil.svg" alt="foto de perfil">
                <button class="editar-perfil-mob" onclick="EditarPerfilMob()">Editar Perfil</button>
-            </div>
+            </figure>
+
             <h1 class="User1234">Sofizinha</h1>
             <h2 class="Nome1234">Sofia Albuquerque Lima</h2>
-            <div id="descrição-perfil">
+
+            <section id="descrição-perfil">
                <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
-               <div class="descricao-pf">
+               <figure class="descricao-pf">
                   <img id="icon-link" src="./imagens/icon-de-link.svg" alt="icone de link">
                   <span class="site"
-                     style="margin-left: 2px; color: #cb218c; font-weight: 500; text-decoration: underline; font-size: 14px;">Site</span>
+                  style="margin-left: 2px; color: #cb218c; font-weight: 500; text-decoration: underline; font-size: 14px;">Site</span>
                   | https://userdicas.com.br<br>
-                  <div class="redes-sociais-perfil">
-                     <img class="rede" src="imagens/tiktok-rosa.png" alt="tiktok">
-                     <img class="rede" src="imagens/twitter-rosa.svg" alt="twitter">
-                     <img class="rede" src="imagens/instagram-rosa.png" alt="instagram">
-                  </div>
-                  <div class="segui-mob">
-                     <div id="inf-perfil-1">
-                        <h3 id="segui">100</h3>
-                        <h3 id="vis-seguindo">SEGUIDORES</h3>
-                     </div>
-                     <div id="inf-perfil-2">
-                        <h3 id="segui">200</h3>
-                        <h3 id="vis-seguindo">SEGUINDO</h3>
-                     </div>
-                     <div id="inf-perfil-3">
-                        <h3 id="segui">3</h3>
-                        <h3 id="vis-seguindo">POSTAGENS</h3>
-                     </div>
-                  </div>
-                  <div class="postagens-rascunhos-interacoes">
-                     <button class="postagens" onclick="VisiPostagens()">POSTAGENS</button>
-                     <button class="rascunhos" onclick="VisiRascunhos()">RASCUNHOS</button>
-                     <button class="interacoes" onclick="VisiInteracoes()">INTERAÇÕES</button>
-                  </div>
-                  <div class="conteudo-postagens-rascunhos-interacoes">
-                     <div class="Conteudo-postagens" id="Conteudo-postagens">
-                        <div class="pinterest-style-class" id="pinterest-style" style="height: 200vw;">
-                           <section id="primeira-fileira-posts">
-                              <!-- 1 POST DISPENSA - FILEIRA 1 -->
-                              <article id="base-post">
-                                 <div id="post">
-                                    <div id="post-dispensa-fileira1">
-                                       <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
-                                       <div id="sombra"></div>
-                                       <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-                                    </div>
-                                    <div id="post-baixo">
-                                       <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                                       <h3 id="descri-icon">0H40</h3>
-                                       <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                                       <h3 id="descri-icon">5.0</h3>
-                                       <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                                       <h3 id="descri-icon">~</h3>
-                                    </div>
-                                 </div>
-                              </article>
-                              <div id="longpress-post-dispensa-fileira1">
-                                 <div id="long-cima">
-                                    <p id="plongpress">Etiquetas - organizadores - caneta gráfica - cestas - manual</p>
-                                    <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                                 </div>
-                                 <div id="long-baixo">
-                                    <img id="icon-limpeza-longpress" src="./imagens/icon-limpeza-branco.png"
-                                       alt="post com categoria limpeza">
-                                    <h2 id="texto-longpress">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-                                 </div>
-                              </div>
-                              <!-- FINAL 1 POST DISPENSA - FILEIRA 1 -->
-                              <!-- 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
-                              <article id="base-post">
-                                 <div id="post-bolin-de-chuva">
-                                    <div id="post-bolin-fileira1">
-                                       <img id="bolin" src="./imagens/bolin.svg" alt="post">
-                                       <div id="sombra-a"></div>
-                                       <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
-                                    </div>
-                                    <div id="post-baixo-a">
-                                       <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                                       <h3 id="descri-icon">0H30</h3>
-                                       <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                                       <h3 id="descri-icon">4.5</h3>
-                                       <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                                       <h3 id="descri-icon">8</h3>
-                                    </div>
-                                 </div>
-                              </article>
-                              <div id="longpress-post-bolin-fileira1">
-                                 <div id="long-cima">
-                                    <p id="plongpress">Farinha de trigo - Açúcar - Extrato de baunilha - Fermento em pó
-                                       - Canela em pó
-                                       - óleo - Ovo
-                                    </p>
-                                    <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                                 </div>
-                                 <div id="bolin-long-baixo">
-                                    <img id="icon-culinaria-longpress" src="./imagens/icon-culinaria-branco.png"
-                                       alt="post com categoria limpeza">
-                                    <h2 id="texto-longpress">BOLINHO DE <br>CHUVA DA VOVÓ</h2>
-                                 </div>
-                              </div>
-                              <!-- FINAL 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
-                           </section>
-                           <section id="segunda-fileira-posts">
-                              <!-- 1 POST CACHOS - FILEIRA 2 -->
-                              <article id="base-post">
-                                 <div id="post-cachos">
-                                    <div id="post-cachos-fileira2">
-                                       <img id="cachos" src="./imagens/cachos.svg" alt="post">
-                                       <div id="sombra-b"></div>
-                                       <h2 id="descri-post-cachos-fileira2">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                                    </div>
-                                    <div id="post-baixo-f">
-                                       <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
-                                       <h3 id="descri-icon">0H50</h3>
-                                       <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
-                                       <h3 id="descri-icon">2.4</h3>
-                                       <img id="icon-post" src="./imagens/porcao.png" alt="porção">
-                                       <h3 id="descri-icon">1</h3>
-                                    </div>
-                                 </div>
-                              </article>
-                              <div id="longpress-post-cachos-fileira2">
-                                 <div id="long-cima">
-                                    <p id="plongpress">Creme para pentear modelador - Mascára recuperadora - Shampoo -
-                                       Condicionador
-                                       hidratante
-                                    </p>
-                                    <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                                 </div>
-                                 <div id="cachos-long-baixo">
-                                    <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
-                                       alt="post com categoria limpeza">
-                                    <h2 id="texto-longpress">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                                 </div>
-                              </div>
-                              <!-- FINAL 1 POST CACHOS - FILEIRA 2 -->
-                           </section>
-                        </div>
-                     </div>
-                     <div class="Conteudo-rascunhos" id="Conteudo-rascunhos" style="display: none;">
-                        <div class="sem-rescunhos">
-                           <img src="imagens/gato-nuvem-sem-conteudo.png" alt="">
-                           <h3>Sem rascunhos por enquanto...</h3>
-                           <h2>Comece por aqui</h2>
-                        </div>
-                     </div>
-                     <div class="Conteudo-interacoes" id="Conteudo-interacoes" style="display: none;">
-                        <div id="base-not-interacoes">
-                           <img src="./imagens/OtakuGamerGirl.png" alt="" id="foto-perfil-not">
-                           <div id="descri-interacao">
-                              <h2 id="nome-do-user">EduBe-eri</h2>
-                              <h3 id="tipo-interacao">Começou a te seguir</h3>
+               </figure>
+               <figure class="redes-sociais-perfil">
+                  <img class="rede" src="imagens/tiktok-rosa.png" alt="tiktok">
+                  <img class="rede" src="imagens/twitter-rosa.svg" alt="twitter">
+                  <img class="rede" src="imagens/instagram-rosa.png" alt="instagram">
+               </figure>
+            </section>
+
+            <section class="segui-mob">
+               <figure id="inf-perfil-1">
+                  <h3 id="segui">100</h3>
+                  <h3 id="vis-seguindo">SEGUIDORES</h3>
+               </figure>
+               <figure id="inf-perfil-2">
+                  <h3 id="segui">200</h3>
+                  <h3 id="vis-seguindo">SEGUINDO</h3>
+               </figure>
+               <figure id="inf-perfil-3">
+                  <h3 id="segui">3</h3>
+                  <h3 id="vis-seguindo">POSTAGENS</h3>
+               </figure>
+            </section>
+
+            <section class="postagens-rascunhos-interacoes">
+               <button class="postagens" onclick="VisiPostagens()">POSTAGENS</button>
+               <button class="rascunhos" onclick="VisiRascunhos()">RASCUNHOS</button>
+               <button class="interacoes" onclick="VisiInteracoes()">INTERAÇÕES</button>
+            </section>
+         </article>
+
+         <article class="conteudo-postagens-rascunhos-interacoes">
+            <section class="Conteudo-postagens" id="Conteudo-postagens">
+               <div class="pinterest-style-class" id="pinterest-style" style="height: 200vw;">
+                  <section id="primeira-fileira-posts">
+                     <!-- 1 POST DISPENSA - FILEIRA 1 -->
+                     <article id="base-post">
+                        <div id="post">
+                           <div id="post-dispensa-fileira1">
+                              <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
+                              <div id="sombra"></div>
+                              <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
                            </div>
-                           <button id="ver-interacao">VER</button>
-                        </div>
-                        <div id="base-not-interacoes">
-                           <img src="./imagens/himiko toga fofinha.jpg" alt="" id="foto-perfil-not">
-                           <div id="descri-interacao">
-                              <h2 id="nome-do-user">Adolepeixe09</h2>
-                              <h3 id="tipo-interacao">Curtiu seu comentário</h3>
+                           <div id="post-baixo">
+                              <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+                              <h3 id="descri-icon">0H40</h3>
+                              <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+                              <h3 id="descri-icon">5.0</h3>
+                              <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+                              <h3 id="descri-icon">~</h3>
                            </div>
-                           <button id="ver-interacao">VER</button>
                         </div>
-                        <div id="base-not-interacoes">
-                           <img src="./imagens/DragonBallZGoku.png" alt="" id="foto-perfil-not">
-                           <div id="descri-interacao">
-                              <h2 id="nome-do-user">FLorzinha_EnNe</h2>
-                              <h3 id="tipo-interacao">Começou a te seguir</h3>
-                           </div>
-                           <button id="ver-interacao">VER</button>
+                     </article>
+                     <div id="longpress-post-dispensa-fileira1">
+                        <div id="long-cima">
+                           <p id="plongpress">Etiquetas - organizadores - caneta gráfica - cestas - manual</p>
+                           <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
                         </div>
-                        <div id="base-not-interacoes">
-                           <img src="./imagens/KawaiiSenpai13.png" alt="" id="foto-perfil-not">
-                           <div id="descri-interacao">
-                              <h2 id="nome-do-user">Flávia_Almeida</h2>
-                              <h3 id="tipo-interacao">Compartilhou sua dica</h3>
-                           </div>
-                           <button id="ver-interacao">VER</button>
+                        <div id="long-baixo">
+                           <img id="icon-limpeza-longpress" src="./imagens/icon-limpeza-branco.png"
+                              alt="post com categoria limpeza">
+                           <h2 id="texto-longpress">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
                         </div>
                      </div>
-                  </div>
+                     <!-- FINAL 1 POST DISPENSA - FILEIRA 1 -->
+                     <!-- 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
+                     <article id="base-post">
+                        <div id="post-bolin-de-chuva">
+                           <div id="post-bolin-fileira1">
+                              <img id="bolin" src="./imagens/bolin.svg" alt="post">
+                              <div id="sombra-a"></div>
+                              <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
+                           </div>
+                           <div id="post-baixo-a">
+                              <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+                              <h3 id="descri-icon">0H30</h3>
+                              <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+                              <h3 id="descri-icon">4.5</h3>
+                              <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+                              <h3 id="descri-icon">8</h3>
+                           </div>
+                        </div>
+                     </article>
+                     <div id="longpress-post-bolin-fileira1">
+                        <div id="long-cima">
+                           <p id="plongpress">Farinha de trigo - Açúcar - Extrato de baunilha - Fermento em pó
+                              - Canela em pó
+                              - óleo - Ovo
+                           </p>
+                           <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
+                        </div>
+                        <div id="bolin-long-baixo">
+                           <img id="icon-culinaria-longpress" src="./imagens/icon-culinaria-branco.png"
+                              alt="post com categoria limpeza">
+                           <h2 id="texto-longpress">BOLINHO DE <br>CHUVA DA VOVÓ</h2>
+                        </div>
+                     </div>
+                     <!-- FINAL 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
+                  </section>
+                  <section id="segunda-fileira-posts">
+                     <!-- 1 POST CACHOS - FILEIRA 2 -->
+                     <article id="base-post">
+                        <div id="post-cachos">
+                           <div id="post-cachos-fileira2">
+                              <img id="cachos" src="./imagens/cachos.svg" alt="post">
+                              <div id="sombra-b"></div>
+                              <h2 id="descri-post-cachos-fileira2">COMO DEFINIR <br>SEUS CACHOS?</h2>
+                           </div>
+                           <div id="post-baixo-f">
+                              <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+                              <h3 id="descri-icon">0H50</h3>
+                              <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+                              <h3 id="descri-icon">2.4</h3>
+                              <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+                              <h3 id="descri-icon">1</h3>
+                           </div>
+                        </div>
+                     </article>
+                     <div id="longpress-post-cachos-fileira2">
+                        <div id="long-cima">
+                           <p id="plongpress">Creme para pentear modelador - Mascára recuperadora - Shampoo -
+                              Condicionador
+                              hidratante
+                           </p>
+                           <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
+                        </div>
+                        <div id="cachos-long-baixo">
+                           <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
+                              alt="post com categoria limpeza">
+                           <h2 id="texto-longpress">COMO DEFINIR <br>SEUS CACHOS?</h2>
+                        </div>
+                     </div>
+                     <!-- FINAL 1 POST CACHOS - FILEIRA 2 -->
+                  </section>
+               </div>
+            </section>
+
+            <section class="Conteudo-rascunhos" id="Conteudo-rascunhos" style="display: none;">
+               <figure class="sem-rescunhos">
+                  <img src="imagens/gato-nuvem-sem-conteudo.png" alt="">
+                  <h3>Sem rascunhos por enquanto...</h3>
+                  <h2>Comece por aqui</h2>
+               </figure>
+            </section>
+
+            <section class="Conteudo-interacoes" id="Conteudo-interacoes" style="display: none;">
+               <article id="base-not-interacoes">
+                  <img src="./imagens/OtakuGamerGirl.png" alt="" id="foto-perfil-not">
+                  <figure id="descri-interacao">
+                     <h2 id="nome-do-user">EduBe-eri</h2>
+                     <h3 id="tipo-interacao">Começou a te seguir</h3>
+                  </figure>
+                  <button id="ver-interacao">VER</button>
+               </article>
+               <article id="base-not-interacoes">
+                  <img src="./imagens/himiko toga fofinha.jpg" alt="" id="foto-perfil-not">
+                  <figure id="descri-interacao">
+                     <h2 id="nome-do-user">Adolepeixe09</h2>
+                     <h3 id="tipo-interacao">Curtiu seu comentário</h3>
+                  </figure>
+                  <button id="ver-interacao">VER</button>
+               </article>
+               <article id="base-not-interacoes">
+                  <img src="./imagens/DragonBallZGoku.png" alt="" id="foto-perfil-not">
+                  <figure id="descri-interacao">
+                     <h2 id="nome-do-user">FLorzinha_EnNe</h2>
+                     <h3 id="tipo-interacao">Começou a te seguir</h3>
+                  </figure>
+                  <button id="ver-interacao">VER</button>
+               </article>
+               <article id="base-not-interacoes">
+                  <img src="./imagens/KawaiiSenpai13.png" alt="" id="foto-perfil-not">
+                  <figure id="descri-interacao">
+                     <h2 id="nome-do-user">Flávia_Almeida</h2>
+                     <h3 id="tipo-interacao">Compartilhou sua dica</h3>
+                  </figure>
+                  <button id="ver-interacao">VER</button>
+               </article>
+            </section>
+         </article>
       </section>
+
       <section class="conteudo-dispositivo desktop">
          <div class="tab">
             <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
@@ -906,6 +921,7 @@
       </section>
       <script src="./js/base-post-mb.js"></script>
    </main>
+
    <footer>
       <section class="Footer-Mobile">
          <div class="Newsletter">
