@@ -136,6 +136,7 @@
          </nav>
       </section>
    </header>
+
    <main>
       <section class="CRIAR-dispositivo-mobile">
          <div class="floating-smoke">
@@ -397,70 +398,77 @@
          </div>
          <!-- FINAL POP-UP PERGUNTA -->
       </section>
+
       <section class="conteudo-dispositivo-mobile">
-         <div class="titulo-categoria">
+         <figure class="titulo-categoria">
             <img src="./imagens/culinária-icon-categoria.png" alt="icon-categoria" class="icon-culinaria">
             <h1 class="titulo-culinaria">CULINÁRIA</h1>
-         </div>
-         <div id="opcoes" class="opcoes" onclick="AbrirOpcoes()">
-            <div class="ponto"></div>
-            <div class="ponto"></div>
-            <div class="ponto"></div>
-         </div>
-         <div id="hide-opcoes" style="display: none;">
-            <div class="denunciar">
+         </figure>
+         <section id="opcoes" class="opcoes" onclick="AbrirOpcoes()">
+            <figure class="ponto"></figure>
+            <figure class="ponto"></figure>
+            <figure class="ponto"></figure>
+         </section>
+
+         <aside id="hide-opcoes" style="display: none;">
+            <section class="denunciar">
                <img src="imagens/denunciar-cor-preta.svg" alt="denunciar">
                <p>Denunciar dica</p>
-            </div>
-            <div class="compartilhar">
+            </section>
+            <section class="compartilhar">
                <img src="imagens/compartilhar-cor-preta.svg" alt="compartilhar">
                <p>Compartilhar dica</p>
-            </div>
-         </div>
-         <div class="titulos-post">
+            </section>
+         </aside>
+
+         <figure class="titulos-post">
             <h3 class="titulo-user" style="color: #9e5fef;">NandãoDoAçaí </h3>
             <h3 class="titulo-user">| Nanda da Silva</h3>
             <h1 class="titulo-principal">ARROZ DE FORNO COLORIDO</h1>
-         </div>
-         <div class="info-post">
-            <div class="tempo">
+         </figure>
+
+         <aside class="info-post">
+            <section class="tempo">
                <img src="./imagens/tempo.svg" alt="tempo" class="tempo-post">
                <h3 class="texto-info">1 Hora</h3>
-            </div>
-            <div class="avaliacao">
+            </section>
+            <section class="avaliacao">
                <img src="./imagens/avalia.svg" alt="avaliacao" class="avalia-post">
                <h3 class="texto-info">4.9</h3>
-            </div>
-            <div class="porcoe">
+            </section>
+            <section class="porcoe">
                <img src="./imagens/porcao.png" alt="porcao" class="porcao-post">
                <h3 class="texto-info">5</h3>
-            </div>
-         </div>
-         <div class="Carrossel">
+            </section>
+         </aside>
+
+         <article class="Carrossel">
             <img class="imagemprincipal" src="./imagens/imagem-1-post.png" alt="imagem1">
-            <div class="previa">
-               <div class="imagem">
+            <section class="previa">
+               <figure class="imagem">
                   <img onclick="switchImage('./imagens/imagem-1-post.png')" src="./imagens/imagem-1-post.png" alt="">
-               </div>
-               <div class="imagem">
+               </figure>
+               <figure class="imagem">
                   <img onclick="switchImage('./imagens/imagem-2-post.png')" src="./imagens/imagem-2-post.png" alt="">
-               </div>
-            </div>
-         </div>
-         <div class="descricao-post">
+               </figure>
+            </section>
+         </article>
+
+         <section class="descricao-post">
             <p class="descricao">O arroz de forno é um prato versátil e reconfortante que combina ingredientes como
                arroz, queijo, legumes, e carnes em uma preparação assada no forno.</p>
-            <div class="hashtags">
+            <figure class="hashtags">
                <p class="hashtags-texto">#ALMOÇO #ARROZ #FAMILIA #SALGADO #SÓFORNO #PRÁTICO #RÁPIDO</p>
-            </div>
-         </div>
-         <div class="Itens-necessários">
+            </figure>
+         </section>
+
+         <section class="Itens-necessários">
             <h1 class="itens-titulo">ITENS NECESSÁRIOS</h1>
             <ul class="lista-itens">
                <li class="item-1">
                   <button class="item-1" onclick="visibility1()">1 COLHER DE SOPA | Óleo de Soja</button>
-                  <div class="myDIV" id="myDIV">
-                     <div class="info-item">
+                  <section class="myDIV" id="myDIV">
+                     <article class="info-item">
                         <img src="./imagens/colher-icon.png" alt="colher" class="icon-colher">
                         <ul>
                            <h3 class="titulo-colher">A COLHER DE SOPA É IGUAL À:</h3>
@@ -471,13 +479,14 @@
                               <p class="info-texto">12 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-2">
                   <button class="item-2" onclick="visibility2()">2 XÍCARAS DE CHÁ | Arroz</button>
-                  <div class="myDIV2" id="myDIV2">
-                     <div class="info-item2">
+                  <section class="myDIV2" id="myDIV2">
+                     <article class="info-item2">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -488,13 +497,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-3">
                   <button class="item-3" onclick="visibility3()">2 XÍCARAS DE CHÁ | Água Fervente</button>
-                  <div class="myDIV3" id="myDIV3">
-                     <div class="info-item3">
+                  <section class="myDIV3" id="myDIV3">
+                     <article class="info-item3">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -505,13 +515,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-4">
                   <button class="item-4" onclick="visibility4()">2 XÍCARAS DE CHÁ | Presunto em Cubos</button>
-                  <div class="myDIV4" id="myDIV4">
-                     <div class="info-item4">
+                  <section class="myDIV4" id="myDIV4">
+                     <article class="info-item4">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -522,13 +533,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-5">
                   <button class="item-5" onclick="visibility5()">2 XÍCARAS DE CHÁ | Queijo Mozarela</button>
-                  <div class="myDIV5" id="myDIV5">
-                     <div class="info-item5">
+                  <section class="myDIV5" id="myDIV5">
+                     <article class="info-item5">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -539,13 +551,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-6">
                   <button class="item-6" onclick="visibility6()">85 GRAMAS (gr) | Ervilha</button>
-                  <div class="myDIV6" id="myDIV6">
-                     <div class="info-item6">
+                  <section class="myDIV6" id="myDIV6">
+                     <article class="info-item6">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -556,13 +569,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-7">
                   <button class="item-7" onclick="visibility7()">1 UNIDADE | Cenoura em Cubos</button>
-                  <div class="myDIV7" id="myDIV7">
-                     <div class="info-item7">
+                  <section class="myDIV7" id="myDIV7">
+                     <article class="info-item7">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -573,13 +587,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-8">
                   <button class="item-8" onclick="visibility8()">1 COLHER DE SOPA | Salsa Picada</button>
-                  <div class="myDIV8" id="myDIV8">
-                     <div class="info-item8">
+                  <section class="myDIV8" id="myDIV8">
+                     <article class="info-item8">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -590,13 +605,14 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
+
                <li class="item-9">
                   <button class="item-9" onclick="visibility9()">2 COLHERES DE SOPA | Queijo Parmesão Ralado</button>
-                  <div class="myDIV9" id="myDIV9">
-                     <div class="info-item9">
+                  <section class="myDIV9" id="myDIV9">
+                     <article class="info-item9">
                         <img src="./imagens/xicara-de-cha-icon.png" alt="xicara" class="icon-xicara-cha">
                         <ul>
                            <h3 class="titulo-colher">A XÍCARA DE CHÁ É IGUAL À:</h3>
@@ -607,12 +623,13 @@
                               <p class="info-texto">240 MILILITROS (ml)</p>
                            </li>
                         </ul>
-                     </div>
-                  </div>
+                     </article>
+                  </section>
                </li>
             </ul>
-         </div>
-         <div class="Modo-Preparo">
+         </section>
+
+         <section class="Modo-Preparo">
             <h1 class="modo-titulo">MODO DE PREPARO</h1>
             <ul class="lista-modo">
                <ol class="modos">
@@ -645,12 +662,13 @@
                      cerca de 30 minutos. Sirva.</p>
                </ol>
             </ul>
-         </div>
-         <div class="estrelas">
+         </section>
+
+         <aside class="estrelas">
             <h1 class="gostou">GOSTOU?</h1>
             <br>
             <p class="p-aval">Avalie essa dica!</p>
-            <div class="avalia-estrelas">
+            <article class="avalia-estrelas">
                <input type="radio" name="estrela" id="estrela1">
                <label for="estrela1"></label>
                <input type="radio" name="estrela" id="estrela2">
@@ -661,8 +679,9 @@
                <label for="estrela4"></label>
                <input type="radio" name="estrela" id="estrela5">
                <label for="estrela5"></label>
-            </div>
-         </div>
+            </article>
+         </aside>
+
          <div class="comentarios">
             <h1 class="comem-titulo">13 Comentários</h1>
             <div class="filtro">
@@ -717,6 +736,7 @@
             <h1>MOSTRAR MAIS</h1>
          </div>
       </section>
+
       <section class="conteudo-dispositivo-desktop">
          <div class="mapa-do-site">
             <p class="mapa-1">Home</p>
@@ -1063,6 +1083,7 @@
          </div>
       </section>
    </main>
+
    <footer>
       <section class="Footer-Mobile">
          <div class="Veja-Mais">
