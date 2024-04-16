@@ -417,41 +417,42 @@
 
       <section class="conteudo-dispositivo mobile">
          <article id="editar-perfil-popup-mob" style="display: none;">
-            <div class="cima-editar">
+            <figure class="cima-editar">
                <h1 onclick="SairEditarPerfilMob()" class="xis-sair">X</h1>
                <button onclick="SairEditarPerfilMob()" class="salvar">SALVAR</button>
-            </div>
+            </figure>
             <img class="banner-editar" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
             <img id="camera1" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
-            <div class="foto-fundo-editar">
+            <figure class="foto-fundo-editar">
                <img class="fundo-foto-editar" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
                <img class="foto-editar-perfil" src="./imagens/foto-perfil.svg" alt="">
-            </div>
+            </figure>
             <img id="camera2" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
             <h3 id="tit1" class="tit-editar">NOME DE USUÁRIO</h3>
             <input class="tex-editar" type="text" name="user" placeholder="Sofizinha">
             <h3 class="tit-editar">BIOGRAFIA</h3>
             <input class="tex-editar" type="text" name="user" placeholder="Dicas caseiras fáceis de fazer">
-            <div class="tit-duas">
+            <figure class="tit-duas">
                <h3 class="tit-editar1">NOME DO SITE</h3>
                <h3 class="tit-editar1">URL DO SITE</h3>
-            </div>
-            <div class="tex-duas">
+            </figure>
+            <figure class="tex-duas">
                <input id="tex-duas1" class="tex-editar" type="text" name="user" placeholder="Site">
                <input id="tex-duas2" class="tex-editar" type="text" name="user" placeholder="UserDicas.com.br">
-            </div>
+            </figure>
             <h3 class="tit-editar">REDES CONECTADAS</h3>
-            <div class="redes-editar">
-               <div class="rede-editar">
+
+            <section class="redes-editar">
+               <figure class="rede-editar">
                   <img src="./imagens/tiktok-roxo-escuro.png" alt="tiktok">
-               </div>
-               <div class="rede-editar">
+               </figure>
+               <figure class="rede-editar">
                   <img src="./imagens/instagram-roxo-escuro.png" alt="instagram">
-               </div>
-               <div class="rede-editar">
+               </figure>
+               <figure class="rede-editar">
                   <img src="./imagens/twitter-roxo-escuro.png" alt="twitter">
-               </div>
-            </div>
+               </figure>
+            </section>
          </article>
 
          <figure id="fundo-editar-perfil-mob" style="display: none;">
@@ -506,108 +507,171 @@
 
          <article class="conteudo-postagens-rascunhos-interacoes">
             <section class="Conteudo-postagens" id="Conteudo-postagens">
-               <div class="pinterest-style-class" id="pinterest-style" style="height: 200vw;">
+               <article class="pinterest-style-class" id="pinterest-style" style="height: 200vw;">
                   <section id="primeira-fileira-posts">
                      <!-- 1 POST DISPENSA - FILEIRA 1 -->
                      <article id="base-post">
-                        <div id="post">
-                           <div id="post-dispensa-fileira1">
+                        <section id="post">
+                           <article id="post-dispensa-fileira1">
                               <img id="dispensa" src="./imagens/dispensa.svg" alt="post">
-                              <div id="sombra"></div>
+                              <figure id="sombra"></figure>
                               <h2 id="descri-post">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-                           </div>
-                           <div id="post-baixo">
+                           </article>
+                           <section id="post-baixo">
                               <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                               <h3 id="descri-icon">0H40</h3>
                               <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                               <h3 id="descri-icon">5.0</h3>
                               <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                               <h3 id="descri-icon">~</h3>
-                           </div>
-                        </div>
+                           </section>
+                        </section>
                      </article>
-                     <div id="longpress-post-dispensa-fileira1">
-                        <div id="long-cima">
+                     <section id="longpress-post-dispensa-fileira1">
+                        <article id="long-cima">
                            <p id="plongpress">Etiquetas - organizadores - caneta gráfica - cestas - manual</p>
                            <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="long-baixo">
+                        </article>
+                        <article id="long-baixo">
                            <img id="icon-limpeza-longpress" src="./imagens/icon-limpeza-branco.png"
                               alt="post com categoria limpeza">
                            <h2 id="texto-longpress">ORGANIZE SUA <br>DISPENSA JÁ!</h2>
-                        </div>
-                     </div>
+                        </article>
+                     </section>
                      <!-- FINAL 1 POST DISPENSA - FILEIRA 1 -->
+                     <!-- 2 PERGUNTA LAVAR ROUPA - FILEIRA 1 -->
+                     <article id="base-post">
+                        <section id="post-pergunta">
+                           <section id="c">
+                              <article id="post-perg">
+                                 <figure id="fundoperg"></figure>
+                                 <h2 id="text-pergunta">Amo pão de alho, como posso preparar um?</h2>
+                              </article>
+                              <section id="post-baixo-h">
+                                 <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
+                                 <h3 id="descri-icon">20</h3>
+                                 <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
+                                 <h3 id="descri-icon">0</h3>
+                              </section>
+                           </section>
+                        </section>
+                     </article>
+                     <!-- FINAL 2 PERGUNTA LAVAR ROUPA - FILEIRA 1 -->
                      <!-- 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
                      <article id="base-post">
-                        <div id="post-bolin-de-chuva">
-                           <div id="post-bolin-fileira1">
+                        <section id="post-bolin-de-chuva">
+                           <article id="post-bolin-fileira1">
                               <img id="bolin" src="./imagens/bolin.svg" alt="post">
-                              <div id="sombra-a"></div>
+                              <figure id="sombra-a"></figure>
                               <h2 id="descri-post-a">BOLINHO DE<br>CHUVA DA VOVÓ</h2>
-                           </div>
-                           <div id="post-baixo-a">
+                           </article>
+                           <section id="post-baixo-a">
                               <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                               <h3 id="descri-icon">0H30</h3>
                               <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                               <h3 id="descri-icon">4.5</h3>
                               <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                               <h3 id="descri-icon">8</h3>
-                           </div>
-                        </div>
+                           </section>
+                        </section>
                      </article>
-                     <div id="longpress-post-bolin-fileira1">
-                        <div id="long-cima">
-                           <p id="plongpress">Farinha de trigo - Açúcar - Extrato de baunilha - Fermento em pó
-                              - Canela em pó
-                              - óleo - Ovo
-                           </p>
+                     <section id="longpress-post-bolin-fileira1">
+                        <article id="long-cima">
+                           <p id="plongpress">Farinha de trigo - Açúcar - Extrato de baunilha - Fermento em pó - Canela
+                              em pó - óleo - Ovo</p>
                            <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="bolin-long-baixo">
+                        </article>
+                        <article id="bolin-long-baixo">
                            <img id="icon-culinaria-longpress" src="./imagens/icon-culinaria-branco.png"
                               alt="post com categoria limpeza">
                            <h2 id="texto-longpress">BOLINHO DE <br>CHUVA DA VOVÓ</h2>
-                        </div>
-                     </div>
+                        </article>
+                     </section>
                      <!-- FINAL 3 POST BOLINHO DE CHUVA - FILEIRA 1 -->
                   </section>
                   <section id="segunda-fileira-posts">
                      <!-- 1 POST CACHOS - FILEIRA 2 -->
                      <article id="base-post">
-                        <div id="post-cachos">
-                           <div id="post-cachos-fileira2">
+                        <section id="post-cachos">
+                           <article id="post-cachos-fileira2">
                               <img id="cachos" src="./imagens/cachos.svg" alt="post">
-                              <div id="sombra-b"></div>
+                              <figure id="sombra-b"></figure>
                               <h2 id="descri-post-cachos-fileira2">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                           </div>
-                           <div id="post-baixo-f">
+                           </article>
+                           <section id="post-baixo-f">
                               <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
                               <h3 id="descri-icon">0H50</h3>
                               <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
                               <h3 id="descri-icon">2.4</h3>
                               <img id="icon-post" src="./imagens/porcao.png" alt="porção">
                               <h3 id="descri-icon">1</h3>
-                           </div>
-                        </div>
+                           </section>
+                        </section>
                      </article>
-                     <div id="longpress-post-cachos-fileira2">
-                        <div id="long-cima">
+                     <section id="longpress-post-cachos-fileira2">
+                        <article id="long-cima">
                            <p id="plongpress">Creme para pentear modelador - Mascára recuperadora - Shampoo -
-                              Condicionador
-                              hidratante
-                           </p>
+                              Condicionador hidratante</p>
                            <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
-                        </div>
-                        <div id="cachos-long-baixo">
+                        </article>
+                        <article id="cachos-long-baixo">
                            <img id="icon-limpeza-longpress" src="./imagens/icon-bemestar-branco.png"
                               alt="post com categoria limpeza">
                            <h2 id="texto-longpress">COMO DEFINIR <br>SEUS CACHOS?</h2>
-                        </div>
-                     </div>
+                        </article>
+                     </section>
                      <!-- FINAL 1 POST CACHOS - FILEIRA 2 -->
+                     <!-- 2 POST BOLO DE CENOURA - FILEIRA 2 -->
+                     <article id="base-post">
+                        <section id="post-bolo-de-cenoura">
+                           <article id="post-bolo-de-cenoura-fileira2">
+                              <img id="dispensa" src="./imagens/bolo.svg" alt="post">
+                              <figure id="sombra"></figure>
+                              <h2 id="descri-post-bolo-de-cenoura">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
+                           </article>
+                           <section id="post-baixo-c">
+                              <img id="icon-post" src="./imagens/tempo.svg" alt="tempo de execusão">
+                              <h3 id="descri-icon">0H40</h3>
+                              <img id="icon-post" src="./imagens/avalia.svg" alt="avaliação">
+                              <h3 id="descri-icon">5.0</h3>
+                              <img id="icon-post" src="./imagens/porcao.png" alt="porção">
+                              <h3 id="descri-icon">9</h3>
+                           </section>
+                        </section>
+                     </article>
+                     <section id="longpress-post-bolo-de-cenoura-fileira2">
+                        <article id="long-cima">
+                           <p id="plongpress">Ovo - Manteiga - Açúcar - Óleo - Farinha de trigo - Fermento em pó -
+                              Cenoura média ralada</p>
+                           <img id="icon-salvar-vazado" src="./imagens/salvar-post-vazado.png" alt="salvar">
+                        </article>
+                        <article id="bolo-de-cenoura-long-baixo">
+                           <img id="icon-culinaria-longpress" src="./imagens/icon-culinaria-branco.png"
+                              alt="post com categoria limpeza">
+                           <h2 id="texto-longpress">BOLO DE CENOURA<br>CALDA PERFEITA</h2>
+                        </article>
+                     </section>
+                     <!-- FINAL 2 POST BOLO DE CENOURA - FILEIRA 2 -->
+                     <!-- 3 PERGUNTA - FILEIRA 2 -->
+                     <article id="base-post">
+                        <section id="post">
+                           <section id="c">
+                              <article id="post-perg">
+                                 <figure id="fundoperg"></figure>
+                                 <h2 id="text-pergunta">Queria tanto aprender a lavar roupa sem maquina</h2>
+                              </article>
+                              <section id="post-baixo-h">
+                                 <img id="icon-post" src="./imagens/comentpergunta.png" alt="avaliação">
+                                 <h3 id="descri-icon">20</h3>
+                                 <img id="icon-post" src="./imagens/respostapergunta.png" alt="porção">
+                                 <h3 id="descri-icon">0</h3>
+                              </section>
+                           </section>
+                        </section>
+                     </article>
+                     <!-- 3 FINAL PERGUNTA - FILEIRA 2-->
                   </section>
-               </div>
+               </article>
             </section>
 
             <section class="Conteudo-rascunhos" id="Conteudo-rascunhos" style="display: none;">
@@ -656,7 +720,7 @@
       </section>
 
       <section class="conteudo-dispositivo desktop">
-         <div class="tab">
+         <figure class="tab">
             <a href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">
                <button class="tablinks active">Perfil</button></a>
             <a href="https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações">
@@ -667,8 +731,9 @@
                <button class="tablinks">Ajustes</button></a>
             <a href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">
                <button class="tablinks">Sair da conta</button></a>
-         </div>
-         <div id="editar-perfil-popup" style="display: none;">
+         </figure>
+            
+         <article id="editar-perfil-popup" style="display: none;">
             <h1 onclick="SairEditarPerfil()" class="xis-sair">X</h1>
             <img class="banner-editar" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
             <img id="camera1" class="editar-foto-camera" src="./imagens/icon-camera-rosa.png" alt="icon-camera-rosa">
@@ -679,246 +744,240 @@
             <input class="tex-editar" type="text" name="user" placeholder="Sofizinha">
             <h3 class="tit-editar">BIOGRAFIA</h3>
             <input class="tex-editar" type="text" name="user" placeholder="Dicas caseiras fáceis de fazer">
-            <div class="tit-duas">
+            <figure class="tit-duas">
                <h3 class="tit-editar">NOME DO SITE</h3>
                <h3 class="tit-editar">URL DO SITE</h3>
-            </div>
-            <div class="tex-duas">
+            </figure>
+            <figure class="tex-duas">
                <input id="tex-duas1" class="tex-editar" type="text" name="user" placeholder="Site">
                <input id="tex-duas2" class="tex-editar" type="text" name="user" placeholder="UserDicas.com.br">
-            </div>
+            </figure>
             <h3 class="tit-editar">REDES CONECTADAS</h3>
-            <div class="redes-editar">
-               <div class="rede-editar">
+            <section class="redes-editar">
+               <figure class="rede-editar">
                   <img src="./imagens/tiktok-roxo-escuro.png" alt="tiktok">
-               </div>
-               <div class="rede-editar">
+               </figure>
+               <figure class="rede-editar">
                   <img src="./imagens/instagram-roxo-escuro.png" alt="instagram">
-               </div>
-               <div class="rede-editar">
+               </figure>
+               <figure class="rede-editar">
                   <img src="./imagens/twitter-roxo-escuro.png" alt="twitter">
-               </div>
-            </div>
+               </figure>
+            </section>
             <button onclick="SairEditarPerfil()" class="salvar">SALVAR</button>
-         </div>
-         </div>
-         <div id="fundo-editar-perfil" style="display: none;">
-         </div>
-         <div class="tab-content">
-            <div id="Perfil" class="tabcontent active">
-               <div class="perfil-cima">
-                  <div class="mapa-do-site">
-                     <p class="mapa-1">Home</p>
-                     <p class="seta-1"> > </p>
-                     <p class="mapa-1">Meu Perfil</p>
-                     <p class="seta"> > </p>
-                     <p class="mapa-2">Meu Perfil</p>
-                  </div>
-                  <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
-                  <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
-                  <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil"
-                     onclick="EditarPerfil()">Editar Perfil</button>
-                  <div class="nome-user">
-                     <h1 class="User1234">Sofizinha | </h1>
-                     <h2 class="Nome1234"> Sofia Albuquerque Lima</h2>
-                  </div>
-                  <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
-                  <div class="descricao-pf"><img class="icon-link" src="./imagens/icon-de-link.svg" alt="icone de link">
-                     <span class="site"
-                        style="color: #cb218c; font-weight: bold; text-decoration: underline;">Site</span> |
-                     https://userdicas.com.br<br>
-                  </div>
-                  <img class="tiktok-rosa" src="./imagens/tiktok-rosa.png" alt="tiktok">
-                  <img class="twitter-rosa" src="./imagens/twitter-rosa.svg" alt="twitter">
-                  <img class="instagram-rosa" src="./imagens/instagram-rosa.png" alt="instagram">
-                  <div class="vis-seguidores">100 seguidores</div>
-                  <div class="vis-seguindo">200 seguindo</div>
-                  <div class="vis-postagens">3 postagens</div>
-               </div>
-               <div class="perfil-baixo">
-                  <div class="tab-perfil">
-                     <button class="tablinks-perfil active" onclick="opiniao(event, 'Postagens')">Postagens</button>
-                     <button class="tablinks-perfil" onclick="opiniao(event, 'Rascunhos')">Rascunhos</button>
-                     <button class="tablinks-perfil" onclick="opiniao(event, 'Interações')">Interações</button>
-                  </div>
-                  <div id="Postagens" class="tabcontent-perfil">
-                     <div class="postagens-esqueleto">
-                        <div class="filtro">
-                           <button class="botao-filtro active" onclick="selecionarFiltro(this)">Todos</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Recentes</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Em alta</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">+Rápidas</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Culinária</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Limpeza</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Bem Estar</button>
-                        </div>
-                        <div class="postagens">
-                           <div class="postagens1" style="margin-left: 65px; margin-top: 0%">
-                              <div class="post3" onmouseover="mostrarDivOculta3()" onmouseout="esconderDivOculta3()">
-                                 <img src="imagens/post-limpar-fogao.png" alt="foto-post3" class="info-cima-post">
-                                 <h1 id="texto-atras3" class="info-cima-post">Limpe seu forno fácil</h1>
-                                 <img id="icon-limpeza-branco3" src="imagens/icon-limpeza-branco.png"
-                                    alt="icon-limpeza-branco3" class="info-cima-post3">
-                                 <div class="legenda3">
-                                    <div class="legenda3 relogio3">
-                                       <img src="imagens/relogio-cinza.svg" alt="relogio">
-                                       <h3>0H20</h3>
-                                    </div>
-                                    <div class="legenda3 estrela3">
-                                       <img src="imagens/estrela-cinza.svg" alt="estrela">
-                                       <h3>4.9</h3>
-                                    </div>
-                                 </div>
-                                 <div class="hover-post3" id="hover-post3">
-                                    <div class="salvar-post3" id="salvar-post3">
-                                       <img id="favorito-vaz3" src="imagens/salvar-post-vazado.png"
-                                          alt="bandeira-favoritos-vazado">
-                                       <img id="favorito-pre3" src="imagens/salvar-post-preenchido.png"
-                                          alt="bandeira-favoritos-preenchido">
-                                    </div>
-                                    <h3>vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja -
-                                       Papel toalha</h3>
-                                 </div>
-                              </div>
-                              <div class="post4" onmouseover="mostrarDivOculta4()" onmouseout="esconderDivOculta4()">
-                                 <img src="imagens/post-imagem-pele.png" alt="foto-post4" class="info-cima-post">
-                                 <h1 id="texto-atras4" class="info-cima-post">Cuidados com a pele negra</h1>
-                                 <img id="icon-limpeza-branco4" src="imagens/icon-bemestar-branco.png"
-                                    alt="icon-limpeza-branco4" class="info-cima-post4">
-                                 <div class="legenda4">
-                                    <div class="legenda4 relogio3">
-                                       <img src="imagens/relogio-cinza.svg" alt="relogio">
-                                       <h3>0H10</h3>
-                                    </div>
-                                    <div class="legenda4 estrela3">
-                                       <img src="imagens/estrela-cinza.svg" alt="estrela">
-                                       <h3>4.9</h3>
-                                    </div>
-                                 </div>
-                                 <div class="hover-post4" id="hover-post4">
-                                    <div class="salvar-post4" id="salvar-post4">
-                                       <img id="favorito-vaz4" src="imagens/salvar-post-vazado.png"
-                                          alt="bandeira-favoritos-vazado">
-                                       <img id="favorito-pre4" src="imagens/salvar-post-preenchido.png"
-                                          alt="bandeira-favoritos-preenchido">
-                                    </div>
-                                    <h3>esfoliante - água - hidratante</h3>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="postagens2" style="margin-left: 4%; margin-top: 3.4%">
-                              <div class="post5" onmouseover="mostrarDivOculta5()" onmouseout="esconderDivOculta5()">
-                                 <img src="imagens/post-organizacao-rotina.png" alt="foto-post5" class="info-cima-post">
-                                 <h1 id="texto-atras5" class="info-cima-post">Organize sua rotina</h1>
-                                 <img id="icon-limpeza-branco5" src="imagens/icon-bemestar-branco.png"
-                                    alt="icon-limpeza-branco5" class="info-cima-post5">
-                                 <div class="legenda5">
-                                    <div class="legenda5 relogio5">
-                                       <img src="imagens/relogio-cinza.svg" alt="relogio">
-                                       <h3>1H20</h3>
-                                    </div>
-                                    <div class="legenda5 estrela5">
-                                       <img src="imagens/estrela-cinza.svg" alt="estrela">
-                                       <h3>5.0</h3>
-                                    </div>
-                                 </div>
-                                 <div class="hover-post5" id="hover-post5">
-                                    <div class="salvar-post5" id="salvar-post5">
-                                       <img id="favorito-vaz5" src="imagens/salvar-post-vazado.png"
-                                          alt="bandeira-favoritos-vazado">
-                                       <img id="favorito-pre5" src="imagens/salvar-post-preenchido.png"
-                                          alt="bandeira-favoritos-preenchido">
-                                    </div>
-                                    <h3>essa dica não possui itens necessários</h3>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div id="Rascunhos" class="tabcontent-perfil">
-                     <div class="rascunhos-esqueleto">
-                        <div class="pontilhado-em-volta"></div>
-                        <img class="gato-sem-rascunhos" src="./imagens/gato-nuvem-sem-conteudo.png" alt="sem rascunhos">
-                        <h2 class="sem-rascunhos">Sem rascunhos por enquanto...</h2>
-                        <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Dica">
-                           <h2 class="Comece-por-aqui">Comece por aqui</h2>
-                        </a>
-                     </div>
-                  </div>
-                  <div id="Interações" class="tabcontent-perfil">
-                     <div class="interacoes-esqueleto">
-                        <div class="filtroint">
-                           <button class="botao-filtro active" onclick="selecionarFiltro(this)">Todos</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Recentes</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">Em alta</button>
-                           <button class="botao-filtro" onclick="selecionarFiltro(this)">+Rápidas</button>
-                        </div>
-                        <div class="comentario-interacoes">
-                           <div class="roxoresposta">
-                              <h1 class="userint">você interagiu com</h1>
-                              <h1 class="respondeuint">@afonsinha</h1>
-                           </div>
-                           <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
-                           <h1 class="comentouint">Comentou...</h1>
-                           <h1 class="cometint">eu adoreii que tudoooh essa dica mana</h1>
-                           <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
-                        </div>
-                        <div class="comentario-interacoes">
-                           <div class="roxoresposta">
-                              <h1 class="userint">você interagiu com</h1>
-                              <h1 class="respondeuint">@afonsinha</h1>
-                           </div>
-                           <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
-                           <h1 class="comentouint">Comentou...</h1>
-                           <h1 class="cometint">chave demais parça, mandou mtt</h1>
-                           <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
-                        </div>
-                        <div class="comentario-interacoes">
-                           <div class="roxoresposta">
-                              <h1 class="userint">você interagiu com</h1>
-                              <h1 class="respondeuint">@afonsinha</h1>
-                           </div>
-                           <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
-                           <h1 class="comentouint">Curtiu...</h1>
-                           <h1 class="cometint">Sua dica "Como dormir melhor"</h1>
-                           <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
-                        </div>
-                        <div class="comentario-interacoes">
-                           <div class="roxoresposta">
-                              <h1 class="userint">você interagiu com</h1>
-                              <h1 class="respondeuint">@afonsinha</h1>
-                           </div>
-                           <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
-                           <h1 class="comentouint">Comentou...</h1>
-                           <h1 class="cometint">eu adoreii que tudoooh essa dica mana</h1>
-                           <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
-                        </div>
-                        <div class="comentario-interacoes">
-                           <div class="roxoresposta">
-                              <h1 class="userint">você interagiu com</h1>
-                              <h1 class="respondeuint">@afonsinha</h1>
-                           </div>
-                           <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
-                           <h1 class="comentouint">Comentou...</h1>
-                           <h1 class="cometint">chave demais parça, mandou mtt</h1>
-                           <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
-                        </div>
-                        <div class="comentario-interacoes">
-                           <div class="roxoresposta">
-                              <h1 class="userint">você interagiu com</h1>
-                              <h1 class="respondeuint">@afonsinha</h1>
-                           </div>
-                           <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
-                           <h1 class="comentouint">Curtiu...</h1>
-                           <h1 class="cometint">Sua dica "Como dormir melhor"</h1>
-                           <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+         </article>
+
+         <figure id="fundo-editar-perfil" style="display: none;">
+         </figure>
+         
+         <article id="Perfil" class="tabcontent active">
+            <section class="perfil-cima">
+               <figure class="mapa-do-site">
+                  <p class="mapa-1">Home</p>
+                  <p class="seta-1"> > </p>
+                  <p class="mapa-1">Meu Perfil</p>
+                  <p class="seta"> > </p>
+                  <p class="mapa-2">Meu Perfil</p>
+               </figure>
+               <img class="gato-esticado" src="./imagens/gato-esticado.svg" alt="foto do banner no perfil">
+               <img class="fundo-foto-perfil" src="./imagens/fundo-foto-perfil.svg" alt="foto de perfil">
+               <img class="foto-perfil" src="./imagens/foto-perfil.svg" alt=""> <button class="editar-perfil"
+                  onclick="EditarPerfil()">Editar Perfil</button>
+
+               <figure class="nome-user">
+                  <h1 class="User1234">Sofizinha | </h1>
+                  <h2 class="Nome1234"> Sofia Albuquerque Lima</h2>
+               </figure>
+               <h5 class="dicas-caseiras">Dicas caseiras faceis de fazer!</h5>
+
+               <figure class="descricao-pf"><img class="icon-link" src="./imagens/icon-de-link.svg" alt="icone de link">
+                  <span class="site"
+                     style="color: #cb218c; font-weight: bold; text-decoration: underline;">Site</span> |
+                  https://userdicas.com.br<br>
+               </figure>
+               <img class="tiktok-rosa" src="./imagens/tiktok-rosa.png" alt="tiktok">
+               <img class="twitter-rosa" src="./imagens/twitter-rosa.svg" alt="twitter">
+               <img class="instagram-rosa" src="./imagens/instagram-rosa.png" alt="instagram">
+               <figure class="vis-seguidores">100 seguidores</figure>
+               <figure class="vis-seguindo">200 seguindo</figure>
+               <figure class="vis-postagens">3 postagens</figure>
+            </section>
+
+            <section class="perfil-baixo">
+               <section class="tab-perfil">
+                  <button class="tablinks-perfil active" onclick="opiniao(event, 'Postagens')">Postagens</button>
+                  <button class="tablinks-perfil" onclick="opiniao(event, 'Rascunhos')">Rascunhos</button>
+                  <button class="tablinks-perfil" onclick="opiniao(event, 'Interações')">Interações</button>
+               </section>
+
+               <section id="Postagens" class="tabcontent-perfil">
+                  <article class="postagens-esqueleto">
+                     <section class="filtro">
+                        <button class="botao-filtro active" onclick="selecionarFiltro(this)">Todos</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Recentes</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Em alta</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">+Rápidas</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Culinária</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Limpeza</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Bem Estar</button>
+                     </section>
+
+                     <section class="postagens">
+                        <section class="postagens1" style="margin-left: 65px; margin-top: 0%">
+                           <article class="post3" onmouseover="mostrarDivOculta3()" onmouseout="esconderDivOculta3()">
+                              <img src="imagens/post-limpar-fogao.png" alt="foto-post3" class="info-cima-post">
+                              <h1 id="texto-atras3" class="info-cima-post">Limpe seu forno fácil</h1>
+                              <img id="icon-limpeza-branco3" src="imagens/icon-limpeza-branco.png" alt="icon-limpeza-branco3"
+                                 class="info-cima-post3">
+                              <aside class="legenda3">
+                                 <figure class="legenda3 relogio3">
+                                    <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                    <h3>0H20</h3>
+                                 </figure>
+                                 <figure class="legenda3 estrela3">
+                                    <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                    <h3>4.9</h3>
+                                 </figure>
+                              </aside>
+                              <aside class="hover-post3" id="hover-post3">
+                                 <section class="salvar-post3" id="salvar-post3">
+                                    <img id="favorito-vaz3" src="imagens/salvar-post-vazado.png"
+                                       alt="bandeira-favoritos-vazado">
+                                    <img id="favorito-pre3" src="imagens/salvar-post-preenchido.png"
+                                       alt="bandeira-favoritos-preenchido">
+                                 </section>
+                                 <h3>vinagre branco - água - bicarbonato de sódio - detergente neutro - Esponja -
+                                    Papel toalha</h3>
+                              </aside>
+                           </article>
+
+                           <article class="post4" onmouseover="mostrarDivOculta4()" onmouseout="esconderDivOculta4()">
+                              <img src="imagens/post-imagem-pele.png" alt="foto-post4" class="info-cima-post">
+                              <h1 id="texto-atras4" class="info-cima-post">Cuidados com a pele negra</h1>
+                              <img id="icon-limpeza-branco4" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco4"
+                                 class="info-cima-post4">
+                              <aside class="legenda4">
+                                 <figure class="legenda4 relogio3">
+                                    <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                    <h3>0H10</h3>
+                                 </figure>
+                                 <figure class="legenda4 estrela3">
+                                    <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                    <h3>4.9</h3>
+                                 </figure>
+                              </aside>
+                              <aside class="hover-post4" id="hover-post4">
+                                 <section class="salvar-post4" id="salvar-post4">
+                                    <img id="favorito-vaz4" src="imagens/salvar-post-vazado.png"
+                                       alt="bandeira-favoritos-vazado">
+                                    <img id="favorito-pre4" src="imagens/salvar-post-preenchido.png"
+                                       alt="bandeira-favoritos-preenchido">
+                                 </section>
+                                 <h3>esfoliante - água - hidratante</h3>
+                              </aside>
+                           </article>
+                        </section>
+
+                        <section class="postagens2" style="margin-left: 4%; margin-top: 3.4%">
+                           <article class="post5" onmouseover="mostrarDivOculta5()" onmouseout="esconderDivOculta5()">
+                              <img src="imagens/post-organizacao-rotina.png" alt="foto-post5" class="info-cima-post">
+                              <h1 id="texto-atras5" class="info-cima-post">Organize sua rotina</h1>
+                              <img id="icon-limpeza-branco5" src="imagens/icon-bemestar-branco.png" alt="icon-limpeza-branco5"
+                              class="info-cima-post5">
+                              <aside class="legenda5">
+                                 <figure class="legenda5 relogio5">
+                                    <img src="imagens/relogio-cinza.svg" alt="relogio">
+                                    <h3>1H20</h3>
+                                 </figure>
+                                 <figure class="legenda5 estrela5">
+                                    <img src="imagens/estrela-cinza.svg" alt="estrela">
+                                    <h3>5.0</h3>
+                                 </figure>
+                              </aside>
+                              <aside class="hover-post5" id="hover-post5">
+                                 <section class="salvar-post5" id="salvar-post5">
+                                    <img id="favorito-vaz5" src="imagens/salvar-post-vazado.png"
+                                       alt="bandeira-favoritos-vazado">
+                                    <img id="favorito-pre5" src="imagens/salvar-post-preenchido.png"
+                                       alt="bandeira-favoritos-preenchido">
+                                 </section>
+                                 <h3>essa dica não possui itens necessários</h3>
+                              </aside>
+                           </article>
+                        </section>
+                     </section>
+                  </article>
+               </section>
+
+               <section id="Rascunhos" class="tabcontent-perfil">
+                  <article class="rascunhos-esqueleto">
+                     <figure class="pontilhado-em-volta"></figure>
+                     <img class="gato-sem-rascunhos" src="./imagens/gato-nuvem-sem-conteudo.png" alt="sem rascunhos">
+                     <h2 class="sem-rascunhos">Sem rascunhos por enquanto...</h2>
+                     <a href="https://grupo4-tca.github.io/Como-que-faz/Criar-Dica">
+                        <h2 class="Comece-por-aqui">Comece por aqui</h2>
+                     </a>
+                  </article>
+               </section>
+               
+               <section id="Interações" class="tabcontent-perfil">
+                  <article class="interacoes-esqueleto">
+                     <section class="filtroint">
+                        <button class="botao-filtro active" onclick="selecionarFiltro(this)">Todos</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Recentes</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">Em alta</button>
+                        <button class="botao-filtro" onclick="selecionarFiltro(this)">+Rápidas</button>
+                     </section>
+
+                     <article class="comentario-interacoes">
+                        <figure class="roxoresposta">
+                           <h1 class="userint">você interagiu com</h1>
+                           <h1 class="respondeuint">@afonsinha</h1>
+                        </figure>
+                        <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
+                        <h1 class="comentouint">Comentou...</h1>
+                        <h1 class="cometint">eu adoreii que tudoooh essa dica mana</h1>
+                        <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
+                     </article>
+
+                     <article class="comentario-interacoes">
+                        <figure class="roxoresposta">
+                           <h1 class="userint">você interagiu com</h1>
+                           <h1 class="respondeuint">@afonsinha</h1>
+                        </figure>
+                        <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
+                        <h1 class="comentouint">Comentou...</h1>
+                        <h1 class="cometint">chave demais parça, mandou mtt</h1>
+                        <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
+                     </article>
+
+                     <article class="comentario-interacoes">
+                        <figure class="roxoresposta">
+                           <h1 class="userint">você interagiu com</h1>
+                           <h1 class="respondeuint">@afonsinha</h1>
+                        </figure>
+                        <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
+                        <h1 class="comentouint">Curtiu...</h1>
+                        <h1 class="cometint">Sua dica "Como dormir melhor"</h1>
+                        <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
+                     </article>
+
+                     <article class="comentario-interacoes">
+                        <figure class="roxoresposta">
+                           <h1 class="userint">você interagiu com</h1>
+                           <h1 class="respondeuint">@afonsinha</h1>
+                        </figure>
+                        <img class="ygona" src="./imagens/foto-perfil.svg" alt="ygona">
+                        <h1 class="comentouint">Comentou...</h1>
+                        <h1 class="cometint">eu adoreii que tudoooh essa dica mana</h1>
+                        <img src="./imagens/comentarios.svg" class="comentarioint" alt="comentario">
+                     </article>
+                  </article>
+               </section>
+            </section>
+         </article>
       </section>
+
       <script src="./js/base-post-mb.js"></script>
    </main>
 
