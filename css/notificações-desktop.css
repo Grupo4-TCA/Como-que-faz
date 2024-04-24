@@ -71,7 +71,7 @@ a:link{
         display: block;
     }
 
-    div.headernot {
+    .headernot {
         display: flex;
         font-family: "Heavitas", "sans-serifHeavitas";
         color: #9e5fef;
@@ -88,13 +88,13 @@ a:link{
         font-size: 23px;
     }
 
-    div.headernot img {
+    .headernot img {
         width: 40px;
         height: 40px;
         object-fit: contain;
     }
 
-    div.filtro-not {
+    .filtro-not {
         font-size: medium;
         color: #9e5fef;
         margin-top: 30px;
@@ -112,7 +112,7 @@ a:link{
         border-radius: 30px;
     }
 
-    div.header-post {
+    .header-post {
         width: 100%;
         background-image: linear-gradient(89.99735799063006deg, #4d16bb 0%, #9d21cb 99.20603279446671%);
         height: 70px;
@@ -122,7 +122,7 @@ a:link{
         border-radius: 30px 30px 0px 0px;
     }
 
-    div.header-post img.himiko {
+    .header-post img.himiko {
         width: 11%;
         object-fit: contain;
         border-radius: 50%;
@@ -132,7 +132,7 @@ a:link{
         cursor: pointer;
     }
 
-    div.header-post img.pontinho {
+    .header-post img.pontinho {
         cursor: pointer;
         object-fit: contain;
     }
