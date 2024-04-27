@@ -293,7 +293,6 @@
 	}
 
 	.submit-email {
-		margin-right: 2%;
 		height: 30px;
 		width: 170px;
 		background-color: #FFD662;
@@ -303,8 +302,8 @@
 		border: 0px;
 		border-radius: 10px;
 		position: absolute;
-		margin-top: -47px;
-		margin-left: 61.2%;
+		margin-top: -48px;
+		margin-left: 61.3%;
 	}
 
 	.cadastrese-newsletter {
