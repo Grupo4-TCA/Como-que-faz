@@ -1052,6 +1052,10 @@
             </section>
          </article>
 
+         <aside class="anuncio">
+            <img src="imagens/Ad.png" alt="ad">
+         </aside>
+
          <article class="comentarios">
             <h1 class="comem-titulo">13 Comentários</h1>
             <aside class="filtro">
@@ -1059,10 +1063,6 @@
                <p class="p-filtro">Filtrar</p>
             </aside>
          </article>
-
-         <aside class="anuncio">
-            <img src="imagens/Ad.png" alt="ad">
-         </aside>
 
          <section class="comentar">
             <img src="./imagens/imagem-foto-de-perfil-fofa.png" alt="foto-de-perfil">
@@ -1072,10 +1072,21 @@
          </section>
 
          <section class="botoes-comentar">
-            <p class="cancelar">Cancelar</p>
-            <input class="botao-comentar" type="submit" value="COMENTAR">
+            <button class="cancelar-comentar">Cancelar</button>
+            <button class="botao-comentar" type="submit" value="Comentar">Comentar</button>
          </section>
          
+         <article id="hide-opcoes-comentario-Desktop" style="display: none;">
+            <section class="denunciar-comentario">
+               <img src="imagens/denunciar-cor-preta.svg" alt="denunciar">
+               <p>Denunciar comentário</p>
+            </section>
+            <section class="compartilhar-comentario">
+               <img src="imagens/compartilhar-cor-preta.svg" alt="compartilhar">
+               <p>Compartilhar comentário</p>
+            </section>
+         </article>
+
          <article class="comentario">
             <img class="foto-de-perfil-taylorfan" src="./imagens/icon-garota-taylorfan.png"
                alt="foto-de-perfil-taylorfan">
@@ -1091,20 +1102,10 @@
             </section>
          </article>
 
-         <article id="hide-opcoes-comentario-Desktop" style="display: none;">
-            <section class="denunciar-comentario">
-               <img src="imagens/denunciar-cor-preta.svg" alt="denunciar">
-               <p>Denunciar comentário</p>
-            </section>
-            <section class="compartilhar-comentario">
-               <img src="imagens/compartilhar-cor-preta.svg" alt="compartilhar">
-               <p>Compartilhar comentário</p>
-            </section>
-         </article>
-
          <p class="texto-coment-taylor">to me babando todo 🤤
             Ate babei
          </p>
+
          <section class="curtir-responder">
             <figure class="coracao-curtir" onclick="toggleLike1(this)">
                <img class="coracao-vazado" src="./imagens/coracaovazio.svg" alt="coracação-vazado">
@@ -1113,7 +1114,7 @@
             </figure>
             <h3 class="responder-coment">| Responder</h3>
          </section>
-
+         
          <figure class="mostrar-mais">
             <h1>MOSTRAR MAIS</h1>
          </figure>

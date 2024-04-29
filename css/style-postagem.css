@@ -1375,7 +1375,7 @@
         color: #4D16BB;
     }
     .comentar{
-        margin: 2% 0% 5% 16%;
+        margin: 2% 0% 1% 16%;
         display: flex;
     }
     .comentar img{
@@ -1384,15 +1384,13 @@
     .anuncio{
         position: absolute;
         width: 20%;
-        height: 450px;
+        height: 35%;
         background-color: #d7d7d7;
-        margin-left: 60%;
-        margin-top: -3%;
+        margin-left: 62.2%;
+        margin-top: 4.5%;
     }
     .inserir-comentario{
-        border-top: none;
-        border-left: none;
-        border-right: none;
+        border: none;
         border-bottom: 2px solid #4D16BB;
         margin-left: 1.5%;
         width: 40%;
@@ -1401,32 +1399,35 @@
         outline: none;
         font-size: 20px;
     }
-    .botao-comentar{
-        background-color: #FFD662;
-        color: #4D16BB;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        border-bottom: none;
-        border-radius: 5px;
-        padding: 0.5% 1% 1% 1%;
-        margin-left: 2.5%;
-        width: 10%;
-    }
     .botoes-comentar{
         height: 35px;
-        margin-top: -85px;
         align-items: right;
         display: flex;
         margin-bottom: 10%;
     }
-    .cancelar{
-        margin-top: 8px;
-        font-size: 15px;
-        margin-left: 39%;
-        color: #333333;
-        height: 20px;
+    .botao-comentar{
+        height: 40px;
+        width: 190px;
+        border-radius: 6px;
         font-family: Fira Sans Bold;
+        border: none;
+        margin-left: 2%;
+        background-color: #FFD662;
+        color: #4D16BB;
+        font-family: Fira Sans Bold;
+        font-size: 15px;
+    }
+    .cancelar-comentar{
+        height: 40px;
+        width: 190px;
+        border-radius: 6px;
+        font-family: Fira Sans Bold;
+        margin-left: 31.7%;
+        border: 1px solid;
+        border-style: fixed;
+        border-color: #4d16bb;
+        color: #4d16bb;
+        background-color: white;
     }
     input.inserir-comentario::placeholder {
         opacity: 0.5;
