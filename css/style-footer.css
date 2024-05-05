@@ -434,45 +434,31 @@
 
 	.veja-culinaria {
 		width: 23%;
-		height: 50px;
-		background-color: #cb1154;
-		margin-left: 10%;
+		height: 15%;
+		margin-left: 10.5%;
 		margin-right: 3%;
 		border-radius: 5px;
-		background-image: url(../imagens/fundo-vejamais-culinaria-desktop.png);
-		padding-top: 8%;
 		padding-right: 2%;
+		margin-bottom: 2%;
 	}
 
 	.veja-limpeza {
 		width: 23%;
-		height: 50px;
-		background-color: #027de1;
+		height: 15%;
 		border-radius: 5px;
 		align-items: right;
-		background-image: url(../imagens/fundo-vejamais-limpeza-desktop.png);
-		padding-top: 8%;
 		padding-right: 2%;
+		margin-bottom: 2%;
 	}
 
 	.veja-bem-estar {
 		width: 23%;
-		height: 50px;
-		background-color: #00cd83;
+		height: 15%;
 		border-radius: 5px;
 		align-items: right;
 		margin: 0% 0% 3% 3%;
-		background-image: url(../imagens/fundo-vejamais-bemestar-desktop.png);
-		padding-top: 8%;
 		padding-right: 2%;
-	}
-
-	.texto-veja-mais {
-		font-size: 20px;
-		text-align: right;
-		color: white;
-		font-weight: 500;
-		font-family: Heavitas;
+		margin-bottom: 2%;
 	}
 
 	.textos-newsletter {
