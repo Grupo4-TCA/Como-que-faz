@@ -198,10 +198,6 @@
 
 	}
 
-	#vejamais-categoria-footer{
-		
-	}
-
 	.veja-culinaria {
 		width: 40%;
 		margin-left: 8%;
@@ -222,13 +218,37 @@
 		margin: 3% 10% 5% 8%;
 	}
 
-	.texto-veja-mais {
+	.texto-veja-mais-culinaria {
 		font-size: 17px;
 		text-align: right;
 		color: white;
 		font-weight: 500;
 		font-family: Heavitas;
 		position: absolute;
+		margin-left: 14.8%;
+		margin-top: 27%;
+	}
+
+	.texto-veja-mais-limpeza{
+		font-size: 17px;
+		text-align: right;
+		color: white;
+		font-weight: 500;
+		font-family: Heavitas;
+		position: absolute;
+		margin-left: 61%;
+		margin-top: 27%;
+	}
+
+	.texto-veja-mais-bemestar{
+		font-size: 17px;
+		text-align: right;
+		color: white;
+		font-weight: 500;
+		font-family: Heavitas;
+		position: absolute;
+		margin-left: 60%;
+		margin-top: -15%;
 	}
 
 	/*footer fim*/
