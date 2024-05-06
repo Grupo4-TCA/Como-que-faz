@@ -136,7 +136,8 @@
 	}
 
 	.img-contato-footer {
-		max-width: 6%;
+		max-width: 5%;
+		max-height: 5%;
 		margin-left: 10%;
 		margin-right: 4%;
 		margin-top: 1%;
@@ -149,13 +150,11 @@
 
 	.footer {
 		display: block;
-		bottom: 0;
-		margin-top: 0%;
 		width: 100%;
 		background-color: #5417bd;
 		background-image: linear-gradient(to right, #5417bd, #9c21cb);
-		height: 30%;
-		padding-top: 4%
+		height: 10%;
+		padding-top: 5%
 	}
 
 	.logo2 {
@@ -199,29 +198,28 @@
 
 	}
 
+	#vejamais-categoria-footer{
+		
+	}
+
 	.veja-culinaria {
-		width: 30%;
-		background-color: #cb1154;
-		margin-left: 10%;
-		padding: 25% 3% 2% 5%;
-		border-radius: 5px;}
+		width: 40%;
+		margin-left: 8%;
+		margin-right: 3%;
+		border-radius: 5px;
+	}
 
 	.veja-limpeza {
-		width: 30%;
-		background-color: #027de1;
-		padding: 25% 3% 2% 5%;
+		width: 40%;
 		border-radius: 5px;
 		align-items: right;
-		margin-right: 10%;
 	}
 
 	.veja-bem-estar {
-		width: 71%;
-		background-color: #00cd83;
-		padding: 25% 3% 2% 5%;
+		width: 83%;
 		border-radius: 5px;
 		align-items: right;
-		margin: 3% 10% 5% 10%;
+		margin: 3% 10% 5% 8%;
 	}
 
 	.texto-veja-mais {
@@ -230,6 +228,7 @@
 		color: white;
 		font-weight: 500;
 		font-family: Heavitas;
+		position: absolute;
 	}
 
 	/*footer fim*/
