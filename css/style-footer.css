@@ -64,9 +64,10 @@
 		display: flex;
 		justify-content: space-between;
 		margin-top: 2%;
-		padding: 0 4% 0 4%;
+		padding: 0 3% 0 3%;
 		margin-left: 5%;
 		margin-right: 5%;
+		font-family: Fira Sans Bold;
 	}
 
 	.Newsletter {
@@ -153,8 +154,8 @@
 		width: 100%;
 		background-color: #5417bd;
 		background-image: linear-gradient(to right, #5417bd, #9c21cb);
-		height: 500px;
-		padding-top: 5%
+		height: 30%;
+		padding-top: 4%
 	}
 
 	.logo2 {
@@ -202,11 +203,8 @@
 		width: 30%;
 		background-color: #cb1154;
 		margin-left: 10%;
-		margin-right: 3%;
 		padding: 25% 3% 2% 5%;
-		border-radius: 5px;
-		background-image: url(../imagens/fundo-vejamais-culinaria.png);
-	}
+		border-radius: 5px;}
 
 	.veja-limpeza {
 		width: 30%;
@@ -215,7 +213,6 @@
 		border-radius: 5px;
 		align-items: right;
 		margin-right: 10%;
-		background-image: url(../imagens/fundo-vejamais-limpeza.png)
 	}
 
 	.veja-bem-estar {
@@ -225,7 +222,6 @@
 		border-radius: 5px;
 		align-items: right;
 		margin: 3% 10% 5% 10%;
-		background-image: url(../imagens/fundo-vejamais-bemestar.png)
 	}
 
 	.texto-veja-mais {
