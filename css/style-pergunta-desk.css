@@ -80,6 +80,7 @@
 }
 
 .judas {
+    width: 150%;
     display: flex;
     justify-content: space-evenly;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
