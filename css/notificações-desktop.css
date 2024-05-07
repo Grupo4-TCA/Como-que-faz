@@ -213,33 +213,6 @@ a:link{
         align-items: center;
     }
 
-  .abaixon{
-    display: flex;
-    width: 50%;
-  } 
-
- .relogion{
-    margin-left: 40px;
- }
-
-.relogion h3{
-    margin-left: 10px;
-    width: 60px;
-}
-
-.estrelan{
-    margin-left: 40px;
-}
-.estrelan h3{
-    margin-left: 10px;
-  }
-  .partesn{
-    margin-right: 40px;
-    margin-left: 40px;
-  }
-  .partesn h3{ 
-    margin-left: 10px;
-  }
     .cabecalhonot p {
         margin-right: 70px;
         font-family: "Fira Sans Medium", "Fira Sans", sans-serif;
