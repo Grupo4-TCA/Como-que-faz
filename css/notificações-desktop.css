@@ -244,11 +244,15 @@ a:link{
     
       .comentall{
         text-align: left;
-        font-family: "Fira Sans", sans-serif;
         margin-left: 15%;
         color: #333333;
       }
-
+ 
+      .cometint{
+        font-family: Fira sans;
+        width: 1000px;
+        height: 23px;
+      }
     
       .ygona {
         width: 11%;
