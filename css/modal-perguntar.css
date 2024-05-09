@@ -92,114 +92,28 @@
         border-radius: 6px 6px 6px 6px;
     }
 
-    .duvida1{
-        margin-top: 4%;
-        margin-bottom: 4%;
-        margin-left: 5%;
-        margin-right: 15%;
-        font-size: medium;
-        
-            }
-
-    .duvida{
-        height: 30px;
-        width: 600px;
-        border-style: solid;
-        border-width: 2px;
-        border-radius:  6px 6px 6px 6px;
-        background-color: #f9f9f9; 
-        border-color: #00000085;
-        outline-color: #CB218C ;
-        color: #000000;
-        font-family: "Fira Sans", sans-serif;
-        font-weight: 700;
-        resize: none;
-        padding: 2px 0px 0px 5px;
-
-        
-    }
-
     .alinhamento-da-pergunta{
+        margin-left: 7.4vw;
+        margin-top: 2vw;
         justify-content: center;
-        max-width: 95%;
-        margin: auto;
     }
 
-    .aprender-pergunta{
-        display: flex;
-        font-size: small;
-        color: #000000;
-        margin-left: 5%;
-        margin-right: 60%;
-        
-        height: 200px;
-        width: 700px;
-    }
-    .aprender{
-        height: 200px;
-        width: 700px;
+    #input-titulo-da-pergunta {
+        width: 45.52vw;
+        height: 3.02vw;
+        padding: 0.53vw 0.53vw 0.53vw 0.53vw;
+        border-radius: 0.26vw;
+        border: 0.09vw solid #797979;
+        background-color: #f2f2f2;
+        box-sizing: border-box;
         font-family: "Fira Sans", sans-serif;
         font-weight: 700;
-        font-size: medium;
-        background-color: #f9f9f9;
-        border-radius:  10px 10px 10px 10px;
-        display:block;
-        align-content: baseline;
-        color: #000000;
-        border-color: #00000083;
-        outline-color: #CB218C ;
-        box-sizing: border-box;
-        text-align:  start;
-        display: block;
-        resize: none;
-        padding: 10px 0px 0px 5px;
+        color: #555;
     }
 
-    .judas{
-        margin-top: 10%;
-        padding: auto;
-        width: 1000px;
-        height: 90px;
-        box-shadow: rgba(0, 0, 0, 0.3) 0px -4px 6px -3px;
-        display: flex;
-        justify-content: space-between;
-}
-    
-
-    .publicar{
-        margin-top: 2%;
-        height: 40px;
-        width: 190px;
-        display: block;
-        border-width: 3px;
-        border-radius: 6px;
-        border-style: none;
-        border-color: linear-gradient(89.991deg, rgb(77, 22, 187) 0%, rgb(157, 33, 203) 99.2027%);
-        color: white;
-        background-image: linear-gradient(89.991deg, rgb(77, 22, 187) 0%, rgb(157, 33, 203) 99.2027%);
-
+    .guarda-select-perguntar{
     }
 
-    .cancelar{
-        margin-top: 2%;
-        height: 40px;
-        width: 190px;
-        display: block;
-        border-width: 3px;
-        border: 1px solid;
-        border-radius: 6px;
-        border-style: fixed;
-        border-color: #4d16bb;
-        color: #4d16bb;
-        background-color: white;
-        
-    }
-
-    #icon-seta-select {
-        margin-left: -2.4vw;
-        transform: rotate(180deg);
-    }
-    
     .dialogoselect-perguntar-categoria.categoria-culinaria {
         background-color: #cb2154;
         color: #ffff;
@@ -257,7 +171,7 @@
             border-bottom-left-radius: 0;
         }
     }
-    
+
     .dropdown-perguntar-categoria {
         width: 22.08vw;
         box-sizing: border-box;
@@ -314,10 +228,167 @@
             background-color: #00cd83;
         }
     }
+
+    #descricao-detalhes-total {
+        display: inline-block;
+        margin-top: 5vw;
+    }
+
+    #titulo-descricao-detalhes {
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #333333;
+        font-size: 100%;
+    }
+
+    #descricao-detalhes {
+        width: 22.08vw;
+        height: 6.2vw;
+        margin-top: 0.88vw;
+        padding: 2px 2px 2px 2px;
+        border-radius: 0.26vw;
+        border: 0;
+        border: 1px solid #797979;
+        background-color: #f2f2f2;
+        box-sizing: border-box;
+        font-family: "Fira Sans", sans-serif;
+        color: #000000;
+        text-align: left;
+
+        &:focus {
+            border: none;
+            outline: 2px #CB218C solid;
+            color: #000;
+
+            &::-webkit-input-placeholder {
+                color: #cb218c;
+            }
+
+            ;
+
+            input#dialogoselect::-moz-placeholder {
+                color: #cb218c;
+            }
+
+            ;
+        }
+    }
+
+    #subcategoria-detalhes-total {
+        display: inline-block;
+        margin-left: 1.2vw;
+        position: absolute;
+        margin-top: 5vw;
+    }
+
+    #titulo-subcategoria-detalhes {
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #333333;
+        font-size: 100%;
+    }
+
+    .input-container {
+        margin-bottom: 1%;
+    }
+
+    #input-text-subcategoria {
+        margin-top: 0.88vw;
+        width: 22.08vw;
+        height: 3vw;
+        display: inline-block;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px;
+        border: 1px solid #797979;
+        background-color: #f2f2f2;
+        box-sizing: border-box;
+        font-family: "Fira Sans", sans-serif;
+
+        &:focus {
+            border: none;
+            outline: 2px solid #cb218c;
+
+        }
+    }
+
+    #icon {
+        display: inline-block;
+        width: 2vw;
+        height: 2vw;
+        margin-left: -2.6vw;
+        margin-bottom: -0.8vw;
+    }
+
+    .message-list {
+        width: 22.06vw;
+        height: 3vw;
+        max-height: 200px;
+        overflow-y: auto;
+        border-radius: 5px;
+        background-color: #e0e0e0;
+        display: flex;
+    }
+
+    #div-etiqueta-subcategoria {
+        height: 1.7vw;
+        border-radius: 50px;
+        background-color: #cb218c;
+        box-sizing: border-box;
+        font-family: "Fira Sans", sans-serif;
+        color: white;
+        text-align: center;
+        line-height: normal;
+        margin: 5px 1% 0px 1%;
+        padding: 7px 15px 1px 15px;
+    }
+
+    #descricao-subcategorias {
+        display: inline-block;
+    }
+
+    .botoes-criar-pergunta{
+        margin-top: 10%;
+        padding: auto;
+        width: 100%;
+        height: 90px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px -4px 6px -3px;
+        display: flex;
+        justify-content: space-between;
+}
     
-    .guarda-select-perguntar{
-        margin-top: 2vw;
-        margin-left: 3vw;
+    .botao-cancelar-criar-pergunta{
+        width: 17%;
+        height: 45%;
+        margin-top: 1.5%;
+        margin-left: 3%;
+        display: block;
+        border-width: 3px;
+        border-radius: 6px;
+        border: 1px solid;
+        border-style: fixed;
+        border-color: #4d16bb;
+        color: #4d16bb;
+        background-color: white
+    }
+
+    .botao-publicar-criar-pergunta{
+        width: 17%;
+        height: 45%;
+        margin-top: 1.5%;
+        margin-right: 3%;
+        display: block;
+        border-width: 3px;
+        border-radius: 6px;
+        border-style: none;
+        border-color: linear-gradient(89.991deg, rgb(77, 22, 187) 0%, rgb(157, 33, 203) 99.2027%);
+        color: white;
+        background-image: linear-gradient(89.991deg, rgb(77, 22, 187) 0%, rgb(157, 33, 203) 99.2027%);
+    }
+
+
+    #icon-seta-select {
+        margin-left: -2.4vw;
+        transform: rotate(180deg);
     }
     
 }
