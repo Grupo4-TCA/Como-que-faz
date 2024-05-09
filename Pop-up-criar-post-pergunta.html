@@ -270,8 +270,10 @@
 
                <section class="modal-body-pergunta">
                   <!-- ADICIONAR AQUI O CONTEUDO DO PERGUNTAR -->
+                  
                   <section class="alinhamento-da-pergunta">
-                     <!-- //teste dropdown -->
+                     <input type="text" id="input-titulo-da-pergunta" placeholder="TÍTULO DA PERGUNTA">
+                     
                      <section class="guarda-select-perguntar">
                         <input class="dialogoselect-perguntar-categoria" id="dialogoselect-perguntar-categoria"
                            type="text" name="categoria" onfocus="dropdownpergunta(0)" onblur="dropdownpergunta(1)"
@@ -287,19 +289,28 @@
                            </figure>
                         </figure>
                      </section>
-                     <!-- //teste dropdown -->
-                     <figure class="duvida1">
-                        <input type="text" class="duvida" placeholder="Subcategorias(ex: #janta, #rápido,...)"></input>
-                     </figure>
-
-                     <figure class="aprender-pergunta">
-                        <textarea class="aprender" placeholder="Qual sua dúvida?"></textarea>
-                     </figure>
+                     
+                     <section id="descricao-subcategorias">
+                        <figure id="descricao-detalhes-total">
+                           <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
+                           <textarea name="" id="descricao-detalhes" cols="30" rows="10"></textarea>
+                        </figure>
+                        <section id="subcategoria-detalhes-total">
+                           <h3 id="titulo-subcategoria-detalhes">SUBCATEGORIAS</h3>
+                           <figure class="input-container">
+                              <input type="text" id="input-text-subcategoria">
+                              <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()"
+                                 alt="">
+                           </figure>
+                           <figure id="messageList" class="message-list">
+                           </figure>
+                        </section>
+                     </section>
                   </section>
 
-                     <figure class="judas">
-                        <button class="cancelar" id="close-modal-pergunta">Cancelar</button>
-                        <button class="publicar" id="close-modal-pergunta">Publicar</button>
+                     <figure class="botoes-criar-pergunta">
+                        <button class="botao-cancelar-criar-pergunta" id="close-modal-pergunta">Cancelar</button>
+                        <button class="botao-publicar-criar-pergunta" id="close-modal-pergunta">Publicar</button>
                      </figure>
                      
                </section>
