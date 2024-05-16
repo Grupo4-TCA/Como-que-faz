@@ -482,6 +482,7 @@
     font-weight: 700;
     color: #333333;
     text-align: left;
+    border: none;
   }
 
   #tempo-detalhes-porcoes {
@@ -543,6 +544,7 @@
   #descricao-detalhes-total {
     margin-top: 10vw;
     margin-left: 8vw;
+    border: none;
   }
 
   #titulo-descricao-detalhes {
@@ -599,6 +601,7 @@
 
   .input-container {
     margin-bottom: 10%;
+    border: none;
   }
 
   #input-text-subcategoria {
@@ -986,6 +989,9 @@
     box-sizing: border-box;
     margin-left: 6.4vw;
     border-left: 1vw #9e5fef solid;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
   }
 
   #passo-a-passo-modo{
@@ -1047,6 +1053,18 @@
     color: #979797;
     border: none;
     display: inline-block;
+  }
+
+  #quantidade-elementos {
+    border: none;
+  }
+
+  #titulo-texto-modo {
+    border: none;
+  }
+
+  #modo-de-preparo {
+    border: none;
   }
 
 }
