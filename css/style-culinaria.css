@@ -345,14 +345,12 @@
     font-family: Fira Sans;
     color: black;
   }
-
   .mapculinaria2 {
     font-family: Fira Sans Bold;
     color: #9e5fef;
   }
 
   .imgcu {
-    width: 120px;
     height: 120px;
     margin-left: 17.5%;
     margin-top: 20px;
@@ -374,12 +372,11 @@
   }
   .filtrocu {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     overflow: auto;
     height: 100%;
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-top: 50px;
+    margin-top: -2%;
+    margin-left: 35%;
     padding: 2px 2px 2px 2px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -394,19 +391,55 @@
 
   .filtroantes{
     overflow: hidden;
+    margin-left: 20%;
 
   }
 
 
   .fcutodas {
-    min-width: 15%;
-    height: 50px;
+    min-width: 20%;
+    height: 55px;
     padding: 2px 6px 2px 6px;
     border-radius: 5px;
     background-color: #f2f2f2;
     box-sizing: border-box;
     font-family: "Fira Sans", sans-serif;
-    font-size: large;
+    font-size: 25px;
+    font-weight: 900;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
+  }
+
+  .fcutodasr {
+    min-width: 20%;
+    height: 55px;
+    border-radius: 5px;
+    padding: 2px 6px 2px 6px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
+  }
+
+  .fcutodasa {
+    min-width: 20%;
+    height: 55px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px ;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
     color: #333333;
     text-align: center;
     line-height: normal;
@@ -418,70 +451,10 @@
     background-color: #cb1154;
     box-sizing: border-box;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     color: #ffffff;
   }
 
-  .container{
-    width: 10%;
-    position: absolute;
-    margin-left: 1330px;
-    margin-top: -20px;
-  }
-  .container img{
-    transform: rotateX(180deg);
-    height: 10px;
-    margin-left: 5px;
-  }
-  .subca{
-    width: 217px;
-    height: 38px;
-    border: none;
-    color: #cb1154;
-    padding: 0px 5px;
-    box-sizing: border-box;
-    outline: none;
-    border-radius: 5px;
-    font-size: 18px;
-    font-family: Fira Sans Bold;
-  }
-  .subca::-webkit-input-placeholder{
-    color:#cb1154;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .dropDown{
-    width: 227px;
-    height: 247px;
-    background-color: #f2f2f2;
-    padding: 20px 30px;
-    gap: 10px;
-    overflow: auto;
-    transform: translate( -70px, 0px);
-    display: none;
-    position: absolute;
-    z-index: 99;
-    border-radius: 5px;
-    color: #333333;
-  }
- .dropDown::-webkit-scrollbar{
-    display: none;
-  }
-  .listDropDown{
-    width: 227px;
-    height: 247px;
-  }
-  .item{
-    width: 253px;
-    height: 28px;
-    padding: 2px 2px 2px 2px;
-    background-color: rgba(255, 255, 255, 0);
-    box-sizing: border-box;
-    cursor: pointer;
-  }
-  .item:hover{
-    color: #cb1154;
-  }
   #base-post {
     width: 46.93vw;
     display: block;

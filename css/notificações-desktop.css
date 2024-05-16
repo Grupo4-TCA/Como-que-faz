@@ -221,7 +221,7 @@ a:link{
         width: 85%;
         height: 8%;
         background-color: #e4e4e4;
-        margin-top: 50px;
+        margin-top: 4%;
         margin-left: 7%;
         border-radius: 15px;
       }
@@ -245,10 +245,12 @@ a:link{
       .comentall{
         text-align: left;
         margin-left: 15%;
+        margin-top: 3%;
         color: #333333;
       }
  
       .cometint{
+        font-size: 18px;
         font-family: Fira sans;
         width: 1000px;
         height: 23px;
@@ -261,9 +263,6 @@ a:link{
         margin-left: 2%; 
         border-radius: 50%;
         border: 6px solid #4d16bb;      
-      }
-      .pontinhecoment{
-        margin-left: 15%;
       }
     
 .tab {
