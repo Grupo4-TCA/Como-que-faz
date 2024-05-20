@@ -80,6 +80,17 @@
         color: #4d16bb;
     }
 
+    #linha-colorida-pgt{
+        width: 60.31vw;
+        height: 0.677vw;
+        background-image: linear-gradient(89.9984726943774deg, #ffa462 0%, #9d21cb 48.6110592628467%, #4d16bb 99.2062434669349%);
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: -4.2vw;
+        margin-left: -7.4vw;
+        transform: rotate(180deg);
+    }
+
     .categoria-criar-perg{
         margin-left: 5%;
         justify-content: center;
@@ -94,7 +105,7 @@
 
     .alinhamento-da-pergunta{
         margin-left: 7.4vw;
-        margin-top: 2vw;
+        margin-top: 5vw;
         justify-content: center;
     }
 
@@ -112,6 +123,7 @@
     }
 
     .guarda-select-perguntar{
+        width: 20vw;
     }
 
     .dialogoselect-perguntar-categoria.categoria-culinaria {
@@ -229,9 +241,10 @@
         }
     }
 
-    #descricao-detalhes-total {
+    #descricao-detalhes-total-pgt {
         display: inline-block;
-        margin-top: 5vw;
+        margin-left: 106%;
+        margin-top: -3.16vw;
     }
 
     #titulo-descricao-detalhes {
@@ -241,9 +254,9 @@
         font-size: 100%;
     }
 
-    #descricao-detalhes {
+    #descricao-detalhes-pgt {
         width: 22.08vw;
-        height: 6.2vw;
+        height: 10.1vw;
         margin-top: 0.88vw;
         padding: 2px 2px 2px 2px;
         border-radius: 0.26vw;
@@ -274,11 +287,10 @@
         }
     }
 
-    #subcategoria-detalhes-total {
+    #subcategoria-detalhes-total-pgt{
         display: inline-block;
-        margin-left: 1.2vw;
         position: absolute;
-        margin-top: 5vw;
+        margin-top: 0.88vw;
     }
 
     #titulo-subcategoria-detalhes {
@@ -292,7 +304,7 @@
         margin-bottom: 1%;
     }
 
-    #input-text-subcategoria {
+    #input-text-subcategoria-pgt {
         margin-top: 0.88vw;
         width: 22.08vw;
         height: 3vw;
@@ -311,7 +323,7 @@
         }
     }
 
-    #icon {
+    #icon-adicionar-pgt {
         display: inline-block;
         width: 2vw;
         height: 2vw;
@@ -319,17 +331,17 @@
         margin-bottom: -0.8vw;
     }
 
-    .message-list {
+    .message-list-pgt {
         width: 22.06vw;
-        height: 3vw;
+        height: 3.5vw;
         max-height: 200px;
-        overflow-y: auto;
+        overflow-y: hidden;
         border-radius: 5px;
         background-color: #e0e0e0;
         display: flex;
     }
 
-    #div-etiqueta-subcategoria {
+    #etiqueta-subcategoria-pgt {
         height: 1.7vw;
         border-radius: 50px;
         background-color: #cb218c;
@@ -347,7 +359,7 @@
     }
 
     .botoes-criar-pergunta{
-        margin-top: 10%;
+        margin-top: 13%;
         padding: auto;
         width: 100%;
         height: 90px;

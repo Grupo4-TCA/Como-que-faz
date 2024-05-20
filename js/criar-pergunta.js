@@ -53,3 +53,32 @@ function perguntar(c){
 
     inputElement.value = itemElement.innerText;
 }
+
+function adicionarMensagempgt() {
+    const inputText = document.getElementById('input-text-subcategoria-pgt');
+    const messageList = document.getElementById('messageListpgt');
+
+    // Obter o valor do input
+    const inputValue = inputText.value.trim();
+
+    // Verificar se o valor não está vazio
+    if (inputValue !== '') {
+        // Criar um novo elemento de article para exibir a mensagem
+        const messageDiv = document.createElement('article');
+        messageDiv.id = 'etiqueta-subcategoria-pgt';
+        messageDiv.textContent = inputValue;
+        messageDiv.style.paddingLeft = '3%';
+        messageDiv.style.paddingRight = '3%';
+
+        // Adicionar article à lista de mensagens
+        messageList.appendChild(messageDiv);
+
+        // Limpar o valor do input
+        inputText.value = '';
+        
+        messageDiv.addEventListener("click", function () {
+        messageDiv.remove();
+    })
+    }
+    
+}
