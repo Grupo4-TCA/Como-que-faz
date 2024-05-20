@@ -460,69 +460,17 @@
   height: 10px;
   margin-left: 5px;
 }
-.subca {
-  width: 217px;
-  height: 38px;
-  border: none;
-  color: #027de1;
-  padding: 0px 5px;
-  box-sizing: border-box;
-  outline: none;
-  border-radius: 5px;
-  font-size: 18px;
-  font-family: Fira Sans Bold;
-}
-.dropDown {
-  width: 227px;
-  height: 247px;
-  background-color: #f2f2f2;
-  padding: 20px 30px;
-  gap: 10px;
-  overflow: auto;
-  transform: translate( -70px, 0px);
-  display: none;
-  position: absolute;
-  z-index: 99;
-  border-radius: 5px;
-  color: #333333;
-}
-.dropDown::-webkit-scrollbar{
-  display: none;
-}
-.listDropDown {
-  width: 227px;
-  height: 247px;
-}
-.item {
-  width: 253px;
-  height: 28px;
-  padding: 2px 2px 2px 2px;
-  background-color: rgba(255, 255, 255, 0);
-  box-sizing: border-box;
-  cursor: pointer;
-}
-.item:hover{
-  color: #cb1154;
-}
-.item {
-  width: 253px;
-  height: 28px;
-  padding: 2px 2px 2px 2px;
-  background-color: rgba(255, 255, 255, 0);
-  box-sizing: border-box;
-  cursor: pointer;
-}
+
 .filtroantes {
   overflow: hidden;
+  margin-left: 49%;
+  margin-top: -3%;
 }
 .filtrocu {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   overflow: auto;
   height: 100%;
-  margin-left: 18%;
-  margin-right: 18%;
-  margin-top: 50px;
   padding: 2px 2px 2px 2px;
   border-radius: 5px;
   box-sizing: border-box;
@@ -535,19 +483,20 @@
   overflow: auto;
 }
 .fcutodas {
-  min-width: 15%;
-  height: 50px;
-  padding: 2px 6px 2px 6px;
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  box-sizing: border-box;
-  font-family: "Fira Sans", sans-serif;
-  font-size: large;
-  color: #333333;
-  text-align: center;
-  line-height: normal;
-  border: none;
-  gap: 100px;
+  min-width: 20%;
+    height: 55px;
+    padding: 2px 6px 2px 6px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    border: none;
+    gap: 100px;
 }
 
   .logos {
