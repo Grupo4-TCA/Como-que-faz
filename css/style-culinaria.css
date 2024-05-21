@@ -458,9 +458,13 @@
 }
 #post-baixo-h {
   display: flex;
-  width: 18vw;
+  width: 17.3vw;
   padding: 15px 2vw 0 22px;
   justify-content: space-around;
+  background-color: #cb1154;
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+
 }
 #post-baixo-h img{
   height: 30px;
@@ -498,5 +502,8 @@
   top: 1.5vw;
   width: 18vw;
   position: absolute;
+}
+.icon-post{
+  margin-top: -3vw;
 }
 }
