@@ -20,7 +20,6 @@
       src: url("../fonts/fira-sans.regular.ttf");
     }
   
-  /*inicio perguntar*/
   .botoes-cancelar-publicar {
     justify-content: space-between;
     display: flex;
@@ -29,7 +28,6 @@
 button.cancelarpergunta {
     width: 34%;
     height: 10.1vw;
-    ;
     margin-left: 5%;
     margin-top: 5%;
     padding: 2px 2px 2px 2px;
@@ -61,6 +59,149 @@ button.cancelarpergunta {
     text-align: center;
     line-height: normal;
   }
+
+  /* body criar pergunta */
+
+  #titulo-da-pergunta-mob {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 7vw;
+  }
+
+  #texto-titulo-da-pergunta-mob {
+    width: 82vw;
+    height: 9.33vw;
+    padding: 2px 2px 2px 2px;
+    margin-left: 7vw;
+    margin-top: 1.55vw;
+    font-size: 100%;
+    border: 0;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    padding-left: 1vw;
+    padding-bottom: 2vw;
+    color: #333333;
+    text-align: left;
+
+    &::-webkit-input-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    input#dialogoselect::-moz-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    &:focus {
+      outline: 0;
+      border-bottom: 2px #CB218C solid;
+
+      &::-webkit-input-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+
+      input#dialogoselect::-moz-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+    }
+  }
+
+  #detalhes-segunda-parte {
+    margin-top: 5vw;
+    border-top: 1px solid #909090;
+    padding-top: 6.66vw;
+    width: 100vw;
+  }
+
+  #icon-seta-select {
+    margin-left: -8vw;
+    transform: rotate(180deg);
+  }
+
+
+  #dialogoselect {
+    margin-left: 7vw;
+    padding-left: 1.06vw;
+    width: 85vw;
+    height: 10.66vw;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #979797;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 130%;
+
+    &:focus {
+      background-image: url(../imagens/seta-select.svg);
+      background-position-x: 96%;
+      background-position-y: 50%;
+      background-repeat: no-repeat;
+
+      &::-webkit-input-placeholder {
+        color: #cb218c;
+        padding-right: -10%
+      }
+
+      ;
+
+      input#dialogoselect::-moz-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+      border: 2px #CB218C solid;
+      border-bottom: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  ::-webkit-input-placeholder {
+    color: #333;
+  }
+
+  input#dialogoselect::-moz-placeholder {
+    color: #333;
+  }
+
+  .dropDown {
+    box-sizing: border-box;
+    width: 87vw;
+    height: 36vw;
+    margin-left: 7vw;
+    padding-top: 3.2vw;
+    padding-left: 12vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    border: 2px #cb218c solid;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: none;
+  }
+
+  #icon-dropdown {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    margin-left: -8vw;
+  }
+
+  /* conteudo antigo */
 
   select.filtropergunta {
     font-family: Fira Sans Bold;
