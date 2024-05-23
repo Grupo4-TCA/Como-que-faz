@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/style-480.css">
+   <link rel="stylesheet" href="./css/style-criar-pergunta-mob.css">
    <link rel="stylesheet" href="./css/style-header-logado.css">
    <link rel="stylesheet" href="./css/style-footer.css">
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -125,23 +125,70 @@
          </nav>
       </section>
    </header>
+
    <main>
       <section class="botoes-cancelar-publicar">
          <button class="cancelarpergunta" onclick="PaginaAnterior()">CANCELAR</button>
          <button class="publicarpergunta" onclick="PaginaAnterior()">PUBLICAR</button>
       </section>
+
+      <h3 id="titulo-da-postagem">Título da pergunta</h3>
+      <input type="text" id="texto-titulo-da-postagem"
+         placeholder="Escreva um título para a sua pergunta...">
+
+      <article class="guarda-select">
+         <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
+            onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"
+            readonly="readonly" />
+         <nav class="dropDown" id="dropdown">
+            <ul class="listDropDown">
+               <img class="iconitem-select-detalhes" id="icon-dropdown" onmousedown="category(1)"
+                  src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
+               <h3 value="culinaria-categoria" class="item-select-detalhes texto"
+                  id="item-select-detalhes-1" onmousedown="category(1)">CULINÁRIA</h3>
+               <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="category(2)"
+                  src="./imagens/limpeza-icon-categoria.png" alt="limpeza">
+               <h3 class="item-select-detalhes texto" id="item-select-detalhes-2"
+                  onmousedown="category(2)">LIMPEZA</h3>
+               <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="category(3)"
+                  src="./imagens/bem-estar-icon-categoria.png" alt="bem-estar">
+               <h3 class="item-select-detalhes texto" id="item-select-detalhes-3"
+                  onmousedown="category(3)">BEM-ESTAR</h3>
+            </ul>
+         </nav>
+         <img id="icon-seta-select" src="./imagens/seta-select.svg" alt="selecione uma categoria">
+      </article>
+
+      <fieldset id="descricao-detalhes-total">
+         <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
+         <input type="text" id="descricao-detalhes">
+      </fieldset>
+      <section id="subcategoria-detalhes-total">
+         <h3 id="titulo-subcategoria-detalhes">SUBCATEGORIAS</h3>
+         <fieldset class="input-container">
+            <input type="text" id="input-text-subcategoria">
+            <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()"
+               alt="">
+         </fieldset>
+         <section id="messageList" class="message-list">
+         </section>
+      </section>
+
       <select class="filtropergunta">
          <option>CULINÁRIA</option>
          <option>LIMPEZA</option>
          <option>BEM-ESTAR</option>
       </select>
+
       <form class="pergunta">
          <input type="text" name="subcatego" placeholder="  Subcategorias (ex: #janta, #rapido,...)">
          <br>
          <input class="sub" type="text" name="subcatego" placeholder="  O que você deseja aprender?">
          <br>
       </form>
+
    </main>
+
    <footer>
       <section class="Footer-Mobile">
          <div class="Newsletter">
