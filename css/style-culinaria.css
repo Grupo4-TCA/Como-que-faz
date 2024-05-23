@@ -474,11 +474,9 @@
   font-size: 20px;
   font-family: Fira Sans;
 }
-.comentario-pergunta{
-  display: flex;
-}
 .ajudas-pergunta{
   display: flex;
+  margin-top: -4%;
 }
 #fundoperg2{
   width: 87%;
@@ -504,6 +502,6 @@
   position: absolute;
 }
 .icon-post{
-  margin-top: -3vw;
+  margin-bottom: 15%;
 }
 }
