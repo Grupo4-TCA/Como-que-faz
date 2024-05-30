@@ -46,21 +46,21 @@
                            </section>
                         </article>
                      </section>
-                     <li><img src="imagens/user2_icon.png" alt="perfil"><a
+                     <li><img src="imagens/user2_icon.png" alt="ir para perfil"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Perfil</a></li>
-                     <li><img src="imagens/notificacoes_icon.png" alt="notificações"><a
+                     <li><img src="imagens/notificacoes_icon.png" alt="ir para notificações"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Minhas-Notificações">Notificações</a>
                      </li>
-                     <li><img src="imagens/salvos_icon.png" alt="favoritos"><a
+                     <li><img src="imagens/salvos_icon.png" alt="ir para favoritos"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Meus-Favoritos">Favoritos</a></li>
-                     <li><img src="imagens/interacoes_icon.png" alt="interações"><a
+                     <li><img src="imagens/interacoes_icon.png" alt="ir para interações"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Interações</a></li>
-                     <li><img src="imagens/rascunhos_icon.png" alt="rascunhos"><a
+                     <li><img src="imagens/rascunhos_icon.png" alt="ir para rascunhos"><a
                            href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Rascunhos</a></li>
                      <section class="ajustes">
-                        <li><img src="imagens/ajustes_icon.png" alt="ajustes"><a
+                        <li><img src="imagens/ajustes_icon.png" alt="ir para ajustes"><a
                               href="https://grupo4-tca.github.io/Como-que-faz/Meu-perfil">Ajustes</a></li>
-                        <li><img src="imagens/sair_icon.png" alt="sair"><a
+                        <li><img src="imagens/sair_icon.png" alt="sair da conta"><a
                               href="https://grupo4-tca.github.io/Como-que-faz/Sair-da-conta">Sair</a></li>
                      </section>
                   </ul>
@@ -79,6 +79,7 @@
          </nav>
       </section>
    </header>
+
    <main>
       <section class="conteudo-dispositivo mobile">
          <section id="tudonessapaginamobile">
@@ -86,32 +87,38 @@
                <figure id="cancela-criar-post">X</figure>
                <h1 id="titulo-criar-post">Criar Dica</h1>
             </section>
+
             <section id="criar-post-etapas">
                <section class="linha-baixo">
                   <figure class="linha-progresso" id="progresso"></figure>
                </section>
+
                <nav id="botoes-criar-post">
                   <button id="btnVoltar" class="Voltar">VOLTAR</button>
                   <button id="btnAvancar" class="Avancar">PRÓXIMA ETAPA...</button>
                </nav>
+
                <nav class="lista-tarefas">
                   <button class="tarefa ativo" id="detalhes">Detalhes</button>
                   <button class="tarefa" id="elementos">Elementos</button>
                   <button class="tarefa" id="midias">Mídias</button>
                </nav>
+
                <section id="agrupamento-conteudo">
                   <section class="conteudo conteudo1" id="conteudoTarefa1">
                      <h2 id="detalhes">Detalhes</h2>
                      <article id="detalhes-primeira-parte">
-                        <h3 id="titulo-da-postagem">Título da postagem</h3>
+                        <h3 id="titulo-da-postagem">Título da dica</h3>
                         <input type="text" id="texto-titulo-da-postagem"
-                           placeholder="Escreva um título para a sua postagem...">
+                           placeholder="Escreva um título para a sua dica...">
                      </article>
+
                      <form id="detalhes-segunda-parte">
                         <article class="guarda-select">
                            <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
                               onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"
                               readonly="readonly" />
+
                            <nav class="dropDown" id="dropdown">
                               <ul class="listDropDown">
                                  <img class="iconitem-select-detalhes" id="icon-dropdown" onmousedown="category(1)"
@@ -128,8 +135,10 @@
                                     onmousedown="category(3)">BEM-ESTAR</h3>
                               </ul>
                            </nav>
+                           
                            <img id="icon-seta-select" src="./imagens/seta-select.svg" alt="selecione uma categoria">
                         </article>
+                        
                         <h3 id="tempo-resultado-detalhes">Tempo & Resultado</h3>
                         <fieldset id="tempo-detalhes">
                            <img id="imagem-tempo-detalhes" src="./imagens/tempo-cor-cinza.svg" alt="tempo de execução">
@@ -150,7 +159,7 @@
                            <fieldset class="input-container">
                               <input type="text" id="input-text-subcategoria">
                               <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()"
-                                 alt="">
+                                 alt="adicionar uma Subcategoria">
                            </fieldset>
                            <section id="messageList" class="message-list">
                            </section>

@@ -1,0 +1,252 @@
+@media only screen and (max-width: 480px) {
+    * {
+      font-family: Heavitas;
+      padding: 0;
+      margin: 0;
+    }
+  
+    @font-face {
+      font-family: Heavitas;
+      src: url("../fonts/Heavitas.ttf");
+    }
+  
+    @font-face {
+      font-family: Fira Sans Bold;
+      src: url("../fonts/fira-sans.bold.ttf");
+    }
+  
+    @font-face {
+      font-family: Fira Sans;
+      src: url("../fonts/fira-sans.regular.ttf");
+    }
+  
+  .botoes-cancelar-publicar {
+    justify-content: space-between;
+    display: flex;
+  }
+  
+button.cancelarpergunta {
+    width: 34%;
+    height: 10.1vw;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2px 2px 2px 2px;
+    border: 2px solid #4d16bb;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    color: #4d16bb;
+    text-align: center;
+    line-height: normal;
+  }
+
+
+  button.publicarpergunta {
+    width: 42%;
+    height: 10.1vw;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    background-image: linear-gradient(89.99311970570312deg, #4d16bb 0%, #9d21cb 95.48561645502186%);
+    border: none;
+    cursor: pointer;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+  }
+
+  /* body criar pergunta */
+
+  #titulo-da-pergunta-mob {
+    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+    font-size: 140%;
+    margin-left: 7vw;
+  }
+
+  #texto-titulo-da-pergunta-mob {
+    width: 82vw;
+    height: 9.33vw;
+    padding: 2px 2px 2px 2px;
+    margin-left: 7vw;
+    margin-top: 1.55vw;
+    font-size: 100%;
+    border: 0;
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    padding-left: 1vw;
+    padding-bottom: 2vw;
+    color: #333333;
+    text-align: left;
+
+    &::-webkit-input-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    input#dialogoselect::-moz-placeholder {
+      color: #adadad;
+    }
+
+    ;
+
+    &:focus {
+      outline: 0;
+      border-bottom: 2px #CB218C solid;
+
+      &::-webkit-input-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+
+      input#dialogoselect::-moz-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+    }
+  }
+
+  #detalhes-segunda-parte {
+    margin-top: 5vw;
+    border-top: 1px solid #909090;
+    padding-top: 6.66vw;
+    width: 100vw;
+  }
+
+  #icon-seta-select {
+    margin-left: -8vw;
+    transform: rotate(180deg);
+  }
+
+
+  #dialogoselect {
+    margin-left: 7vw;
+    padding-left: 1.06vw;
+    width: 85vw;
+    height: 10.66vw;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #979797;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 130%;
+
+    &:focus {
+      background-image: url(../imagens/seta-select.svg);
+      background-position-x: 96%;
+      background-position-y: 50%;
+      background-repeat: no-repeat;
+
+      &::-webkit-input-placeholder {
+        color: #cb218c;
+        padding-right: -10%
+      }
+
+      ;
+
+      input#dialogoselect::-moz-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+      border: 2px #CB218C solid;
+      border-bottom: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+
+  ::-webkit-input-placeholder {
+    color: #333;
+  }
+
+  input#dialogoselect::-moz-placeholder {
+    color: #333;
+  }
+
+  .dropDown {
+    box-sizing: border-box;
+    width: 87vw;
+    height: 36vw;
+    margin-left: 7vw;
+    padding-top: 3.2vw;
+    padding-left: 12vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    border: 2px #cb218c solid;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: none;
+  }
+
+  #icon-dropdown {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    margin-left: -8vw;
+  }
+
+  /* conteudo antigo */
+
+  select.filtropergunta {
+    font-family: Fira Sans Bold;
+    width: 60%;
+    height: 35px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
+    border: none;
+    background-color: #CB218C;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    border-color: white;
+  }
+
+  form.pergunta input {
+    border-top: 100px;
+    border-left: 0;
+    border-right: 0;
+    width: 95%;
+    height: 30px;
+    font-family: Fira Sans Bold;
+  }
+
+  form.pergunta {
+    margin-left: 5%;
+    margin-top: 8%;
+  }
+
+  form.pergunta:onclick {
+    border: none;
+  }
+
+  form.pergunta input.sub {
+    margin-top: 30px;
+    border: 2px solid #767676;
+    border-radius: 5px;
+    margin-bottom: 300px;
+  }
+
+  .footerpergunta {
+    margin-top: 500px;
+  }
+}

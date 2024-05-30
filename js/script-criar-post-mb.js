@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Inicialmente, definir a largura da linha de progresso e mostrar o conteúdo da Tarefa 1
     handleItemClick({ target: itens[currentIndex] });
 });
+
 function categor(categorId) {
     // Obtenha uma referência ao elemento de entrada
     var inputElement = document.querySelector('.dialogoselect');
