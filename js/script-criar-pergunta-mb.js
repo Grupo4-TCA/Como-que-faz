@@ -18,9 +18,11 @@ function categor(categorId) {
             inputElement.classList.add('categoria-bemestar');
             break;
     }
+    // Atualize o valor do input com base no item selecionado
+    inputElement.value = itemElement.innerText;
 }
 
-function dropdowncate(action) {
+function dropdown(action) {
     var dropdownElement = document.getElementsByClassName('dropDown-categoria')[0];
     var displayValues = ['block', 'none'];
     dropdownElement.style.display = displayValues[action];

@@ -23,6 +23,10 @@
   .botoes-cancelar-publicar {
     justify-content: space-between;
     display: flex;
+    margin-bottom: 6vw;
+    border-bottom: 1px solid #909090;
+    padding-bottom: 6.66vw;
+    width: 100vw;
   }
   
 button.cancelarpergunta {
@@ -77,6 +81,7 @@ button.cancelarpergunta {
     padding: 2px 2px 2px 2px;
     margin-left: 7vw;
     margin-top: 1.55vw;
+    margin-bottom: 7vw;
     font-size: 100%;
     border: 0;
     border-bottom: 1px solid #d7d7d7;
@@ -116,13 +121,6 @@ button.cancelarpergunta {
 
       ;
     }
-  }
-
-  #detalhes-segunda-parte {
-    margin-top: 5vw;
-    border-top: 1px solid #909090;
-    padding-top: 6.66vw;
-    width: 100vw;
   }
 
   #icon-seta-select {
@@ -175,7 +173,7 @@ button.cancelarpergunta {
     color: #333;
   }
 
-  .dropDown {
+  .dropDown-categoria {
     box-sizing: border-box;
     width: 87vw;
     height: 36vw;
@@ -201,52 +199,163 @@ button.cancelarpergunta {
     margin-left: -8vw;
   }
 
-  /* conteudo antigo */
+  
+  .iconitem-select-detalhes {
+    background-color: #f2f2f2;
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-size: 100%;
+    color: #333333;
+    cursor: pointer;
+  }
 
-  select.filtropergunta {
-    font-family: Fira Sans Bold;
-    width: 60%;
-    height: 35px;
-    padding: 2px 2px 2px 2px;
-    border-radius: 7px;
+  .item-select-detalhes{
+    background-color: #f2f2f2;
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-size: 100%;
+    color: #333333;
+    cursor: pointer;
+    position: relative;
+    padding-top: 2vw;
+    margin-left: 2vw;
+  }
+
+  .dialogoselect.categoria-culinaria {
+    background-color: #cb2154;
+    color: #ffff;
+  }
+
+  .dialogoselect.categoria-limpeza {
+    background-color: #027de1;
+    color: #ffff;
+  }
+
+  .dialogoselect.categoria-bemestar {
+    background-color: #00cd83;
+    color: #ffff;
+  }
+
+  #item-select-detalhes-1 {
+    margin-bottom: 5.86%;
+  }
+
+  #item-select-detalhes-2 {
+    margin-bottom: 5.86%;
+  }
+
+  #descricao-detalhes-total {
+    margin-top: 10vw;
+    margin-left: 8vw;
     border: none;
-    background-color: #CB218C;
-    box-sizing: border-box;
+  }
+
+  #titulo-descricao-detalhes {
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
     font-weight: 700;
-    color: whitesmoke;
-    margin-top: 30px;
-    margin-left: 5%;
-    font-size: 15px;
-    font-weight: 400;
-    border-color: white;
+    color: #333333;
+    margin-bottom: 3vw;
   }
 
-  form.pergunta input {
-    border-top: 100px;
-    border-left: 0;
-    border-right: 0;
-    width: 95%;
-    height: 30px;
-    font-family: Fira Sans Bold;
+  #descricao-detalhes {
+    width: 85vw;
+    height: 7.2vw;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    border: 0;
+    border: 1px solid #909090;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #000000;
+    text-align: left;
+
+    &:focus {
+      border: none;
+      outline: 2px #CB218C solid;
+      color: #000;
+
+      &::-webkit-input-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+
+      input#dialogoselect::-moz-placeholder {
+        color: #cb218c;
+      }
+
+      ;
+    }
   }
 
-  form.pergunta {
-    margin-left: 5%;
-    margin-top: 8%;
+  #titulo-subcategoria-detalhes {
+    font-family: "Arial Bold", "Arial Normal", "Arial", sans-serif;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
   }
 
-  form.pergunta:onclick {
+  #subcategoria-detalhes-total {
+    margin-top: 4.53vw;
+    margin-left: 8vw;
+    margin-bottom: 7vw;
+  }
+
+  .input-container {
+    margin-bottom: 10%;
     border: none;
   }
 
-  form.pergunta input.sub {
-    margin-top: 30px;
-    border: 2px solid #767676;
+  #input-text-subcategoria {
+    display: inline-block;
+    width: 87.2vw;
+    height: 8.26vw;
+    padding: 2px 2px 2px 2px;
     border-radius: 5px;
-    margin-bottom: 300px;
+    border: 1px solid #909090;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+    &:focus {
+      border: none;
+      outline: 2px solid #cb218c;
+
+    }
   }
 
-  .footerpergunta {
-    margin-top: 500px;
+  #icon {
+    display: inline-block;
+    width: 5.06vw;
+    height: 5.06vw;
+    margin-left: -8vw;
+    margin-bottom: -1.6vw;
   }
+
+  .message-list {
+    width: 82vw;
+    height: 9vw;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    margin-top: -7vw;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    display: flex;
+  }
+
+  #div-etiqueta-subcategoria {
+    width: relative;
+    height: 4.8vw;
+    border-radius: 6px;
+    background-color: #cb218c;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffff;
+    text-align: center;
+    line-height: normal;
+    margin: 0px 1% 0px 1%;
+    padding: 0px 1% 1% 1%;
+  }
+  
 }

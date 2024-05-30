@@ -139,22 +139,28 @@
 
       <article class="guarda-select">
          <input class="dialogoselect" id="dialogoselect" type="text" name="categoria"
-            onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da postagem"
+            onfocus="dropdown(0)" onblur="dropdown(1)" placeholder="Categoria da pergunta"
             readonly="readonly" />
-         <nav class="dropDown" id="dropdown">
+
+         <nav class="dropDown-categoria" id="dropdown">
             <ul class="listDropDown">
-               <img class="iconitem-select-detalhes" id="icon-dropdown" onmousedown="category(1)"
+               <img class="iconitem-select-detalhes" id="icon-dropdown" onmousedown="categor(1)"
                   src="./imagens/culinaria-icon-categoria-1.png" alt="culinária">
+
                <h3 value="culinaria-categoria" class="item-select-detalhes texto"
-                  id="item-select-detalhes-1" onmousedown="category(1)">CULINÁRIA</h3>
-               <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="category(2)"
+                  id="item-select-detalhes-1" onmousedown="categor(1)">CULINÁRIA</h3>
+
+               <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="categor(2)"
                   src="./imagens/limpeza-icon-categoria.png" alt="limpeza">
+
                <h3 class="item-select-detalhes texto" id="item-select-detalhes-2"
-                  onmousedown="category(2)">LIMPEZA</h3>
-               <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="category(3)"
+                  onmousedown="categor(2)">LIMPEZA</h3>
+
+               <img class="iconitem-select-detalhes icon" id="icon-dropdown" onmousedown="categor(3)"
                   src="./imagens/bem-estar-icon-categoria.png" alt="bem-estar">
+                  
                <h3 class="item-select-detalhes texto" id="item-select-detalhes-3"
-                  onmousedown="category(3)">BEM-ESTAR</h3>
+                  onmousedown="categor(3)">BEM-ESTAR</h3>
             </ul>
          </nav>
          <img id="icon-seta-select" src="./imagens/seta-select.svg" alt="selecione uma categoria">
@@ -164,29 +170,19 @@
          <h3 id="titulo-descricao-detalhes">DESCRIÇÃO</h3>
          <input type="text" id="descricao-detalhes">
       </fieldset>
+
       <section id="subcategoria-detalhes-total">
          <h3 id="titulo-subcategoria-detalhes">SUBCATEGORIAS</h3>
+
          <fieldset class="input-container">
             <input type="text" id="input-text-subcategoria">
             <img src="./imagens/adicionar-etiqueta.svg" id="icon" onclick="adicionarMensagem()"
                alt="adicionar uma Subcategoria">
          </fieldset>
+
          <section id="messageList" class="message-list">
          </section>
       </section>
-
-      <select class="filtropergunta">
-         <option>CULINÁRIA</option>
-         <option>LIMPEZA</option>
-         <option>BEM-ESTAR</option>
-      </select>
-
-      <form class="pergunta">
-         <input type="text" name="subcatego" placeholder="  Subcategorias (ex: #janta, #rapido,...)">
-         <br>
-         <input class="sub" type="text" name="subcatego" placeholder="  O que você deseja aprender?">
-         <br>
-      </form>
 
    </main>
 
