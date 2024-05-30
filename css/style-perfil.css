@@ -284,13 +284,13 @@
 @media only screen and (min-width: 481px) {
   .tab {
     float: left;
-    transform: translate(267px, 150px);
-    width: 284px;
-    height: 450px;
+    transform: translate(20.16vw, 11.33vw);
+    width: 21.44vw;
+    height: 33.97vw;
     padding: 2px 2px 2px 2px;
     background-color: rgba(255, 255, 255, 0);
     box-sizing: border-box;
-    position: fixed;
+    position: sticky;
   }
 
   .tab button {
@@ -300,8 +300,8 @@
     outline: none;
     cursor: pointer;
     transition: 0.3s;
-    width: 300px;
-    height: 67px;
+    width: 22.65vw;
+    height: 5.6vw;
     padding: 17px 17px 17px 17px;
     color: gray;
     box-sizing: border-box;
