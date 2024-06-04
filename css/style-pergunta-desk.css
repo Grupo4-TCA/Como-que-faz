@@ -17,9 +17,9 @@
     margin-bottom: 3%;
 }
 
-.titulo-categoria {
+.categoria-pergunta-desktop {
     line-height: normal;
-    width: 12%;
+    width: 20%;
     height: 5%;
     padding: 2px 2px 2px 2px;
     border-radius: 5px;
@@ -36,7 +36,7 @@
     margin-left: 2%;
 }
 
-.titulo-culinaria {
+.titulo-categoria-pergunta {
     margin-left: 11%;
     font-size: 80%;
     color: white;
@@ -73,14 +73,13 @@
     width: 30px;
 }
 
-.alinhamento-pergunta {
+.alinhamento-pergunta-desktop {
     justify-content: center;
     max-width: 55%;
     margin: auto;
 }
 
-.judas {
-    width: 150%;
+.opcoes-ajuda-desktop {
     display: flex;
     justify-content: space-evenly;
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
@@ -94,14 +93,14 @@ hr {
     margin: auto;
 }
 
-.titulouser {
+.usuario-pergunta {
     font-size: 20px;
     font-family: Fira Sans;
     display: inline;
     color: #333333;
 }
 
-.titulouser h3 {
+.usuario-pergunta h3 {
     margin-left: 22%;
     font-size: 20px;
     font-family: Fira Sans;
@@ -126,7 +125,7 @@ hr {
 
 }
 
-.judas button {
+.opcoes-ajuda-desktop button {
     width: 170px;
     height: 50px;
 }
@@ -187,13 +186,13 @@ hr {
     margin-bottom: 23px;
 }
 
-.comentarios {
-    margin: 5% 50% 5% 22%;
+.visao-geral-comentarios {
+    margin: 5% 20% 5% 22%;
     display: flex;
     justify-content: space-between;
 }
 
-.comem-titulo {
+.quantidade-comentarios {
     font-family: Fira Sans;
     font-size: 23px;
     color: #333333;
@@ -206,10 +205,11 @@ hr {
     display: flex;
 }
 
-.p-filtro {
+.botao-filtrar {
     font-family: Fira Sans Bold;
     font-size: 15px;
     color: #4D16BB;
+    border: none;
 }
 
 .quantidadeDeComentarios {
@@ -219,7 +219,7 @@ hr {
     font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
 }
 
-.comentar {
+.comente-aqui {
     margin: 5% 30% 5% 22%;
     display: flex;
     justify-content: left;
@@ -231,7 +231,7 @@ hr {
     border-right: none;
     border-bottom: 2px solid #4D16BB;
     margin-left: 5%;
-    width: 50%;
+    width: 100%;
     height: 25px;
     font-family: Fira Sans Bold;
     font-size: large;
@@ -248,11 +248,14 @@ hr {
 
 .cancelar {
     font-size: 15px;
-    margin-top: 2%;
     margin-left: 39%;
     color: #333333;
-    height: 20px;
+    height: 32px;
     font-family: Fira Sans Bold;
+    background-color: #F2F2F2;
+    border: none;
+    width: 72px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .botao-comentar {
@@ -265,10 +268,9 @@ hr {
     border-radius: 5px;
     padding: 1% 3% 2% 3%;
     margin-left: 3%;
-    width: 15%;
 }
 
-.foto-de-perfil-taylorfan {
+.foto-de-perfil-usuario {
     width: 50px;
     height: 50px;
     margin-left: 13.6%;
@@ -282,7 +284,7 @@ hr {
     display: flex;
 }
 
-.estrelas-taylor {
+.respostas-pergunta {
     content: '\f005';
     font-family: fontAwesome;
     margin-left: 5%;
@@ -331,15 +333,6 @@ hr {
     margin-left: 15px;
 }
 
-.texto-coment-taylor {
-    text-align: left;
-    margin-left: 24%;
-    margin-top: -9%;
-    margin-right: 10%;
-    font-family: Fira Sans;
-    font-size: 15px;
-}
-
 .coracao-vazado {
     height: 18px;
 }
@@ -372,7 +365,7 @@ hr {
     height: 18px;
 }
 
-.curtir-responder {
+.interacoes-resposta {
     display: flex;
     width: 200px;
     margin-left: 30%;
@@ -388,7 +381,7 @@ hr {
     margin-top: 1.2%;
 }
 
-.comentario h1 {
+.respostas h1 {
     font-family: Fira Sans Bold;
     font-size: 17px;
     margin-right: 10%;
@@ -398,7 +391,7 @@ hr {
     margin-bottom: -24%;
 }
 
-.texto-coment-taylor {
+.texto-resposta-usuario {
     text-align: left;
     margin-left: 30%;
     margin-top: -7%;
@@ -415,17 +408,17 @@ hr {
     margin-left: 5%;
 }
 
-.mostrar-mais {
+.botao-mostrar-mais {
     height: 50px;
 }
 
-.mostrar-mais h1 {
+.botao-mostrar-mais button {
     background-color: #f2f2f2;
     color: #4d16bb;
     border: #4d16bb solid 1px;
     border-radius: 5px;
     padding: 1% 0% 2% 0%;
-    height: 2px;
+    height: 30px;
     margin-left: 41%;
     margin-right: 10%;
     margin-top: 5%;
@@ -479,7 +472,7 @@ hr {
 
 }
 
-.comentario {
+.respostas {
     margin: 5% 0% 5% 10%;
     display: flex;
     justify-content: space-between !important;

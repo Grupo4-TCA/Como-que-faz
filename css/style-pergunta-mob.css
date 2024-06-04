@@ -3,46 +3,51 @@
         font-family: Heavitas;
         padding: 0;
         margin: 0;
-        }
-        @font-face{
+    }
+
+    @font-face {
         font-family: Heavitas;
         src: url("../fonts/Heavitas.ttf");
-        }
-        @font-face{
+    }
+
+    @font-face {
         font-family: Fira Sans Bold;
         src: url("../fonts/fira-sans.bold.ttf");
-        }
-        @font-face{
+    }
+
+    @font-face {
         font-family: Fira Sans;
         src: url("../fonts/fira-sans.regular.ttf");
-        }
+    }
 
-        #conteudo-dispositivo-desktop{
-            display: none;
-          }
-          
-          #conteudo-dispositivo-mobile{
-            display: block;
-          }
+    #conteudo-dispositivo-desktop {
+        display: none;
+    }
+
+    #conteudo-dispositivo-mobile {
+        display: block;
+    }
 
     .cabecaculinaria {
         margin-left: 7%;
         margin-right: 7%;
 
     }
+
     .titulo-user {
         font-size: 15px;
         font-family: Fira Sans;
         display: inline;
         color: #333333;
     }
-    .titulos-post{
+
+    .titulos-post {
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 3%;
     }
 
-    .titulo-categoria{
+    .categoria-pergunta-mobile {
         line-height: normal;
         width: 40%;
         height: 3%;
@@ -55,11 +60,13 @@
         margin-top: 5%;
         margin-bottom: 8%;
     }
-    .icon-culinaria{
+
+    .icon-culinaria {
         width: 20%;
         margin-left: 2%;
     }
-    .titulo-culinaria{
+
+    .categoria-culinaria-pergunta-mobile {
         margin-left: 11%;
         font-size: 80%;
         color: white;
@@ -67,7 +74,7 @@
         font-weight: 400;
         margin-top: 6%;
     }
-    
+
     .postajem {
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
@@ -97,35 +104,36 @@
     }
 
 
-    .judas {
+    .interacoes-pergunta-mobile {
         display: flex;
         justify-content: space-between;
-        font-family:  "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
 
-    .titulouser{
+    .usuario-pergunta-mobile {
         font-size: 15px;
+        font-family: Fira Sans;
+        color: #333333;
+    }
+
+    .usuario-pergunta-mobile h3 {
+        margin-left: 10.5%;
         font-family: Fira Sans;
         display: inline;
         color: #333333;
     }
-    .titulouser h3{
-        margin-left: 8.5%;
-        font-size: 15px;
-        font-family: Fira Sans;
-        display: inline;
-        color: #333333;
-    }
-    .nick2{
+
+    .nick2 {
         font-size: 15px;
         font-family: Fira Sans;
         display: inline;
         color: #9e5fef;
     }
-    .conteudo{
+
+    .pergunta-mobile {
         font-family: Fira Sans Bold;
         margin-left: 10%;
         margin-right: 10%;
@@ -135,7 +143,7 @@
 
     }
 
-    .judas button {
+    .interacoes-pergunta-mobile button {
         width: 140px;
         height: 41px;
     }
@@ -146,7 +154,7 @@
         border: 1px solid #cb218c;
         background-color: #ffffff;
         box-sizing: border-box;
-        font-family:  "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         font-weight: 700;
         color: #cb218c;
         text-align: center;
@@ -167,7 +175,7 @@
         box-sizing: border-box;
         border: none;
         color: white;
-        font-family:  "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
         text-transform: uppercase;
     }
 
@@ -195,65 +203,76 @@
         justify-content: space-between;
         margin-bottom: 23px;
     }
-    .comentarios{
+
+    .visao-geral-comentarios-mobile {
         margin: 5% 10% 5% 10%;
         display: flex;
         justify-content: space-between;
     }
-    .comem-titulo{
+
+    .comem-titulo {
         font-family: Fira Sans;
         font-size: 23px;
         color: #333333;
     }
-    .filtro{
+
+    .filtro-comentarios-mobile {
         padding: 3% 5% 3% 5%;
-        background-color: #F2F2F2;
         border-radius: 5px 5px 5px 5px;
         display: flex;
     }
-    .p-filtro{
+
+    .filtrar-comentarios-mobile {
         font-family: Fira Sans Bold;
         font-size: 15px;
         color: #4D16BB;
+        border: none;
     }
+
     .quantidadeDeComentarios {
         margin: 0;
         color: black;
         font-size: 20px;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    }  
-    .comentar{
+    }
+
+    .comentar {
         margin: 5% 10% 5% 10%;
         display: flex;
         justify-content: space-between;
     }
-    .inserir-comentario{
+
+    .inserir-comentario-mobile {
         border-top: none;
         border-left: none;
         border-right: none;
         border-bottom: 2px solid #4D16BB;
-        margin-left: 5%;
-        width: 100%;
-        height: 25px; 
+        width: 70%;
+        height: 25px;
         font-family: Fira Sans Bold;
         outline: none;
     }
-    .botoes-comentar{
+
+    .botoes-comentario-mobile {
         height: 35px;
         margin-top: -30px;
         align-items: right;
         display: flex;
         margin-bottom: 10%;
     }
-    .cancelar{
+
+    .cancelar-comentario-mobile {
         font-size: 15px;
         margin-top: 2%;
         margin-left: 39%;
         color: #333333;
         height: 20px;
         font-family: Fira Sans Bold;
+        border: none;
+        font-size: 16px;
     }
-    .botao-comentar{
+
+    .comentar-mobile {
         background-color: #FFD662;
         color: #4D16BB;
         border-top: none;
@@ -265,36 +284,43 @@
         margin-left: 3%;
         width: 35%;
     }
-    .comentario{
+
+    .fazer-comentario-mobile {
         margin: 5% 0% 5% 10%;
         display: flex;
         justify-content: space-between !important;
-      }
-      .foto-de-perfil-taylorfan{
+    }
+
+    .foto-usuario-comentario-mobile {
         width: 43px;
         height: 43px;
-      }
+    }
+
     .fazer-comentario {
         width: 100%;
     }
-    .nomes-comentario{
-      display: flex;
+
+    .nomes-comentario {
+        display: flex;
     }
-    .estrelas-taylor{
-      content: '\f005';
-      font-family: fontAwesome;
-      margin-left: 5%;
-      width: 100px;
-      color: #9e5fef;
-      font-size: 16px;
+
+    .estrelas-taylor {
+        content: '\f005';
+        font-family: fontAwesome;
+        margin-left: 5%;
+        width: 100px;
+        color: #9e5fef;
+        font-size: 16px;
     }
-    .opcoes{
+
+    .opcoes {
         position: absolute;
         margin-top: -0.5%;
         margin-left: 74%;
         cursor: pointer;
     }
-    .ponto{
+
+    .ponto {
         background: #cb2154;
         width: 8px;
         height: 8px;
@@ -303,9 +329,9 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-    
-    #hide-opcoes{
-        z-index:1000;
+
+    #hide-opcoes {
+        z-index: 1000;
         margin-top: -5%;
         margin-left: 30%;
         display: inline;
@@ -316,91 +342,105 @@
         border-radius: 5px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.565);
     }
-    #hide-opcoes img{
+
+    #hide-opcoes img {
         width: 20px;
         height: 20px;
     }
-    #hide-opcoes p{
+
+    #hide-opcoes p {
         font-family: Fira Sans Bold;
         margin-left: 15px;
     }
-    .texto-coment-taylor{
-      text-align: left;
-      margin-left: 24%;
-      margin-top: -9%;
-      margin-right: 10%;
-      font-family: Fira Sans;
-      font-size: 15px;
-    }
-    .coracao-vazado{
-      height: 18px;
-    }
-    .coracao-preenchido{
-      height: 22px;   
-      margin-left: 0.2;
-      margin-top: -6.2%;
-      position: absolute;
-      animation: heartBeat 0.5s ease-in-out;
-    }
-    
-  @keyframes heartBeat {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.2);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
-    .coracao-curtir{
-      cursor: pointer;
-      width: 22px;
-      height: 18px;
-    }
-    .curtir-responder{
-      display: flex;
-      width: 200px;
-      margin-left: 23%;
-      margin-top: 3%;
-    }
-    
-    
-    .nome-usuario-comt{
-        font-family: Fira Sans;
-        font-size: 17px;
-        width: 230px;
-        margin-left: 1%;
-        margin-top: 1.2%;
-      }
-    .comentario h1{
-        font-family: Fira Sans Bold;
-        font-size: 17px;
-        margin-right: 10%;
-        margin-left: -1%;
-        text-align: left;
-        color: #9e5fef;
-      }
-      .texto-coment-taylor{
+
+    .comentario-usuario-mobile {
         text-align: left;
         margin-left: 24%;
         margin-top: -9%;
         margin-right: 10%;
         font-family: Fira Sans;
         font-size: 15px;
-      }
-      .responder-coment{
+    }
+
+    .coracao-vazado {
+        height: 18px;
+    }
+
+    .coracao-preenchido {
+        height: 22px;
+        margin-left: 0.2;
+        margin-top: -6.2%;
+        position: absolute;
+        animation: heartBeat 0.5s ease-in-out;
+    }
+
+    @keyframes heartBeat {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.2);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .coracao-curtir {
+        cursor: pointer;
+        width: 22px;
+        height: 18px;
+    }
+
+    .curtir-responder {
+        display: flex;
+        width: 200px;
+        margin-left: 23%;
+        margin-top: 3%;
+    }
+
+
+    .nome-usuario-comt {
+        font-family: Fira Sans;
+        font-size: 17px;
+        width: 230px;
+        margin-left: 1%;
+        margin-top: 1.2%;
+    }
+
+    .comentarios-pergunta-mobile h1 {
+        font-family: Fira Sans Bold;
+        font-size: 17px;
+        margin-right: 10%;
+        margin-left: -1%;
+        text-align: left;
+        color: #9e5fef;
+    }
+
+    .texto-coment-taylor {
+        text-align: left;
+        margin-left: 24%;
+        margin-top: -9%;
+        margin-right: 10%;
+        font-family: Fira Sans;
+        font-size: 15px;
+    }
+
+    .responder-coment {
         margin-top: 0%;
         font-size: 16px;
         font-family: Fira Sans Bold;
         color: #4d16bb;
         margin-left: 5%;
-      }
-      .mostrar-mais{
+    }
+
+    .mostrar-mais-mobile {
         height: 50px;
-      }
-      .mostrar-mais h1{
+    }
+
+    .mostrar-mais-mobile h1 {
         background-color: #f2f2f2;
         color: #4d16bb;
         border: #4d16bb solid 1px;
@@ -414,12 +454,14 @@
         font-size: 13px;
         font-weight: 400;
         text-align: center;
-      }
-      .tres-pontinhos-comentario{
+    }
+
+    .tres-pontinhos-comentario {
         width: 3px;
         height: 13px;
         margin-right: 10%;
-      }
+    }
+
     .fazer-comentario input[type='text'] {
         width: 210px;
         display: block;
@@ -457,11 +499,11 @@
 
     }
 
-    .comentario{
+    .comentarios-pergunta-mobile {
         margin: 5% 0% 5% 10%;
         display: flex;
         justify-content: space-between !important;
-      }
+    }
 
     .tari {
         width: 12%;
@@ -502,6 +544,7 @@
         font-size: 13px;
         font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
     }
+
     .veja-mais {
         padding: 27px
     }
@@ -553,19 +596,19 @@
         background-color: #00cd83;
     }
 
-    
+
 
 
 }
 
 
 @media only screen and (min-width: 480px) {
-  
-    #conteudo-dispositivo-desktop{
-      display: block;
+
+    #conteudo-dispositivo-desktop {
+        display: block;
     }
-    
-    #conteudo-dispositivo-mobile{
-      display: none;
+
+    #conteudo-dispositivo-mobile {
+        display: none;
     }
-  }
+}
