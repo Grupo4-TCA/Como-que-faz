@@ -456,10 +456,21 @@
         text-align: center;
     }
 
+    .cabecalho-pergunta-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .tres-pontinhos-comentario {
         width: 3px;
         height: 13px;
         margin-right: 10%;
+    }
+    .feedback-pergunta-mobile {
+        width: 3px;
+        height: 13px;
+        margin-right: 10%;
+        margin-top: 15%;
     }
 
     .fazer-comentario input[type='text'] {
