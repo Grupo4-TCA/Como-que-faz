@@ -6,14 +6,16 @@
     }
     
 .tabcontent {
-    float: left;
-    width: 937px;
+    /* float: left; */
+    width: 930px;
     height: 1784px;
-    transform: translate(644px, 50px);
-    padding: 2px 2px 2px 2px;
+    /* transform: translate(644px, 50px); */
+    /* padding: 2px 2px 2px 2px; */
     border-radius: 14px;
     background-color: #f9f9f9;
     box-sizing: border-box;
+    margin: auto;
+    margin-top: 3%;
 }
 a:link{
     text-decoration: none;

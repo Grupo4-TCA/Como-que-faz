@@ -450,6 +450,7 @@
     /* Espaçamento à esquerda para o retângulo */
     margin-right: 5px;
     /* Espaçamento entre os elementos */
+    border: none;
   }
 
   .radio-container input[type="radio"] {
