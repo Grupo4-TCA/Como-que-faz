@@ -1,18 +1,3 @@
-
-    // funcao da conta
-function opcao(evt, tab) {
-  var i;
-  var tabcontent = document.getElementsByClassName("tabcontent");
-  var tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].classList.remove("active");
-  }
-  document.getElementById(tab).style.display = "block";
-  evt.currentTarget.classList.add("active");
-}
 document.getElementById("Perfil").style.display = "block";
 document.getElementsByClassName("tablinks")[0].classList.add("active");
 
