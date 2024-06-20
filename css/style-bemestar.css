@@ -1,348 +1,139 @@
 @media only screen and (max-width: 480px) {
-    * {
-      margin: 0;
-      padding: 0;
+  * {
+    margin: 0;
+    padding: 0;
+}
+.conteudo-mobile{
+  display: block;
+  width: 100vw;
+ }
+ 
+ .conteudo-desktop{
+  display: none;
+ }
+ .logos {
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
   }
-  .conteudo-mobile{
-    display: block;
-    width: 100vw;
-   }
-   
-   .conteudo-desktop{
-    display: none;
-   }
-   .logos {
-    display: flex;
-    justify-content: space-around;
-    height: 70px;
-    }
-    
-    .logo {
-    margin-top: 5px;
-    margin-right: 50px;
-    margin-left: 50px;
-    
-    }
-    .logo img {
-    max-width: 50px;
-    margin-top: 5px;
-    align-self: center;
-    }
-    .search {
-    margin-top: 22px;
-    margin-right: 13px;
-    }
-    .search img {
-    max-width: 26px;
-    }
-    .login {
-    margin-top: 9px;
-    margin-left: 18px;
-    margin-right: -7px;
-    position: relative;
-    display: inline-block;
-    }
-    .login img {
-    max-width: 34px;
-    margin-top: 10px;    
-    }
-    .topcs {
-    background-color:  #00cd83;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    height: 38px;
-    }
-    a {
-    text-decoration: none;
-    color: white;
-    margin-top: 9px;
-    font-size: 14px;
-    }
-    .culinaria {
-    margin-left: 13.14px;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
-    margin-top: 12px;
-    }
-    .bem-estar {
-    margin-right: 8.59px;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    margin-top: 12px;
-    font-weight: 700;
-    }
-    .limpeza{
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        text-align: center;
-        margin-top: 12px;
-        font-weight: 700;
-    }
-    a.mapbemestar{
-        text-align: center;
-        width: 54px;
-        height: 19px;
-        color:black;
-        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-        font-weight: 700;
-        margin-left: 7%;
-      }
-      .mapbe{
-        margin-top: 5%;
-      }
-      img.imgbe{
-        width: 84px;
-        height: 84px;
-        margin-left: 5%;
-        transform: translate(0, 13px);
-      }
-      h1.titulobe{
-        font-family: Heavitas;
-        color: #00cd83;
-        max-width: 215px;
-        font-size: 35px;
-        font-weight: 400;
-        transform: translate(115px, -70px);
-      }
-      p.pbe{
-        text-align: left;
-        font-family: Fira Sans;
-        width: 65%;
-        font-size: 12px;
-        transform: translate(115px, -70px);
-      }
   
-
-    .fcutodas{
-        min-width: 140px;
-        height: 35px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #333333;
-        text-align: center;
-        line-height: normal;
-        border: none;
-        gap: 100px;
-        }
-     
-      .filtrocu{
-        display: flex;
-        gap: 10px;
-        overflow: scroll;
-        height: 100%;
-        margin-left: 7%;
-        margin-top: -50px;
-        padding: 2px 2px 2px 2px;
-        border-radius: 5px;
-        box-sizing: border-box;
-        font-family: "Fira Sans", sans-serif;
-        color: #333333;
-        text-align: center;
-        line-height: normal;
-        border: none;
-        width: 85%;
-        }
-    
-        .clicado{
-          background-color: #00cd83;
-          box-sizing: border-box;
-          font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-          font-weight: 700;
-          color: #ffffff;
-      }
-    
-    }
+  .logo {
+  margin-top: 5px;
+  margin-right: 50px;
+  margin-left: 50px;
   
-    @media only screen and (min-width: 480px) {
-      * {
-        margin: 0;
-        padding: 0;
+  }
+  .logo img {
+  max-width: 50px;
+  margin-top: 5px;
+  align-self: center;
+  }
+  .search {
+  margin-top: 22px;
+  margin-right: 13px;
+  }
+  .search img {
+  max-width: 26px;
+  }
+  .login {
+  margin-top: 9px;
+  margin-left: 18px;
+  margin-right: -7px;
+  position: relative;
+  display: inline-block;
+  }
+  .login img {
+  max-width: 34px;
+  margin-top: 10px;    
+  }
+  .topcs {
+  background-color:  #00cd83;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  height: 38px;
+  }
+  a {
+  text-decoration: none;
+  color: white;
+  margin-top: 9px;
+  font-size: 14px;
+  }
+  .culinaria {
+  margin-left: 13.14px;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  margin-top: 12px;
+  }
+  .bem-estar {
+  margin-right: 8.59px;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  margin-top: 12px;
+  font-weight: 700;
+  }
+  .limpeza{
+      font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+      text-align: center;
+      margin-top: 12px;
+      font-weight: 700;
+  }
+  a.mapbemestar{
+      text-align: center;
+      width: 54px;
+      height: 19px;
+      color:black;
+      font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+      font-weight: 700;
+      margin-left: 7%;
     }
-    .conteudo-desktop{
-      display: block;
-      width: 100vw;
-     }
-     
-     .conteudo-mobile{
-      display: none;
-     }
-     * {
+    .mapbe{
+      margin-top: 5%;
+    }
+    img.imgbe{
+      width: 84px;
+      height: 84px;
+      margin-left: 5%;
+      transform: translate(0, 13px);
+    }
+    h1.titulobe{
       font-family: Heavitas;
-      padding: 0;
-      margin: 0;
-    }
-  
-    @font-face {
-      font-family: Heavitas;
-      src: url("../fonts/Heavitas.ttf");
-    }
-  
-    @font-face {
-      font-family: Fira Sans Bold;
-      src: url("../fonts/fira-sans.bold.ttf");
-    }
-  
-    @font-face {
-      font-family: Fira Sans;
-      src: url("../fonts/fira-sans.regular.ttf");
-    }
-  
-    .header-dispositivo-mobile {
-      display: none;
-    }
-  
-    .logos {
-      display: flex;
-      justify-content: space-around;
-      height: 85px;
-      box-shadow: 1px 5px 5px rgb(173, 173, 173);
-      background-color: white;
-    }
-  
-    .logo {
-      margin-top: 5px;
-      margin-right: 50px;
-      margin-left: 50px;
-  
-    }
-  
-    .logo img {
-      max-width: 65px;
-      margin-top: 5px;
-      align-self: center;
-    }
-  
-    .search {
-      margin-top: 22px;
-      margin-right: 18px;
-    }
-  
-    .search img {
-      max-width: 37px;
-    }
-  
-    .login {
-      margin-top: 9px;
-      margin-left: 13px;
-      margin-right: -7px;
-      position: relative;
-      display: inline-block;
-    }
-  
-    #img-login {
-      max-width: 50px;
-      margin-top: 10px;
-    }
-  
-    .topcs {
-      background-color: #00cd83;
-      display: flex;
-      justify-content: space-around;
-      height: 43px;
-    }
-  
-    .topcs a {
-      text-decoration: none;
-      color: white;
-      margin-top: 9px;
-      font-size: 20px;
-    }
-  
-    .culinaria {
-      margin-left: 270px;
-      font-family: Fira Sans Bold;
-      font-weight: 700;
-      margin-top: 12px;
-    }
-  
-    .bem-estar {
-      margin-right: 270px;
-      font-family: Fira Sans Bold;
-      margin-top: 12px;
-      font-weight: 700;
-    }
-  
-    .limpeza {
-      font-family: Fira Sans Bold;
-      text-align: center;
-      margin-top: 12px;
-      font-weight: 700;
-    }
-  
-    #hide-hover-span {
-      display: none;
-      position: absolute;
-      color: #474747;
-      text-align: center;
-      margin-top: -46px;
-      width: 200px;
-      margin-left: 70px;
-    }
-  
-    #hide-hover-span p {
-      text-align: left;
-      font-family: Fira Sans Bold;
-    }
-  
-    .p-1 {
-      font-size: 14px;
-    }
-  
-    .p-2 {
-      font-size: 18px;
-      margin-top: -25px;
-    }
-  
-    #hide-hover-search {
-      display: none;
-      position: absolute;
-      color: #474747;
-      text-align: center;
-      margin-top: -28px;
-      width: 200px;
-      margin-left: -220px;
-    }
-  
-    #hide-hover-search input {
-      border-top: none;
-      border-left: none;
-      border-right: none;
-      border-bottom: 2px solid #9d21cb;
-      font-family: Fira Sans;
-      font-size: 17px;
-    }
-  
-    .mapbe {
-      margin-left: 359px;
-    }
-  
-    .imgbe {
-      width: 180px;
-      height: 180px;
-      margin-left: 320px;
-      margin-top: 20px;
-    }
-  
-    .titulobe {
-      font-size: 40px;
       color: #00cd83;
-      margin-left: 500px;
-      margin-top: -150px;
+      max-width: 215px;
+      font-size: 35px;
+      font-weight: 400;
+      transform: translate(115px, -70px);
     }
-  
-    .pbe {
-      margin-left: 500px;
-      width: 30%;
+    p.pbe{
+      text-align: left;
+      font-family: Fira Sans;
+      width: 65%;
       font-size: 12px;
-  
+      transform: translate(115px, -70px);
     }
-    .filtrocu {
+
+
+  .fcutodas{
+      min-width: 140px;
+      height: 35px;
+      padding: 2px 2px 2px 2px;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      box-sizing: border-box;
+      font-family: "Fira Sans", sans-serif;
+      color: #333333;
+      text-align: center;
+      line-height: normal;
+      border: none;
+      gap: 100px;
+      }
+   
+    .filtrocu{
       display: flex;
-      gap: 15px;
-      overflow: auto;
+      gap: 10px;
+      overflow: scroll;
       height: 100%;
+      margin-left: 7%;
+      margin-top: -50px;
       padding: 2px 2px 2px 2px;
       border-radius: 5px;
       box-sizing: border-box;
@@ -351,94 +142,299 @@
       text-align: center;
       line-height: normal;
       border: none;
-      width: auto;
-      overflow: auto;
+      width: 85%;
+      }
+  
+      .clicado{
+        background-color: #00cd83;
+        box-sizing: border-box;
+        font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+        font-weight: 700;
+        color: #ffffff;
     }
   
-    
-  .fcutodas {
-    min-width: 20%;
-    height: 55px;
-    padding: 2px 6px 2px 6px;
+  }
+
+  @media only screen and (min-width: 480px) {
+    * {
+      margin: 0;
+      padding: 0;
+  }
+  .conteudo-desktop{
+    display: block;
+    width: 100vw;
+   }
+   
+   .conteudo-mobile{
+    display: none;
+   }
+   * {
+    font-family: Heavitas;
+    padding: 0;
+    margin: 0;
+  }
+
+  @font-face {
+    font-family: Heavitas;
+    src: url("../fonts/Heavitas.ttf");
+  }
+
+  @font-face {
+    font-family: Fira Sans Bold;
+    src: url("../fonts/fira-sans.bold.ttf");
+  }
+
+  @font-face {
+    font-family: Fira Sans;
+    src: url("../fonts/fira-sans.regular.ttf");
+  }
+
+  .header-dispositivo-mobile {
+    display: none;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    height: 85px;
+    box-shadow: 1px 5px 5px rgb(173, 173, 173);
+    background-color: white;
+  }
+
+  .logo {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+  }
+
+  .logo img {
+    max-width: 65px;
+    margin-top: 5px;
+    align-self: center;
+  }
+
+  .search {
+    margin-top: 22px;
+    margin-right: 18px;
+  }
+
+  .search img {
+    max-width: 37px;
+  }
+
+  .login {
+    margin-top: 9px;
+    margin-left: 13px;
+    margin-right: -7px;
+    position: relative;
+    display: inline-block;
+  }
+
+  #img-login {
+    max-width: 50px;
+    margin-top: 10px;
+  }
+
+  .topcs {
+    background-color: #00cd83;
+    display: flex;
+    justify-content: space-around;
+    height: 43px;
+  }
+
+  .topcs a {
+    text-decoration: none;
+    color: white;
+    margin-top: 9px;
+    font-size: 20px;
+  }
+
+  .culinaria {
+    margin-left: 270px;
+    font-family: Fira Sans Bold;
+    font-weight: 700;
+    margin-top: 12px;
+  }
+
+  .bem-estar {
+    margin-right: 270px;
+    font-family: Fira Sans Bold;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  .limpeza {
+    font-family: Fira Sans Bold;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  #hide-hover-span {
+    display: none;
+    position: absolute;
+    color: #474747;
+    text-align: center;
+    margin-top: -46px;
+    width: 200px;
+    margin-left: 70px;
+  }
+
+  #hide-hover-span p {
+    text-align: left;
+    font-family: Fira Sans Bold;
+  }
+
+  .p-1 {
+    font-size: 14px;
+  }
+
+  .p-2 {
+    font-size: 18px;
+    margin-top: -25px;
+  }
+
+  #hide-hover-search {
+    display: none;
+    position: absolute;
+    color: #474747;
+    text-align: center;
+    margin-top: -28px;
+    width: 200px;
+    margin-left: -220px;
+  }
+
+  #hide-hover-search input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #9d21cb;
+    font-family: Fira Sans;
+    font-size: 17px;
+  }
+
+  .mapbe {
+    margin-left: 359px;
+  }
+
+  .imgbe {
+    width: 180px;
+    height: 180px;
+    margin-left: 320px;
+    margin-top: 20px;
+  }
+
+  .titulobe {
+    font-size: 40px;
+    color: #00cd83;
+    margin-left: 500px;
+    margin-top: -150px;
+  }
+
+  .pbe {
+    margin-left: 500px;
+    width: 30%;
+    font-size: 12px;
+
+  }
+  .filtrocu {
+    height: 100%;
     border-radius: 5px;
-    background-color: #f2f2f2;
     box-sizing: border-box;
     font-family: "Fira Sans", sans-serif;
-    font-size: 25px;
-    font-weight: 900;
     color: #333333;
     text-align: center;
     line-height: normal;
     border: none;
-    gap: 100px;
+    width: auto;
+    overflow: auto;
   }
-    .clicado {
-    background-color: #00cd83;
-    box-sizing: border-box;
-    font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
-    font-weight: 700;
-    color: #ffffff;
-    }
-    
-  .mapcu {
-    margin-top: 5%;
+
+  
+.fcutodas {
+  min-width: 20%;
+  height: 55px;
+  padding: 2px 6px 2px 6px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  border: none;
+  gap: 100px;
+}
+  .clicado {
+  background-color: #00cd83;
+  box-sizing: border-box;
+  font-family: "Fira Sans Bold", "Fira Sans", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
   }
   
-  .mapculinaria {
-    margin-left: 18%;
-    font-family: Fira Sans;
-    color: black;
-  }
+.mapcu {
+  margin-top: 5%;
+}
 
-  .mapculinaria2 {
-    font-family: Fira Sans Bold;
-    color: #9e5fef;
-  }
-  .imgcu {
-    width: 120px;
-    height: 120px;
-    margin-left: 17.5%;
-    margin-top: 20px;
-  }
-  .titulocu {
-    font-size: 45px;
-    color: #00cd83;
-    margin-left: 470px;
-    margin-top: -110px;
-    font-weight: 400 ;
-  }
-  .pcu {
-    margin-left: 470px;
-    width: 20%;
-    font-size: 15px;
-    font-family: Fira Sans;
-  }
- 
-  .filtroantes{
-    overflow: hidden;
-    margin-left: 49%;
-    margin-top: -3%;
-    width: 50% ;
+.mapculinaria {
+  margin-left: 18%;
+  font-family: Fira Sans;
+  color: black;
+}
 
-  }
+.mapculinaria2 {
+  font-family: Fira Sans Bold;
+  color: #9e5fef;
+}
+.imgcu {
+  width: 120px;
+  height: 120px;
+  margin-left: 17.5%;
+  margin-top: 20px;
+}
+.titulocu {
+  font-size: 45px;
+  color: #00cd83;
+  margin-left: 470px;
+  margin-top: -110px;
+  font-weight: 400 ;
+}
+.pcu {
+  margin-left: 470px;
+  width: 20%;
+  font-size: 15px;
+  font-family: Fira Sans;
+}
+
+.filtroantes{
+  overflow: hidden;
+  margin-left: 49%;
+  margin-top: -3%;
+  width: 50% ;
+
+}
 
 
+  
+  } 
     
-    } 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
           
+        
