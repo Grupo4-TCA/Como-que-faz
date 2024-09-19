@@ -143,7 +143,7 @@
   #agrupamento-conteudo {
     padding: 0;
     margin: 0;
-    position: absolute;
+   
   
 
   }
@@ -157,9 +157,8 @@
 
   #conteudoTarefa2 {
     left: 0;
-   
+   position: fixed;
    margin-top: -48vh;
-   max-width: 100%;
  
   }
 
@@ -178,7 +177,7 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-  overflow: auto;
+  overflow: hidden;
     margin-left: 7vw;
   }
 
