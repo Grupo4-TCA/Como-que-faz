@@ -143,31 +143,31 @@
   #agrupamento-conteudo {
     padding: 0;
     margin: 0;
-    position: fixed;
+    position: absolute;
   
 
   }
 
   #conteudoTarefa1 {
     left: 0;
-    margin-top: 10vw;
+  
   
     height: 100vw;
   }
 
   #conteudoTarefa2 {
     left: 0;
-    margin-top: 10vw;
    
-    height: 100vw;
-    overflow: auto;
+   margin-top: -48vh;
+   max-width: 100%;
+ 
   }
 
   #conteudoTarefa3 {
     left: 0;
-    margin-top: 10vw;
-   
-    height: 100vw;
+    margin-top: -48vh;
+   position: fixed;
+  
   }
 
   #detalhes {
@@ -178,7 +178,7 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -15vw;
+  overflow: auto;
     margin-left: 7vw;
   }
 
@@ -190,8 +190,9 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -15vw;
+   
     margin-left: 7%;
+    overflow: auto;
   }
 
   #midias {
@@ -202,8 +203,9 @@
     text-align: left;
     line-height: normal;
     font-size: 200%;
-    margin-top: -15vw;
+   
     margin-left: 7%;
+    overflow: auto;
   }
 
   .conteudo {
@@ -970,7 +972,7 @@
 
   #modo-de-preparo {
     box-sizing: border-box;
-    margin-top: 4vw;
+   
   }
 
   #modo-de-preparo-titulo {
