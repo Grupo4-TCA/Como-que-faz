@@ -159,6 +159,7 @@
     left: 0;
    position: fixed;
    margin-top: -48vh;
+   overflow: auto;
  
   }
 
